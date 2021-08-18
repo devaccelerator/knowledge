@@ -1,0 +1,296 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "9485a92c-ffb4-11eb-9d39-3e22fb2860fe",
+                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "mid": 1629245253927,
+                    "name": "sub-subject A",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT A",
+                                "BACK A<br><br>[<b>REMOVED</b>]",
+                                ""
+                            ],
+                            "guid": "jGzw<yfyG(",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT B",
+                                "BACK B",
+                                ""
+                            ],
+                            "guid": "uo5}r>yG6#",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "9485fcd8-ffb4-11eb-9d39-3e22fb2860fe",
+                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "sub-subject b",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT C",
+                                "BACK C",
+                                ""
+                            ],
+                            "guid": "H0uy6[!8b6",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT D",
+                                "BACK D",
+                                ""
+                            ],
+                            "guid": "zk4A1S,]8m",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "94856be2-ffb4-11eb-9d39-3e22fb2860fe",
+            "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "subject A",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "948687ca-ffb4-11eb-9d39-3e22fb2860fe",
+                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "sub-subject C",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT E",
+                                "BACK E",
+                                ""
+                            ],
+                            "guid": "z@3g5fvNA^",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT F",
+                                "BACK F",
+                                ""
+                            ],
+                            "guid": "Fm!?.TvYLm",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "9486c8b6-ffb4-11eb-9d39-3e22fb2860fe",
+                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "sub-subject D",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT G",
+                                "BACK G",
+                                ""
+                            ],
+                            "guid": "rD&r,.ySHw",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "FRONT H",
+                                "BACK H",
+                                ""
+                            ],
+                            "guid": "N]w8.JaYxW",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "94864cba-ffb4-11eb-9d39-3e22fb2860fe",
+            "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "subject B",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "9484cde0-ffb4-11eb-9d39-3e22fb2860fe",
+    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 9999
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "knowledge",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Personal",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br/><br/><br/>\n<em>personal:</em>\n<br/><br/>\n<div style='font-family: Arial; font-size: 20px;'>{{Personal}}</div>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": []
+}
