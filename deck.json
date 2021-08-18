@@ -1541,6 +1541,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
@@ -1608,6 +1609,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
