@@ -124,6 +124,17 @@
                             "guid": "Fm!?.TvYLm",
                             "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "NEW CARD FRONT",
+                                "NEW CARD&nbsp; BACK",
+                                ""
+                            ],
+                            "guid": "Kahv#Vc1vX",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
                         }
                     ]
                 },
