@@ -7,36 +7,135 @@
                 {
                     "__type__": "Deck",
                     "children": [],
-                    "crowdanki_uuid": "9485a92c-ffb4-11eb-9d39-3e22fb2860fe",
-                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "crowdanki_uuid": "46be7fbc-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png"
+                    ],
+                    "name": "built-in functions",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "The {{c1::print()}} function is used to output information to the console.",
+                                "<img src=\"mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png\">"
+                            ],
+                            "guid": "zK5TWR,D*x",
+                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What does the print function do?",
+                                "output information to the console",
+                                "<img src=\"mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png\">"
+                            ],
+                            "guid": "bmsPa)DAq%",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "the {{c1::str()}} function converts the specified value into a string",
+                                "ten = str(10) <br># so ten equals the string '10'"
+                            ],
+                            "guid": "py5+dO1V_&",
+                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "46bea992-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
                     "desc": "",
                     "dyn": 0,
                     "extendNew": 0,
                     "extendRev": 0,
                     "media_files": [],
-                    "mid": 1629245253927,
-                    "name": "sub-subject A",
+                    "name": "conditionals",
                     "notes": [
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT A",
-                                "BACK A<br><br>edit",
-                                ""
+                                "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")\n<br>print(\"C\")",
+                                "A<br>C",
+                                "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to."
                             ],
-                            "guid": "jGzw<yfyG(",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "zM;CXX;X2:",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT B",
-                                "BACK B",
+                                "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>else:\n<br>&nbsp; &nbsp; print(\"B\")",
+                                "A",
                                 ""
                             ],
-                            "guid": "uo5}r>yG6#",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "tv-vxL0x|x",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>else:&nbsp;<br>&nbsp; &nbsp; print(\"B\")",
+                                "B",
+                                ""
+                            ],
+                            "guid": "Lh72c1;U#8",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "if False:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>elif True:\n<br>&nbsp; &nbsp;&nbsp;print(\"B\")",
+                                "B",
+                                ""
+                            ],
+                            "guid": "z=[gl*.(n|",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif True:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
+                                "B",
+                                "The blocks of code within if, elif, and else statements are mutually exclusive."
+                            ],
+                            "guid": "ETL{V!(@Ao",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif False:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
+                                "C",
+                                ""
+                            ],
+                            "guid": "wq%n*<-Xj[",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         }
                     ]
@@ -44,96 +143,119 @@
                 {
                     "__type__": "Deck",
                     "children": [],
-                    "crowdanki_uuid": "9485fcd8-ffb4-11eb-9d39-3e22fb2860fe",
-                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "crowdanki_uuid": "46bed1f6-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
                     "desc": "",
                     "dyn": 0,
                     "extendNew": 0,
                     "extendRev": 0,
-                    "media_files": [],
-                    "name": "sub-subject b",
+                    "media_files": [
+                        "0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png",
+                        "CUrnvWcjx9lg0pEGi3uaNC3AcePODfkWN1ECXyMK0UHXu24khY97yXfQgGrUY3TODzSfsiRdM7QZ6tPl4D4nxOLmzjeOVEAdseL-sHF7fIfe_dU5lzt.png",
+                        "NGqjZ6wa2Lpdvs8dOXF1iMW3_najuUqwfUSM77GWf9KrcyLJm4QM6jooA8acO_BGdQiqlIYmCOPbQxtzCjOE_CsWy9ggdAb3f4y0Ixh1xJBMdvUqnw8.png",
+                        "paste-1fa1f4d149dafe7666700bd8fbfba6f822758937.jpg",
+                        "paste-a2318102197fe84922949801efc722c27b5517a3.jpg",
+                        "paste-d2a10660f5c823f590165c1719d910d7c389f220.jpg"
+                    ],
+                    "name": "datatypes",
                     "notes": [
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT C",
-                                "BACK C",
+                                "A {{c1::string}} is a sequence of characters (letters, numbers, whitespace or punctuation) enclosed by quotation marks.",
+                                "<img src=\"0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png\">"
+                            ],
+                            "guid": "URG!nmUuU",
+                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a string?",
+                                "'this is a string'",
+                                "A sequence of characters enclosed by quotation marks"
+                            ],
+                            "guid": "P*B;b)ou{k",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "An {{c1::integer}} is a number that can be written without a fractional part (no decimal).",
+                                "<img src=\"NGqjZ6wa2Lpdvs8dOXF1iMW3_najuUqwfUSM77GWf9KrcyLJm4QM6jooA8acO_BGdQiqlIYmCOPbQxtzCjOE_CsWy9ggdAb3f4y0Ixh1xJBMdvUqnw8.png\">"
+                            ],
+                            "guid": "w};^e>&se",
+                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is an integer?",
+                                "numbers that have no decimal",
                                 ""
                             ],
-                            "guid": "H0uy6[!8b6",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "QEpP~Z7%YU",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a floating point number?",
+                                "0.07",
+                                "A number with a decimal portion<br><img src=\"CUrnvWcjx9lg0pEGi3uaNC3AcePODfkWN1ECXyMK0UHXu24khY97yXfQgGrUY3TODzSfsiRdM7QZ6tPl4D4nxOLmzjeOVEAdseL-sHF7fIfe_dU5lzt.png\">"
+                            ],
+                            "guid": "Jp#_ppAWJm",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<img src=\"paste-d2a10660f5c823f590165c1719d910d7c389f220.jpg\">",
+                                "<img src=\"paste-1fa1f4d149dafe7666700bd8fbfba6f822758937.jpg\">"
+                            ],
+                            "guid": "MshX*fFvY1",
+                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT D",
-                                "BACK D",
-                                ""
+                                "What datatype is `True` and `False`?",
+                                "boolean",
+                                "<img src=\"paste-a2318102197fe84922949801efc722c27b5517a3.jpg\">"
                             ],
-                            "guid": "zk4A1S,]8m",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
-                            "tags": []
-                        }
-                    ]
-                }
-            ],
-            "crowdanki_uuid": "94856be2-ffb4-11eb-9d39-3e22fb2860fe",
-            "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "subject A",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [
-                {
-                    "__type__": "Deck",
-                    "children": [],
-                    "crowdanki_uuid": "948687ca-ffb4-11eb-9d39-3e22fb2860fe",
-                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
-                    "desc": "",
-                    "dyn": 0,
-                    "extendNew": 0,
-                    "extendRev": 0,
-                    "media_files": [],
-                    "name": "sub-subject C",
-                    "notes": [
-                        {
-                            "__type__": "Note",
-                            "fields": [
-                                "FRONT E",
-                                "BACK E",
-                                ""
-                            ],
-                            "guid": "z@3g5fvNA^",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "Bl7+GqM;nI",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT F",
-                                "BACK F",
-                                ""
+                                "What values can boolean datatypes be?",
+                                "`True` or `False`"
                             ],
-                            "guid": "Fm!?.TvYLm",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
-                            "tags": []
-                        },
-                        {
-                            "__type__": "Note",
-                            "fields": [
-                                "NEW CARD FRONT",
-                                "NEW CARD&nbsp; BACK",
-                                ""
-                            ],
-                            "guid": "Kahv#Vc1vX",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "Qk{K6}OXTq",
+                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         }
                     ]
@@ -141,48 +263,964 @@
                 {
                     "__type__": "Deck",
                     "children": [],
-                    "crowdanki_uuid": "9486c8b6-ffb4-11eb-9d39-3e22fb2860fe",
-                    "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+                    "crowdanki_uuid": "46befeba-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
                     "desc": "",
                     "dyn": 0,
                     "extendNew": 0,
                     "extendRev": 0,
                     "media_files": [],
-                    "name": "sub-subject D",
+                    "name": "execution order",
                     "notes": [
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT G",
-                                "BACK G",
+                                "in what order are mathematical operations performed in python?",
+                                "the standard mathematical order of operations",
+                                "PEMDAS<br><br>parentheses first, then exponents, then all multiplication and division from left to right in the order both operations appear, then all addition and subtraction from left to right in the order both operations appear."
+                            ],
+                            "guid": "CUqK#6d)%P",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": [
+                                "codecademy",
+                                "python"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "in what order is Python code executed?",
+                                "from top to bottom",
                                 ""
                             ],
-                            "guid": "rD&r,.ySHw",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "Ik[uS{Cgz^",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46bf43c0-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "arithmetic",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(3 % 7)",
+                                        "3"
+                                    ],
+                                    "guid": "Qe-)[?knZ[",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(7 % 3)",
+                                        "1"
+                                    ],
+                                    "guid": "Euo)=x`3!$",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(3 % 3)",
+                                        "0"
+                                    ],
+                                    "guid": "Nu{l^Jqyi9",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(3**2)",
+                                        "9"
+                                    ],
+                                    "guid": "o|gdaXt3Q^",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "number = 4/2<br>print(number)",
+                                        "2.0",
+                                        "division in python always returns a floating point number, not an integer."
+                                    ],
+                                    "guid": "N7>So}e$<E",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46bf7066-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "logical",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(not True)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "B5;s~!&B>Q",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(not False)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "eb>^DSw`sf",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(not 1 &gt; 2)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "pXi@>7mu*-",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(True and True)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "iI3NSBQ1rh",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(True and False)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "MDuF_j^gFj",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(False and False)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "Dpe?esx58%",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(1 == 1 and 1 &lt; 2)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "N@A}=*z0.q",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(1 &lt; 2 and 2 &lt; 1)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "j>hVn#hz.L",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(True or True)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "Pe|*2x{nd`",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(True or False)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "K8gkP5TB%R",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(False or False)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "fCq2zQVaZz",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46bfd286-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-d5150a4dc82c9cecc8dfb7dc8c6d84886c9ffe6d.jpg",
+                                "paste-dae22a687362cffc9c7d0e75b13621a6b2979e94.jpg"
+                            ],
+                            "name": "relational",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "If the values being compared using the  ==  operator are the same, the operator returns {{c1::True}}<i></i> , otherwise, it returns {{c1::False}}<i></i>.",
+                                        ""
+                                    ],
+                                    "guid": "t7DhIDxG9f",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(\"example\" == \"example\")",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "E^Ck:DpSIb",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( (2 &gt; 1) == (1 &lt; 2) )",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "n?+R%57:E|",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-dae22a687362cffc9c7d0e75b13621a6b2979e94.jpg\">",
+                                        "<img src=\"paste-d5150a4dc82c9cecc8dfb7dc8c6d84886c9ffe6d.jpg\">",
+                                        ""
+                                    ],
+                                    "guid": "fy]J,/!fvU",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(2 == \"2\")",
+                                        "False",
+                                        "The operator takes the data type into account when making the comparison, so a string value of \"2\" is not considered the same as a numeric value of 2."
+                                    ],
+                                    "guid": "hW>+ujg|?c",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(False == False)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "Ot8Q2:#)9Y",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(\"example\" != \"example\")",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": ">9GPfgviy",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( (2 &gt; 1) != (1 &lt; 2) )",
+                                        "False",
+                                        "The code above is the same as `print(True != True)`"
+                                    ],
+                                    "guid": "vL#=Fu|%^[",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(False != False)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "r31ne>{ex{",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(3 &lt; 3)",
+                                        "False",
+                                        ""
+                                    ],
+                                    "guid": "zadsNiOd[9",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(3 &gt;= 3)",
+                                        "True",
+                                        ""
+                                    ],
+                                    "guid": "w4RTmG9TAj",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "46bf26d8-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "operators",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c03276-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png",
+                                "LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png",
+                                "mclIg-zOYABsHq7n1lmDQKB4SS5epQBx8bqX6st7eCw8ARCnbio_Rr54b6o1ClZWMKP6z7v_qE4vtYo-jtNFu47pOUUArSDDLZ4Q7shkw4kHjLw-HF1.png"
+                            ],
+                            "name": "conditionals",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.",
+                                        "<img src=\"LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png\">"
+                                    ],
+                                    "guid": "f]NFP)^!+;",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to code an if statement?",
+                                        "if boolean_expression:<br>&nbsp; &nbsp; print()",
+                                        "The colon : comes after the boolean expression, and the code to be executed based on that boolean expression should be indented after the if statement.<br><br>if [boolean]:<br>&nbsp; &nbsp; [code block]"
+                                    ],
+                                    "guid": "O,]wAVhX`e",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::else}} statement provides alternate code to execute if the expression in an `if` statement evaluates to `False`.",
+                                        "<img src=\"467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png\">"
+                                    ],
+                                    "guid": "h11%p)+?H8",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "add an else statement to the following code:<br><br>if False:<br>&nbsp; &nbsp; print(\"This won't print\")",
+                                        "if False:<br>&nbsp; &nbsp; print(\"This won't print\")<br><b>else:</b><br>&nbsp; &nbsp; # whatever indented code goes here will execute",
+                                        ""
+                                    ],
+                                    "guid": "nJ:2C#G;?X",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python {{c1::elif}} statement allows for continued checks to be performed after an initial `if` statement.",
+                                        "<img src=\"mclIg-zOYABsHq7n1lmDQKB4SS5epQBx8bqX6st7eCw8ARCnbio_Rr54b6o1ClZWMKP6z7v_qE4vtYo-jtNFu47pOUUArSDDLZ4Q7shkw4kHjLw-HF1.png\">"
+                                    ],
+                                    "guid": "i<ssCy3.f2",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c05bde-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-2c5e311facf3a35fe253359b0c4a412314df94e1.jpg",
+                                "paste-47b4cdfaa6363c000116d29234289dfd2b7b81d6.jpg"
+                            ],
+                            "name": "errors",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-47b4cdfaa6363c000116d29234289dfd2b7b81d6.jpg\">",
+                                        "<img src=\"paste-2c5e311facf3a35fe253359b0c4a412314df94e1.jpg\">"
+                                    ],
+                                    "guid": "tMK2@e&.Wt",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c0729a-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png",
+                                "nPgQ1J8suQD9OT0cTFD2E6MpHo1onsaVD_d1h1jMAW9b2KeqUuY8K0HxsOtlFY_MMyZQ6fLhBTW5nIHqXn3HNhnQCsyPgKygJOY-1P0EKDmmmYgo9CI.png",
+                                "rUk-lQMQQCAZLB_WITNP629JQiCcMWM1nMwlc83kiprfwGhsE1WfK4TuQiCiYxyiPapnCmtTP3o1Jcj0dRkoq55isbfGVx8U1s1yvv2ZE6jslxfZlqH.png",
+                                "wqKvy_I1gp9-XUGEmeidj1ek8YqZs2ib-rNhcdqY736knNzCsmAgsauWzdECLSVYtsWHdOLDtW_uP4rL2hFSGixUL5xtQj6GTEqvHHOjjHywwL7cMpe.png",
+                                "zBkC9zVjCf3o_ji8HwvU9-ekv00ksmPfPEpo8VvIXdoEOFKQ2WssZuAR0Cm7a_JhEydr-15MkRDN-Tr7kxvtoMP1kRzyP0CoaQspQ3r4yBdD4r2yug7.png",
+                                "zuqCVIfVJIgRH_J16nouxdJBvsCiA6f4xNSw4lWiJ1qzavcPCLMEP39GgwxQZTKtot_LXN9SyKN7fn_31PHHKiv3FgrEyQGGNu4fJ5foBmczOtngqxi.png"
+                            ],
+                            "name": "operators",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::+}} operator is used for addition",
+                                        ""
+                                    ],
+                                    "guid": "z%hdtTfark",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::-}} operator is used for subtraction",
+                                        ""
+                                    ],
+                                    "guid": "n$yCPng^XO",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::*}} operator is used for multiplication",
+                                        ""
+                                    ],
+                                    "guid": "r(v&]d;d#*",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::/}} operator is used for division",
+                                        ""
+                                    ],
+                                    "guid": "Nd-sA?;nOJ",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::%}} operator is used for modulo operations.",
+                                        "<img src=\"H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png\">"
+                                    ],
+                                    "guid": "mT`69_yx:p",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::**}} operator is used for exponentiation",
+                                        ""
+                                    ],
+                                    "guid": "xX-v&+-d7[",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::==}} operator is used to compare two values, variables, or expressions and returns True if they are the same.",
+                                        "<img src=\"nPgQ1J8suQD9OT0cTFD2E6MpHo1onsaVD_d1h1jMAW9b2KeqUuY8K0HxsOtlFY_MMyZQ6fLhBTW5nIHqXn3HNhnQCsyPgKygJOY-1P0EKDmmmYgo9CI.png\">"
+                                    ],
+                                    "guid": "kCvKzZHmVc",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::!=}}&nbsp;operator is used to compare two values, variables, or expressions and returns `True` if they are&nbsp;<b>NOT</b>&nbsp;the same, otherwise, it returns `False`.",
+                                        "<img src=\"zuqCVIfVJIgRH_J16nouxdJBvsCiA6f4xNSw4lWiJ1qzavcPCLMEP39GgwxQZTKtot_LXN9SyKN7fn_31PHHKiv3FgrEyQGGNu4fJ5foBmczOtngqxi.png\">"
+                                    ],
+                                    "guid": "N@;yfSG;ir",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::&lt;}} is the \"less than\" comparison operator.",
+                                        ""
+                                    ],
+                                    "guid": "x#4e~^T22r",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
+                                        ""
+                                    ],
+                                    "guid": "IxDXX8<w&_",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::&gt;=}} is the \"greater than or equal to\" comparison operator.",
+                                        ""
+                                    ],
+                                    "guid": "IjW?WuJofb",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::&gt;}} is the \"greater than\" comparison operator.",
+                                        ""
+                                    ],
+                                    "guid": "JOL}PkI0:}",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::not}} operator is used in a Boolean expression in order to evaluate the expression to its inverse value.",
+                                        "<img src=\"zBkC9zVjCf3o_ji8HwvU9-ekv00ksmPfPEpo8VvIXdoEOFKQ2WssZuAR0Cm7a_JhEydr-15MkRDN-Tr7kxvtoMP1kRzyP0CoaQspQ3r4yBdD4r2yug7.png\">"
+                                    ],
+                                    "guid": "c;`]4(R6q7",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python {{c1::and}} operator performs a Boolean comparison between two Boolean values, variables, or expressions. If both sides of the operator evaluate to True then it returns True.",
+                                        "<img src=\"wqKvy_I1gp9-XUGEmeidj1ek8YqZs2ib-rNhcdqY736knNzCsmAgsauWzdECLSVYtsWHdOLDtW_uP4rL2hFSGixUL5xtQj6GTEqvHHOjjHywwL7cMpe.png\">"
+                                    ],
+                                    "guid": "J7WH(K-Ifz",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python {{c1::or}} operator combines two Boolean expressions and evaluates to True if at least one of the expressions returns True.",
+                                        "<img src=\"rUk-lQMQQCAZLB_WITNP629JQiCcMWM1nMwlc83kiprfwGhsE1WfK4TuQiCiYxyiPapnCmtTP3o1Jcj0dRkoq55isbfGVx8U1s1yvv2ZE6jslxfZlqH.png\">"
+                                    ],
+                                    "guid": "uh*x@]-e);",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c0b2aa-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png",
+                                "e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png"
+                            ],
+                            "name": "reserved keywords",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::#}} character is used to make comments",
+                                        "<img src=\"Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png\">"
+                                    ],
+                                    "guid": "BOW&8$9R|-",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the # character for?",
+                                        "Making comments",
+                                        "<img src=\"Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png\">"
+                                    ],
+                                    "guid": "udSr)3hhm6",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "A {{c1::try}}<i></i> and {{c1::except}}<i></i> block can be used to handle error in code block.",
+                                        "<img src=\"e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png\">"
+                                    ],
+                                    "guid": "d*#/ga-xam",
+                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c0d424-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png",
+                                "hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png",
+                                "paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg",
+                                "paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg",
+                                "paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg",
+                                "paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg",
+                                "paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg",
+                                "paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg"
+                            ],
+                            "name": "strings",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to concatenate strings?",
+                                        "using the + operator",
+                                        "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\">"
+                                    ],
+                                    "guid": "J47SJG4XM#",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to declare a multi-line string?",
+                                        "'''<br>like<br>this<br>'''",
+                                        "<img src=\"hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png\">"
+                                    ],
+                                    "guid": "c32[j7h^Cp",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg\">",
+                                        "<img src=\"paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg\">"
+                                    ],
+                                    "guid": "iX?ZrhvK2D",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg\">",
+                                        "<img src=\"paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg\">"
+                                    ],
+                                    "guid": "A$SZ.NB+D)",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg\">",
+                                        "<img src=\"paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg\">"
+                                    ],
+                                    "guid": "h31rQQzD8$",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c0fc9c-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "7mcRtj6smLLfiY__C7wBKv8Dtr7HLjCUeWnKY_o0V4XELUnVrJlueCRgKj3fFy0etn_IX_e-YgVqO-_oBDTFJU3dBTy6IPGBqN5PUKGhC7G7t-vEaT3.png",
+                                "paste-b488ab7911a3d868d363d5ad3030ad5578f6bf1b.jpg",
+                                "paste-fb017733aff396cd32c45f409e4fe3e2517e4c29.jpg"
+                            ],
+                            "name": "syntactic sugar",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Make the following code more concise:<br><br>x = x + 1",
+                                        "x += 1",
+                                        "<img src=\"7mcRtj6smLLfiY__C7wBKv8Dtr7HLjCUeWnKY_o0V4XELUnVrJlueCRgKj3fFy0etn_IX_e-YgVqO-_oBDTFJU3dBTy6IPGBqN5PUKGhC7G7t-vEaT3.png\">"
+                                    ],
+                                    "guid": "u,fV60#f$}",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-b488ab7911a3d868d363d5ad3030ad5578f6bf1b.jpg\">",
+                                        "<img src=\"paste-fb017733aff396cd32c45f409e4fe3e2517e4c29.jpg\">"
+                                    ],
+                                    "guid": "D<jzQCr$(^",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "46c130e0-ffe0-11eb-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-1a9355f142d6233c6d7486339b92aca886bfb57d.jpg",
+                                "paste-370db977248659ec7f1d03c91f0d59b0e1f9448d.jpg",
+                                "paste-49b886ac8f406677b43badfca4c863fe49a2306d.jpg",
+                                "paste-f5ae5f0a880cf31abf851b04b388f8ac42e39101.jpg",
+                                "qfEBWIei-AnSW237ORXpvCVon_38lgKvplCiBMe2WWbKPoVMcj5I60dmvNpRO8cmO6K5ADErVQy_NZCnIM2dQz834OtEqhKxaBOgoxGgNW86IlsHZXI.png"
+                            ],
+                            "name": "variables",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to declare a variable?",
+                                        "example = 'any value we want'",
+                                        "<img src=\"qfEBWIei-AnSW237ORXpvCVon_38lgKvplCiBMe2WWbKPoVMcj5I60dmvNpRO8cmO6K5ADErVQy_NZCnIM2dQz834OtEqhKxaBOgoxGgNW86IlsHZXI.png\">"
+                                    ],
+                                    "guid": "MCzFgJIc63",
+                                    "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-49b886ac8f406677b43badfca4c863fe49a2306d.jpg\">",
+                                        "<img src=\"paste-370db977248659ec7f1d03c91f0d59b0e1f9448d.jpg\">"
+                                    ],
+                                    "guid": "JDzFs0Ga@`",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-1a9355f142d6233c6d7486339b92aca886bfb57d.jpg\">",
+                                        "<img src=\"paste-f5ae5f0a880cf31abf851b04b388f8ac42e39101.jpg\">"
+                                    ],
+                                    "guid": "nAJNeO80:s",
+                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "46c01b38-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "syntax",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "46c17348-ffe0-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "6PdM1xUXoQzHYchDZvjI44Vu8qXWmjKPBRjNgw1oBqPfeKHfb4pqceJtgbAt9-RiwgrvSXZEP6Lku6dIImYF7FQQz-3H8B31dkQ9Bc5fNGZxPvSCnrG.png"
+                    ],
+                    "name": "terminology",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "A {{c1::variable}} is used to store data that will be used by the program.",
+                                "<img src=\"6PdM1xUXoQzHYchDZvjI44Vu8qXWmjKPBRjNgw1oBqPfeKHfb4pqceJtgbAt9-RiwgrvSXZEP6Lku6dIImYF7FQQz-3H8B31dkQ9Bc5fNGZxPvSCnrG.png\">"
+                            ],
+                            "guid": "jrEo`NQpHz",
+                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
-                                "FRONT H",
-                                "BACK H",
+                                "What is a boolean expression?",
+                                "A statement that evaluates to either `True` or `False`",
                                 ""
                             ],
-                            "guid": "N]w8.JaYxW",
-                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "guid": "r#*$p1{B6_",
+                            "note_model_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
                             "tags": []
                         }
                     ]
                 }
             ],
-            "crowdanki_uuid": "94864cba-ffb4-11eb-9d39-3e22fb2860fe",
-            "deck_config_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+            "crowdanki_uuid": "46be6e0a-ffe0-11eb-ac0f-3e22fb2860fe",
+            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "subject B",
+            "name": "Python 3",
             "notes": []
         }
     ],
@@ -193,6 +1231,52 @@
             "__type__": "DeckConfig",
             "autoplay": true,
             "crowdanki_uuid": "28efb9d2-fc9e-11eb-9db2-3e22fb2860fe",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 9999
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
@@ -245,7 +1329,62 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+            "crowdanki_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+            "css": "img{\n\tmax-width: 600px;\n}\n\n.card {\n font-family: arial;\n font-size: 20px;\n color: black;\n background-color: white;\n}\n.cloze { font-weight: bold; color: blue;}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\usepackage[utf8]{inputenc}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-c5189",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n<br><br><br>\n***<br>\n<a style=\"color: #666\">OPTIONAL REVIEW (no need to memorize):</a>\n<br><br>\n{{Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7c14297c-ecf4-11eb-bfba-3e22fb2860fe",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n",
             "flds": [
                 {
@@ -266,7 +1405,7 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "Personal",
+                    "name": "Optional",
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
@@ -276,7 +1415,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Personal",
+            "name": "Basic (with optional review)",
             "req": [
                 [
                     0,
@@ -290,7 +1429,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br/><br/><br/>\n<em>personal:</em>\n<br/><br/>\n<div style='font-family: Arial; font-size: 20px;'>{{Personal}}</div>\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{Back}}\n<br><br><br>\n***<br>\n<a style=\"color: #666\">OPTIONAL REVIEW (no need to memorize):</a>\n<br><br>\n{{#Optional}}\n{{Optional}}\n{{/Optional}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -302,6 +1441,61 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+            "css": "img{\n\tmax-width: 600px;\n}\n\n.card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\usepackage[utf8]{inputenc}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-d23e8",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": []
