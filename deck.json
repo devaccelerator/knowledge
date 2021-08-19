@@ -21,7 +21,168 @@
                                     "extendRev": 0,
                                     "media_files": [],
                                     "name": "Control Flow",
-                                    "notes": []
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function named <b>large_power()</b> that takes two parameters named <b>base</b> and <b>exponent</b>. If <b>base</b> raised to the <b>exponent</b>&nbsp;power is greater than <b>5000</b>, return <b>True</b>, otherwise return <b>False</b>",
+                                                "<b>Example 1:<br>input:</b> base = 5000, exponent = 1<br><b>output</b>: False<br><br><b>Example 2:<br>input: </b>base = 100, exponent = 2<br><b>output: </b>True",
+                                                "def large_power(base, exponent):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>1. Large Power</b>",
+                                                "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
+                                                "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
+                                                ""
+                                            ],
+                                            "guid": "rh;RsJI+(R",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function called <b>over_budget</b> that has five parameters named <b>budget</b>, <b>food_bill</b>, <b>electricity_bill</b>, <b>internet_bill</b>, and <b>rent</b>.&nbsp;The function should return <b>True</b> if <b>budget</b> is less than the sum of the other four parameters — you’ve gone over budget! Return <b>False</b> otherwise.",
+                                                "<b>Example 1:<br>input: </b>budget = 10, food_bill = 2, electricity_bill = 2, internet_bill = 2, rent = 4<br><b>output: </b>False<br><b><br></b><b>Example 2:<br>input:&nbsp;</b>budget = 10, food_bill = 5, electricity_bill = 5, internet_bill = 10, rent = 10<br><b>output: </b>True",
+                                                "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):&nbsp;",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>2. Over Budget</b>",
+                                                "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
+                                                "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
+                                                ""
+                                            ],
+                                            "guid": "qHJ6T9`7Tq",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function named <b>twice_as_large()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> is more than double <b>num2</b>. Return <b>False</b> otherwise.",
+                                                "<b>Example 1:<br>input: </b>num1 = 20, num2 = 10<br><b>output: </b>False<br><br><b>Example 2:<br>input:&nbsp;</b>num1 = 21, num2 = 10<b><br>output: </b>True",
+                                                "def twice_as_large(num1, num2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>3. Twice As Large</b>",
+                                                "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                                "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
+                                                ""
+                                            ],
+                                            "guid": "DIu<`cE8(F",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function called <b>divisible_by_ten()</b> that has one parameter named <b>num</b>. The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.",
+                                                "<b>Example 1:<br>input: </b>num = 51<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input: </b>num = 50<br><b>output: </b>True",
+                                                "def divisible_by_ten(num):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>4. Divisible By Ten</b>",
+                                                "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                                "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
+                                                ""
+                                            ],
+                                            "guid": "i+gRzn@%YZ",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function named <b>not_sum_to_ten()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> and <b>num2</b> do not sum to <b>10</b>. Return <b>False</b> otherwise.",
+                                                "<b>Example 1:<br>input: </b>num1 = 10, num2 = 0<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>&nbsp;num1 = 10, num2 = -5<br><b>output: </b>True",
+                                                "def not_sum_to_ten(num1, num2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>5. Not Sum To Ten Ten</b>",
+                                                "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                                "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
+                                                ""
+                                            ],
+                                            "guid": "H_cQMwggh?",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function named <b>in_range()</b> that has three parameters named <b>num</b>, <b>lower</b>, and <b>upper</b>. The function should return <b>True</b> if <b>num</b> is greater than or equal to <b>lower</b> and less than or equal to <b>upper</b>. Otherwise, return <b>False</b>.",
+                                                "<b>Example 1:<br>input: </b>num = 10, lower = 10, upper = 10<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input: </b>num = 5, lower = 10, upper = 20<br><b>output:&nbsp;</b>&nbsp;False<br><br><b>Example 3:</b><br><b>input: </b>num = 5, lower = 0, upper = 10<br><b>output:&nbsp;</b>&nbsp;True",
+                                                "def in_range(num, lower, upper):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                                "Go to <b>1. In Range</b>",
+                                                "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
+                                                "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
+                                                ""
+                                            ],
+                                            "guid": "fsqN;Nvy<J",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>same_name()</b>&nbsp;that has two parameters named&nbsp;<b>your_name</b>&nbsp;and&nbsp;<b>my_name</b>.</div><div>If our names are identical, return&nbsp;<b>True</b>. Otherwise, return&nbsp;<b>False</b>.</div>",
+                                                "<b>Example 1:<br>input: </b>your_name = \"Colby\", my_name = \"Colby\"<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>your_name =&nbsp;\"Tina\", my_name = \"Amber\"<br><b>output: </b>False",
+                                                "def same_name(your_name, my_name):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                                "Go to <b>2. Same Name</b>",
+                                                "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
+                                                "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
+                                                ""
+                                            ],
+                                            "guid": "g=iT$hCXT+",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>always_false()&nbsp;</b>that has one parameter named&nbsp;<b>num</b>.<br><br></div><div>Using an if statement, your variable&nbsp;<b>num</b>, and the operators&nbsp;<b>&gt;</b>, and&nbsp;<b>&lt;</b>, make it so your function will return&nbsp;<b>False</b>&nbsp;no matter what number is stored in&nbsp;<b>num</b>.<br><br></div><div>An if statement that is always false is called a contradiction. You will rarely want to do this while programming, but it is important to realize it is possible to do this.</div>",
+                                                "<b>Example 1:<br>input: </b>num = 0<br><b>output:&nbsp;</b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num = 1<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num = -1<br><b>output: </b>False",
+                                                "def always_false(num):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                                "Go to <b>3. Always False</b>",
+                                                "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
+                                                "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
+                                                ""
+                                            ],
+                                            "guid": "d(Dm~V5VS&",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>movie_review()</b>&nbsp;that has one parameter named&nbsp;<b>rating</b>.</div><div>If&nbsp;<b>rating</b>&nbsp;is less than or equal to&nbsp;<b>5</b>, return&nbsp;<b>\"Avoid at all costs!\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is between&nbsp;<b>5</b>&nbsp;and&nbsp;<b>9</b>, return&nbsp;<b>\"This one was fun.\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is&nbsp;<b>9</b>&nbsp;or above, return&nbsp;<b>\"Outstanding!\"</b></div>",
+                                                "<b>Example 1:<br>input: </b>rating = 9<br><b>output:&nbsp;</b>\"Outstanding!\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>rating =&nbsp;4<br><b>output:&nbsp;</b>\"Avoid at all costs!\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>rating =&nbsp;6<br><b>output:&nbsp;</b>\"This one was fun.\"",
+                                                "def movie_review(rating):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                                "Go to <b>4. Movie Review</b>",
+                                                "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
+                                                "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
+                                                ""
+                                            ],
+                                            "guid": "L#vq%[eULg",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function called&nbsp;<b>max_num()</b>&nbsp;that has three parameters named&nbsp;<b>num1</b>,&nbsp;<b>num2</b>, and&nbsp;<b>num3</b>.</div><div>The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return&nbsp;<b>\"It's a tie!\"</b>.</div>",
+                                                "<b>Example 1:<br>input: </b>num1 = -10, num2 = 0, num3 = 10<br><b>output: </b>10<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num1 = -10, num2 = 5, num3 = -30<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num1 = -5, num2 = -10, num3 = -10<br><b>output: </b>-5<br><br><b>Example 4:<br>input:&nbsp;</b>num1 = 2, num2 = 3, num3 = 3<b><br>output: </b>\"It's a tie!\"<b><br></b>",
+                                                "def max_num(num1, num2, num3):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                                "Go to <b>5. Max Number</b>",
+                                                "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
+                                                "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
+                                                ""
+                                            ],
+                                            "guid": "t<[oZd:,9|",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
                                 }
                             ],
                             "crowdanki_uuid": "3ef472d2-0139-11ec-9560-3e22fb2860fe",
@@ -2099,56 +2260,7 @@
                                     "media_files": [],
                                     "mid": 1629415250870,
                                     "name": "code challenges",
-                                    "notes": [
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function named <b>large_power()</b> that takes two parameters named <b>base</b> and <b>exponent</b>. If <b>base</b> raised to the <b>exponent</b>&nbsp;power is greater than <b>5000</b>, return <b>True</b>, otherwise return <b>False</b>",
-                                                "<b>Example 1:<br>input:</b> base = 5000, exponent = 1<br><b>output</b>: False<br><br><b>Example 2:<br>input: </b>base = 100, exponent = 2<br><b>output: </b>True",
-                                                "def large_power(base, exponent):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
-                                                "Go to <b>1. Large Power</b>",
-                                                "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
-                                                "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
-                                                ""
-                                            ],
-                                            "guid": "rh;RsJI+(R",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function named <b>twice_as_large()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> is more than double <b>num2</b>. Return <b>False</b> otherwise.",
-                                                "<b>Example 1:<br>input: </b>num1 = 20, num2 = 10<br><b>output: </b>False<br><br><b>Example 2:<br>input:&nbsp;</b>num1 = 21, num2 = 10<b><br>output: </b>True",
-                                                "def twice_as_large(num1, num2):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
-                                                "Go to <b>3. Twice As Large</b>",
-                                                "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
-                                                "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
-                                                ""
-                                            ],
-                                            "guid": "DIu<`cE8(F",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function called <b>divisible_by_ten()</b> that has one parameter named <b>num</b>. The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.",
-                                                "<b>Example 1:<br>input: </b>num = 51<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input: </b>num = 50<br><b>output: </b>True",
-                                                "def divisible_by_ten(num):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
-                                                "Go to <b>4. Divisible By Ten</b>",
-                                                "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
-                                                "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
-                                                ""
-                                            ],
-                                            "guid": "i+gRzn@%YZ",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        }
-                                    ]
+                                    "notes": []
                                 },
                                 {
                                     "__type__": "Deck",
@@ -2361,88 +2473,7 @@
                                     "extendRev": 0,
                                     "media_files": [],
                                     "name": "code challenges",
-                                    "notes": [
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function named <b>in_range()</b> that has three parameters named <b>num</b>, <b>lower</b>, and <b>upper</b>. The function should return <b>True</b> if <b>num</b> is greater than or equal to <b>lower</b> and less than or equal to <b>upper</b>. Otherwise, return <b>False</b>.",
-                                                "<b>Example 1:<br>input: </b>num = 10, lower = 10, upper = 10<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input: </b>num = 5, lower = 10, upper = 20<br><b>output:&nbsp;</b>&nbsp;False<br><br><b>Example 3:</b><br><b>input: </b>num = 5, lower = 0, upper = 10<br><b>output:&nbsp;</b>&nbsp;True",
-                                                "def in_range(num, lower, upper):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>1. In Range</b>",
-                                                "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
-                                                "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
-                                                ""
-                                            ],
-                                            "guid": "fsqN;Nvy<J",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "<div>Create a function named&nbsp;<b>same_name()</b>&nbsp;that has two parameters named&nbsp;<b>your_name</b>&nbsp;and&nbsp;<b>my_name</b>.</div><div>If our names are identical, return&nbsp;<b>True</b>. Otherwise, return&nbsp;<b>False</b>.</div>",
-                                                "<b>Example 1:<br>input: </b>your_name = \"Colby\", my_name = \"Colby\"<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>your_name =&nbsp;\"Tina\", my_name = \"Amber\"<br><b>output: </b>False",
-                                                "def same_name(your_name, my_name):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>2. Same Name</b>",
-                                                "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
-                                                "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
-                                                ""
-                                            ],
-                                            "guid": "g=iT$hCXT+",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "<div>Create a function named&nbsp;<b>always_false()&nbsp;</b>that has one parameter named&nbsp;<b>num</b>.<br><br></div><div>Using an if statement, your variable&nbsp;<b>num</b>, and the operators&nbsp;<b>&gt;</b>, and&nbsp;<b>&lt;</b>, make it so your function will return&nbsp;<b>False</b>&nbsp;no matter what number is stored in&nbsp;<b>num</b>.<br><br></div><div>An if statement that is always false is called a contradiction. You will rarely want to do this while programming, but it is important to realize it is possible to do this.</div>",
-                                                "<b>Example 1:<br>input: </b>num = 0<br><b>output:&nbsp;</b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num = 1<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num = -1<br><b>output: </b>False",
-                                                "def always_false(num):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>3. Always False</b>",
-                                                "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
-                                                "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
-                                                ""
-                                            ],
-                                            "guid": "d(Dm~V5VS&",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "<div>Create a function named&nbsp;<b>movie_review()</b>&nbsp;that has one parameter named&nbsp;<b>rating</b>.</div><div>If&nbsp;<b>rating</b>&nbsp;is less than or equal to&nbsp;<b>5</b>, return&nbsp;<b>\"Avoid at all costs!\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is between&nbsp;<b>5</b>&nbsp;and&nbsp;<b>9</b>, return&nbsp;<b>\"This one was fun.\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is&nbsp;<b>9</b>&nbsp;or above, return&nbsp;<b>\"Outstanding!\"</b></div>",
-                                                "<b>Example 1:<br>input: </b>rating = 9<br><b>output:&nbsp;</b>\"Outstanding!\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>rating =&nbsp;4<br><b>output:&nbsp;</b>\"Avoid at all costs!\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>rating =&nbsp;6<br><b>output:&nbsp;</b>\"This one was fun.\"",
-                                                "def movie_review(rating):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>4. Movie Review</b>",
-                                                "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
-                                                "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
-                                                ""
-                                            ],
-                                            "guid": "L#vq%[eULg",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "<div>Create a function called&nbsp;<b>max_num()</b>&nbsp;that has three parameters named&nbsp;<b>num1</b>,&nbsp;<b>num2</b>, and&nbsp;<b>num3</b>.</div><div>The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return&nbsp;<b>\"It's a tie!\"</b>.</div>",
-                                                "<b>Example 1:<br>input: </b>num1 = -10, num2 = 0, num3 = 10<br><b>output: </b>10<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num1 = -10, num2 = 5, num3 = -30<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num1 = -5, num2 = -10, num3 = -10<br><b>output: </b>-5<br><br><b>Example 4:<br>input:&nbsp;</b>num1 = 2, num2 = 3, num3 = 3<b><br>output: </b>\"It's a tie!\"<b><br></b>",
-                                                "def max_num(num1, num2, num3):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>5. Max Number</b>",
-                                                "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
-                                                "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
-                                                ""
-                                            ],
-                                            "guid": "t<[oZd:,9|",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        }
-                                    ]
+                                    "notes": []
                                 },
                                 {
                                     "__type__": "Deck",
@@ -2666,40 +2697,7 @@
                                     "extendRev": 0,
                                     "media_files": [],
                                     "name": "code challenges",
-                                    "notes": [
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function called <b>over_budget</b> that has five parameters named <b>budget</b>, <b>food_bill</b>, <b>electricity_bill</b>, <b>internet_bill</b>, and <b>rent</b>.&nbsp;The function should return <b>True</b> if <b>budget</b> is less than the sum of the other four parameters — you’ve gone over budget! Return <b>False</b> otherwise.",
-                                                "<b>Example 1:<br>input: </b>budget = 10, food_bill = 2, electricity_bill = 2, internet_bill = 2, rent = 4<br><b>output: </b>False<br><b><br></b><b>Example 2:<br>input:&nbsp;</b>budget = 10, food_bill = 5, electricity_bill = 5, internet_bill = 10, rent = 10<br><b>output: </b>True",
-                                                "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):&nbsp;",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
-                                                "Go to <b>2. Over Budget</b>",
-                                                "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
-                                                "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
-                                                ""
-                                            ],
-                                            "guid": "qHJ6T9`7Tq",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "Create a function named <b>not_sum_to_ten()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> and <b>num2</b> do not sum to <b>10</b>. Return <b>False</b> otherwise.",
-                                                "<b>Example 1:<br>input: </b>num1 = 10, num2 = 0<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>&nbsp;num1 = 10, num2 = -5<br><b>output: </b>True",
-                                                "def not_sum_to_ten(num1, num2):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
-                                                "Go to <b>5. Not Sum To Ten Ten</b>",
-                                                "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
-                                                "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
-                                                ""
-                                            ],
-                                            "guid": "H_cQMwggh?",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        }
-                                    ]
+                                    "notes": []
                                 },
                                 {
                                     "__type__": "Deck",
@@ -3678,6 +3676,107 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Description",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Examples",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Starter Code",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "URL",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "URL Instructions",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Answer",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Optional",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Code Challenge - Dev Accelerator",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e;\n}\n\n.cloze {\n font-weight: bold;\n color: #ffdd59;\n}",
             "flds": [
@@ -3800,107 +3899,6 @@
                     "name": "Card 1",
                     "ord": 0,
                     "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "name": "Description",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Examples",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Starter Code",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "URL",
-                    "ord": 3,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "URL Instructions",
-                    "ord": 4,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Answer",
-                    "ord": 5,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Optional",
-                    "ord": 6,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Personal",
-                    "ord": 7,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Code Challenge - Dev Accelerator",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        1,
-                        2
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}"
                 }
             ],
             "type": 0
