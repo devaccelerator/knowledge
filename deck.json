@@ -1357,6 +1357,7 @@
                     "extendNew": 0,
                     "extendRev": 0,
                     "media_files": [],
+                    "mid": 1629300492637,
                     "name": "execution order",
                     "notes": [
                         {
@@ -1385,8 +1386,279 @@
                             "guid": "Ik[uS{Cgz^",
                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">def func():\n<br>&nbsp; &nbsp; return 1\n<br>&nbsp; &nbsp; print(\"test\")\n<br><br>print(func())</span>",
+                                "1",
+                                "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">A function does nothing after a return statement</span>",
+                                ""
+                            ],
+                            "guid": "z|+!m_SvDt",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
                         }
                     ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "9c40f05c-0114-11ec-9d19-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "4wJ0ogl_i5B3QBPqYSZYBLa3Gz61TnTPGYsz7zwb662YC8WpMnA8vhHM4vPIM0LcjDfooSwntKNwS17t26DTUJO-x1qeyjOmcifNWFXiEgT0lerVUqr.png",
+                                "TDVc1-Fixieo9f87B5yCHuBy2wX7030E9Gd8nron3c3kZTn09hbLN1kTZrotDfx11iVz_PK1LzBH6EuM9BdEbXpi58EiuuGyY6wxccAkp294v4XqefI.png",
+                                "paste-091af210d6281354a03b9e011b2fc2726eed51a0.jpg",
+                                "paste-3e79de966b815c30dd6d0c4ac4225f4a6cf1c5a5.jpg",
+                                "paste-61fad6a1d5bc5319d1c1861e96828ac446ed3044.jpg",
+                                "paste-8ea8f0c5485915c6edfc5005564fed56bf898532.jpg",
+                                "paste-d6da5bb299042eb76f8e03ae602f4b79596a0509.jpg",
+                                "wbJHmgCM_Xr7wEOItMkszfZ7xjO8_p35Jn63BUJAuUCMHeLhwkF9qIVQOHO-58GGJMIdwiv_2xuOfMCkG2tXwpIyaxUppAuVkqqwee5dzxqScO5ETkT.png"
+                            ],
+                            "name": "arguments",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are function arguments?",
+                                        "the values passed into a function when calling it",
+                                        "<img src=\"wbJHmgCM_Xr7wEOItMkszfZ7xjO8_p35Jn63BUJAuUCMHeLhwkF9qIVQOHO-58GGJMIdwiv_2xuOfMCkG2tXwpIyaxUppAuVkqqwee5dzxqScO5ETkT.png\">",
+                                        ""
+                                    ],
+                                    "guid": "o[cxy66:K;",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"TDVc1-Fixieo9f87B5yCHuBy2wX7030E9Gd8nron3c3kZTn09hbLN1kTZrotDfx11iVz_PK1LzBH6EuM9BdEbXpi58EiuuGyY6wxccAkp294v4XqefI.png\">",
+                                        "<img src=\"paste-8ea8f0c5485915c6edfc5005564fed56bf898532.jpg\">",
+                                        "<img src=\"paste-091af210d6281354a03b9e011b2fc2726eed51a0.jpg\">",
+                                        ""
+                                    ],
+                                    "guid": "xq0P37n*iT",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-d6da5bb299042eb76f8e03ae602f4b79596a0509.jpg\">",
+                                        "<img src=\"paste-61fad6a1d5bc5319d1c1861e96828ac446ed3044.jpg\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "yA2Tt)0HYO",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"4wJ0ogl_i5B3QBPqYSZYBLa3Gz61TnTPGYsz7zwb662YC8WpMnA8vhHM4vPIM0LcjDfooSwntKNwS17t26DTUJO-x1qeyjOmcifNWFXiEgT0lerVUqr.png\">",
+                                        "<img src=\"paste-3e79de966b815c30dd6d0c4ac4225f4a6cf1c5a5.jpg\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "G9%<4ANZg4",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "9c4111ea-0114-11ec-9d19-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "BVjLHHEqp__OEj8KaW2Ba95r-1Vrk8DSJ8P2MWDkYTfVIGCeWe9fMcFi0k7GLyLqtifffgLD4furKe5KUpc0D79i6YQNXbjROHAC6MLWI6K_QDoE67Z.png"
+                            ],
+                            "name": "calling",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># Syntax to call the function below?\n<br><br>def work():\n<br>&nbsp; &nbsp; print(\"FOCUS\")</span>",
+                                        "work()",
+                                        "The parentheses call the function<br><br>so when function `work` is called, the code indented after `def work():` is executed, so `FOCUS` is printed.<br><br><img src=\"BVjLHHEqp__OEj8KaW2Ba95r-1Vrk8DSJ8P2MWDkYTfVIGCeWe9fMcFi0k7GLyLqtifffgLD4furKe5KUpc0D79i6YQNXbjROHAC6MLWI6K_QDoE67Z.png\">",
+                                        ""
+                                    ],
+                                    "guid": "iI@Vqtxd&)",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "9c412ab8-0114-11ec-9d19-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "DZSWV7jua0VfNMAYsuw7b0zw4fT09k5nu_KJXN0Y2Te_beQKk0lUccwka1_FR18rP5sif_bsDQE4Mu3hKAUfshcyFANNnv42hB3wNMrbwz_Mu6bwt4v.png"
+                            ],
+                            "mid": 1629300492637,
+                            "name": "parameters",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Set a default value of <b>100</b>&nbsp;for the <b>x</b> parameter<br><br>def fn(x):<br>&nbsp; &nbsp; print(x)",
+                                        "def fn(x<b>=100</b>):\n<br>&nbsp; &nbsp; print(x)",
+                                        "def fn(x):<br>&nbsp; &nbsp; print(x)<br>fn(1) # prints 1<br>fn() # throws TypeError: fn() missing 1 required positional argument: 'x'<br><br>--------------------------<br>def fn(x<b>=100</b>):<br>&nbsp; &nbsp; print(x)<br>fn(1) # prints 1<br>fn() # prints 100",
+                                        ""
+                                    ],
+                                    "guid": "d)>`4VZ2iE",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::Parameters}} are variables that are defined in the function definition. They are assigned the values which were passed as arguments when the function was called, elsewhere in the code.",
+                                        "<img src=\"DZSWV7jua0VfNMAYsuw7b0zw4fT09k5nu_KJXN0Y2Te_beQKk0lUccwka1_FR18rP5sif_bsDQE4Mu3hKAUfshcyFANNnv42hB3wNMrbwz_Mu6bwt4v.png\">",
+                                        ""
+                                    ],
+                                    "guid": "zKW8|D55rw",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># Modify the function below so it has 3 parameters, </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>a</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">, </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>b</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">, and </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>c</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">.\n<br><br>def fn():\n<br>&nbsp; &nbsp; pass</span>",
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">def fn(</span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>a, b, c</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">):\n<br>&nbsp; &nbsp; pass</span>",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "hG0jbJ(KDS",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "9c4149da-0114-11ec-9d19-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "aINhMtGdodneSQIpvWPzRBzKS-QhY-EOp_ceYY6u_oyJZ9ULiQV5pfYH3gyFZtVl30bNfg81HZz7SQehw2s9xYlybLITnDG47E_mugT1U3fLj7T9GGA.png",
+                                "kdfLihZ2nkpsYOSs4DTBUOhFgYjD8JN7EI3jgZ9sADhRWIru13uodp8rN1BX48c5pGFHeCYy2r5SOnqR4ZCiX2aRMmAjzf-OmXDqIxvAi1hSHo1qT-O.png"
+                            ],
+                            "name": "return",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">#&nbsp;</span>Modify the function definition below so <b>10 </b>is printed <b>ONCE</b>.<br><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"><br>\ndef fn():<br>&nbsp; &nbsp; </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b># Add your code here<br></b><br>print(fn())<br></span>",
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; text-decoration-line: unset;\">def fn():<br>&nbsp; &nbsp;&nbsp;</span><span style=\"color: unset; font-style: unset; text-decoration-line: unset;\"><b>return 10<br></b><br>print(fn())</span>",
+                                        "<img src=\"kdfLihZ2nkpsYOSs4DTBUOhFgYjD8JN7EI3jgZ9sADhRWIru13uodp8rN1BX48c5pGFHeCYy2r5SOnqR4ZCiX2aRMmAjzf-OmXDqIxvAi1hSHo1qT-O.png\">",
+                                        ""
+                                    ],
+                                    "guid": "w+?Vk>(=X=",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to return multiple values from a function?<br><br>def fn():<br>&nbsp; &nbsp; return <b># ???</b>",
+                                        "def fn():<br>&nbsp; &nbsp; return <b>1, 2, 3</b>",
+                                        "All values that should be returned are listed after the return keyword and are separated by commas<br><br><br><img src=\"aINhMtGdodneSQIpvWPzRBzKS-QhY-EOp_ceYY6u_oyJZ9ULiQV5pfYH3gyFZtVl30bNfg81HZz7SQehw2s9xYlybLITnDG47E_mugT1U3fLj7T9GGA.png\">",
+                                        ""
+                                    ],
+                                    "guid": "G*tntMa)4*",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "9c4165c8-0114-11ec-9d19-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "8gp4fZiixD0PC8u1uiPUeEIL3DpYu74K9-W3SbBFC-B_osGMzEAiIY2V-9ckq6m3jwAvMr3QjVz3ygEOyBS7QRJ4wu8K_w0ABiEsbzJjEyFGjySAlM4.png",
+                                "JpQXOvLe_skpGZ1ztRrjdYrSHF_QUSVNHMPlIJimhrJrR_mX9--iLKKkt3f6vQFZiBW88FTdxvTavnvOQrPin7akK1lDmDWR3_o6MQBh6bO9lB4Ax0e.png"
+                            ],
+                            "mid": 1629300492637,
+                            "name": "syntax",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to define a function in Python?",
+                                        "<span style=\"color: rgb(35, 39, 53);\">def &lt;function name&gt;(&lt;inputs&gt;):<br>&nbsp; &nbsp; # code goes here</span>",
+                                        "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># example:\n<br>def example(a):\n<br>&nbsp; &nbsp; print(a)<br>&nbsp; &nbsp; return a + 1<br></span><img src=\"JpQXOvLe_skpGZ1ztRrjdYrSHF_QUSVNHMPlIJimhrJrR_mX9--iLKKkt3f6vQFZiBW88FTdxvTavnvOQrPin7akK1lDmDWR3_o6MQBh6bO9lB4Ax0e.png\">",
+                                        ""
+                                    ],
+                                    "guid": "eG}8:%}M3x",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "All code under a function declaration should be {{c1::indented}} to identify it as part of the function",
+                                        "<img src=\"8gp4fZiixD0PC8u1uiPUeEIL3DpYu74K9-W3SbBFC-B_osGMzEAiIY2V-9ckq6m3jwAvMr3QjVz3ygEOyBS7QRJ4wu8K_w0ABiEsbzJjEyFGjySAlM4.png\">",
+                                        ""
+                                    ],
+                                    "guid": "v.H%^G@BkT",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Define a function named `multiply` that takes in two inputs, `a` and `b`, and returns the product of those inputs.",
+                                        "def multiply(a, b):&nbsp;<br>&nbsp; &nbsp; return a * b",
+                                        "# example:\n<br>def multiply(a, b):\n<br>&nbsp; &nbsp; return a * b\n<br><br>product = multiply(4, 3)\n<br>print(product) # prints 12",
+                                        ""
+                                    ],
+                                    "guid": "FIHLI/%@)Q",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "9c40dafe-0114-11ec-9d19-3e22fb2860fe",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "functions",
+                    "notes": []
                 },
                 {
                     "__type__": "Deck",
@@ -1460,9 +1732,9 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "numbers = [1, 2, 3, 4, 5]\n<br>for number in numbers:\n<br>&nbsp; &nbsp; if number == 3:\n<br>&nbsp; &nbsp; &nbsp; &nbsp; continue\n<br>&nbsp; &nbsp; print(number)",
-                                        "1&nbsp;<br>2<br>4&nbsp;<br>5",
-                                        "so we skip 3, and then continue on the rest of the for loop.",
+                                        "numbers = [1, 2, 3]\n<br>for number in numbers:\n<br>&nbsp; &nbsp; if number == 2:\n<br>&nbsp; &nbsp; &nbsp; &nbsp; continue\n<br>&nbsp; &nbsp; print(number)",
+                                        "1&nbsp;<br>3",
+                                        "The continue  statement returns the control to the beginning of the for/while loop.",
                                         ""
                                     ],
                                     "guid": "HU=rGi?d+,",
@@ -2738,6 +3010,99 @@
                                 ""
                             ],
                             "guid": "d*#/ga-xam",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "9c445404-0114-11ec-9d19-3e22fb2860fe",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "0Iv3_iEOugauPXL6hNGV-0qbfedUkNi0luwImnu_SMVqze_bqok7gO3J-Ht4nDr6u-954YY7mH6YADGtZ5TljVuywTGgVRHNnTj3q3VXqplgn7rYCBb.png",
+                        "F2Jad5mt_Rf06E5jQF9EIBsS53BqLkNHMBHj6Co3pbkXBiDEpU6WvS6uG5E1-eRGHhFmOTlK9Mpz_3xdkS4WVKMJivT3JuhjmNJX9_Z32Fp9yz86ieX.png",
+                        "S0zLaotYru1_TVdP2pSMa0phd5JRn10yr0ILh7bljDWNzcN7AvY4k0g0zXWVip3seyw__Aab9nYByqkiHiRsTrZDe_Ro7aFv0QcK4msBJQVAh1EfxOD.png",
+                        "gUeng9G6KF4-HG7KQ-GdG7mMQuxKRljm9AwgmPycbBt1syHoNRI6umhxxNAIqwUr_1vUPYrplKVVJfLbZ_S6grdl_hm9UEGgoK6wh-KeNmbQBU6feT8.png",
+                        "paste-72e29472e08172ab0c9f750da67e82bf05df6b05.jpg",
+                        "paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg"
+                    ],
+                    "mid": 1629300492637,
+                    "name": "scope",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "def func():\n<br>&nbsp; &nbsp; x = 1\n<br><br>x = 2\n<br>func()\n<br>print(x)",
+                                "2",
+                                "x inside func() is local",
+                                ""
+                            ],
+                            "guid": "B4qzsjw&!-",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "def func():\n<br>&nbsp; &nbsp; x = 1\n<br><br>print (x)",
+                                "error",
+                                "NameError: name 'x' is not defined<br><br>func() wasn't called, and even if it was, x is a local variable (not global)",
+                                ""
+                            ],
+                            "guid": "zF`LE4Kkz=",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<span style=\"color: rgb(35, 39, 53);\">def my_function(value):\n<br>&nbsp; &nbsp; print(value) <br><br>my_function(7) <br>print(value)&nbsp;</span>",
+                                "7\n<br>Error",
+                                "7<br>NameError: name 'value' is not defined<br><br><img src=\"F2Jad5mt_Rf06E5jQF9EIBsS53BqLkNHMBHj6Co3pbkXBiDEpU6WvS6uG5E1-eRGHhFmOTlK9Mpz_3xdkS4WVKMJivT3JuhjmNJX9_Z32Fp9yz86ieX.png\">",
+                                ""
+                            ],
+                            "guid": "bR#V+mmWSw",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<img src=\"0Iv3_iEOugauPXL6hNGV-0qbfedUkNi0luwImnu_SMVqze_bqok7gO3J-Ht4nDr6u-954YY7mH6YADGtZ5TljVuywTGgVRHNnTj3q3VXqplgn7rYCBb.png\">",
+                                "<img src=\"paste-72e29472e08172ab0c9f750da67e82bf05df6b05.jpg\">",
+                                "<img src=\"paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg\">",
+                                ""
+                            ],
+                            "guid": "g{eLR19|:A",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "How are variables scoped in python?",
+                                "variables defined within a function can only be accessed within that function.",
+                                "<img src=\"S0zLaotYru1_TVdP2pSMa0phd5JRn10yr0ILh7bljDWNzcN7AvY4k0g0zXWVip3seyw__Aab9nYByqkiHiRsTrZDe_Ro7aFv0QcK4msBJQVAh1EfxOD.png\"><br># Local Scope\n<br># A variable created inside a function belongs to the local <br>\n# scope of that function, and can only be used inside that function\n<br><br>#A variable created inside a function is available inside that function:\n<br>def myfunc():\n<br>&nbsp; &nbsp; x = 300\n<br>&nbsp; &nbsp; print(x)\n<br>myfunc() # prints 300\n<br><br># A variable created outside of a function is global and can be used by anyone:\n<br>x = 300\n<br>def myfunc():\n<br>&nbsp; &nbsp; print(x)\n<br>myfunc() # prints 300\n<br>print(x) # prints 300",
+                                ""
+                            ],
+                            "guid": "BE<CYV,ZPX",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "A variable that is defined outside of a function is called a {{c1::global}} variable",
+                                "<img src=\"gUeng9G6KF4-HG7KQ-GdG7mMQuxKRljm9AwgmPycbBt1syHoNRI6umhxxNAIqwUr_1vUPYrplKVVJfLbZ_S6grdl_hm9UEGgoK6wh-KeNmbQBU6feT8.png\">",
+                                ""
+                            ],
+                            "guid": "cwMQQ@JRg<",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
