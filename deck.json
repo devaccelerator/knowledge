@@ -446,7 +446,7 @@
                                     "fields": [
                                         "How to code an if statement?",
                                         "if boolean_expression:<br>&nbsp; &nbsp; print()",
-                                        "The colon : comes after the boolean expression, and the code to be executed based on that boolean expression should be indented after the if statement.<br><br>if [boolean]:<br>&nbsp; &nbsp; [code block]",
+                                        "# example:<br>if True:<br>&nbsp; &nbsp; print(\"TRUE!\")<br><br>The colon : comes after the boolean expression, and the code to be executed based on that boolean expression should be indented after the if statement.<br><br>if [boolean]:<br>&nbsp; &nbsp; [code block]",
                                         ""
                                     ],
                                     "guid": "O,]wAVhX`e",
@@ -813,7 +813,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "<span style=\"color: rgb(35, 39, 53);\">x = [0, 1, 2, 3]\n<br>y = x.pop()\n<br>print(x)\n<br>print(y)</span>",
+                                                        "x = [0, 1, 2, 3] <br>y = x.pop() <br>print(x) <br>print(y)",
                                                         "[0, 1, 2]\n<br>3",
                                                         "pop  method removes a single element from list and returns it. By default, pop removes and returns the last element.",
                                                         ""
@@ -865,7 +865,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [1,0,1]\n<br>my_list.remove(1)\n<br>print(my_list)</span>",
+                                                        "my_list = [1,0,1] <br>my_list.remove(1) <br>print(my_list)",
                                                         "[0, 1]",
                                                         "When using the `.remove()` method In the case where two or more elements in the list have the same value, the first occurrence of the element is removed.",
                                                         ""
@@ -904,7 +904,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [2, 1, 3]\n<br>my_list.sort()\n<br>print(my_list)</span>",
+                                                        "my_list = [2, 1, 3] <br>my_list.sort() <br>print(my_list)",
                                                         "[1, 2, 3]",
                                                         "the .sort() method sorts in ascending order by default.",
                                                         ""
@@ -1616,7 +1616,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Syntax to define a function in Python?",
-                                        "<span style=\"color: rgb(35, 39, 53);\">def &lt;function name&gt;(&lt;inputs&gt;):<br>&nbsp; &nbsp; # code goes here</span>",
+                                        "def &lt;function name&gt;(&lt;inputs&gt;): <br>&nbsp; &nbsp; # code goes here",
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># example:\n<br>def example(a):\n<br>&nbsp; &nbsp; print(a)<br>&nbsp; &nbsp; return a + 1<br></span><img src=\"JpQXOvLe_skpGZ1ztRrjdYrSHF_QUSVNHMPlIJimhrJrR_mX9--iLKKkt3f6vQFZiBW88FTdxvTavnvOQrPin7akK1lDmDWR3_o6MQBh6bO9lB4Ax0e.png\">",
                                         ""
                                     ],
@@ -3062,7 +3062,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "<span style=\"color: rgb(35, 39, 53);\">def my_function(value):\n<br>&nbsp; &nbsp; print(value) <br><br>my_function(7) <br>print(value)&nbsp;</span>",
+                                "def my_function(value): <br>&nbsp; &nbsp; print(value)<br><br>my_function(7) <br>print(value)",
                                 "7\n<br>Error",
                                 "7<br>NameError: name 'value' is not defined<br><br><img src=\"F2Jad5mt_Rf06E5jQF9EIBsS53BqLkNHMBHj6Co3pbkXBiDEpU6WvS6uG5E1-eRGHhFmOTlK9Mpz_3xdkS4WVKMJivT3JuhjmNJX9_Z32Fp9yz86ieX.png\">",
                                 ""
@@ -3393,7 +3393,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 9999
             },
             "newMix": 0,
             "newPerDayMinimum": 0,
