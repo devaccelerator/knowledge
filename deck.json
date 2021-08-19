@@ -3,7 +3,49 @@
     "children": [
         {
             "__type__": "Deck",
-            "children": [],
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "3ef489ca-0139-11ec-9560-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "Control Flow",
+                                    "notes": []
+                                }
+                            ],
+                            "crowdanki_uuid": "3ef472d2-0139-11ec-9560-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "Python Code Challenges",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "3ef45be4-0139-11ec-9560-3e22fb2860fe",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Codecademy",
+                    "notes": []
+                }
+            ],
             "crowdanki_uuid": "c6e57e90-0123-11ec-aca4-3e22fb2860fe",
             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
             "desc": "",
@@ -13,83 +55,7 @@
             "media_files": [],
             "mid": 1629400138992,
             "name": "Code Challenges",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Create a function named <b>large_power()</b> that takes two parameters named <b>base</b> and <b>exponent</b>. If <b>base</b> raised to the <b>exponent</b>&nbsp;power is greater than <b>5000</b>, return <b>True</b>, otherwise return <b>False</b>",
-                        "",
-                        "",
-                        "",
-                        "# one possible solution:<br><br>def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
-                        "Test your code here:<br>1. Large Power:&nbsp;<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow</a><br><br># In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
-                        ""
-                    ],
-                    "guid": "rh;RsJI+(R",
-                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "# The function should return <b>True</b> if <b>budget</b> is less than the sum of the other four parameters — you’ve gone over budget! Return <b>False</b> otherwise.<br><br>def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):&nbsp;",
-                        "",
-                        "",
-                        "",
-                        "# one possible solution:<br><br>def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
-                        "Test your code here:<br>2. Over Budget:&nbsp;<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow</a><br><br>We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
-                        ""
-                    ],
-                    "guid": "qHJ6T9`7Tq",
-                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "# Return <b>True</b> if <b>num1</b> is more than double <b>num2</b>. Return <b>False</b> otherwise.<br><br>def twice_as_large(num1, num2):<br>&nbsp; &nbsp; # code",
-                        "",
-                        "",
-                        "",
-                        "def twice_as_large(num1, num2):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
-                        "Test your code:<br>3. Twice as large&nbsp;<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow</a><br><br>In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
-                        ""
-                    ],
-                    "guid": "DIu<`cE8(F",
-                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.<br><br>def divisible_by_ten(num):",
-                        "",
-                        "",
-                        "",
-                        "def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
-                        "test your code:<br>4. Divisible By Ten&nbsp;<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow</a><br><br>#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
-                        ""
-                    ],
-                    "guid": "i+gRzn@%YZ",
-                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "TODO<br><br><br>Return <b>True</b> if <b>num1</b> and <b>num2</b> do not sum to <b>10</b>. Return <b>False</b> otherwise.<br><br>def not_sum_to_ten(num1, num2):<br>",
-                        "",
-                        "",
-                        "",
-                        "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
-                        "test your code:<br>5. Not Sum To Ten Ten&nbsp;<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow</a><br><br>#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
-                        ""
-                    ],
-                    "guid": "H_cQMwggh?",
-                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                    "tags": []
-                }
-            ]
+            "notes": []
         },
         {
             "__type__": "Deck",
@@ -2124,6 +2090,36 @@
                                 {
                                     "__type__": "Deck",
                                     "children": [],
+                                    "crowdanki_uuid": "3efa41da-0139-11ec-9560-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "code challenges",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Create a function called <b>divisible_by_ten()</b> that has one parameter named <b>num</b>. The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.",
+                                                "<b>Example 1:<br>input: </b>num = 51<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input: </b>num = 50<br><b>output: </b>True",
+                                                "def divisible_by_ten(num):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                                "Go to <b>4. Divisible By Ten</b>",
+                                                "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                                "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
+                                                ""
+                                            ],
+                                            "guid": "i+gRzn@%YZ",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
                                     "crowdanki_uuid": "c8a03ef0-0074-11ec-9d19-3e22fb2860fe",
                                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                     "desc": "",
@@ -3509,100 +3505,6 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "name": "Description",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Examples",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Starter Code",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "URL",
-                    "ord": 3,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Answer",
-                    "ord": 4,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Optional",
-                    "ord": 5,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Personal",
-                    "ord": 6,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Code Challenge",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        1,
-                        2
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n<a href=\"{{URL}}\" style=\"color: red\"><u>Test your code here</u></a>\n<br><br>\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>\n\n",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Description}}\n<br><br><br>\n\n\n{{Examples}}\n\n\n<br><br><br>\n{{Starter Code}}\n"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e;\n}\n\n.cloze {\n font-weight: bold;\n color: #ffdd59;\n}",
             "flds": [
@@ -3660,6 +3562,74 @@
                 }
             ],
             "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Optional",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic - Dev Accelerator",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": []
