@@ -183,6 +183,377 @@
                                             "tags": []
                                         }
                                     ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "b8f0c6ba-0163-11ec-97a4-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629415250870,
+                                    "name": "Lists",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function called&nbsp;<b>append_size</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should append the size of&nbsp;<b>lst</b>&nbsp;(inclusive) to the end of&nbsp;<b>lst</b>. The function should then return this new list.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;was&nbsp;<b>[23, 42, 108]</b>, the function should return&nbsp;<b>[23, 42, 108, 3]</b>&nbsp;because the size of&nbsp;<b>lst</b>&nbsp;was originally&nbsp;<b>3</b>.</div>",
+                                                "<b>Example 1:</b><br><b>input: </b>lst =&nbsp;[10, 100, 23, 18]<br><b>output:&nbsp;</b>[10, 100, 23, 18, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = []<br><b>output: </b>[0]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [9]<br><b>output: </b>[9, 1]",
+                                                "def append_size(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                                "Go to <b>1. Append Size</b>",
+                                                "def append_size(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(len(lst))<br>&nbsp;&nbsp;&nbsp; return lst",
+                                                "<div><div>We can get the length and append it at the same time by nesting the function calls as shown in the solution. Afterward, we return the modified list.</div></div>",
+                                                ""
+                                            ],
+                                            "guid": "dB}WvVmo]J",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Write a function named&nbsp;<b>append_sum</b>&nbsp;that has one parameter — a list named named&nbsp;<b>lst</b>.<br><br></div><div>The function should add the last two elements of&nbsp;<b>lst</b>&nbsp;together and append the result to&nbsp;<b>lst</b>. It should do this process three times and then return&nbsp;<b>lst</b>.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;started as&nbsp;<b>[1, 1, 2]</b>, the final result should be&nbsp;<b>[1, 1, 2, 3, 5, 8]</b>.</div>",
+                                                "<b>Example 1:<br>input:&nbsp;</b>lst = [5, 2]<br><b>output: </b>[5, 2, 7, 9, 16]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [100, 12, 37, 2, 1]<br><b>output:&nbsp;</b>[100, 12, 37, 2, 1, 3, 4, 7]<br><br><b>Example 3: </b><br><b>input:&nbsp;</b>lst = [1, 1]<br><b>output: </b>[1, 1, 2, 3, 5]",
+                                                "def append_sum(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                                "Go to <b>2. Append Sum</b>",
+                                                "def append_sum(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; return lst",
+                                                "In our solution, we add the numbers and append the result in one line. We add the last and second to last elements within the&nbsp;<b>.append()</b>&nbsp;function and we repeat this line two more times. Remember that when we use negative indices, it starts from the end of the list and goes towards the beginning of the list. You could also use a loop to solve this instead of repeating the lines.",
+                                                ""
+                                            ],
+                                            "guid": "znq@{A--0c",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Write a function named&nbsp;<b>larger_list</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should return the last element of the list that contains more elements. If both lists are the same size, then return the last element of&nbsp;<b>lst1</b>.</div>",
+                                                "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<br><b>output:&nbsp;</b>5<br><br><b>Example 2:</b><br><b>input: </b>lst1 = [1, 2, 3, 4], lst2 = [1, 2]<br><b>output:&nbsp;</b>4<br><br><b>Example 3:</b><br><b>input: </b>lst1 = [2, 6, 3], lst2 = [4, 6, 8, 1]<br><b>output: </b>1",
+                                                "def larger_list(lst1, lst2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                                "Go to <b>3. Larger List</b>",
+                                                "def larger_list(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; if len(lst1) &gt;= len(lst2):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst1[-1]<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst2[-1]",
+                                                "<div>We start by comparing the lengths of each of the lists using the&nbsp;<b>len()</b>&nbsp;function. This determines whether to return the last element of the first list or the second list. Notice that we use&nbsp;<b>&gt;=</b>. This way, we know what to do if the lists have an equal length.<br><br></div><div>In order to get the last element, we get the element at the -1 index. The negative index starts at the end of the list and works towards the start of the list.</div>",
+                                                ""
+                                            ],
+                                            "guid": "pzh6*-%rdt",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>more_than_n</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item</b>, and&nbsp;<b>n</b>.<br><br></div><div>The function should return&nbsp;<b>True</b>&nbsp;if&nbsp;<b>item</b>&nbsp;appears in the list more than&nbsp;<b>n</b>&nbsp;times. The function should return&nbsp;<b>False</b>&nbsp;otherwise.</div>",
+                                                "<b>Example 1:<br>input: </b>lst = [2, 4, 6, 2, 3, 2, 1, 2], item = 2, n = 3<b><br></b><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 3<br><b>output: </b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 2<br><b>output: </b>True",
+                                                "def more_than_n(lst, item, n):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                                "Go to <b>4. More Than N</b>",
+                                                "def more_than_n(lst, item, n):<br>&nbsp;&nbsp;&nbsp; if lst.count(item) &gt; n:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
+                                                "We use the&nbsp;<b>count()</b>&nbsp;list method to count the number of times&nbsp;<b>item</b>&nbsp;appears in&nbsp;<b>lst</b>. You could also do this manually by looping through&nbsp;<b>lst</b>&nbsp;and incrementing a variable every time you see&nbsp;<b>item</b>. We then compare the result to&nbsp;<b>n</b>.",
+                                                ""
+                                            ],
+                                            "guid": "Aer:)MCmU%",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Write a function named&nbsp;<b>combine_sort</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should combine these two lists into one new list and sort the result. Return the new sorted list.</div>",
+                                                "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<b><br></b><b>output:&nbsp;</b>[-10, 2, 2, 4, 5, 5, 10, 10]<b><br><br>Example 2:<br>input:&nbsp;</b>lst1 = [10, 5, 15], lst2 = [50, 5, 6]<b><br></b><b>output:&nbsp;</b>[5, 5, 6, 10, 15, 50]<br><b><br></b><b>Example 3:<br>input:&nbsp;</b>lst1 =&nbsp;[1, 3, 5], lst2 = [2, 4, 6]<b><br></b><b>output:&nbsp;</b>[1, 2, 3, 4, 5]<b><br></b>",
+                                                "def combine_sort(lst1, lst2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                                "Go to <b>5. Combine Sort</b>",
+                                                "def combine_sort(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; unsorted = lst1 + lst2<br>&nbsp;&nbsp;&nbsp; sortedList = sorted(unsorted)<br>&nbsp;&nbsp;&nbsp; return sortedList",
+                                                "We start by combining the two lists together using&nbsp;<b>+</b>&nbsp;in order to get a new list. Next, in order to sort them, we use the&nbsp;<b>sorted()</b>&nbsp;function which returns a new sorted version of the list.",
+                                                ""
+                                            ],
+                                            "guid": "f5TT4dHd$D",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function called&nbsp;<b>every_three_nums</b>&nbsp;that has one parameter named&nbsp;<b>start</b>.<br><br></div><div>The function should return a list of every third number between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>100</b>&nbsp;(inclusive). For example,&nbsp;<b>every_three_nums(91)</b>&nbsp;should return the list&nbsp;<b>[91, 94, 97, 100]</b>. If&nbsp;<b>start</b>&nbsp;is greater than&nbsp;<b>100</b>, the function should return an empty list.</div>",
+                                                "<b>Example 1:<br>input: </b>start = 91<br><b>output:&nbsp;</b>[91, 94, 97, 100]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>start = 92<br><b>output:&nbsp;</b>[92, 95, 98]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>start = -10<br><b>output:&nbsp;</b>[-10, -7, -4, -1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, 98]",
+                                                "def every_three_nums(start):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                                "Go to <b>1. Every Three Numbers</b>",
+                                                "def every_three_nums(start):<br>&nbsp; &nbsp; return list(range(start, 101, 3))",
+                                                "We can write the body of this function in one line by nesting the&nbsp;<b>range()</b>&nbsp;function inside of the&nbsp;<b>list()</b>&nbsp;function. The range function accepts the starting number, the ending number (exclusive), and the amount to increment by.",
+                                                ""
+                                            ],
+                                            "guid": "h3BZbg29ET",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>remove_middle</b>&nbsp;which has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>start</b>, and&nbsp;<b>end</b>.<br><br></div><div>The function should return a list where all elements in&nbsp;<b>lst</b>&nbsp;with an index between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>end</b>&nbsp;(inclusive) have been removed.<br></div>",
+                                                "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8,&nbsp;15, 16, 23, 42], start = 1, end = 3<br><b>output:&nbsp;</b>[4, 23, 42]<br><br><b>Example 2:</b><br><b>input: </b>lst = [0, 1, 2, 3, 4, 5], start = 1, end = 4<br><b>output: </b>[0, 5]<br><br><b>Example 3:</b><br><b>input: </b>lst = [5, 8, 3, 6, 4], start = 0, end = 4<br><b>output: </b>[]",
+                                                "def remove_middle(lst, start, end):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                                "Go to <b>2. Remove Middle</b>",
+                                                "def remove_middle(lst, start, end):<br>&nbsp; &nbsp; return lst[:start] +&nbsp;lst[end+1:]",
+                                                "This can be solved using one line of code if you combine and slice the lists at the same time. Slicing allows us to get the segments of the list before and after the index range and the operation&nbsp;+&nbsp;allows us to combine them together.",
+                                                ""
+                                            ],
+                                            "guid": "saJr6R&a?w",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>more_frequent_item</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item1</b>, and&nbsp;<b>item2</b>.<br><br></div><div>Return either&nbsp;<b>item1</b>&nbsp;or&nbsp;<b>item2</b>&nbsp;depending on which item appears more often in&nbsp;<b>lst</b>.<br><br></div><div>If the two items appear the same number of times, return&nbsp;<b>item1</b>.</div>",
+                                                "def more_frequent_item(lst, item1, item2):",
+                                                "<b>Example 1:<br>input:&nbsp;</b>lst = [2, 3, 3, 2, 3, 2, 3, 2, 3], item1 = 2, item2 = 3<b><br>output: </b>3<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [0, 0, 1, 1], item1 = 0, item2 = 1<b><br>output: </b>0<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 0, 1], item1 = 0, item2 = 1<b><br>output: </b>1",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                                "Go to <b>3. More Frequent Item</b>",
+                                                "def more_frequent_item(lst, item1, item2):<br>&nbsp; &nbsp; if lst.count(item1) &gt;= lst.count(item2):<br>&nbsp; &nbsp; &nbsp; &nbsp; return item1<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return item2",
+                                                "<div><div>We use the&nbsp;<b>count()</b>&nbsp;function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. The item with the most appearances is returned by the function.</div></div>",
+                                                ""
+                                            ],
+                                            "guid": "uowp%e^m^`",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>double_index</b>&nbsp;that has two parameters: a list named&nbsp;<b>lst</b>&nbsp;and a single number named&nbsp;<b>index</b>.<br><br></div><div>The function should return a new list where all elements are the same as in&nbsp;<b>lst</b>&nbsp;except for the element at&nbsp;<b>index</b>. The element at&nbsp;<b>index</b>&nbsp;should be double the value of the element at&nbsp;<b>index</b>&nbsp;of the original&nbsp;<b>lst</b>.<br><br></div><div>If&nbsp;<b>index</b>&nbsp;is not a valid index, the function should return the original list.<br><br>Do NOT modify the input list.</div>",
+                                                "<b>Example 1:<br>input: </b>lst = [1, 2, 3, 4], index = 2<b><br>output: </b>[1, 2, 6, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:&nbsp;</b>[1, 2, 3, 4]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:</b>",
+                                                "def double_index(lst, index):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                                "Go to <b>4. Double Index</b>",
+                                                "def double_index(lst, index):<br>&nbsp; &nbsp; # Checks to see if index is too big or too small<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; # Gets the original list up to index<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_lst = lst[0:index]<br><br>&nbsp; &nbsp; # Adds double the value at index to the new list<br>&nbsp;&nbsp;&nbsp; new_lst.append(lst[index] * 2)<br><br>&nbsp; &nbsp; #&nbsp; Adds the rest of the original list<br>&nbsp;&nbsp;&nbsp; new_lst = new_lst + lst[index + 1:]<br>&nbsp;&nbsp;&nbsp; return new_lst",
+                                                "Note that this solution is careful not to modify the original input list. If we were to simply use&nbsp;<b>lst[index] = lst[index] * 2</b>&nbsp;then the list that was passed into the function would be modified outside of the function as well. Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.<br><br># A more concise solution:<br>def double_index(lst, index):<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; answer = lst[:]<br>&nbsp;&nbsp;&nbsp; answer[index] *= 2<br>&nbsp;&nbsp;&nbsp; return answer",
+                                                ""
+                                            ],
+                                            "guid": "QsMYV0+?7d",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function called&nbsp;<b>middle_element</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>If there are an odd number of elements in&nbsp;<b>lst</b>, the function should return the middle element. If there are an even number of elements, the function should return the average of the middle two elements.</div>",
+                                                "<b>Example 1:<br>input: </b>lst =<b>&nbsp;</b>[5, 2, -10, -4, 4, 5]<b><br></b><b>output: </b>-7.0<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[5, 2, -10, -4, 4]<br><b>output:&nbsp;</b>-10<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[1, 2, 3, 4]<br><b>output: </b>2.5",
+                                                "def middle_element(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                                "Go to <b>5. Middle Item</b>",
+                                                "def middle_element(lst):<br>&nbsp;&nbsp;&nbsp; if len(lst) % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = lst[int(len(lst) / 2)] + lst[int(len(lst) / 2) - 1]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sum / 2<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst[int(len(lst) / 2)]",
+                                                "<div>We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.<br><br></div><div>Note that the math to find the middle index is a bit tricky. In some cases, when we divide by&nbsp;<b>2</b>, we would get a double. For example, if our list had&nbsp;<b>3</b>&nbsp;items in it, then&nbsp;<b>3/2</b>&nbsp;would give us&nbsp;<b>1.5</b>. The middle index should be&nbsp;<b>1</b>, so in order to go from&nbsp;<b>1.5</b>&nbsp;to&nbsp;<b>1</b>, we cast&nbsp;<b>1.5</b>&nbsp;as an&nbsp;int. In total, this is&nbsp;<b>int(len(lst)/2)</b>.</div>",
+                                                ""
+                                            ],
+                                            "guid": "AI|{CfE1fH",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "b8f1051c-0163-11ec-97a4-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-07bd6d3d5ad86bc5d16483286db34eb97d898fa9.jpg",
+                                        "paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg",
+                                        "paste-14420c3abac7fecd932df0794506b3049f0b5f5e.jpg",
+                                        "paste-271f8d8325a0fcb9383d959a42530dd32c74f35d.jpg",
+                                        "paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg",
+                                        "paste-31b11bb98119df221265b42a145da6bb2a6b62d9.jpg",
+                                        "paste-5844996fd259dedb3fd684a67698333904129ae5.jpg",
+                                        "paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg",
+                                        "paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg",
+                                        "paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg",
+                                        "paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg",
+                                        "paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg",
+                                        "paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg",
+                                        "paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg",
+                                        "paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg",
+                                        "paste-da74bad6b566275caf1f964216fe435212b24903.jpg",
+                                        "paste-e00c213ce87cdba4828f0329a87b4a49f9570e9e.jpg",
+                                        "paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg",
+                                        "paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg",
+                                        "paste-ff26106a80a2f4ae69a3e2a2702e74338a3a6851.jpg",
+                                        "paste-ff9b503a7e49a53d3297b94485031de0d67ffacd.jpg"
+                                    ],
+                                    "name": "Loops",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>divisible_by_ten()</b>&nbsp;that takes a list of numbers named&nbsp;<b>nums</b>&nbsp;as a parameter.<br><br></div><div>Return the count of how many numbers in the list are divisible by 10.</div>",
+                                                "<b>Example 1:<br>input:&nbsp;</b>[20, 25, 30, 35, 40]<b><br></b><b>output: </b>3<br><br><b>Example 2:</b><br><b>input: </b>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br><b>output: </b>1<br><br><b>Example 3:</b><br><b>input: </b>[5, 15, 25]<br><b>output: </b>0",
+                                                "def divisible_by_ten(nums):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                                "Go to <b>1. Divisible By Ten</b>",
+                                                "def divisible_by_ten(nums):<br>&nbsp;&nbsp;&nbsp; count = 0<br>&nbsp;&nbsp;&nbsp; for number in nums:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if number % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count += 1<br>&nbsp;&nbsp;&nbsp; return count",
+                                                "In this solution, we defined the function and set up our counter. We use a&nbsp;<b>for</b>&nbsp;loop to iterate through each number and check if its divisible by ten. If a number is divisible by another number then the remainder should be zero, so we use modulus. After the loop has finished, we return our count.",
+                                                ""
+                                            ],
+                                            "guid": "gA;A:D0#Qd",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Create a function named&nbsp;<b>add_greetings()</b>&nbsp;which takes a list of strings named&nbsp;<b>names</b>&nbsp;as a parameter.<br><br></div><div>In the function, create an empty list that will contain each greeting. Add the string&nbsp;<b>'Hello, '</b>&nbsp;in front of each name in&nbsp;<b>names</b>&nbsp;and&nbsp;<b>append</b>&nbsp;the greeting to the list.<br><br></div><div>Return the new list containing the greetings.</div>",
+                                                "<b>Example 1:<br>input: </b>names = [\"Seth\", \"Alex\", \"Paul\"]<br><b>output:&nbsp;</b>['Hello, Seth', 'Hello, Alex', 'Hello, Paul']<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>names = []<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input: </b>[\"Elon\"]<br><b>output: </b>[\"Hello, Elon\"]",
+                                                "def add_greetings(names):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                                "Go to <b>2. Greetings</b>",
+                                                "def add_greetings(names):<br>&nbsp;&nbsp;&nbsp; new_list = []<br>&nbsp;&nbsp;&nbsp; for name in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_list.append('Hello, ' + name)<br>&nbsp;&nbsp;&nbsp; return new_list",
+                                                "First, we set up our function to accept the list of strings and we initialized a new list of strings to hold our greetings. We iterate through each name and we append and concatenate the strings at the same time within our loop. Finally, we return the list containing all of our eloquent greetings.",
+                                                ""
+                                            ],
+                                            "guid": "CxE,3a~!g5",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>Write a function called&nbsp;<b>delete_starting_evens()</b>&nbsp;that has a parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should remove elements from the front of&nbsp;<b>lst</b>&nbsp;until the front of the list is not even. The function should then return&nbsp;<b>lst</b>.</div>",
+                                                "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8, 10, 11, 12, 15]<br><b>output:&nbsp;</b>[11, 12, 15]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[2, 4, 6, 8]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 2, 4, 6, 8, 10, 12]<br><b>output:&nbsp;</b>[1, 2, 4, 6, 8, 10, 12]",
+                                                "def delete_starting_evens(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                                "Go to <b>3. Delete Starting Even Numbers</b>",
+                                                "def delete_starting_evens(lst):<br>&nbsp;&nbsp;&nbsp; while len(lst) &gt; 0 and lst[0] % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lst = lst[1:]<br>&nbsp;&nbsp;&nbsp; return lst",
+                                                "After defining our method, we use a&nbsp;<b>while</b>&nbsp;loop to keep iterating as long as some provided conditions are true. We provide two conditions for the&nbsp;<b>while</b>&nbsp;loop to continue. We will keep iterating as long as there is at least one number left in the list&nbsp;<b>len(lst) &gt; 0</b>&nbsp;and if the first element in the list is even&nbsp;<b>lst[0] % 2 == 0</b>. If both of these conditions are true, then we replace the list with every element except for the first one using&nbsp;<b>lst[1:]</b>. Once the list is empty or we hit an odd number, the&nbsp;<b>while</b>&nbsp;loop terminates and we return the modified list.",
+                                                ""
+                                            ],
+                                            "guid": "n,hpJEc~f=",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-14420c3abac7fecd932df0794506b3049f0b5f5e.jpg\">",
+                                                "<b>Example 1:<br>input: </b>lst = [4, 3, 7, 10, 11, -2]<b><br>output: </b>[3, 10, -2]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[10, 4, 5, 3]<br><b>output:&nbsp;</b>[4, 3]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[0, 1, 2, 3, 4]<br><b>output:&nbsp;</b>[1, 3]",
+                                                "def odd_indices(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                                "Go to <b>4. Odd Indices</b>",
+                                                "<img src=\"paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg\">",
+                                                "<img src=\"paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "G1Kk^Y<+rB",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-07bd6d3d5ad86bc5d16483286db34eb97d898fa9.jpg\">",
+                                                "<b>Example 1:<br>input: </b>bases = [2, 3, 4], powers = [1, 2, 3]<br><b>output:&nbsp;</b>[2, 4, 8, 3, 9, 27, 4, 16, 64]<br><br><b>Example 2:</b><br><b>input: </b>bases = [10, 20], powers = [1, 2]<br><b>output: </b>[10, 100, 20, 400]<br><br><b>Example 3:</b><br><b>input: </b>bases = [10], powers = [1]<br><b>output: </b>[10]",
+                                                "def exponents(bases, powers):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                                "Go to <b>5. Exponents</b>",
+                                                "<img src=\"paste-5844996fd259dedb3fd684a67698333904129ae5.jpg\">",
+                                                "<img src=\"paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "b5D&/z(uoZ",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-31b11bb98119df221265b42a145da6bb2a6b62d9.jpg\">",
+                                                "<b>Example 1:<br>input: </b>lst1 = [1, 9, 5], lst2 = [2, 3, 7]<b><br>output:&nbsp;</b>[1, 9, 5]<b><br><br>Example 2:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 4, 5], lst2 = [7, 2, 1]<b><br>output:&nbsp;</b>[1, 4, 5]<b><br><br>Example 3:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 9, 5], lst2 = [6, 5, 9]<b><br>output:&nbsp;</b>[6, 5, 9]",
+                                                "def larger_sum(lst1, lst2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                                "Go to <b>1. Larger Sum</b>",
+                                                "<img src=\"paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg\">",
+                                                "<img src=\"paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "q4e*LvO/qF",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-271f8d8325a0fcb9383d959a42530dd32c74f35d.jpg\">",
+                                                "<b>Example 1:<br>input: </b>lst =&nbsp;[8000, 900, 120, 5000]<br><b>output: </b>9020<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [9000, 100, 200]<br><b>output: </b>9100<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[9001, 100, 200]<br><b>output: </b>9001<br><br><b>Example 4:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>5",
+                                                "def over_nine_thousand(lst):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                                "Go to <b>2. Over 9000</b>",
+                                                "<img src=\"paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg\">",
+                                                "<img src=\"paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "G-:(Uph@X~",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-ff9b503a7e49a53d3297b94485031de0d67ffacd.jpg\">",
+                                                "<b>Example 1:<br>input: </b>nums =&nbsp;[50, -10, 0, 75, 20]<br><b>output: </b>75<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>nums = [1, 2, 3, 4, 5]<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>nums = [7, 4, 2, 6, 4]<br><b>output: </b>7",
+                                                "def max_num(nums):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                                "Go to <b>3. Max Num</b>",
+                                                "<img src=\"paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg\">",
+                                                "<img src=\"paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "c>?O![T/Z}",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-e00c213ce87cdba4828f0329a87b4a49f9570e9e.jpg\"><br>You can assume lists are of equal length.",
+                                                "<b>Example 1:<br>input: </b>lst1 = [5, 1, -10, 3, 3], lst2 =&nbsp;[5, 10, -10, 3, 5]<br><b>output:&nbsp;</b>[0, 2, 3]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[20, 10, 40, 30]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[10, 20, 30, 40]<br><b>output:&nbsp;</b>[0, 1, 2, 3]",
+                                                "def same_values(lst1, lst2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                                "Go to <b>4. Same Values</b>",
+                                                "<img src=\"paste-da74bad6b566275caf1f964216fe435212b24903.jpg\">",
+                                                "<img src=\"paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "PUGpc)K>38",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-ff26106a80a2f4ae69a3e2a2702e74338a3a6851.jpg\"><br>You can assume both input lists are of equal length.",
+                                                "<b>Example 1:<br>input: </b>lst1 = [1, 2, 3], lst2 = [3, 2, 1]<br><b>output:&nbsp;</b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [1, 2, 3], lst2 =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [16, 3, 6], lst2 =&nbsp;[3, 6, 4]<br><b>output: </b>False",
+                                                "def reversed_list(lst1, lst2):",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                                "Go to <b>5. Reversed List</b>",
+                                                "<img src=\"paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg\">",
+                                                "<img src=\"paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg\">",
+                                                ""
+                                            ],
+                                            "guid": "mQS:KCdi*T",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
                                 }
                             ],
                             "crowdanki_uuid": "3ef472d2-0139-11ec-9560-3e22fb2860fe",
@@ -3760,6 +4131,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
