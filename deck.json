@@ -1204,6 +1204,7 @@
                                             "extendNew": 0,
                                             "extendRev": 0,
                                             "media_files": [
+                                                "paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg",
                                                 "ql9Pa0ytTql7OCPaQ_nIvKWE0rqgZ1P9ButD0vSAXTvCYalYtwx2prT2_HilJkhR1RG6jLKPhof96kJdo6mtCPFO4iyxVCp5lTI2r107yMypLShMMG3.png",
                                                 "xBgO4NYTeXFEXaRpVsGeNMW5L4kbV9P6KAlj3zArKJ44YYeFYxS0QU3D6vc9UntKGzACsXA3NAMfC9QMlOSZvyrvlNnWyZPx504SJWqws6Rh6xjkAeG.png",
                                                 "yWk-VEbo6mk_bfP2vKVoKVTdX7TqJJ61-Y8muXWFsAWDEtrIxF0qV6qZZIIDmo37FqJDt31vXtNdWzpYYQXkPzJKHC786ugEENom_jBe_3hSAHyU5Lp.png"
@@ -1267,9 +1268,9 @@
                                                     "fields": [
                                                         "# Mutate the matrix below to equal [[\"A\": 0], [\"B\": 1]]<br><br>matrix = [[\"A\": 0], [\"B\": 999]]",
                                                         "matrix[1][1] = 1",
+                                                        "matrix = [[“A”: 0], [“B”: 999]]<br>print(matrix) # prints [[“A”: 0], [“B”: 999]]<br>matrix[1][1] = 1<br>print(matrix) # prints [[“A”: 0], [“B”: 1]]<br><br><img src=\"paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg\">",
                                                         "",
-                                                        "",
-                                                        ""
+                                                        "224724DF-14B1-4020-B483-3B220358B593"
                                                     ],
                                                     "guid": "iP@/fIMAyl",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
