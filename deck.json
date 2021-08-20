@@ -32,7 +32,8 @@
                                                 "Go to <b>1. Large Power</b>",
                                                 "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
                                                 "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
-                                                ""
+                                                "",
+                                                "A11BE85D-1873-474C-B554-5F24AA79E091"
                                             ],
                                             "guid": "rh;RsJI+(R",
                                             "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
@@ -48,6 +49,7 @@
                                                 "Go to <b>2. Over Budget</b>",
                                                 "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
                                                 "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "qHJ6T9`7Tq",
@@ -64,6 +66,7 @@
                                                 "Go to <b>3. Twice As Large</b>",
                                                 "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                                 "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "DIu<`cE8(F",
@@ -80,6 +83,7 @@
                                                 "Go to <b>4. Divisible By Ten</b>",
                                                 "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                                 "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "i+gRzn@%YZ",
@@ -96,6 +100,7 @@
                                                 "Go to <b>5. Not Sum To Ten Ten</b>",
                                                 "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                                 "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "H_cQMwggh?",
@@ -112,6 +117,7 @@
                                                 "Go to <b>1. In Range</b>",
                                                 "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
                                                 "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "fsqN;Nvy<J",
@@ -128,6 +134,7 @@
                                                 "Go to <b>2. Same Name</b>",
                                                 "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
                                                 "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "g=iT$hCXT+",
@@ -144,6 +151,7 @@
                                                 "Go to <b>3. Always False</b>",
                                                 "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
                                                 "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "d(Dm~V5VS&",
@@ -160,6 +168,7 @@
                                                 "Go to <b>4. Movie Review</b>",
                                                 "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
                                                 "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "L#vq%[eULg",
@@ -176,6 +185,7 @@
                                                 "Go to <b>5. Max Number</b>",
                                                 "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
                                                 "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "t<[oZd:,9|",
@@ -207,6 +217,7 @@
                                                 "Go to <b>1. Append Size</b>",
                                                 "def append_size(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(len(lst))<br>&nbsp;&nbsp;&nbsp; return lst",
                                                 "<div><div>We can get the length and append it at the same time by nesting the function calls as shown in the solution. Afterward, we return the modified list.</div></div>",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "dB}WvVmo]J",
@@ -223,6 +234,7 @@
                                                 "Go to <b>2. Append Sum</b>",
                                                 "def append_sum(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; return lst",
                                                 "In our solution, we add the numbers and append the result in one line. We add the last and second to last elements within the&nbsp;<b>.append()</b>&nbsp;function and we repeat this line two more times. Remember that when we use negative indices, it starts from the end of the list and goes towards the beginning of the list. You could also use a loop to solve this instead of repeating the lines.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "znq@{A--0c",
@@ -239,6 +251,7 @@
                                                 "Go to <b>3. Larger List</b>",
                                                 "def larger_list(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; if len(lst1) &gt;= len(lst2):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst1[-1]<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst2[-1]",
                                                 "<div>We start by comparing the lengths of each of the lists using the&nbsp;<b>len()</b>&nbsp;function. This determines whether to return the last element of the first list or the second list. Notice that we use&nbsp;<b>&gt;=</b>. This way, we know what to do if the lists have an equal length.<br><br></div><div>In order to get the last element, we get the element at the -1 index. The negative index starts at the end of the list and works towards the start of the list.</div>",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "pzh6*-%rdt",
@@ -255,6 +268,7 @@
                                                 "Go to <b>4. More Than N</b>",
                                                 "def more_than_n(lst, item, n):<br>&nbsp;&nbsp;&nbsp; if lst.count(item) &gt; n:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
                                                 "We use the&nbsp;<b>count()</b>&nbsp;list method to count the number of times&nbsp;<b>item</b>&nbsp;appears in&nbsp;<b>lst</b>. You could also do this manually by looping through&nbsp;<b>lst</b>&nbsp;and incrementing a variable every time you see&nbsp;<b>item</b>. We then compare the result to&nbsp;<b>n</b>.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "Aer:)MCmU%",
@@ -271,6 +285,7 @@
                                                 "Go to <b>5. Combine Sort</b>",
                                                 "def combine_sort(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; unsorted = lst1 + lst2<br>&nbsp;&nbsp;&nbsp; sortedList = sorted(unsorted)<br>&nbsp;&nbsp;&nbsp; return sortedList",
                                                 "We start by combining the two lists together using&nbsp;<b>+</b>&nbsp;in order to get a new list. Next, in order to sort them, we use the&nbsp;<b>sorted()</b>&nbsp;function which returns a new sorted version of the list.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "f5TT4dHd$D",
@@ -287,6 +302,7 @@
                                                 "Go to <b>1. Every Three Numbers</b>",
                                                 "def every_three_nums(start):<br>&nbsp; &nbsp; return list(range(start, 101, 3))",
                                                 "We can write the body of this function in one line by nesting the&nbsp;<b>range()</b>&nbsp;function inside of the&nbsp;<b>list()</b>&nbsp;function. The range function accepts the starting number, the ending number (exclusive), and the amount to increment by.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "h3BZbg29ET",
@@ -303,6 +319,7 @@
                                                 "Go to <b>2. Remove Middle</b>",
                                                 "def remove_middle(lst, start, end):<br>&nbsp; &nbsp; return lst[:start] +&nbsp;lst[end+1:]",
                                                 "This can be solved using one line of code if you combine and slice the lists at the same time. Slicing allows us to get the segments of the list before and after the index range and the operation&nbsp;+&nbsp;allows us to combine them together.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "saJr6R&a?w",
@@ -319,6 +336,7 @@
                                                 "Go to <b>3. More Frequent Item</b>",
                                                 "def more_frequent_item(lst, item1, item2):<br>&nbsp; &nbsp; if lst.count(item1) &gt;= lst.count(item2):<br>&nbsp; &nbsp; &nbsp; &nbsp; return item1<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return item2",
                                                 "<div><div>We use the&nbsp;<b>count()</b>&nbsp;function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. The item with the most appearances is returned by the function.</div></div>",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "uowp%e^m^`",
@@ -335,6 +353,7 @@
                                                 "Go to <b>4. Double Index</b>",
                                                 "def double_index(lst, index):<br>&nbsp; &nbsp; # Checks to see if index is too big or too small<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; # Gets the original list up to index<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_lst = lst[0:index]<br><br>&nbsp; &nbsp; # Adds double the value at index to the new list<br>&nbsp;&nbsp;&nbsp; new_lst.append(lst[index] * 2)<br><br>&nbsp; &nbsp; #&nbsp; Adds the rest of the original list<br>&nbsp;&nbsp;&nbsp; new_lst = new_lst + lst[index + 1:]<br>&nbsp;&nbsp;&nbsp; return new_lst",
                                                 "Note that this solution is careful not to modify the original input list. If we were to simply use&nbsp;<b>lst[index] = lst[index] * 2</b>&nbsp;then the list that was passed into the function would be modified outside of the function as well. Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.<br><br># A more concise solution:<br>def double_index(lst, index):<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; answer = lst[:]<br>&nbsp;&nbsp;&nbsp; answer[index] *= 2<br>&nbsp;&nbsp;&nbsp; return answer",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "QsMYV0+?7d",
@@ -351,6 +370,7 @@
                                                 "Go to <b>5. Middle Item</b>",
                                                 "def middle_element(lst):<br>&nbsp;&nbsp;&nbsp; if len(lst) % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = lst[int(len(lst) / 2)] + lst[int(len(lst) / 2) - 1]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sum / 2<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst[int(len(lst) / 2)]",
                                                 "<div>We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.<br><br></div><div>Note that the math to find the middle index is a bit tricky. In some cases, when we divide by&nbsp;<b>2</b>, we would get a double. For example, if our list had&nbsp;<b>3</b>&nbsp;items in it, then&nbsp;<b>3/2</b>&nbsp;would give us&nbsp;<b>1.5</b>. The middle index should be&nbsp;<b>1</b>, so in order to go from&nbsp;<b>1.5</b>&nbsp;to&nbsp;<b>1</b>, we cast&nbsp;<b>1.5</b>&nbsp;as an&nbsp;int. In total, this is&nbsp;<b>int(len(lst)/2)</b>.</div>",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "AI|{CfE1fH",
@@ -403,6 +423,7 @@
                                                 "Go to <b>1. Divisible By Ten</b>",
                                                 "def divisible_by_ten(nums):<br>&nbsp;&nbsp;&nbsp; count = 0<br>&nbsp;&nbsp;&nbsp; for number in nums:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if number % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count += 1<br>&nbsp;&nbsp;&nbsp; return count",
                                                 "In this solution, we defined the function and set up our counter. We use a&nbsp;<b>for</b>&nbsp;loop to iterate through each number and check if its divisible by ten. If a number is divisible by another number then the remainder should be zero, so we use modulus. After the loop has finished, we return our count.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "gA;A:D0#Qd",
@@ -419,6 +440,7 @@
                                                 "Go to <b>2. Greetings</b>",
                                                 "def add_greetings(names):<br>&nbsp;&nbsp;&nbsp; new_list = []<br>&nbsp;&nbsp;&nbsp; for name in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_list.append('Hello, ' + name)<br>&nbsp;&nbsp;&nbsp; return new_list",
                                                 "First, we set up our function to accept the list of strings and we initialized a new list of strings to hold our greetings. We iterate through each name and we append and concatenate the strings at the same time within our loop. Finally, we return the list containing all of our eloquent greetings.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "CxE,3a~!g5",
@@ -435,6 +457,7 @@
                                                 "Go to <b>3. Delete Starting Even Numbers</b>",
                                                 "def delete_starting_evens(lst):<br>&nbsp;&nbsp;&nbsp; while len(lst) &gt; 0 and lst[0] % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lst = lst[1:]<br>&nbsp;&nbsp;&nbsp; return lst",
                                                 "After defining our method, we use a&nbsp;<b>while</b>&nbsp;loop to keep iterating as long as some provided conditions are true. We provide two conditions for the&nbsp;<b>while</b>&nbsp;loop to continue. We will keep iterating as long as there is at least one number left in the list&nbsp;<b>len(lst) &gt; 0</b>&nbsp;and if the first element in the list is even&nbsp;<b>lst[0] % 2 == 0</b>. If both of these conditions are true, then we replace the list with every element except for the first one using&nbsp;<b>lst[1:]</b>. Once the list is empty or we hit an odd number, the&nbsp;<b>while</b>&nbsp;loop terminates and we return the modified list.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "n,hpJEc~f=",
@@ -451,6 +474,7 @@
                                                 "Go to <b>4. Odd Indices</b>",
                                                 "<img src=\"paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg\">",
                                                 "<img src=\"paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "G1Kk^Y<+rB",
@@ -467,6 +491,7 @@
                                                 "Go to <b>5. Exponents</b>",
                                                 "<img src=\"paste-5844996fd259dedb3fd684a67698333904129ae5.jpg\">",
                                                 "<img src=\"paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "b5D&/z(uoZ",
@@ -483,6 +508,7 @@
                                                 "Go to <b>1. Larger Sum</b>",
                                                 "<img src=\"paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg\">",
                                                 "<img src=\"paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "q4e*LvO/qF",
@@ -499,6 +525,7 @@
                                                 "Go to <b>2. Over 9000</b>",
                                                 "<img src=\"paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg\">",
                                                 "<img src=\"paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "G-:(Uph@X~",
@@ -515,6 +542,7 @@
                                                 "Go to <b>3. Max Num</b>",
                                                 "<img src=\"paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg\">",
                                                 "<img src=\"paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "c>?O![T/Z}",
@@ -531,6 +559,7 @@
                                                 "Go to <b>4. Same Values</b>",
                                                 "<img src=\"paste-da74bad6b566275caf1f964216fe435212b24903.jpg\">",
                                                 "<img src=\"paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "PUGpc)K>38",
@@ -547,6 +576,7 @@
                                                 "Go to <b>5. Reversed List</b>",
                                                 "<img src=\"paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg\">",
                                                 "<img src=\"paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "mQS:KCdi*T",
@@ -612,6 +642,7 @@
                                     "fields": [
                                         "The {{c1::int()}} function converts the specified value into an integer",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "E&/^R(6lO3",
@@ -640,6 +671,7 @@
                                         "Syntax to get the length of a list?",
                                         "len(my_list)",
                                         "<img src=\"lUNCMxlhX2KPsjoKejmgIg0E-u8VJA6D04vHZWMQH0TBxZhzyS-ftGtUSw7vpDKcN9Y7XmgIJPh1KWGlpw_USZZOZEeqSvZEcWOYzCkKLkbRootKtK5.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "K:D#X]m`xL",
@@ -651,6 +683,7 @@
                                     "fields": [
                                         "print(len([1,2,3]))",
                                         "3",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -676,6 +709,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "The {{c1::list()}} function converts an object into a list.",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -704,6 +738,7 @@
                                     "fields": [
                                         "The {{c1::print()}} function is used to output information to the console.",
                                         "<img src=\"mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "zK5TWR,D*x",
@@ -719,6 +754,7 @@
                                         "What does the print function do?",
                                         "output information to the console",
                                         "<img src=\"mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "bmsPa)DAq%",
@@ -756,6 +792,7 @@
                                         "using the range() function, create a range object that has a sequence of [0, 1, 2, 3, 4]",
                                         "range(5)",
                                         "`range(0, 5)` also works, but is less concise.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "nF!8SU?b48",
@@ -767,6 +804,7 @@
                                     "fields": [
                                         "<img src=\"hZLbtVb5lipVjPm4oJoqZPdRrycehPp2eY6Wct6sAZiABeTPZhXF_JB88CFkavYRTn8KgrUxw01nJUu-Lvsoniul5P6OSS7VnCV9ghAmfOn_kruNZal.png\">",
                                         "<img src=\"SXA8x_aNcZiD7NOIS04m0AL8qcGYSaHJBysU7G7ypZBsMcGC15-JMOOfSw-6MsNbDThVEJQefMygzYGIfmUQKM7RmTEmGW-S3Q45ky1khzTKdRKVAk0.png\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -780,6 +818,7 @@
                                         "What inputs does range() take?",
                                         "range(start, stop, step)<br><br>`start` and `stop` are optional, so here are the possible inputs:<br>range(stop)<br>range(start, stop)<br>range(start, stop, step)",
                                         "<img src=\"paste-6d2a721acbf338ba38f842428b082bf3fd7f9023.jpg\"><br><a href=\"https://www.w3schools.com/python/ref_func_range.asp\">https://www.w3schools.com/python/ref_func_range.asp</a>",
+                                        "",
                                         ""
                                     ],
                                     "guid": "sYm)4n1I>G",
@@ -791,6 +830,7 @@
                                     "fields": [
                                         "<img src=\"gW1axJRiAOU_SBKa3IbU-JakPIkiaASckBwPYWR7RpdNuzb-ueyLr-WgJO6qrXTbhQE5QGOq2DxfSqfjIVmFBAEIcBm8MXVbjelYuhRMvd2FUP-P3uR.png\">",
                                         "<img src=\"ylCnoBAF1_F7_nGY1TdvWQ9SDv6_mbEptmO5qvSSirBHTkecUj2kX1UzWC_ANklH0K2Zs5PyRiUxMHXgbrBSuI5z824jbFAnP48O0lWuIdCbsl9JdTz.png\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -804,6 +844,7 @@
                                         "using the range() function, create the range object `[3, 2, 1, 0]`",
                                         "range(3, -1, -1)",
                                         "inputs:<br>range(start, stop, step)<br><br>So we `start` at the number 3, and then we go backwards because our `step` is -1, and we stop before we reach `stop` which is -1.<br><br>print(list(range(3,-1,-1))) # [3, 2, 1, 0]",
+                                        "",
                                         ""
                                     ],
                                     "guid": "FbVr@*Vv8l",
@@ -815,6 +856,7 @@
                                     "fields": [
                                         "The {{c1::range()}}&nbsp;function can be used to create a list that can be used to specify the number of iterations in a for loop.",
                                         "<img src=\"paste-6f9b22f9b851a95102d82c2f3f6c39fa5d6caceb.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "L@~EsXZ}9f",
@@ -827,6 +869,7 @@
                                         "for i in range(3):\n<br>&nbsp; &nbsp; print(i)",
                                         "0<br>1<br>2",
                                         "The range() function starts at 0 by default.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "eTAK.K_oQ;",
@@ -854,6 +897,7 @@
                                     "fields": [
                                         "The {{c1::sorted()}} function accepts a list as an argument, and will return a new, sorted list containing the same elements as the original",
                                         "<img src=\"vEBBBrsInivN85ZPrwJ7krpLPuGPBN_9m1ZcUFUS8QPS5bIg65ig35R6kl9IyWZ_ICa4ZeKGqfu16fDJKe3z7i-0MVsDSfQOOm6p-JUJoGL11_ifVzV.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "On%j,dnN?Y",
@@ -879,6 +923,7 @@
                                     "fields": [
                                         "the {{c1::str()}} function converts the specified value into a string",
                                         "ten = str(10)&nbsp;<br># so ten equals the string '10'",
+                                        "",
                                         ""
                                     ],
                                     "guid": "py5+dO1V_&",
@@ -922,6 +967,7 @@
                                         "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")\n<br>print(\"C\")",
                                         "A<br>C",
                                         "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "zM;CXX;X2:",
@@ -933,6 +979,7 @@
                                     "fields": [
                                         "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>else:\n<br>&nbsp; &nbsp; print(\"B\")",
                                         "A",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -946,6 +993,7 @@
                                         "if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>else:&nbsp;<br>&nbsp; &nbsp; print(\"B\")",
                                         "B",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "Lh72c1;U#8",
@@ -957,6 +1005,7 @@
                                     "fields": [
                                         "if False:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>elif True:\n<br>&nbsp; &nbsp;&nbsp;print(\"B\")",
                                         "B",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -970,6 +1019,7 @@
                                         "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif True:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
                                         "B",
                                         "The blocks of code within if, elif, and else statements are mutually exclusive.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "ETL{V!(@Ao",
@@ -981,6 +1031,7 @@
                                     "fields": [
                                         "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif False:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
                                         "C",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -994,6 +1045,7 @@
                                         "listA = [1, 2, 3]\n<br>listA + [4, 5, 6]\n<br>print(listA)",
                                         "[1, 2, 3]",
                                         "`listA + [4, 5, 6]` does not modify listA, instead it returns a new list that contains the elements of the lists being added together, demonstration:<br><br>```<br>listA = [1, 2, 3]\n<br>listB = listA + [4, 5, 6]\n<br>print(listA)\n<br>print(listB)<br>```<br><br>ouput:<br>```<br>[1, 2, 3]\n<br>[1, 2, 3, 4, 5, 6]<br>```",
+                                        "",
                                         ""
                                     ],
                                     "guid": "d/{7vKf}qZ",
@@ -1023,6 +1075,7 @@
                                     "fields": [
                                         "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.",
                                         "<img src=\"LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "f]NFP)^!+;",
@@ -1035,6 +1088,7 @@
                                         "How to code an if statement?",
                                         "if boolean_expression:<br>&nbsp; &nbsp; print()",
                                         "# example:<br>if True:<br>&nbsp; &nbsp; print(\"TRUE!\")<br><br>The colon : comes after the boolean expression, and the code to be executed based on that boolean expression should be indented after the if statement.<br><br>if [boolean]:<br>&nbsp; &nbsp; [code block]",
+                                        "",
                                         ""
                                     ],
                                     "guid": "O,]wAVhX`e",
@@ -1046,6 +1100,7 @@
                                     "fields": [
                                         "The {{c1::else}} statement provides alternate code to execute if the expression in an `if` statement evaluates to `False`.",
                                         "<img src=\"467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "h11%p)+?H8",
@@ -1058,6 +1113,7 @@
                                         "add an else statement to the following code:<br><br>if False:<br>&nbsp; &nbsp; print(\"This won't print\")",
                                         "if False:<br>&nbsp; &nbsp; print(\"This won't print\")<br><b>else:</b><br>&nbsp; &nbsp; # whatever indented code goes here will execute",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "nJ:2C#G;?X",
@@ -1069,6 +1125,7 @@
                                     "fields": [
                                         "The Python {{c1::elif}} statement allows for continued checks to be performed after an initial `if` statement.",
                                         "<img src=\"mclIg-zOYABsHq7n1lmDQKB4SS5epQBx8bqX6st7eCw8ARCnbio_Rr54b6o1ClZWMKP6z7v_qE4vtYo-jtNFu47pOUUArSDDLZ4Q7shkw4kHjLw-HF1.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "i<ssCy3.f2",
@@ -1115,6 +1172,7 @@
                                                         "print( [1,2,3][0] )",
                                                         "1",
                                                         "it prints the first element",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "gxlGJqqeU^",
@@ -1127,6 +1185,7 @@
                                                         "print( [1,2,3][-1] )",
                                                         "3",
                                                         "it prints the last element",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "vj6Z=E.aQV",
@@ -1157,6 +1216,7 @@
                                                         "Syntax to access a list element by index?",
                                                         "list[index]",
                                                         "<img src=\"xBgO4NYTeXFEXaRpVsGeNMW5L4kbV9P6KAlj3zArKJ44YYeFYxS0QU3D6vc9UntKGzACsXA3NAMfC9QMlOSZvyrvlNnWyZPx504SJWqws6Rh6xjkAeG.png\"><br><img src=\"yWk-VEbo6mk_bfP2vKVoKVTdX7TqJJ61-Y8muXWFsAWDEtrIxF0qV6qZZIIDmo37FqJDt31vXtNdWzpYYQXkPzJKHC786ugEENom_jBe_3hSAHyU5Lp.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "sGO&)hIu!G",
@@ -1168,6 +1228,7 @@
                                                     "fields": [
                                                         "Syntax to access the last element of a list?",
                                                         "list[-1]",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1181,6 +1242,7 @@
                                                         "Syntax to access the first element of a list?",
                                                         "list[0]",
                                                         "Demonstration:<br><br>```<br>my_list = [1, 2, 3]<br>one = my_list[0]<br>print(one)<br>```<br>output:<br>```<br>1<br>```",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "LijdgoB|an",
@@ -1193,6 +1255,7 @@
                                                         "# Syntax to access the number 6 from the matrix below?<br><br>matrix = [[1,2,3], [4,5,6], [7,8,9]]",
                                                         "matrix[1][2]&nbsp;",
                                                         "<img src=\"ql9Pa0ytTql7OCPaQ_nIvKWE0rqgZ1P9ButD0vSAXTvCYalYtwx2prT2_HilJkhR1RG6jLKPhof96kJdo6mtCPFO4iyxVCp5lTI2r107yMypLShMMG3.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "D]12I3t}`p",
@@ -1204,6 +1267,7 @@
                                                     "fields": [
                                                         "# Mutate the matrix below to equal [[\"A\": 0], [\"B\": 1]]<br><br>matrix = [[\"A\": 0], [\"B\": 999]]",
                                                         "matrix[1][1] = 1",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1247,6 +1311,7 @@
                                                         "Syntax to add values to the end of a list in Python? (You should mutate the original list)",
                                                         "my_list.append(\"like this\")",
                                                         "<img src=\"JZ7uRjA7vGoire5Qs1sIn9NGqQsMy6m_Y1ip5r0IKgHSUUeIBoI_9mrmGlWnr2J1_kWSHPS8ebNjspn4Ew9TLtH5gBdtqF4ynM2DDG8Ks1gX9pYJrca.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "tV+p6D!<HY",
@@ -1259,6 +1324,7 @@
                                                         "x = [0, 1, 2]\n<br>x.append(3)\n<br>print(x)",
                                                         "[0, 1, 2, 3]&nbsp;",
                                                         "append  method adds a single element to the end of the list",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "cf9_-WjGV/",
@@ -1271,6 +1337,7 @@
                                                         "x = [0, 1, 2]\n<br>x.append([3, 4])\n<br>print(x)\n<br>print(x[3])",
                                                         "[0, 1, 2, [3, 4]]\n<br>[3, 4]",
                                                         "append method always adds a single element to a list",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "lv*[x`-le~",
@@ -1300,6 +1367,7 @@
                                                     "fields": [
                                                         "The {{c1::.count()}}  list method searches a list for whatever search term it receives as an argument, then returns the number of matching entries found.",
                                                         "<img src=\"60qMNdJcgTgbYHDGPXjrI7F5ADiONOpbfjcudTUKzlLTAW6v9e9B81XvMUGTMWYQW73u5Xp_AIgtib1laefBrj-hxgmMx-jzqjBTU78kwTGaIMLjX90.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "~3xHm7gq`",
@@ -1311,6 +1379,7 @@
                                                     "fields": [
                                                         "<img src=\"E3yeKREgHmvSnq6AX9KtWAtq8JCvDdeTZFGLeIYduDMdSYK7zDFKo1K4xH8LNpDtOEczLRcnzbH5UOC-WZ-z7nhWNb1dRcebpzioY-9gZ03445vqjpS.png\">",
                                                         "<img src=\"N3YSj8c30TvvKdpiLdRddsQakFtNLDVxdgsFNCbeYtKrMjpxFSaPWVUeScE0fqay242oZJrhHjKWqD1ilKXt-oxnDN0YIhYvDfCiXV7A4byFSn1OdKO.png\">",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1339,6 +1408,7 @@
                                                     "fields": [
                                                         "The {{c1::.insert()}} list method allows us to add an element to a specific index in a list.",
                                                         "",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "i~#Se{(+7$",
@@ -1351,6 +1421,7 @@
                                                         "What inputs does the .insert() method take?",
                                                         "(index, element)",
                                                         "list.insert(0, \"example\")<br><img src=\"eWS3udz6wLMyg9Vzs6_cYLc7YunorlkzW16UTpVkDK0mR7EciP6aTQ893_sTmD0WwmqHWhVUlcxqDOW2BCPpDr6Zl23p-y7G7UUZMs_h06E84uOWPy1.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "dBv9x@^=;v",
@@ -1363,6 +1434,7 @@
                                                         "# using a list method, change `mylist` to be [1,2,3,4]&nbsp;<br><br>mylist = [1, 2, 4]",
                                                         "mylist.insert(2, 3)",
                                                         "So now the number 3 is in the 2nd index of the list.<br><br>Before we inserted into the array, the number 4 was in the 2nd index of the list instead.",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "n|mevu^BSq",
@@ -1392,6 +1464,7 @@
                                                     "fields": [
                                                         "The {{c1::.pop()}} list method allows us to remove an element from a list while also returning it. It accepts one optional input which is the index of the element to remove. If no index is provided, then the last element in the list will be removed and returned.",
                                                         "<img src=\"UIYQgHTQB89IRDhHCjv00RRX_NyVgfcvVD2Cz9FwUKaC0B-8640BPeb0rKnmyczUVfqXr_EkOKZFy1DTeCA8Rl7U5kz2S5yPIv12xU8aQzR2HsMQDTz.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "Oym.kaD0j<",
@@ -1404,6 +1477,7 @@
                                                         "x = [0, 1, 2, 3] <br>y = x.pop() <br>print(x) <br>print(y)",
                                                         "[0, 1, 2]\n<br>3",
                                                         "pop  method removes a single element from list and returns it. By default, pop removes and returns the last element.",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "Q<1{_$?~cd",
@@ -1415,6 +1489,7 @@
                                                     "fields": [
                                                         "<img src=\"LkycJOcxGBEn_bKfxkkRFk_tYM3sJUmDEGbBK9-oGbmh1yna16L2JgXoMtr1A0PhAr2WDYRqhQlwtug9o8Amxg1QWu0UgZgb3XboUhZUAqErNUe26Iz.png\">",
                                                         "<img src=\"gLf_07W4Tudr4ng4kLIA40TRHNlvmpFXfyppFQk7Kz4ut-oWSnEp1EOGR4_m-Lt6gCpcxsbPkKCadOvClXyzuBJPodBhTPffXtBf4doO9vzK-976mC5.png\">",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1444,6 +1519,7 @@
                                                         "# Using a list method, delete the number 2 from the list below<br>my_list = [1,2,3]",
                                                         "my_list.remove(2)",
                                                         "<img src=\"XNAhF9atQ48AtJuXzQ4eXxB4VumAJQDR3qs4ftu8oc69eBOMfTXV01pW8EDF17YOjT8210foRwhiwAzrqyLSslg5vCBrWwIYs96ncN04Anqc0QmBAxE.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "kr<3kx!&>{",
@@ -1456,6 +1532,7 @@
                                                         "my_list = [1,0,1] <br>my_list.remove(1) <br>print(my_list)",
                                                         "[0, 1]",
                                                         "When using the `.remove()` method In the case where two or more elements in the list have the same value, the first occurrence of the element is removed.",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "E&<u{P[vz?",
@@ -1483,6 +1560,7 @@
                                                     "fields": [
                                                         "The {{c1::.sort()}}  list method will sort the contents of whatever list it is called on.",
                                                         "<img src=\"fbjxql5ICKSaPgg3gGizuOF5vqBeB-6MdAu6_l175VXT5k3_E6sCnFQMoSztJWejLF7SsSllSubXd7ZA7IZrxZjuVdBmdfWXtpDHZOppIpA8RuYuGjI.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "k7nuQ@4{YM",
@@ -1495,6 +1573,7 @@
                                                         "my_list = [2, 1, 3] <br>my_list.sort() <br>print(my_list)",
                                                         "[1, 2, 3]",
                                                         "the .sort() method sorts in ascending order by default.",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "P8K~jM-U7?",
@@ -1506,6 +1585,7 @@
                                                     "fields": [
                                                         "my_list = [\"b\", \"a\", \"c\"]\n<br>my_list.sort()\n<br>print(my_list)",
                                                         "['a', 'b', 'c']",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1519,6 +1599,7 @@
                                                         "# using the .sort() method, change `my_list` to be `[3,2,1,0]`<br><br>my_list = [1,3,0,2]",
                                                         "my_list.sort(reverse=True)",
                                                         "pass in `reverse=True` as an argument to `.sort()` in order to indicate we want to sort the list in descending order instead of the default ascending order",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "bH6EnC(DLY",
@@ -1530,6 +1611,7 @@
                                                     "fields": [
                                                         "# using a list method, mutate `mylist` to equal [0,1,2,3]\n<br><br>mylist = [3,0,2,1]",
                                                         "mylist.sort()",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1572,6 +1654,7 @@
                                             "fields": [
                                                 "In Python, {{c1::lists}} are ordered collections of items that allow for easy use of a set of data",
                                                 "<img src=\"XdD6nPmxv8QA_TXqPNm_zd56FbR6tIbDSEOXw1Kt-Qc4O9AJvXRy_yU3G_AzsTzwvUy9b2gXvS7w7QDfw8ROspPP_R8Q4-GCEIaxwIZMby4RTJgsbkf.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "ce088lqSbM",
@@ -1584,6 +1667,7 @@
                                                 "What types of datatypes can a list hold?",
                                                 "any",
                                                 "<img src=\"WXr4VFV9UzJtZBpJLctrCFzw9PGhJzfPnLRkkGyj798dpHWcxyvDQ8OS6_2dGd9rcL1_UJucEUkR4dnWytb83pkoc8pOYD-ZW-hYAyaLpOKtmRynRH3.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "EL8}fl%e*r",
@@ -1595,6 +1679,7 @@
                                             "fields": [
                                                 "In Python, lists can be added to each other by {{c1::using the plus symbol +}}",
                                                 "<img src=\"QYUOkuWZjZnJG7aD35U8WZQv4S9GhZz14ai3K_dLdorXZkGhdQBvdCmSbeKFW193W9LTT6MOxy4UKjloxYeqQPw11GdyJkMiz3ovvPti2csF0gX9cng.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "or%(+r<.#e",
@@ -1607,6 +1692,7 @@
                                                 "What is the index of the first element in a list in Python?",
                                                 "zero",
                                                 "<img src=\"HfUssMsaz6j3B5_q3k3uGkq5rAvCiIX3ZrpgNB77oScNrG5abCXWECbBCOd9Nbwkz18Odwoj3aArKAfhDU9iNnsocmmatsQKjzkmUsCRXHc1GSHtyTJ.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "dc}m+wr>>^",
@@ -1619,6 +1705,7 @@
                                                 "my_list = [0, 1, 2]\n<br>two = 4/2\n<br>print(my_list[two])",
                                                 "error",
                                                 "TypeError: list indices must be integers or slices, not float<br><br>The `/` operator returns a float datatype, not an integer, and you can only use an integer to access elements of a list.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "c3])WT7bY?",
@@ -1661,6 +1748,7 @@
                                                         "print( [1,2,3][1:2] )",
                                                         "[2]",
                                                         "it prints all elements starting from index 1 all the way up to but not including index 2",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "IJ8T|P8Q[!",
@@ -1673,6 +1761,7 @@
                                                         "print( [1,2,3][:1] )",
                                                         "[1]",
                                                         "it prints all elements starting from the beginning all the way up to but not including index 1",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "udvl7CW>Ed",
@@ -1685,6 +1774,7 @@
                                                         "print( [1,2,3][1:] )",
                                                         "[2,3]",
                                                         "it prints the elements starting from index 1, all the way until the end",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "m64QlS(2c&",
@@ -1697,6 +1787,7 @@
                                                         "print( [1,2,3][:-1] )&nbsp;",
                                                         "[1,2]",
                                                         "it prints all elements starting from the beginning all the way up to but not including the last element",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "tIP5Rb~yi.",
@@ -1709,6 +1800,7 @@
                                                         "print( [1,2,3][:] )",
                                                         "[1,2,3]",
                                                         "so list[:] simply returns a copy of that list.<br>since [START:END] are not specified, the whole list is selected.",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "B!^zlgFrDK",
@@ -1741,6 +1833,7 @@
                                                         "Syntax to slice the first two elements of a list?",
                                                         "list[:2]",
                                                         "",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "t$MfeT93;O",
@@ -1752,6 +1845,7 @@
                                                     "fields": [
                                                         "Syntax to slice the all elements of a list except the first two elements?",
                                                         "list[2:]",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1765,6 +1859,7 @@
                                                         "What is the syntax for slicing a list in Python?",
                                                         "my_list[START_NUMBER:END_NUMBER]",
                                                         "`START_NUMBER` is inclusive, but `END_NUMBER` is exclusive. So slicing returns a list from the `(START_NUMBER)` index, all the way to the `(END_NUMBER - 1)` index.<br><br><img src=\"_x1YG7kEfWxtipFb4tq07EHaCB6YV2o2nuBxhNSQhRMKcd8sqAq2Nx_y7H2QPzC5NXRr_Ko87sUBc8XvfSKPnotcZM2i_nodZpnNlGNG4rZLHfNeJe-.png\">",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "B-!L4^=Fp<",
@@ -1777,6 +1872,7 @@
                                                         "<img src=\"fsVZfABmoRuTyYTi3RG9bqxtVz9w8WtBqHLd1X_CUkMOI4dwA1o2miY9LlMmQvYPxz9iJJ_Ac7STdzs8CYtx4xSkhsVL1CQm3z5A_lRzJouuLGIxQJp.png\">",
                                                         "<img src=\"s2c55s0SI06UtiqAiDXmQYHAsY3-9_B5nu-WfxTjgLsUBHrJzB0Sb1orNgjm1Om_ugIA8sBFqoF0oS6iBmNP2C8Of1RR0N_WPJxaYK0dvIrQIPAGpcl.png\">",
                                                         "",
+                                                        "",
                                                         ""
                                                     ],
                                                     "guid": "A&Kh*luPOR",
@@ -1788,6 +1884,7 @@
                                                     "fields": [
                                                         "<img src=\"ONKC3LNk9lkKLYvz_yUVBZ8y-76p8PCNv_A6iCm2BMvaQp-4do0uGe3p03KNwOiOhhlkQG65kaEz66JxM3baKdkXO6wLsiaowM60Zm6rpWahOwiDtjL.png\">",
                                                         "<img src=\"8-V9LdTutqJsvOrv2RWOavqtujXPwK7r8smge_OggrsdDPYfGBk60wkrQNrR_KpVvuQD74JckEB37PR64CXbHRFsHz_o5HCxeH5t772kAi0IkgaDada.png\">",
+                                                        "",
                                                         "",
                                                         ""
                                                     ],
@@ -1826,6 +1923,7 @@
                                                 "Syntax to declare a list that contains numbers in Python?",
                                                 "my_list = [1, 2, 3]",
                                                 "List values are placed in between brackets separated by commas",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "r3.wb6k.D@",
@@ -1838,6 +1936,7 @@
                                                 "Syntax to declare an empty list?",
                                                 "my_list = []",
                                                 "Why would we create an empty list?<br><br>Usually, it’s because we’re planning on filling it up later based on some other input.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "keT)P<!1[/",
@@ -1875,6 +1974,7 @@
                                         "Syntax to declare a tuple in Python?",
                                         "example = (1, 2, 3)",
                                         "So like a list, but instead of brackets, we use parentesis. So ( instead of [.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "wGb=g/LeGI",
@@ -1887,6 +1987,7 @@
                                         "What's the difference between a Tuple and a List?",
                                         "Tuples are immutable while lists are mutable.&nbsp;",
                                         "Meaning once a tuple is created, the data inside it cannot be mutated.<br><br>For example, if we have a list, we can append and pop elements from the list, and assign new values to certain indexes of that list. We cannot do this with tuples though.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "g_f=O54Ckv",
@@ -1927,6 +2028,7 @@
                                 "<img src=\"paste-47b4cdfaa6363c000116d29234289dfd2b7b81d6.jpg\">",
                                 "<img src=\"paste-2c5e311facf3a35fe253359b0c4a412314df94e1.jpg\">",
                                 "",
+                                "",
                                 ""
                             ],
                             "guid": "tMK2@e&.Wt",
@@ -1954,6 +2056,7 @@
                                 "in what order are mathematical operations performed in python?",
                                 "the standard mathematical order of operations",
                                 "PEMDAS<br><br>parentheses first, then exponents, then all multiplication and division from left to right in the order both operations appear, then all addition and subtraction from left to right in the order both operations appear.",
+                                "",
                                 ""
                             ],
                             "guid": "CUqK#6d)%P",
@@ -1969,6 +2072,7 @@
                                 "in what order is Python code executed?",
                                 "from top to bottom",
                                 "",
+                                "",
                                 ""
                             ],
                             "guid": "Ik[uS{Cgz^",
@@ -1981,6 +2085,7 @@
                                 "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">def func():\n<br>&nbsp; &nbsp; return 1\n<br>&nbsp; &nbsp; print(\"test\")\n<br><br>print(func())</span>",
                                 "1",
                                 "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">A function does nothing after a return statement</span>",
+                                "",
                                 ""
                             ],
                             "guid": "z|+!m_SvDt",
@@ -2019,6 +2124,7 @@
                                         "What are function arguments?",
                                         "the values passed into a function when calling it",
                                         "<img src=\"wbJHmgCM_Xr7wEOItMkszfZ7xjO8_p35Jn63BUJAuUCMHeLhwkF9qIVQOHO-58GGJMIdwiv_2xuOfMCkG2tXwpIyaxUppAuVkqqwee5dzxqScO5ETkT.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "o[cxy66:K;",
@@ -2031,6 +2137,7 @@
                                         "<img src=\"TDVc1-Fixieo9f87B5yCHuBy2wX7030E9Gd8nron3c3kZTn09hbLN1kTZrotDfx11iVz_PK1LzBH6EuM9BdEbXpi58EiuuGyY6wxccAkp294v4XqefI.png\">",
                                         "<img src=\"paste-8ea8f0c5485915c6edfc5005564fed56bf898532.jpg\">",
                                         "<img src=\"paste-091af210d6281354a03b9e011b2fc2726eed51a0.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "xq0P37n*iT",
@@ -2043,6 +2150,7 @@
                                         "<img src=\"paste-d6da5bb299042eb76f8e03ae602f4b79596a0509.jpg\">",
                                         "<img src=\"paste-61fad6a1d5bc5319d1c1861e96828ac446ed3044.jpg\">",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "yA2Tt)0HYO",
@@ -2054,6 +2162,7 @@
                                     "fields": [
                                         "<img src=\"4wJ0ogl_i5B3QBPqYSZYBLa3Gz61TnTPGYsz7zwb662YC8WpMnA8vhHM4vPIM0LcjDfooSwntKNwS17t26DTUJO-x1qeyjOmcifNWFXiEgT0lerVUqr.png\">",
                                         "<img src=\"paste-3e79de966b815c30dd6d0c4ac4225f4a6cf1c5a5.jpg\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -2083,6 +2192,7 @@
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># Syntax to call the function below?\n<br><br>def work():\n<br>&nbsp; &nbsp; print(\"FOCUS\")</span>",
                                         "work()",
                                         "The parentheses call the function<br><br>so when function `work` is called, the code indented after `def work():` is executed, so `FOCUS` is printed.<br><br><img src=\"BVjLHHEqp__OEj8KaW2Ba95r-1Vrk8DSJ8P2MWDkYTfVIGCeWe9fMcFi0k7GLyLqtifffgLD4furKe5KUpc0D79i6YQNXbjROHAC6MLWI6K_QDoE67Z.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "iI@Vqtxd&)",
@@ -2112,6 +2222,7 @@
                                         "# Set a default value of <b>100</b>&nbsp;for the <b>x</b> parameter<br><br>def fn(x):<br>&nbsp; &nbsp; print(x)",
                                         "def fn(x<b>=100</b>):\n<br>&nbsp; &nbsp; print(x)",
                                         "def fn(x):<br>&nbsp; &nbsp; print(x)<br>fn(1) # prints 1<br>fn() # throws TypeError: fn() missing 1 required positional argument: 'x'<br><br>--------------------------<br>def fn(x<b>=100</b>):<br>&nbsp; &nbsp; print(x)<br>fn(1) # prints 1<br>fn() # prints 100",
+                                        "",
                                         ""
                                     ],
                                     "guid": "d)>`4VZ2iE",
@@ -2123,6 +2234,7 @@
                                     "fields": [
                                         "{{c1::Parameters}} are variables that are defined in the function definition. They are assigned the values which were passed as arguments when the function was called, elsewhere in the code.",
                                         "<img src=\"DZSWV7jua0VfNMAYsuw7b0zw4fT09k5nu_KJXN0Y2Te_beQKk0lUccwka1_FR18rP5sif_bsDQE4Mu3hKAUfshcyFANNnv42hB3wNMrbwz_Mu6bwt4v.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "zKW8|D55rw",
@@ -2134,6 +2246,7 @@
                                     "fields": [
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># Modify the function below so it has 3 parameters, </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>a</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">, </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>b</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">, and </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>c</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">.\n<br><br>def fn():\n<br>&nbsp; &nbsp; pass</span>",
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">def fn(</span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b>a, b, c</b></span><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">):\n<br>&nbsp; &nbsp; pass</span>",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -2164,6 +2277,7 @@
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\">#&nbsp;</span>Modify the function definition below so <b>10 </b>is printed <b>ONCE</b>.<br><span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"><br>\ndef fn():<br>&nbsp; &nbsp; </span><span style=\"color: unset; font-style: unset; background-color: unset; text-decoration-line: unset;\"><b># Add your code here<br></b><br>print(fn())<br></span>",
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; text-decoration-line: unset;\">def fn():<br>&nbsp; &nbsp;&nbsp;</span><span style=\"color: unset; font-style: unset; text-decoration-line: unset;\"><b>return 10<br></b><br>print(fn())</span>",
                                         "<img src=\"kdfLihZ2nkpsYOSs4DTBUOhFgYjD8JN7EI3jgZ9sADhRWIru13uodp8rN1BX48c5pGFHeCYy2r5SOnqR4ZCiX2aRMmAjzf-OmXDqIxvAi1hSHo1qT-O.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "w+?Vk>(=X=",
@@ -2176,6 +2290,7 @@
                                         "How to return multiple values from a function?<br><br>def fn():<br>&nbsp; &nbsp; return <b># ???</b>",
                                         "def fn():<br>&nbsp; &nbsp; return <b>1, 2, 3</b>",
                                         "All values that should be returned are listed after the return keyword and are separated by commas<br><br><br><img src=\"aINhMtGdodneSQIpvWPzRBzKS-QhY-EOp_ceYY6u_oyJZ9ULiQV5pfYH3gyFZtVl30bNfg81HZz7SQehw2s9xYlybLITnDG47E_mugT1U3fLj7T9GGA.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "G*tntMa)4*",
@@ -2206,6 +2321,7 @@
                                         "Syntax to define a function in Python?",
                                         "def &lt;function name&gt;(&lt;inputs&gt;): <br>&nbsp; &nbsp; # code goes here",
                                         "<span style=\"color: unset; font-style: unset; font-weight: unset; background-color: unset; text-decoration-line: unset;\"># example:\n<br>def example(a):\n<br>&nbsp; &nbsp; print(a)<br>&nbsp; &nbsp; return a + 1<br></span><img src=\"JpQXOvLe_skpGZ1ztRrjdYrSHF_QUSVNHMPlIJimhrJrR_mX9--iLKKkt3f6vQFZiBW88FTdxvTavnvOQrPin7akK1lDmDWR3_o6MQBh6bO9lB4Ax0e.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "eG}8:%}M3x",
@@ -2217,6 +2333,7 @@
                                     "fields": [
                                         "All code under a function declaration should be {{c1::indented}} to identify it as part of the function",
                                         "<img src=\"8gp4fZiixD0PC8u1uiPUeEIL3DpYu74K9-W3SbBFC-B_osGMzEAiIY2V-9ckq6m3jwAvMr3QjVz3ygEOyBS7QRJ4wu8K_w0ABiEsbzJjEyFGjySAlM4.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "v.H%^G@BkT",
@@ -2229,6 +2346,7 @@
                                         "Define a function named `multiply` that takes in two inputs, `a` and `b`, and returns the product of those inputs.",
                                         "def multiply(a, b):&nbsp;<br>&nbsp; &nbsp; return a * b",
                                         "# example:\n<br>def multiply(a, b):\n<br>&nbsp; &nbsp; return a * b\n<br><br>product = multiply(4, 3)\n<br>print(product) # prints 12",
+                                        "",
                                         ""
                                     ],
                                     "guid": "FIHLI/%@)Q",
@@ -2271,6 +2389,7 @@
                                     "fields": [
                                         "In a loop, the {{c1::break}}&nbsp;keyword escapes the loop, regardless of the iteration number",
                                         "<img src=\"paste-7ac04a7160306e7fcacf682a498d0c7e4b070699.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "u^{%;d}4#4",
@@ -2283,6 +2402,7 @@
                                         "numbers = [1, 2, 3, 4, 5]\n<br>for number in numbers:\n<br>&nbsp; &nbsp; if number == 3:\n<br>&nbsp; &nbsp; &nbsp; &nbsp; break\n<br>&nbsp; &nbsp; print(number)",
                                         "1\n<br>2",
                                         "So when the number == 3, we break the for loop, meaning the for loop ends",
+                                        "",
                                         ""
                                     ],
                                     "guid": "t/LLYhQ=*,",
@@ -2311,6 +2431,7 @@
                                     "fields": [
                                         "In Python, the {{c1::continue}}&nbsp;keyword is used inside a loop to skip the remaining code inside the loop code block and begin the next loop iteration.",
                                         "<img src=\"paste-638e6334df47678a3c0d9deff9c19f48c74aa5e0.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "ed-q=lTj+<",
@@ -2323,6 +2444,7 @@
                                         "numbers = [1, 2, 3]\n<br>for number in numbers:\n<br>&nbsp; &nbsp; if number == 2:\n<br>&nbsp; &nbsp; &nbsp; &nbsp; continue\n<br>&nbsp; &nbsp; print(number)",
                                         "1&nbsp;<br>3",
                                         "The continue  statement returns the control to the beginning of the for/while loop.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "HU=rGi?d+,",
@@ -2355,6 +2477,7 @@
                                         "for i in range(3):<br>&nbsp; &nbsp; print(5)",
                                         "5<br>5<br>5",
                                         "The code inside the loop (printing 5) is executed 3 times.",
+                                        "",
                                         ""
                                     ],
                                     "guid": "hCs`b-a)4G",
@@ -2367,6 +2490,7 @@
                                         "Syntax to create a for loop that prints the numbers 0 - 99?",
                                         "for i in range(100):<br>&nbsp; &nbsp; print(i)",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "H]kE+D-et!",
@@ -2378,6 +2502,7 @@
                                     "fields": [
                                         "In Python, a {{c1::for}}&nbsp;loop can be used to perform an action a specific number of times in a row.",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "iT7&sApjQ9",
@@ -2388,6 +2513,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "A Python {{c1::for}}&nbsp;loop can be used to iterate over a list of items and perform a set of actions on each item.",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -2401,6 +2527,7 @@
                                         "numbers = [1, 2, 3, 4]<br>for x in numbers:<br>&nbsp;&nbsp;&nbsp; print(x)",
                                         "1<br>2<br>3<br>4",
                                         "The loop prints each element of the list",
+                                        "",
                                         ""
                                     ],
                                     "guid": "A-R@Df3*HP",
@@ -2413,6 +2540,7 @@
                                         "Syntax for creating a for loop?",
                                         "for &lt;temporary variable&gt; in &lt;collection&gt;:<br>&nbsp; &nbsp; &lt;action statement&gt;",
                                         "Don't forget the indentation after the loop<br><br><img src=\"paste-45b3f3bcdf0134974bd56a1f8dcef8dad85123e1.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "HW]SjTQ;e$",
@@ -2425,6 +2553,7 @@
                                         "<img src=\"paste-26fa6a4e0e0c054dc42cde9369efbdc9fef0bbee.jpg\">",
                                         "<img src=\"paste-722403d6b4c7fdcb57c9e0419493fe4de6a3c282.jpg\">",
                                         "<img src=\"paste-384f0f073728d3e290c4935c6fa1afd6137462b7.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "R@j#h<RDN",
@@ -2459,6 +2588,7 @@
                                         "<img src=\"paste-e3f4b3dfbe00f96e94df2c4e0bc60a2794ffa917.jpg\">",
                                         "<img src=\"paste-cb179acf122144f3064d19ae6a7c055de13c8ff1.jpg\">",
                                         "<img src=\"paste-354bed6f0bf37c32a0502d9592b07914954079f5.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "H26jDo1lVi",
@@ -2471,6 +2601,7 @@
                                         "<img src=\"paste-fe1a5e95b75b523ef3feff85b53654a52357f97d.jpg\">",
                                         "<img src=\"paste-fc862289608377fd18c3a10507279eeea6e767a6.jpg\">",
                                         "<img src=\"paste-195c24079a9e0e43871715e931c2688a69edcfff.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "H_uVSG,2J+",
@@ -2483,6 +2614,7 @@
                                         "What is the syntax to use list comprehensions?",
                                         "[EXPRESSION for ITEM in LIST &lt;if CONDITIONAL&gt;]",
                                         "# example:<br><br>my_list = [x * 2 for x in range(10) if x &lt; 5]<br>print(my_list) # [0, 2, 4, 6, 8]<br><br># OR<br><br>my_list = [i for i in range(10)]<br>print(my_list) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]<br><br><img src=\"paste-8e94cbaa27571783cae7d63da4cdd3feaa49c828.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "f_a0Ox(o7-",
@@ -2511,6 +2643,7 @@
                                         "# Code to print every name in the following list?:<br>groups = [[\"Jobs\", \"Gates\"], [\"Newton\", \"Euclid\"], [\"Einstein\", \"Feynman\"]]",
                                         "for groups in groups:<br>&nbsp;&nbsp;&nbsp; for name in group:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(name)",
                                         "<img src=\"paste-4c9b683f0df89b49155752b84d4d6b7ab720e884.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "sd.bL:E&r]",
@@ -2538,6 +2671,7 @@
                                     "fields": [
                                         "An {{c1::infinite loop}}&nbsp;is a loop that never terminates",
                                         "<img src=\"paste-22f28ca8ad65bf682a183217ec648b30ba9921e4.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "c`7=Z8.haG",
@@ -2570,6 +2704,7 @@
                                         "Syntax for creating a while loop?",
                                         "while &lt;boolean expression&gt;:<br>&nbsp; &nbsp; &lt;action statement&gt;",
                                         "<img src=\"paste-44fca3cc67ffbc4e83bfd86c6b49c0e8fbf4c0c2.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "e(^;()QOri",
@@ -2580,6 +2715,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "In Python, a {{c1::while}}&nbsp;loop will repeatedly execute a code block as long as a condition evaluates to True.",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -2593,6 +2729,7 @@
                                         "<img src=\"paste-ab41469cae015de52549a437123de41864d165eb.jpg\">",
                                         "<img src=\"paste-b507c4a06432af9098b7436287f950175440c76c.jpg\">",
                                         "<img src=\"paste-a8cd7dd5d0bb1578e26f240468f7780e401293b6.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "k{|7#-W]ce",
@@ -2651,6 +2788,7 @@
                                                 "print(3 % 7)",
                                                 "3",
                                                 "`7` goes into `3` zero times. So the remainder is 3.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "Qe-)[?knZ[",
@@ -2665,6 +2803,7 @@
                                             "fields": [
                                                 "print(7 % 3)",
                                                 "1",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2681,6 +2820,7 @@
                                                 "print(3 % 3)",
                                                 "0",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "Nu{l^Jqyi9",
@@ -2695,6 +2835,7 @@
                                             "fields": [
                                                 "print(3**2)",
                                                 "9",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2711,6 +2852,7 @@
                                                 "number = 4/2<br>print(number)",
                                                 "2.0",
                                                 "division in python always returns a floating point number, not an integer.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "N7>So}e$<E",
@@ -2738,6 +2880,7 @@
                                             "fields": [
                                                 "The {{c1::+}} operator is used for addition",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "z%hdtTfark",
@@ -2751,6 +2894,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "The {{c1::-}} operator is used for subtraction",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2766,6 +2910,7 @@
                                             "fields": [
                                                 "The {{c1::*}} operator is used for multiplication",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "r(v&]d;d#*",
@@ -2779,6 +2924,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "The {{c1::/}} operator is used for division",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2794,6 +2940,7 @@
                                             "fields": [
                                                 "The {{c1::%}} operator is used for modulo operations.",
                                                 "<img src=\"H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "mT`69_yx:p",
@@ -2807,6 +2954,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "The {{c1::**}} operator is used for exponentiation",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2864,6 +3012,7 @@
                                                 "print(not True)",
                                                 "False",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "B5;s~!&B>Q",
@@ -2875,6 +3024,7 @@
                                             "fields": [
                                                 "print(not False)",
                                                 "True",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2888,6 +3038,7 @@
                                                 "print(not 1 &gt; 2)",
                                                 "True",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "pXi@>7mu*-",
@@ -2899,6 +3050,7 @@
                                             "fields": [
                                                 "print(True and True)",
                                                 "True",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2912,6 +3064,7 @@
                                                 "print(True and False)",
                                                 "False",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "MDuF_j^gFj",
@@ -2923,6 +3076,7 @@
                                             "fields": [
                                                 "print(False and False)",
                                                 "False",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2936,6 +3090,7 @@
                                                 "print(1 == 1 and 1 &lt; 2)",
                                                 "True",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "N@A}=*z0.q",
@@ -2947,6 +3102,7 @@
                                             "fields": [
                                                 "print(1 &lt; 2 and 2 &lt; 1)",
                                                 "False",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -2960,6 +3116,7 @@
                                                 "print(True or True)",
                                                 "True",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "Pe|*2x{nd`",
@@ -2972,6 +3129,7 @@
                                                 "print(True or False)",
                                                 "True",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "K8gkP5TB%R",
@@ -2983,6 +3141,7 @@
                                             "fields": [
                                                 "print(False or False)",
                                                 "False",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3013,6 +3172,7 @@
                                             "fields": [
                                                 "The {{c1::not}} operator is used in a Boolean expression in order to evaluate the expression to its inverse value.",
                                                 "<img src=\"zBkC9zVjCf3o_ji8HwvU9-ekv00ksmPfPEpo8VvIXdoEOFKQ2WssZuAR0Cm7a_JhEydr-15MkRDN-Tr7kxvtoMP1kRzyP0CoaQspQ3r4yBdD4r2yug7.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "c;`]4(R6q7",
@@ -3024,6 +3184,7 @@
                                             "fields": [
                                                 "The Python {{c1::and}} operator performs a Boolean comparison between two Boolean values, variables, or expressions. If both sides of the operator evaluate to True then it returns True.",
                                                 "<img src=\"wqKvy_I1gp9-XUGEmeidj1ek8YqZs2ib-rNhcdqY736knNzCsmAgsauWzdECLSVYtsWHdOLDtW_uP4rL2hFSGixUL5xtQj6GTEqvHHOjjHywwL7cMpe.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "J7WH(K-Ifz",
@@ -3035,6 +3196,7 @@
                                             "fields": [
                                                 "The Python {{c1::or}} operator combines two Boolean expressions and evaluates to True if at least one of the expressions returns True.",
                                                 "<img src=\"rUk-lQMQQCAZLB_WITNP629JQiCcMWM1nMwlc83kiprfwGhsE1WfK4TuQiCiYxyiPapnCmtTP3o1Jcj0dRkoq55isbfGVx8U1s1yvv2ZE6jslxfZlqH.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "uh*x@]-e);",
@@ -3087,6 +3249,7 @@
                                             "fields": [
                                                 "If the values being compared using the  ==  operator are the same, the operator returns {{c1::True}}<i></i> , otherwise, it returns {{c1::False}}<i></i>.",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "t7DhIDxG9f",
@@ -3116,6 +3279,7 @@
                                                 "print(\"example\" == \"example\")",
                                                 "True",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "E^Ck:DpSIb",
@@ -3127,6 +3291,7 @@
                                             "fields": [
                                                 "print( (2 &gt; 1) == (1 &lt; 2) )",
                                                 "True",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3140,6 +3305,7 @@
                                                 "<img src=\"paste-dae22a687362cffc9c7d0e75b13621a6b2979e94.jpg\">",
                                                 "<img src=\"paste-d5150a4dc82c9cecc8dfb7dc8c6d84886c9ffe6d.jpg\">",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "fy]J,/!fvU",
@@ -3152,6 +3318,7 @@
                                                 "print(2 == \"2\")",
                                                 "False",
                                                 "The operator takes the data type into account when making the comparison, so a string value of \"2\" is not considered the same as a numeric value of 2.",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "hW>+ujg|?c",
@@ -3163,6 +3330,7 @@
                                             "fields": [
                                                 "print(False == False)",
                                                 "True",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3176,6 +3344,7 @@
                                                 "print(\"example\" != \"example\")",
                                                 "False",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": ">9GPfgviy",
@@ -3188,6 +3357,7 @@
                                                 "print( (2 &gt; 1) != (1 &lt; 2) )",
                                                 "False",
                                                 "The code above is the same as `print(True != True)`",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "vL#=Fu|%^[",
@@ -3199,6 +3369,7 @@
                                             "fields": [
                                                 "print(False != False)",
                                                 "False",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3212,6 +3383,7 @@
                                                 "print(3 &lt; 3)",
                                                 "False",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "zadsNiOd[9",
@@ -3223,6 +3395,7 @@
                                             "fields": [
                                                 "print(3 &gt;= 3)",
                                                 "True",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3252,6 +3425,7 @@
                                             "fields": [
                                                 "The {{c1::==}} operator is used to compare two values, variables, or expressions and returns True if they are the same.",
                                                 "<img src=\"nPgQ1J8suQD9OT0cTFD2E6MpHo1onsaVD_d1h1jMAW9b2KeqUuY8K0HxsOtlFY_MMyZQ6fLhBTW5nIHqXn3HNhnQCsyPgKygJOY-1P0EKDmmmYgo9CI.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "kCvKzZHmVc",
@@ -3263,6 +3437,7 @@
                                             "fields": [
                                                 "The {{c1::!=}}&nbsp;operator is used to compare two values, variables, or expressions and returns `True` if they are&nbsp;<b>NOT</b>&nbsp;the same, otherwise, it returns `False`.",
                                                 "<img src=\"zuqCVIfVJIgRH_J16nouxdJBvsCiA6f4xNSw4lWiJ1qzavcPCLMEP39GgwxQZTKtot_LXN9SyKN7fn_31PHHKiv3FgrEyQGGNu4fJ5foBmczOtngqxi.png\">",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "N@;yfSG;ir",
@@ -3273,6 +3448,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "{{c1::&lt;}} is the \"less than\" comparison operator.",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3285,6 +3461,7 @@
                                             "fields": [
                                                 "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "IxDXX8<w&_",
@@ -3296,6 +3473,7 @@
                                             "fields": [
                                                 "{{c1::&gt;=}} is the \"greater than or equal to\" comparison operator.",
                                                 "",
+                                                "",
                                                 ""
                                             ],
                                             "guid": "IjW?WuJofb",
@@ -3306,6 +3484,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "{{c1::&gt;}} is the \"greater than\" comparison operator.",
+                                                "",
                                                 "",
                                                 ""
                                             ],
@@ -3373,6 +3552,7 @@
                                         "What datatype is `True` and `False`?",
                                         "boolean",
                                         "<img src=\"paste-a2318102197fe84922949801efc722c27b5517a3.jpg\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "Bl7+GqM;nI",
@@ -3384,6 +3564,7 @@
                                     "fields": [
                                         "What values can boolean datatypes be?",
                                         "`True` or `False`",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -3415,6 +3596,7 @@
                                     "fields": [
                                         "An {{c1::integer}} is a number that can be written without a fractional part (no decimal).",
                                         "<img src=\"NGqjZ6wa2Lpdvs8dOXF1iMW3_najuUqwfUSM77GWf9KrcyLJm4QM6jooA8acO_BGdQiqlIYmCOPbQxtzCjOE_CsWy9ggdAb3f4y0Ixh1xJBMdvUqnw8.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "w};^e>&se",
@@ -3429,6 +3611,7 @@
                                     "fields": [
                                         "What is an integer?",
                                         "numbers that have no decimal",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -3445,6 +3628,7 @@
                                         "What is a floating point number?",
                                         "0.07",
                                         "A number with a decimal portion<br><img src=\"CUrnvWcjx9lg0pEGi3uaNC3AcePODfkWN1ECXyMK0UHXu24khY97yXfQgGrUY3TODzSfsiRdM7QZ6tPl4D4nxOLmzjeOVEAdseL-sHF7fIfe_dU5lzt.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "Jp#_ppAWJm",
@@ -3459,6 +3643,7 @@
                                     "fields": [
                                         "<img src=\"paste-d2a10660f5c823f590165c1719d910d7c389f220.jpg\">",
                                         "<img src=\"paste-1fa1f4d149dafe7666700bd8fbfba6f822758937.jpg\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -3495,6 +3680,7 @@
                                     "fields": [
                                         "A {{c1::string}} is a sequence of characters (letters, numbers, whitespace or punctuation) enclosed by quotation marks.",
                                         "<img src=\"0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "URG!nmUuU",
@@ -3510,6 +3696,7 @@
                                         "What is a string?",
                                         "'this is a string'",
                                         "A sequence of characters enclosed by quotation marks",
+                                        "",
                                         ""
                                     ],
                                     "guid": "P*B;b)ou{k",
@@ -3525,6 +3712,7 @@
                                         "How to concatenate strings?",
                                         "using the + operator",
                                         "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "J47SJG4XM#",
@@ -3537,6 +3725,7 @@
                                         "How to declare a multi-line string?",
                                         "'''<br>like<br>this<br>'''",
                                         "<img src=\"hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png\">",
+                                        "",
                                         ""
                                     ],
                                     "guid": "c32[j7h^Cp",
@@ -3548,6 +3737,7 @@
                                     "fields": [
                                         "<img src=\"paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg\">",
                                         "<img src=\"paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -3561,6 +3751,7 @@
                                         "<img src=\"paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg\">",
                                         "<img src=\"paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg\">",
                                         "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "A$SZ.NB+D)",
@@ -3572,6 +3763,7 @@
                                     "fields": [
                                         "<img src=\"paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg\">",
                                         "<img src=\"paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg\">",
+                                        "",
                                         "",
                                         ""
                                     ],
@@ -3612,6 +3804,7 @@
                             "fields": [
                                 "The {{c1::#}} character is used to make comments",
                                 "<img src=\"Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "BOW&8$9R|-",
@@ -3624,6 +3817,7 @@
                                 "What is the # character for?",
                                 "Making comments",
                                 "<img src=\"Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "udSr)3hhm6",
@@ -3635,6 +3829,7 @@
                             "fields": [
                                 "A {{c1::try}}<i></i> and {{c1::except}}<i></i> block can be used to handle error in code block.",
                                 "<img src=\"e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "d*#/ga-xam",
@@ -3669,6 +3864,7 @@
                                 "def func():\n<br>&nbsp; &nbsp; x = 1\n<br><br>x = 2\n<br>func()\n<br>print(x)",
                                 "2",
                                 "x inside func() is local",
+                                "",
                                 ""
                             ],
                             "guid": "B4qzsjw&!-",
@@ -3681,6 +3877,7 @@
                                 "def func():\n<br>&nbsp; &nbsp; x = 1\n<br><br>print (x)",
                                 "error",
                                 "NameError: name 'x' is not defined<br><br>func() wasn't called, and even if it was, x is a local variable (not global)",
+                                "",
                                 ""
                             ],
                             "guid": "zF`LE4Kkz=",
@@ -3693,6 +3890,7 @@
                                 "def my_function(value): <br>&nbsp; &nbsp; print(value)<br><br>my_function(7) <br>print(value)",
                                 "7\n<br>Error",
                                 "7<br>NameError: name 'value' is not defined<br><br><img src=\"F2Jad5mt_Rf06E5jQF9EIBsS53BqLkNHMBHj6Co3pbkXBiDEpU6WvS6uG5E1-eRGHhFmOTlK9Mpz_3xdkS4WVKMJivT3JuhjmNJX9_Z32Fp9yz86ieX.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "bR#V+mmWSw",
@@ -3705,6 +3903,7 @@
                                 "<img src=\"0Iv3_iEOugauPXL6hNGV-0qbfedUkNi0luwImnu_SMVqze_bqok7gO3J-Ht4nDr6u-954YY7mH6YADGtZ5TljVuywTGgVRHNnTj3q3VXqplgn7rYCBb.png\">",
                                 "<img src=\"paste-72e29472e08172ab0c9f750da67e82bf05df6b05.jpg\">",
                                 "<img src=\"paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg\">",
+                                "",
                                 ""
                             ],
                             "guid": "g{eLR19|:A",
@@ -3717,6 +3916,7 @@
                                 "How are variables scoped in python?",
                                 "variables defined within a function can only be accessed within that function.",
                                 "<img src=\"S0zLaotYru1_TVdP2pSMa0phd5JRn10yr0ILh7bljDWNzcN7AvY4k0g0zXWVip3seyw__Aab9nYByqkiHiRsTrZDe_Ro7aFv0QcK4msBJQVAh1EfxOD.png\"><br># Local Scope\n<br># A variable created inside a function belongs to the local <br>\n# scope of that function, and can only be used inside that function\n<br><br>#A variable created inside a function is available inside that function:\n<br>def myfunc():\n<br>&nbsp; &nbsp; x = 300\n<br>&nbsp; &nbsp; print(x)\n<br>myfunc() # prints 300\n<br><br># A variable created outside of a function is global and can be used by anyone:\n<br>x = 300\n<br>def myfunc():\n<br>&nbsp; &nbsp; print(x)\n<br>myfunc() # prints 300\n<br>print(x) # prints 300",
+                                "",
                                 ""
                             ],
                             "guid": "BE<CYV,ZPX",
@@ -3728,6 +3928,7 @@
                             "fields": [
                                 "A variable that is defined outside of a function is called a {{c1::global}} variable",
                                 "<img src=\"gUeng9G6KF4-HG7KQ-GdG7mMQuxKRljm9AwgmPycbBt1syHoNRI6umhxxNAIqwUr_1vUPYrplKVVJfLbZ_S6grdl_hm9UEGgoK6wh-KeNmbQBU6feT8.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "cwMQQ@JRg<",
@@ -3758,6 +3959,7 @@
                                 "Make the following code more concise:<br><br>x = x + 1",
                                 "x += 1",
                                 "<img src=\"7mcRtj6smLLfiY__C7wBKv8Dtr7HLjCUeWnKY_o0V4XELUnVrJlueCRgKj3fFy0etn_IX_e-YgVqO-_oBDTFJU3dBTy6IPGBqN5PUKGhC7G7t-vEaT3.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "u,fV60#f$}",
@@ -3769,6 +3971,7 @@
                             "fields": [
                                 "<img src=\"paste-b488ab7911a3d868d363d5ad3030ad5578f6bf1b.jpg\">",
                                 "<img src=\"paste-fb017733aff396cd32c45f409e4fe3e2517e4c29.jpg\">",
+                                "",
                                 "",
                                 ""
                             ],
@@ -3797,6 +4000,7 @@
                             "fields": [
                                 "A {{c1::variable}} is used to store data that will be used by the program.",
                                 "<img src=\"6PdM1xUXoQzHYchDZvjI44Vu8qXWmjKPBRjNgw1oBqPfeKHfb4pqceJtgbAt9-RiwgrvSXZEP6Lku6dIImYF7FQQz-3H8B31dkQ9Bc5fNGZxPvSCnrG.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "jrEo`NQpHz",
@@ -3809,6 +4013,7 @@
                                 "What is a boolean expression?",
                                 "A statement that evaluates to either `True` or `False`",
                                 "",
+                                "",
                                 ""
                             ],
                             "guid": "r#*$p1{B6_",
@@ -3819,6 +4024,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "In Python, for any specific data-type ( strings, booleans, lists, etc. ) there is built-in functionality that we can use to create, manipulate, and even delete our data. We call this built-in functionality a {{c1::method}}.",
+                                "",
                                 "",
                                 ""
                             ],
@@ -3852,6 +4058,7 @@
                                 "How to declare a variable?",
                                 "example = 'any value we want'",
                                 "<img src=\"qfEBWIei-AnSW237ORXpvCVon_38lgKvplCiBMe2WWbKPoVMcj5I60dmvNpRO8cmO6K5ADErVQy_NZCnIM2dQz834OtEqhKxaBOgoxGgNW86IlsHZXI.png\">",
+                                "",
                                 ""
                             ],
                             "guid": "MCzFgJIc63",
@@ -3864,6 +4071,7 @@
                                 "<img src=\"paste-49b886ac8f406677b43badfca4c863fe49a2306d.jpg\">",
                                 "42",
                                 "<img src=\"paste-370db977248659ec7f1d03c91f0d59b0e1f9448d.jpg\"><br>In order to change the variable by multiplying it by 5, you would have had to do something like this:<br><br>`cool_number *= 5`<br>OR<br>`cool_number = cool_number * 5`<br><br>`cool_number * 5` does nothing because we don't save the result of multiplying the variable by 5 to anything.",
+                                "",
                                 ""
                             ],
                             "guid": "JDzFs0Ga@`",
@@ -3875,6 +4083,7 @@
                             "fields": [
                                 "<img src=\"paste-1a9355f142d6233c6d7486339b92aca886bfb57d.jpg\">",
                                 "<img src=\"paste-f5ae5f0a880cf31abf851b04b388f8ac42e39101.jpg\">",
+                                "",
                                 "",
                                 ""
                             ],
@@ -4113,6 +4322,14 @@
                     "rtl": false,
                     "size": 20,
                     "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "ID",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
                 }
             ],
             "latexPost": "\\end{document}",
@@ -4134,7 +4351,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: {{ID}}</div></div>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4175,6 +4392,14 @@
                     "rtl": false,
                     "size": 20,
                     "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "ID",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
                 }
             ],
             "latexPost": "\\end{document}",
@@ -4194,7 +4419,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
+                    "afmt": "{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: {{ID}}</div></div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4243,6 +4468,14 @@
                     "rtl": false,
                     "size": 20,
                     "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "ID",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
                 }
             ],
             "latexPost": "\\end{document}",
@@ -4262,7 +4495,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: {{ID}}</div></div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
