@@ -739,7 +739,7 @@
                                         "The {{c1::print()}} function is used to output information to the console.",
                                         "<img src=\"mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png\">",
                                         "",
-                                        ""
+                                        "8DD14D47-CE3B-4C76-AF10-B78FB99F1FC4"
                                     ],
                                     "guid": "zK5TWR,D*x",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -924,7 +924,7 @@
                                         "the {{c1::str()}} function converts the specified value into a string",
                                         "ten = str(10)&nbsp;<br># so ten equals the string '10'",
                                         "",
-                                        ""
+                                        "D575CBAF-A1AA-4845-B5A0-516AC85FF0F6"
                                     ],
                                     "guid": "py5+dO1V_&",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -1076,7 +1076,7 @@
                                         "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.",
                                         "<img src=\"LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png\">",
                                         "",
-                                        ""
+                                        "43632892-5A88-4840-9B46-EC98AEF72223"
                                     ],
                                     "guid": "f]NFP)^!+;",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -1101,7 +1101,7 @@
                                         "The {{c1::else}} statement provides alternate code to execute if the expression in an `if` statement evaluates to `False`.",
                                         "<img src=\"467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png\">",
                                         "",
-                                        ""
+                                        "2CC95ABC-272D-4A72-A39C-F63B93BE7143"
                                     ],
                                     "guid": "h11%p)+?H8",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -1126,7 +1126,7 @@
                                         "The Python {{c1::elif}} statement allows for continued checks to be performed after an initial `if` statement.",
                                         "<img src=\"mclIg-zOYABsHq7n1lmDQKB4SS5epQBx8bqX6st7eCw8ARCnbio_Rr54b6o1ClZWMKP6z7v_qE4vtYo-jtNFu47pOUUArSDDLZ4Q7shkw4kHjLw-HF1.png\">",
                                         "",
-                                        ""
+                                        "43F4A04F-CBF5-4578-833F-467BC3983DEF"
                                     ],
                                     "guid": "i<ssCy3.f2",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -1173,7 +1173,7 @@
                                                         "1",
                                                         "it prints the first element",
                                                         "",
-                                                        ""
+                                                        "EF5187EF-2CF6-401D-B8AB-60218E03D97B"
                                                     ],
                                                     "guid": "gxlGJqqeU^",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -1186,7 +1186,7 @@
                                                         "3",
                                                         "it prints the last element",
                                                         "",
-                                                        ""
+                                                        "46819823-6D77-4B3B-B98B-9991E6545578"
                                                     ],
                                                     "guid": "vj6Z=E.aQV",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -1763,7 +1763,7 @@
                                                         "[1]",
                                                         "it prints all elements starting from the beginning all the way up to but not including index 1",
                                                         "",
-                                                        ""
+                                                        "A2259394-5818-487D-828E-98392F7610F6"
                                                     ],
                                                     "guid": "udvl7CW>Ed",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -1776,7 +1776,7 @@
                                                         "[2,3]",
                                                         "it prints the elements starting from index 1, all the way until the end",
                                                         "",
-                                                        ""
+                                                        "5639D797-699B-4A2C-835E-0298B90DD632"
                                                     ],
                                                     "guid": "m64QlS(2c&",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -1789,7 +1789,7 @@
                                                         "[1,2]",
                                                         "it prints all elements starting from the beginning all the way up to but not including the last element",
                                                         "",
-                                                        ""
+                                                        "9FB6A891-A7E2-4584-97E2-7495DAFE73DF"
                                                     ],
                                                     "guid": "tIP5Rb~yi.",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -1802,7 +1802,7 @@
                                                         "[1,2,3]",
                                                         "so list[:] simply returns a copy of that list.<br>since [START:END] are not specified, the whole list is selected.",
                                                         "",
-                                                        ""
+                                                        "3F307A5D-E343-4840-953E-28102CCD8FE2"
                                                     ],
                                                     "guid": "B!^zlgFrDK",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
@@ -2882,7 +2882,7 @@
                                                 "The {{c1::+}} operator is used for addition",
                                                 "",
                                                 "",
-                                                ""
+                                                "7F99D3D7-28DF-47F9-9190-DB4CAFA9B2DF"
                                             ],
                                             "guid": "z%hdtTfark",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -2897,7 +2897,7 @@
                                                 "The {{c1::-}} operator is used for subtraction",
                                                 "",
                                                 "",
-                                                ""
+                                                "F0D3CCB9-FDDF-4E31-8D39-7777EC3A127B"
                                             ],
                                             "guid": "n$yCPng^XO",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -2912,7 +2912,7 @@
                                                 "The {{c1::*}} operator is used for multiplication",
                                                 "",
                                                 "",
-                                                ""
+                                                "8FCF2398-4FBD-4DF5-A6B8-086B01D897C1"
                                             ],
                                             "guid": "r(v&]d;d#*",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -2927,7 +2927,7 @@
                                                 "The {{c1::/}} operator is used for division",
                                                 "",
                                                 "",
-                                                ""
+                                                "F2648701-C91B-4D02-A7B1-801586F17B1E"
                                             ],
                                             "guid": "Nd-sA?;nOJ",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -2942,7 +2942,7 @@
                                                 "The {{c1::%}} operator is used for modulo operations.",
                                                 "<img src=\"H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png\">",
                                                 "",
-                                                ""
+                                                "A697CA50-2E83-4911-AFDF-8D507B851FBB"
                                             ],
                                             "guid": "mT`69_yx:p",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -2957,7 +2957,7 @@
                                                 "The {{c1::**}} operator is used for exponentiation",
                                                 "",
                                                 "",
-                                                ""
+                                                "970609DD-B837-485B-86C7-0FD5D6D28D33"
                                             ],
                                             "guid": "xX-v&+-d7[",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3174,7 +3174,7 @@
                                                 "The {{c1::not}} operator is used in a Boolean expression in order to evaluate the expression to its inverse value.",
                                                 "<img src=\"zBkC9zVjCf3o_ji8HwvU9-ekv00ksmPfPEpo8VvIXdoEOFKQ2WssZuAR0Cm7a_JhEydr-15MkRDN-Tr7kxvtoMP1kRzyP0CoaQspQ3r4yBdD4r2yug7.png\">",
                                                 "",
-                                                ""
+                                                "5C264750-B2F0-4B23-9456-EC1ECBA63D58"
                                             ],
                                             "guid": "c;`]4(R6q7",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3186,7 +3186,7 @@
                                                 "The Python {{c1::and}} operator performs a Boolean comparison between two Boolean values, variables, or expressions. If both sides of the operator evaluate to True then it returns True.",
                                                 "<img src=\"wqKvy_I1gp9-XUGEmeidj1ek8YqZs2ib-rNhcdqY736knNzCsmAgsauWzdECLSVYtsWHdOLDtW_uP4rL2hFSGixUL5xtQj6GTEqvHHOjjHywwL7cMpe.png\">",
                                                 "",
-                                                ""
+                                                "F25CA83D-3B0E-4538-998E-511B0B88B64C"
                                             ],
                                             "guid": "J7WH(K-Ifz",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3198,7 +3198,7 @@
                                                 "The Python {{c1::or}} operator combines two Boolean expressions and evaluates to True if at least one of the expressions returns True.",
                                                 "<img src=\"rUk-lQMQQCAZLB_WITNP629JQiCcMWM1nMwlc83kiprfwGhsE1WfK4TuQiCiYxyiPapnCmtTP3o1Jcj0dRkoq55isbfGVx8U1s1yvv2ZE6jslxfZlqH.png\">",
                                                 "",
-                                                ""
+                                                "27CDE63D-5103-4FEE-BC32-313E9C0A00D0"
                                             ],
                                             "guid": "uh*x@]-e);",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3251,7 +3251,7 @@
                                                 "If the values being compared using the  ==  operator are the same, the operator returns {{c1::True}}<i></i> , otherwise, it returns {{c1::False}}<i></i>.",
                                                 "",
                                                 "",
-                                                ""
+                                                "BBB73FCB-3658-4C52-8AE1-D86588001B04"
                                             ],
                                             "guid": "t7DhIDxG9f",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3427,7 +3427,7 @@
                                                 "The {{c1::==}} operator is used to compare two values, variables, or expressions and returns True if they are the same.",
                                                 "<img src=\"nPgQ1J8suQD9OT0cTFD2E6MpHo1onsaVD_d1h1jMAW9b2KeqUuY8K0HxsOtlFY_MMyZQ6fLhBTW5nIHqXn3HNhnQCsyPgKygJOY-1P0EKDmmmYgo9CI.png\">",
                                                 "",
-                                                ""
+                                                "A4DDA2E9-D714-4463-8E2F-5C5391F8AB1A"
                                             ],
                                             "guid": "kCvKzZHmVc",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3439,7 +3439,7 @@
                                                 "The {{c1::!=}}&nbsp;operator is used to compare two values, variables, or expressions and returns `True` if they are&nbsp;<b>NOT</b>&nbsp;the same, otherwise, it returns `False`.",
                                                 "<img src=\"zuqCVIfVJIgRH_J16nouxdJBvsCiA6f4xNSw4lWiJ1qzavcPCLMEP39GgwxQZTKtot_LXN9SyKN7fn_31PHHKiv3FgrEyQGGNu4fJ5foBmczOtngqxi.png\">",
                                                 "",
-                                                ""
+                                                "54300B37-FB5E-45DC-8336-449C28CA05E3"
                                             ],
                                             "guid": "N@;yfSG;ir",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3451,7 +3451,7 @@
                                                 "{{c1::&lt;}} is the \"less than\" comparison operator.",
                                                 "",
                                                 "",
-                                                ""
+                                                "A3C9E324-AA0A-4D63-BE23-4C24F5B25E2A"
                                             ],
                                             "guid": "x#4e~^T22r",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3463,7 +3463,7 @@
                                                 "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
                                                 "",
                                                 "",
-                                                ""
+                                                "89377C9E-46B1-4542-B88F-4EA894E7985C"
                                             ],
                                             "guid": "IxDXX8<w&_",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3475,7 +3475,7 @@
                                                 "{{c1::&gt;=}} is the \"greater than or equal to\" comparison operator.",
                                                 "",
                                                 "",
-                                                ""
+                                                "E4E93142-A4AE-4C45-B0C5-773341551A55"
                                             ],
                                             "guid": "IjW?WuJofb",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3487,7 +3487,7 @@
                                                 "{{c1::&gt;}} is the \"greater than\" comparison operator.",
                                                 "",
                                                 "",
-                                                ""
+                                                "E32DADA5-1C9F-4C94-888D-BEA6B019C7DD"
                                             ],
                                             "guid": "JOL}PkI0:}",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3682,7 +3682,7 @@
                                         "A {{c1::string}} is a sequence of characters (letters, numbers, whitespace or punctuation) enclosed by quotation marks.",
                                         "<img src=\"0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png\">",
                                         "",
-                                        ""
+                                        "92B6C52F-0F7C-4F16-9A4F-921061D881E8"
                                     ],
                                     "guid": "URG!nmUuU",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3806,7 +3806,7 @@
                                 "The {{c1::#}} character is used to make comments",
                                 "<img src=\"Bk5kwnadwRn1Atf3wFoRa0yCxp5japMwz0CIYVMZNscrHpLMUHvp7ZvJn24oh8sgMqdPs7nhY8_LbE5Q1IwpAdLcXCuGz3VHZB1jARrtYQ9stmAmFRD.png\">",
                                 "",
-                                ""
+                                "3340E666-E4FF-410B-9CCD-7E37CEC770FE"
                             ],
                             "guid": "BOW&8$9R|-",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -3831,7 +3831,7 @@
                                 "A {{c1::try}}<i></i> and {{c1::except}}<i></i> block can be used to handle error in code block.",
                                 "<img src=\"e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png\">",
                                 "",
-                                ""
+                                "7D139D9F-F139-4104-878B-3BF5ABF7A1F6"
                             ],
                             "guid": "d*#/ga-xam",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -4002,7 +4002,7 @@
                                 "A {{c1::variable}} is used to store data that will be used by the program.",
                                 "<img src=\"6PdM1xUXoQzHYchDZvjI44Vu8qXWmjKPBRjNgw1oBqPfeKHfb4pqceJtgbAt9-RiwgrvSXZEP6Lku6dIImYF7FQQz-3H8B31dkQ9Bc5fNGZxPvSCnrG.png\">",
                                 "",
-                                ""
+                                "B9B58EE9-9E0B-4B5E-AD79-396329188AE1"
                             ],
                             "guid": "jrEo`NQpHz",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
@@ -4352,7 +4352,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<script>\nconst cardId = document.getElementById('id').innerText\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\n\n\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tconst response = await fetch(\"http://localhost:8080/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n</script>\n\n<style>\n\t#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t\t\toutline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n        background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n    \n</style>\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: <span id=\"id\">{{ID}}</span></div></div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<button id=\"submit\">Submit</button>\n</div>\n",
+                    "afmt": "<script>\nconst cardId = document.getElementById('id').innerText\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nloader.style.display = \"none\"\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n</script>\n\n<style>\n\t#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}\n    \n</style>\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: <span id=\"id\">{{ID}}</span></div></div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4420,7 +4420,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: {{ID}}</div></div>",
+                    "afmt": "<script>\nconst cardId = document.getElementById('id').innerText\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nloader.style.display = \"none\"\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n</script>\n\n<style>\n\t#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}\n    \n</style>\n\n\n{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: <span id=\"id\">{{ID}}</span></div></div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4496,7 +4496,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: {{ID}}</div></div>",
+                    "afmt": "<script>\nconst cardId = document.getElementById('id').innerText\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nloader.style.display = \"none\"\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n</script>\n\n<style>\n\t#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}\n    \n</style>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<div style=\"font-size: 8px\">Alex Ficachi Coaching<div>CARD ID: <span id=\"id\">{{ID}}</span></div></div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
