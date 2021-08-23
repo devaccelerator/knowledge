@@ -28,6 +28,7 @@
                                                 "Create a function named <b>large_power()</b> that takes two parameters named <b>base</b> and <b>exponent</b>. If <b>base</b> raised to the <b>exponent</b>&nbsp;power is greater than <b>5000</b>, return <b>True</b>, otherwise return <b>False</b>",
                                                 "<b>Example 1:<br>input:</b> base = 5000, exponent = 1<br><b>output</b>: False<br><br><b>Example 2:<br>input: </b>base = 100, exponent = 2<br><b>output: </b>True",
                                                 "def large_power(base, exponent):",
+                                                "<div><div>print(large_power(2, 13))</div><div># should print True</div><div>print(large_power(2, 12))</div><div># should print False</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
                                                 "Go to <b>1. Large Power</b>",
                                                 "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
@@ -45,6 +46,7 @@
                                                 "Create a function called <b>over_budget</b> that has five parameters named <b>budget</b>, <b>food_bill</b>, <b>electricity_bill</b>, <b>internet_bill</b>, and <b>rent</b>.&nbsp;The function should return <b>True</b> if <b>budget</b> is less than the sum of the other four parameters — you’ve gone over budget! Return <b>False</b> otherwise.",
                                                 "<b>Example 1:<br>input: </b>budget = 10, food_bill = 2, electricity_bill = 2, internet_bill = 2, rent = 4<br><b>output: </b>False<br><b><br></b><b>Example 2:<br>input:&nbsp;</b>budget = 10, food_bill = 5, electricity_bill = 5, internet_bill = 10, rent = 10<br><b>output: </b>True",
                                                 "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):&nbsp;",
+                                                "<div><div>print(over_budget(100, 20, 30, 10, 40))</div><div># should print False</div><div>print(over_budget(80, 20, 30, 10, 30))</div><div># should print True</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
                                                 "Go to <b>2. Over Budget</b>",
                                                 "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
@@ -62,6 +64,7 @@
                                                 "Create a function named <b>twice_as_large()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> is more than double <b>num2</b>. Return <b>False</b> otherwise.",
                                                 "<b>Example 1:<br>input: </b>num1 = 20, num2 = 10<br><b>output: </b>False<br><br><b>Example 2:<br>input:&nbsp;</b>num1 = 21, num2 = 10<b><br>output: </b>True",
                                                 "def twice_as_large(num1, num2):",
+                                                "<div><div>print(twice_as_large(10, 5))</div><div># should print False</div><div>print(twice_as_large(11, 5))</div><div># should print True</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
                                                 "Go to <b>3. Twice As Large</b>",
                                                 "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
@@ -79,6 +82,7 @@
                                                 "Create a function called <b>divisible_by_ten()</b> that has one parameter named <b>num</b>. The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.",
                                                 "<b>Example 1:<br>input: </b>num = 51<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input: </b>num = 50<br><b>output: </b>True",
                                                 "def divisible_by_ten(num):",
+                                                "<div><div>print(divisible_by_ten(20))</div><div># should print True</div><div>print(divisible_by_ten(25))</div><div># should print False</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
                                                 "Go to <b>4. Divisible By Ten</b>",
                                                 "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
@@ -96,6 +100,7 @@
                                                 "Create a function named <b>not_sum_to_ten()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> and <b>num2</b> do not sum to <b>10</b>. Return <b>False</b> otherwise.",
                                                 "<b>Example 1:<br>input: </b>num1 = 10, num2 = 0<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>&nbsp;num1 = 10, num2 = -5<br><b>output: </b>True",
                                                 "def not_sum_to_ten(num1, num2):",
+                                                "<div><div>print(not_sum_to_ten(9, -1))</div><div># should print True</div><div>print(not_sum_to_ten(9, 1))</div><div># should print False</div><div>print(not_sum_to_ten(5,5))</div><div># should print False</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
                                                 "Go to <b>5. Not Sum To Ten Ten</b>",
                                                 "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
@@ -113,6 +118,7 @@
                                                 "Create a function named <b>in_range()</b> that has three parameters named <b>num</b>, <b>lower</b>, and <b>upper</b>. The function should return <b>True</b> if <b>num</b> is greater than or equal to <b>lower</b> and less than or equal to <b>upper</b>. Otherwise, return <b>False</b>.",
                                                 "<b>Example 1:<br>input: </b>num = 10, lower = 10, upper = 10<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input: </b>num = 5, lower = 10, upper = 20<br><b>output:&nbsp;</b>&nbsp;False<br><br><b>Example 3:</b><br><b>input: </b>num = 5, lower = 0, upper = 10<br><b>output:&nbsp;</b>&nbsp;True",
                                                 "def in_range(num, lower, upper):",
+                                                "<div><div>print(in_range(10, 10, 10))</div><div># should print True</div><div>print(in_range(5, 10, 20))</div><div># should print False</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
                                                 "Go to <b>1. In Range</b>",
                                                 "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
@@ -130,6 +136,7 @@
                                                 "<div>Create a function named&nbsp;<b>same_name()</b>&nbsp;that has two parameters named&nbsp;<b>your_name</b>&nbsp;and&nbsp;<b>my_name</b>.</div><div>If our names are identical, return&nbsp;<b>True</b>. Otherwise, return&nbsp;<b>False</b>.</div>",
                                                 "<b>Example 1:<br>input: </b>your_name = \"Colby\", my_name = \"Colby\"<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>your_name =&nbsp;\"Tina\", my_name = \"Amber\"<br><b>output: </b>False",
                                                 "def same_name(your_name, my_name):",
+                                                "<div><div>print(same_name(\"Colby\", \"Colby\"))</div><div># should print True</div><div>print(same_name(\"Tina\", \"Amber\"))</div><div># should print False</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
                                                 "Go to <b>2. Same Name</b>",
                                                 "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
@@ -144,26 +151,10 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "<div>Create a function named&nbsp;<b>always_false()&nbsp;</b>that has one parameter named&nbsp;<b>num</b>.<br><br></div><div>Using an if statement, your variable&nbsp;<b>num</b>, and the operators&nbsp;<b>&gt;</b>, and&nbsp;<b>&lt;</b>, make it so your function will return&nbsp;<b>False</b>&nbsp;no matter what number is stored in&nbsp;<b>num</b>.<br><br></div><div>An if statement that is always false is called a contradiction. You will rarely want to do this while programming, but it is important to realize it is possible to do this.</div>",
-                                                "<b>Example 1:<br>input: </b>num = 0<br><b>output:&nbsp;</b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num = 1<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num = -1<br><b>output: </b>False",
-                                                "def always_false(num):",
-                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
-                                                "Go to <b>3. Always False</b>",
-                                                "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
-                                                "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
-                                                "",
-                                                "1ee91d01-9753-4d09-8760-a157dce1f086"
-                                            ],
-                                            "guid": "d(Dm~V5VS&",
-                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
                                                 "<div>Create a function named&nbsp;<b>movie_review()</b>&nbsp;that has one parameter named&nbsp;<b>rating</b>.</div><div>If&nbsp;<b>rating</b>&nbsp;is less than or equal to&nbsp;<b>5</b>, return&nbsp;<b>\"Avoid at all costs!\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is between&nbsp;<b>5</b>&nbsp;and&nbsp;<b>9</b>, return&nbsp;<b>\"This one was fun.\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is&nbsp;<b>9</b>&nbsp;or above, return&nbsp;<b>\"Outstanding!\"</b></div>",
                                                 "<b>Example 1:<br>input: </b>rating = 9<br><b>output:&nbsp;</b>\"Outstanding!\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>rating =&nbsp;4<br><b>output:&nbsp;</b>\"Avoid at all costs!\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>rating =&nbsp;6<br><b>output:&nbsp;</b>\"This one was fun.\"",
                                                 "def movie_review(rating):",
+                                                "<div><div>print(movie_review(9))</div><div># should print \"Outstanding!\"</div><div>print(movie_review(4))</div><div># should print \"Avoid at all costs!\"</div><div>print(movie_review(6))</div><div># should print \"This one was fun.\"</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
                                                 "Go to <b>4. Movie Review</b>",
                                                 "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
@@ -181,6 +172,7 @@
                                                 "<div>Create a function called&nbsp;<b>max_num()</b>&nbsp;that has three parameters named&nbsp;<b>num1</b>,&nbsp;<b>num2</b>, and&nbsp;<b>num3</b>.</div><div>The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return&nbsp;<b>\"It's a tie!\"</b>.</div>",
                                                 "<b>Example 1:<br>input: </b>num1 = -10, num2 = 0, num3 = 10<br><b>output: </b>10<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num1 = -10, num2 = 5, num3 = -30<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num1 = -5, num2 = -10, num3 = -10<br><b>output: </b>-5<br><br><b>Example 4:<br>input:&nbsp;</b>num1 = 2, num2 = 3, num3 = 3<b><br>output: </b>\"It's a tie!\"<b><br></b>",
                                                 "def max_num(num1, num2, num3):",
+                                                "<div><div>print(max_num(-10, 0, 10))</div><div># should print 10</div><div>print(max_num(-10, 5, -30))</div><div># should print 5</div><div>print(max_num(-5, -10, -10))</div><div># should print -5</div><div>print(max_num(2, 3, 3))</div><div># should print \"It's a tie!\"</div></div>",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
                                                 "Go to <b>5. Max Number</b>",
                                                 "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
@@ -189,6 +181,81 @@
                                                 "db26d26e-a48d-4e16-b612-0abc0f1c83b9"
                                             ],
                                             "guid": "t<[oZd:,9|",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "00b00cb6-0440-11ec-a2b6-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-503bc30c9df797c806ce94860ba11f545f51a32e.jpg",
+                                        "paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg",
+                                        "paste-5b70491a5e3040310a96544f5494dc9aae7c81fd.jpg",
+                                        "paste-6bb5f2c36249b685ab2d52eb97dccc523494577c.jpg",
+                                        "paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg",
+                                        "paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg"
+                                    ],
+                                    "name": "Functions",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-5b70491a5e3040310a96544f5494dc9aae7c81fd.jpg\">",
+                                                "<b>Example 1:<br>input: </b>first_name = \"James\", last_name = \"Bond\"<br><b>output: </b>\"Bond, James Bond\"<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>first_name = \"Maya\", last_name = \"Angelou\"<br><b>output: </b>\"Angelou, Maya Angelou\"<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>first_name = \"Seth\", last_name = \"Samuelson\"<br><b>output: </b>\"Samuelson, Seth Samuleson\"",
+                                                "",
+                                                "",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                                "Go to <b>3. Bond, James Bond</b>",
+                                                "def introduction(first_name, last_name):<br>&nbsp; &nbsp; return last_name +&nbsp;\", \" +&nbsp;first_name +&nbsp;\" \" +&nbsp;last_name",
+                                                "<img src=\"paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg\">",
+                                                "",
+                                                "4B2F7F7F-BFAD-40CE-B2C7-ED1662A0DA51"
+                                            ],
+                                            "guid": "m<CgM1S3qp",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-6bb5f2c36249b685ab2d52eb97dccc523494577c.jpg\">",
+                                                "<b>Example 1:<br>input: </b>name&nbsp; = \"Lola\", age = 16<br><b>output:&nbsp;</b>\"Lola, you are 112 years old in dog years\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>name&nbsp; = \"Baby\", age = 0<br><b>output:&nbsp;</b>\"Baby, you are 0 years old in dog years\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>name&nbsp; = \"Bob\", age = 10<br><b>output:&nbsp;</b>\"Bob, you are 70 years old in dog years\"",
+                                                "def dog_years(name, age):",
+                                                "",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                                "Go to <b>4. Dog Years</b>",
+                                                "def dog_years(name, age):<br>&nbsp; &nbsp; return name+\", you are \"+str(age *&nbsp;7)+\" years old in dog years\"",
+                                                "<img src=\"paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg\">",
+                                                "",
+                                                "0BD5C3B1-73B9-41FB-A88B-3FE29168D3D4"
+                                            ],
+                                            "guid": "e17jE8?LB3",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-503bc30c9df797c806ce94860ba11f545f51a32e.jpg\">",
+                                                "<b>Example 1:<br>input: </b>a = 1, b = 2, c = 3, d = 4<br><b>output: <br></b># it should print:<br>3<br>-1<br>-3<br># and it should return:<br>0<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>a = 1, b = 1, c = 1, d = 1<br><b>output: </b><br># it should print:<br>2<br>0<br>0<br># and it should return:<br>0",
+                                                "def lots_of_math(a, b, c, d):<br>&nbsp; &nbsp;&nbsp;<br><br><div># Test your lots_of_math function:</div><div>print(lots_of_math(1, 2, 3, 4)) # should print 3, -1, -3, 0</div><div>print(lots_of_math(1, 1, 1, 1)) # should print 2, 0, 0, 0</div>",
+                                                "",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                                "Go to <b>5. All Operations</b>",
+                                                "def lots_of_math(a, b, c, d):<br>&nbsp;&nbsp;&nbsp; first =&nbsp;a +&nbsp;b<br>&nbsp;&nbsp;&nbsp;&nbsp;second =&nbsp;c -&nbsp;d<br>&nbsp;&nbsp;&nbsp;&nbsp;third =&nbsp;first *&nbsp;second<br>&nbsp;&nbsp;&nbsp; fourth =&nbsp;third %&nbsp;a<br>&nbsp;&nbsp;&nbsp; print(first)<br>&nbsp;&nbsp;&nbsp; print(second)<br>&nbsp;&nbsp;&nbsp; print(third)<br>&nbsp;&nbsp;&nbsp; return fourth",
+                                                "<img src=\"paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg\">",
+                                                "",
+                                                "56000CF9-5A14-4239-A99F-C42824E097A1"
+                                            ],
+                                            "guid": "sIiEOZE]tH",
                                             "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
                                             "tags": []
                                         }
@@ -213,6 +280,7 @@
                                                 "<div>Create a function called&nbsp;<b>append_size</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should append the size of&nbsp;<b>lst</b>&nbsp;(inclusive) to the end of&nbsp;<b>lst</b>. The function should then return this new list.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;was&nbsp;<b>[23, 42, 108]</b>, the function should return&nbsp;<b>[23, 42, 108, 3]</b>&nbsp;because the size of&nbsp;<b>lst</b>&nbsp;was originally&nbsp;<b>3</b>.</div>",
                                                 "<b>Example 1:</b><br><b>input: </b>lst =&nbsp;[10, 100, 23, 18]<br><b>output:&nbsp;</b>[10, 100, 23, 18, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = []<br><b>output: </b>[0]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [9]<br><b>output: </b>[9, 1]",
                                                 "def append_size(lst):",
+                                                "print(append_size([10, 100, 23, 18]))&nbsp;<br># should print [10, 100, 23, 18, 4]<br>print(append_size([]))<br># should print [0]<br>print(append_size([9]))<br># should print [9, 1]",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
                                                 "Go to <b>1. Append Size</b>",
                                                 "def append_size(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(len(lst))<br>&nbsp;&nbsp;&nbsp; return lst",
@@ -230,6 +298,7 @@
                                                 "<div>Write a function named&nbsp;<b>append_sum</b>&nbsp;that has one parameter — a list named named&nbsp;<b>lst</b>.<br><br></div><div>The function should add the last two elements of&nbsp;<b>lst</b>&nbsp;together and append the result to&nbsp;<b>lst</b>. It should do this process three times and then return&nbsp;<b>lst</b>.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;started as&nbsp;<b>[1, 1, 2]</b>, the final result should be&nbsp;<b>[1, 1, 2, 3, 5, 8]</b>.</div>",
                                                 "<b>Example 1:<br>input:&nbsp;</b>lst = [5, 2]<br><b>output: </b>[5, 2, 7, 9, 16]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [100, 12, 37, 2, 1]<br><b>output:&nbsp;</b>[100, 12, 37, 2, 1, 3, 4, 7]<br><br><b>Example 3: </b><br><b>input:&nbsp;</b>lst = [1, 1]<br><b>output: </b>[1, 1, 2, 3, 5]",
                                                 "def append_sum(lst):",
+                                                "print(append_sum([5, 2]))<br># should print [5, 2, 7, 9, 16]<br>print(append_sum([100, 12, 37, 2, 1]))<br># should print [100, 12, 37, 2, 1, 3, 4, 7]<br>print(append_sum([1, 1]))<br># should print [1, 1, 2, 3, 5]",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
                                                 "Go to <b>2. Append Sum</b>",
                                                 "def append_sum(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; return lst",
@@ -247,6 +316,7 @@
                                                 "<div>Write a function named&nbsp;<b>larger_list</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should return the last element of the list that contains more elements. If both lists are the same size, then return the last element of&nbsp;<b>lst1</b>.</div>",
                                                 "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<br><b>output:&nbsp;</b>5<br><br><b>Example 2:</b><br><b>input: </b>lst1 = [1, 2, 3, 4], lst2 = [1, 2]<br><b>output:&nbsp;</b>4<br><br><b>Example 3:</b><br><b>input: </b>lst1 = [2, 6, 3], lst2 = [4, 6, 8, 1]<br><b>output: </b>1",
                                                 "def larger_list(lst1, lst2):",
+                                                "print(larger_list([4, 10, 2, 5], lst2 = [-10, 2, 5, 10]))<br># should print 5<br>print(larger_list(&nbsp;[1, 2, 3, 4], [1, 2]))<br># should print 4<br>print(larger_list(&nbsp;[2, 6, 3], [4, 6, 8, 1]))<br># should print 1",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
                                                 "Go to <b>3. Larger List</b>",
                                                 "def larger_list(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; if len(lst1) &gt;= len(lst2):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst1[-1]<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst2[-1]",
@@ -264,6 +334,7 @@
                                                 "<div>Create a function named&nbsp;<b>more_than_n</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item</b>, and&nbsp;<b>n</b>.<br><br></div><div>The function should return&nbsp;<b>True</b>&nbsp;if&nbsp;<b>item</b>&nbsp;appears in the list more than&nbsp;<b>n</b>&nbsp;times. The function should return&nbsp;<b>False</b>&nbsp;otherwise.</div>",
                                                 "<b>Example 1:<br>input: </b>lst = [2, 4, 6, 2, 3, 2, 1, 2], item = 2, n = 3<b><br></b><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 3<br><b>output: </b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 2<br><b>output: </b>True",
                                                 "def more_than_n(lst, item, n):",
+                                                "print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], item = 2, n = 3))<br># should print True<br>print(more_than_n([1, 1, 1], item = 1, n = 3))<br># should print False<br>print(more_than_n([1, 1, 1], item = 1, n = 2))<br># should print True",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
                                                 "Go to <b>4. More Than N</b>",
                                                 "def more_than_n(lst, item, n):<br>&nbsp;&nbsp;&nbsp; if lst.count(item) &gt; n:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
@@ -279,8 +350,9 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "<div>Write a function named&nbsp;<b>combine_sort</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should combine these two lists into one new list and sort the result. Return the new sorted list.</div>",
-                                                "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<b><br></b><b>output:&nbsp;</b>[-10, 2, 2, 4, 5, 5, 10, 10]<b><br><br>Example 2:<br>input:&nbsp;</b>lst1 = [10, 5, 15], lst2 = [50, 5, 6]<b><br></b><b>output:&nbsp;</b>[5, 5, 6, 10, 15, 50]<br><b><br></b><b>Example 3:<br>input:&nbsp;</b>lst1 =&nbsp;[1, 3, 5], lst2 = [2, 4, 6]<b><br></b><b>output:&nbsp;</b>[1, 2, 3, 4, 5]<b><br></b>",
+                                                "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<b><br></b><b>output:&nbsp;</b>[-10, 2, 2, 4, 5, 5, 10, 10]<b><br><br>Example 2:<br>input:&nbsp;</b>lst1 = [10, 5, 15], lst2 = [50, 5, 6]<b><br></b><b>output:&nbsp;</b>[5, 5, 6, 10, 15, 50]<br><b><br></b><b>Example 3:<br>input:&nbsp;</b>lst1 =&nbsp;[1, 3, 5], lst2 = [2, 4, 6]<b><br></b><b>output:&nbsp;</b>[1, 2, 3, 4, 5]",
                                                 "def combine_sort(lst1, lst2):",
+                                                "print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))<br># should print [-10, 2, 2, 4, 5, 5, 10, 10]<br>print(combine_sort([10, 5, 15], [50, 5, 6]))<br># should print [5, 5, 6, 10, 15, 50]<br>print(combine_sort([1, 3, 5], [2, 4, 6]))<br># should print [1, 2, 3, 4, 5]",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
                                                 "Go to <b>5. Combine Sort</b>",
                                                 "def combine_sort(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; unsorted = lst1 + lst2<br>&nbsp;&nbsp;&nbsp; sortedList = sorted(unsorted)<br>&nbsp;&nbsp;&nbsp; return sortedList",
@@ -298,6 +370,7 @@
                                                 "<div>Create a function called&nbsp;<b>every_three_nums</b>&nbsp;that has one parameter named&nbsp;<b>start</b>.<br><br></div><div>The function should return a list of every third number between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>100</b>&nbsp;(inclusive). For example,&nbsp;<b>every_three_nums(91)</b>&nbsp;should return the list&nbsp;<b>[91, 94, 97, 100]</b>. If&nbsp;<b>start</b>&nbsp;is greater than&nbsp;<b>100</b>, the function should return an empty list.</div>",
                                                 "<b>Example 1:<br>input: </b>start = 91<br><b>output:&nbsp;</b>[91, 94, 97, 100]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>start = 92<br><b>output:&nbsp;</b>[92, 95, 98]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>start = -10<br><b>output:&nbsp;</b>[-10, -7, -4, -1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, 98]",
                                                 "def every_three_nums(start):",
+                                                "print(every_three_nums(91))<br># should print [91, 94, 97, 100]<br>print(every_three_nums(92))<br># should print [92, 95, 98]<br>print(every_three_nums(-10))<br># should print [-10, -7, -4, -1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, 98]",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
                                                 "Go to <b>1. Every Three Numbers</b>",
                                                 "def every_three_nums(start):<br>&nbsp; &nbsp; return list(range(start, 101, 3))",
@@ -315,6 +388,7 @@
                                                 "<div>Create a function named&nbsp;<b>remove_middle</b>&nbsp;which has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>start</b>, and&nbsp;<b>end</b>.<br><br></div><div>The function should return a list where all elements in&nbsp;<b>lst</b>&nbsp;with an index between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>end</b>&nbsp;(inclusive) have been removed.<br></div>",
                                                 "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8,&nbsp;15, 16, 23, 42], start = 1, end = 3<br><b>output:&nbsp;</b>[4, 23, 42]<br><br><b>Example 2:</b><br><b>input: </b>lst = [0, 1, 2, 3, 4, 5], start = 1, end = 4<br><b>output: </b>[0, 5]<br><br><b>Example 3:</b><br><b>input: </b>lst = [5, 8, 3, 6, 4], start = 0, end = 4<br><b>output: </b>[]",
                                                 "def remove_middle(lst, start, end):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
                                                 "Go to <b>2. Remove Middle</b>",
                                                 "def remove_middle(lst, start, end):<br>&nbsp; &nbsp; return lst[:start] +&nbsp;lst[end+1:]",
@@ -332,6 +406,7 @@
                                                 "<div>Create a function named&nbsp;<b>more_frequent_item</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item1</b>, and&nbsp;<b>item2</b>.<br><br></div><div>Return either&nbsp;<b>item1</b>&nbsp;or&nbsp;<b>item2</b>&nbsp;depending on which item appears more often in&nbsp;<b>lst</b>.<br><br></div><div>If the two items appear the same number of times, return&nbsp;<b>item1</b>.</div>",
                                                 "def more_frequent_item(lst, item1, item2):",
                                                 "<b>Example 1:<br>input:&nbsp;</b>lst = [2, 3, 3, 2, 3, 2, 3, 2, 3], item1 = 2, item2 = 3<b><br>output: </b>3<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [0, 0, 1, 1], item1 = 0, item2 = 1<b><br>output: </b>0<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 0, 1], item1 = 0, item2 = 1<b><br>output: </b>1",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
                                                 "Go to <b>3. More Frequent Item</b>",
                                                 "def more_frequent_item(lst, item1, item2):<br>&nbsp; &nbsp; if lst.count(item1) &gt;= lst.count(item2):<br>&nbsp; &nbsp; &nbsp; &nbsp; return item1<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return item2",
@@ -349,6 +424,7 @@
                                                 "<div>Create a function named&nbsp;<b>double_index</b>&nbsp;that has two parameters: a list named&nbsp;<b>lst</b>&nbsp;and a single number named&nbsp;<b>index</b>.<br><br></div><div>The function should return a new list where all elements are the same as in&nbsp;<b>lst</b>&nbsp;except for the element at&nbsp;<b>index</b>. The element at&nbsp;<b>index</b>&nbsp;should be double the value of the element at&nbsp;<b>index</b>&nbsp;of the original&nbsp;<b>lst</b>.<br><br></div><div>If&nbsp;<b>index</b>&nbsp;is not a valid index, the function should return the original list.<br><br>Do NOT modify the input list.</div>",
                                                 "<b>Example 1:<br>input: </b>lst = [1, 2, 3, 4], index = 2<b><br>output: </b>[1, 2, 6, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:&nbsp;</b>[1, 2, 3, 4]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:</b>",
                                                 "def double_index(lst, index):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
                                                 "Go to <b>4. Double Index</b>",
                                                 "def double_index(lst, index):<br>&nbsp; &nbsp; # Checks to see if index is too big or too small<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; # Gets the original list up to index<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_lst = lst[0:index]<br><br>&nbsp; &nbsp; # Adds double the value at index to the new list<br>&nbsp;&nbsp;&nbsp; new_lst.append(lst[index] * 2)<br><br>&nbsp; &nbsp; #&nbsp; Adds the rest of the original list<br>&nbsp;&nbsp;&nbsp; new_lst = new_lst + lst[index + 1:]<br>&nbsp;&nbsp;&nbsp; return new_lst",
@@ -366,6 +442,7 @@
                                                 "<div>Create a function called&nbsp;<b>middle_element</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>If there are an odd number of elements in&nbsp;<b>lst</b>, the function should return the middle element. If there are an even number of elements, the function should return the average of the middle two elements.</div>",
                                                 "<b>Example 1:<br>input: </b>lst =<b>&nbsp;</b>[5, 2, -10, -4, 4, 5]<b><br></b><b>output: </b>-7.0<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[5, 2, -10, -4, 4]<br><b>output:&nbsp;</b>-10<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[1, 2, 3, 4]<br><b>output: </b>2.5",
                                                 "def middle_element(lst):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
                                                 "Go to <b>5. Middle Item</b>",
                                                 "def middle_element(lst):<br>&nbsp;&nbsp;&nbsp; if len(lst) % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = lst[int(len(lst) / 2)] + lst[int(len(lst) / 2) - 1]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sum / 2<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst[int(len(lst) / 2)]",
@@ -419,6 +496,7 @@
                                                 "<div>Create a function named&nbsp;<b>divisible_by_ten()</b>&nbsp;that takes a list of numbers named&nbsp;<b>nums</b>&nbsp;as a parameter.<br><br></div><div>Return the count of how many numbers in the list are divisible by 10.</div>",
                                                 "<b>Example 1:<br>input:&nbsp;</b>[20, 25, 30, 35, 40]<b><br></b><b>output: </b>3<br><br><b>Example 2:</b><br><b>input: </b>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br><b>output: </b>1<br><br><b>Example 3:</b><br><b>input: </b>[5, 15, 25]<br><b>output: </b>0",
                                                 "def divisible_by_ten(nums):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
                                                 "Go to <b>1. Divisible By Ten</b>",
                                                 "def divisible_by_ten(nums):<br>&nbsp;&nbsp;&nbsp; count = 0<br>&nbsp;&nbsp;&nbsp; for number in nums:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if number % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count += 1<br>&nbsp;&nbsp;&nbsp; return count",
@@ -436,6 +514,7 @@
                                                 "<div>Create a function named&nbsp;<b>add_greetings()</b>&nbsp;which takes a list of strings named&nbsp;<b>names</b>&nbsp;as a parameter.<br><br></div><div>In the function, create an empty list that will contain each greeting. Add the string&nbsp;<b>'Hello, '</b>&nbsp;in front of each name in&nbsp;<b>names</b>&nbsp;and&nbsp;<b>append</b>&nbsp;the greeting to the list.<br><br></div><div>Return the new list containing the greetings.</div>",
                                                 "<b>Example 1:<br>input: </b>names = [\"Seth\", \"Alex\", \"Paul\"]<br><b>output:&nbsp;</b>['Hello, Seth', 'Hello, Alex', 'Hello, Paul']<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>names = []<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input: </b>[\"Elon\"]<br><b>output: </b>[\"Hello, Elon\"]",
                                                 "def add_greetings(names):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
                                                 "Go to <b>2. Greetings</b>",
                                                 "def add_greetings(names):<br>&nbsp;&nbsp;&nbsp; new_list = []<br>&nbsp;&nbsp;&nbsp; for name in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_list.append('Hello, ' + name)<br>&nbsp;&nbsp;&nbsp; return new_list",
@@ -453,6 +532,7 @@
                                                 "<div>Write a function called&nbsp;<b>delete_starting_evens()</b>&nbsp;that has a parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should remove elements from the front of&nbsp;<b>lst</b>&nbsp;until the front of the list is not even. The function should then return&nbsp;<b>lst</b>.</div>",
                                                 "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8, 10, 11, 12, 15]<br><b>output:&nbsp;</b>[11, 12, 15]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[2, 4, 6, 8]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 2, 4, 6, 8, 10, 12]<br><b>output:&nbsp;</b>[1, 2, 4, 6, 8, 10, 12]",
                                                 "def delete_starting_evens(lst):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
                                                 "Go to <b>3. Delete Starting Even Numbers</b>",
                                                 "def delete_starting_evens(lst):<br>&nbsp;&nbsp;&nbsp; while len(lst) &gt; 0 and lst[0] % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lst = lst[1:]<br>&nbsp;&nbsp;&nbsp; return lst",
@@ -470,6 +550,7 @@
                                                 "<img src=\"paste-14420c3abac7fecd932df0794506b3049f0b5f5e.jpg\">",
                                                 "<b>Example 1:<br>input: </b>lst = [4, 3, 7, 10, 11, -2]<b><br>output: </b>[3, 10, -2]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[10, 4, 5, 3]<br><b>output:&nbsp;</b>[4, 3]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[0, 1, 2, 3, 4]<br><b>output:&nbsp;</b>[1, 3]",
                                                 "def odd_indices(lst):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
                                                 "Go to <b>4. Odd Indices</b>",
                                                 "<img src=\"paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg\">",
@@ -487,6 +568,7 @@
                                                 "<img src=\"paste-07bd6d3d5ad86bc5d16483286db34eb97d898fa9.jpg\">",
                                                 "<b>Example 1:<br>input: </b>bases = [2, 3, 4], powers = [1, 2, 3]<br><b>output:&nbsp;</b>[2, 4, 8, 3, 9, 27, 4, 16, 64]<br><br><b>Example 2:</b><br><b>input: </b>bases = [10, 20], powers = [1, 2]<br><b>output: </b>[10, 100, 20, 400]<br><br><b>Example 3:</b><br><b>input: </b>bases = [10], powers = [1]<br><b>output: </b>[10]",
                                                 "def exponents(bases, powers):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
                                                 "Go to <b>5. Exponents</b>",
                                                 "<img src=\"paste-5844996fd259dedb3fd684a67698333904129ae5.jpg\">",
@@ -504,6 +586,7 @@
                                                 "<img src=\"paste-31b11bb98119df221265b42a145da6bb2a6b62d9.jpg\">",
                                                 "<b>Example 1:<br>input: </b>lst1 = [1, 9, 5], lst2 = [2, 3, 7]<b><br>output:&nbsp;</b>[1, 9, 5]<b><br><br>Example 2:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 4, 5], lst2 = [7, 2, 1]<b><br>output:&nbsp;</b>[1, 4, 5]<b><br><br>Example 3:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 9, 5], lst2 = [6, 5, 9]<b><br>output:&nbsp;</b>[6, 5, 9]",
                                                 "def larger_sum(lst1, lst2):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
                                                 "Go to <b>1. Larger Sum</b>",
                                                 "<img src=\"paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg\">",
@@ -521,6 +604,7 @@
                                                 "<img src=\"paste-271f8d8325a0fcb9383d959a42530dd32c74f35d.jpg\">",
                                                 "<b>Example 1:<br>input: </b>lst =&nbsp;[8000, 900, 120, 5000]<br><b>output: </b>9020<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [9000, 100, 200]<br><b>output: </b>9100<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[9001, 100, 200]<br><b>output: </b>9001<br><br><b>Example 4:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>5",
                                                 "def over_nine_thousand(lst):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
                                                 "Go to <b>2. Over 9000</b>",
                                                 "<img src=\"paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg\">",
@@ -538,6 +622,7 @@
                                                 "<img src=\"paste-ff9b503a7e49a53d3297b94485031de0d67ffacd.jpg\">",
                                                 "<b>Example 1:<br>input: </b>nums =&nbsp;[50, -10, 0, 75, 20]<br><b>output: </b>75<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>nums = [1, 2, 3, 4, 5]<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>nums = [7, 4, 2, 6, 4]<br><b>output: </b>7",
                                                 "def max_num(nums):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
                                                 "Go to <b>3. Max Num</b>",
                                                 "<img src=\"paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg\">",
@@ -555,6 +640,7 @@
                                                 "<img src=\"paste-e00c213ce87cdba4828f0329a87b4a49f9570e9e.jpg\"><br>You can assume lists are of equal length.",
                                                 "<b>Example 1:<br>input: </b>lst1 = [5, 1, -10, 3, 3], lst2 =&nbsp;[5, 10, -10, 3, 5]<br><b>output:&nbsp;</b>[0, 2, 3]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[20, 10, 40, 30]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[10, 20, 30, 40]<br><b>output:&nbsp;</b>[0, 1, 2, 3]",
                                                 "def same_values(lst1, lst2):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
                                                 "Go to <b>4. Same Values</b>",
                                                 "<img src=\"paste-da74bad6b566275caf1f964216fe435212b24903.jpg\">",
@@ -572,6 +658,7 @@
                                                 "<img src=\"paste-ff26106a80a2f4ae69a3e2a2702e74338a3a6851.jpg\"><br>You can assume both input lists are of equal length.",
                                                 "<b>Example 1:<br>input: </b>lst1 = [1, 2, 3], lst2 = [3, 2, 1]<br><b>output:&nbsp;</b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [1, 2, 3], lst2 =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [16, 3, 6], lst2 =&nbsp;[3, 6, 4]<br><b>output: </b>False",
                                                 "def reversed_list(lst1, lst2):",
+                                                "",
                                                 "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
                                                 "Go to <b>5. Reversed List</b>",
                                                 "<img src=\"paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg\">",
@@ -966,7 +1053,7 @@
                                     "fields": [
                                         "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")\n<br>print(\"C\")",
                                         "A<br>C",
-                                        "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to.",
+                                        "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to.<br><br># Also, realize that the code above is basically the same as:<br><br>if 1 == 1:<br>&nbsp; &nbsp; print(\"A\")<br>if 1 == 2:<br>&nbsp; &nbsp; print(\"B\")<br>print(\"C\")<br><br># The code directly above turns into:<br>if True:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")&nbsp;<br>print(\"C\")<br><br># Because the boolean expression <b>1 == 1</b>&nbsp;and <b>1 == 2</b>&nbsp;evaluate into a boolean which equal True or False.<br><br>print(1 == 1) # prints True<br>print(1 == 2) # prints False",
                                         "",
                                         "0d84db6c-bf2e-474f-b85d-66fc99ce0f2a"
                                     ],
@@ -1018,7 +1105,7 @@
                                     "fields": [
                                         "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif True:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
                                         "B",
-                                        "The blocks of code within if, elif, and else statements are mutually exclusive.",
+                                        "The blocks of code within if, elif, and else statements are mutually exclusive.<br><br><b>elif</b> always has to come after another <b>if </b>or <b>elif </b>statement, and will only execute if the previous <b>if </b>or <b>elif</b>&nbsp;statement evaluated to <b>False</b>. Same with the <b>else</b> statement. The <b>else</b> statement doesn't execute because the previous <b>elif</b>&nbsp;statement evaluated to <b>True</b>, not <b>False</b>.",
                                         "",
                                         "4161a521-f003-47fb-9f46-0b51fe35bfcb"
                                     ],
@@ -1073,7 +1160,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.",
+                                        "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.<br><br>example:<br><br>num = 10<br>{{c1::if}} num == 10:<br>&nbsp; &nbsp; print(\"num equals ten\")<br>else:<br>&nbsp; &nbsp; print(\"num does not equal ten\")",
                                         "<img src=\"LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png\">",
                                         "",
                                         "43632892-5A88-4840-9B46-EC98AEF72223"
@@ -1098,7 +1185,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "The {{c1::else}} statement provides alternate code to execute if the expression in an `if` statement evaluates to `False`.",
+                                        "The {{c1::else}} statement provides alternate code to execute if the expression in an `if` statement evaluates to `False`.<br><br># example:<br>if False:<br>&nbsp; &nbsp; print(\"This won't print\")<br>{{c1::else}}:<br>&nbsp; &nbsp; print(\"This will print though\")",
                                         "<img src=\"467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png\">",
                                         "",
                                         "2CC95ABC-272D-4A72-A39C-F63B93BE7143"
@@ -1266,9 +1353,9 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "# Mutate the matrix below to equal [[\"A\": 0], [\"B\": 1]]<br><br>matrix = [[\"A\": 0], [\"B\": 999]]",
+                                                        "# Mutate the matrix below to equal [[\"A\", 0], [\"B\", 1]]<br><br>matrix = [[\"A\", 0], [\"B\", 999]]",
                                                         "matrix[1][1] = 1",
-                                                        "matrix = [[“A”: 0], [“B”: 999]]<br>print(matrix) # prints [[“A”: 0], [“B”: 999]]<br>matrix[1][1] = 1<br>print(matrix) # prints [[“A”: 0], [“B”: 1]]<br><br><img src=\"paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg\">",
+                                                        "matrix = [[“A”, 0], [“B”, 999]]<br>print(matrix) # prints [[“A”, 0], [“B”, 999]]<br>matrix[1][1] = 1<br>print(matrix) # prints [[“A”, 0], [“B”, 1]]<br><br><img src=\"paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg\">",
                                                         "",
                                                         "224724DF-14B1-4020-B483-3B220358B593"
                                                     ],
@@ -1517,7 +1604,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "# Using a list method, delete the number 2 from the list below<br>my_list = [1,2,3]",
+                                                        "# Using a list method, delete the number 2 from the list below. <br># Do <b>NOT</b>&nbsp;use the .pop() method, use a different method.<br><br>my_list = [1,2,3]<br><br>",
                                                         "my_list.remove(2)",
                                                         "<img src=\"XNAhF9atQ48AtJuXzQ4eXxB4VumAJQDR3qs4ftu8oc69eBOMfTXV01pW8EDF17YOjT8210foRwhiwAzrqyLSslg5vCBrWwIYs96ncN04Anqc0QmBAxE.png\">",
                                                         "",
@@ -1844,7 +1931,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "Syntax to slice the all elements of a list except the first two elements?",
+                                                        "Syntax to slice all elements of a list except the first two elements?",
                                                         "list[2:]",
                                                         "",
                                                         "",
@@ -3064,7 +3151,7 @@
                                             "fields": [
                                                 "print(True and False)",
                                                 "False",
-                                                "",
+                                                "The and operator returns True only if both it's left and right operand result in True.",
                                                 "",
                                                 "7f33faa9-393a-44ef-8af8-2a551623cbb5"
                                             ],
@@ -3290,7 +3377,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "print( (2 &gt; 1) == (1 &lt; 2) )",
+                                                "print( (1 &lt; 2) == (1 &lt; 2) )",
                                                 "True",
                                                 "",
                                                 "",
@@ -3448,7 +3535,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "{{c1::&lt;}} is the \"less than\" comparison operator.",
+                                                "{{c1::&lt;}} and {{c1::&gt;}} are&nbsp;the \"less than\" and \"greater than\" comparison operators.<br><br>",
                                                 "",
                                                 "",
                                                 "A3C9E324-AA0A-4D63-BE23-4C24F5B25E2A"
@@ -3460,36 +3547,12 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
-                                                "",
-                                                "",
-                                                "89377C9E-46B1-4542-B88F-4EA894E7985C"
-                                            ],
-                                            "guid": "IxDXX8<w&_",
-                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "{{c1::&gt;=}} is the \"greater than or equal to\" comparison operator.",
+                                                "{{c1::&gt;=}} and {{c1::&lt;=}} are&nbsp;the \"greater than or equal to\" and \"less than or equal to\" comparison operators.",
                                                 "",
                                                 "",
                                                 "E4E93142-A4AE-4C45-B0C5-773341551A55"
                                             ],
                                             "guid": "IjW?WuJofb",
-                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
-                                            "tags": []
-                                        },
-                                        {
-                                            "__type__": "Note",
-                                            "fields": [
-                                                "{{c1::&gt;}} is the \"greater than\" comparison operator.",
-                                                "",
-                                                "",
-                                                "E32DADA5-1C9F-4C94-888D-BEA6B019C7DD"
-                                            ],
-                                            "guid": "JOL}PkI0:}",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
                                         }
@@ -3550,7 +3613,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "What datatype is `True` and `False`?",
+                                        "What datatype is `True` or `False`?",
                                         "boolean",
                                         "<img src=\"paste-a2318102197fe84922949801efc722c27b5517a3.jpg\">",
                                         "",
@@ -4104,6 +4167,62 @@
             "media_files": [],
             "name": "Python 3",
             "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "00b88e90-0440-11ec-a2b6-3e22fb2860fe",
+            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Trash",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
+                        "",
+                        "",
+                        "89377C9E-46B1-4542-B88F-4EA894E7985C"
+                    ],
+                    "guid": "IxDXX8<w&_",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "{{c1::&gt;}} is the \"greater than\" comparison operator.",
+                        "",
+                        "",
+                        "E32DADA5-1C9F-4C94-888D-BEA6B019C7DD"
+                    ],
+                    "guid": "JOL}PkI0:}",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div><b>THIS CARD IS TRASH<br>Don't review it...</b><br><br><br>Create a function named&nbsp;<b>always_false()&nbsp;</b>that has one parameter named&nbsp;<b>num</b>.<br><br></div><div>Using an if statement, your variable&nbsp;<b>num</b>, and the operators&nbsp;<b>&gt;</b>, and&nbsp;<b>&lt;</b>, make it so your function will return&nbsp;<b>False</b>&nbsp;no matter what number is stored in&nbsp;<b>num</b>.<br><br></div><div>An if statement that is always false is called a contradiction. You will rarely want to do this while programming, but it is important to realize it is possible to do this.</div>",
+                        "<b>Example 1:<br>input: </b>num = 0<br><b>output:&nbsp;</b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num = 1<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num = -1<br><b>output: </b>False",
+                        "def always_false(num):",
+                        "<div><div>print(always_false(0))</div><div># should print False</div><div>print(always_false(-1))</div><div># should print False</div><div>print(always_false(1))</div><div># should print False</div></div>",
+                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                        "Go to <b>3. Always False</b>",
+                        "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
+                        "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
+                        "",
+                        "1ee91d01-9753-4d09-8760-a157dce1f086"
+                    ],
+                    "guid": "d(Dm~V5VS&",
+                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                    "tags": []
+                }
+            ]
         }
     ],
     "crowdanki_uuid": "9484cde0-ffb4-11eb-9d39-3e22fb2860fe",
@@ -4286,7 +4405,7 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "URL",
+                    "name": "Tests",
                     "ord": 3,
                     "rtl": false,
                     "size": 20,
@@ -4294,7 +4413,7 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "URL Instructions",
+                    "name": "URL",
                     "ord": 4,
                     "rtl": false,
                     "size": 20,
@@ -4302,7 +4421,7 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "Answer",
+                    "name": "URL Instructions",
                     "ord": 5,
                     "rtl": false,
                     "size": 20,
@@ -4310,7 +4429,7 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "Optional",
+                    "name": "Answer",
                     "ord": 6,
                     "rtl": false,
                     "size": 20,
@@ -4318,8 +4437,16 @@
                 },
                 {
                     "font": "Arial",
-                    "name": "Personal",
+                    "name": "Optional",
                     "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 8,
                     "rtl": false,
                     "size": 20,
                     "sticky": true
@@ -4327,7 +4454,7 @@
                 {
                     "font": "Arial",
                     "name": "ID",
-                    "ord": 8,
+                    "ord": 9,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -4344,7 +4471,8 @@
                     [
                         0,
                         1,
-                        2
+                        2,
+                        3
                     ]
                 ]
             ],
@@ -4352,7 +4480,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL}}):\n{{Tests}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{URL Instructions}}\n</div>\n\n{{#Optional}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n\n{{#Answer}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Answer}}\n\t</div>\n{{/Answer}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{Personal}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4360,7 +4488,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Test your code here: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
