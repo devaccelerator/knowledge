@@ -4183,7 +4183,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
+                        "<b>THIS CARD IS TRASH<br>Do not review this card...</b><br><br>{{c1::&lt;=}} is the \"less than or equal to\" comparison operator.",
                         "",
                         "",
                         "89377C9E-46B1-4542-B88F-4EA894E7985C"
@@ -4195,7 +4195,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "{{c1::&gt;}} is the \"greater than\" comparison operator.",
+                        "<b>THIS CARD IS TRASH<br>Do not review this card...</b><br><br>{{c1::&gt;}} is the \"greater than\" comparison operator.",
                         "",
                         "",
                         "E32DADA5-1C9F-4C94-888D-BEA6B019C7DD"
