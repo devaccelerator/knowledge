@@ -2047,6 +2047,126 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "42fbe38c-004a-11ec-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png",
+                                "FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png",
+                                "hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png",
+                                "paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg",
+                                "paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg",
+                                "paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg",
+                                "paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg",
+                                "paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg",
+                                "paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg"
+                            ],
+                            "name": "strings",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "A {{c1::string}} is a sequence of characters (letters, numbers, whitespace or punctuation) enclosed by quotation marks.",
+                                        "<img src=\"0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png\">",
+                                        "",
+                                        "92B6C52F-0F7C-4F16-9A4F-921061D881E8"
+                                    ],
+                                    "guid": "URG!nmUuU",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is a string?",
+                                        "'this is a string'",
+                                        "A sequence of characters enclosed by quotation marks",
+                                        "",
+                                        "a31fd9f8-a473-469e-bd56-262f0d263183"
+                                    ],
+                                    "guid": "P*B;b)ou{k",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": [
+                                        "codecademy",
+                                        "python"
+                                    ]
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to concatenate strings?",
+                                        "using the + operator",
+                                        "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\">",
+                                        "",
+                                        "9751817f-4937-4d45-9f2b-c9dc36a2d009"
+                                    ],
+                                    "guid": "J47SJG4XM#",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to declare a multi-line string?",
+                                        "'''<br>like<br>this<br>'''",
+                                        "<img src=\"hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png\">",
+                                        "",
+                                        "6d2fe013-af94-466c-b532-7b1ca09b755f"
+                                    ],
+                                    "guid": "c32[j7h^Cp",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg\">",
+                                        "<img src=\"paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg\">",
+                                        "",
+                                        "",
+                                        "3726a3ee-69cc-4b6a-864a-6ab3f7754255"
+                                    ],
+                                    "guid": "iX?ZrhvK2D",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg\">",
+                                        "<img src=\"paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg\">",
+                                        "",
+                                        "",
+                                        "72953836-c78a-459b-a293-50b46873e491"
+                                    ],
+                                    "guid": "A$SZ.NB+D)",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg\">",
+                                        "<img src=\"paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg\">",
+                                        "",
+                                        "",
+                                        "40eb6fe0-52ad-4047-aa68-c015edd307ca"
+                                    ],
+                                    "guid": "h31rQQzD8$",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "c89fc9fc-0074-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -3712,126 +3832,6 @@
                                         "b1347720-799e-4795-97b4-662b982684d2"
                                     ],
                                     "guid": "MshX*fFvY1",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                }
-                            ]
-                        },
-                        {
-                            "__type__": "Deck",
-                            "children": [],
-                            "crowdanki_uuid": "42fbe38c-004a-11ec-ac0f-3e22fb2860fe",
-                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
-                            "desc": "",
-                            "dyn": 0,
-                            "extendNew": 0,
-                            "extendRev": 0,
-                            "media_files": [
-                                "0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png",
-                                "FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png",
-                                "hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png",
-                                "paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg",
-                                "paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg",
-                                "paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg",
-                                "paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg",
-                                "paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg",
-                                "paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg"
-                            ],
-                            "name": "strings",
-                            "notes": [
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "A {{c1::string}} is a sequence of characters (letters, numbers, whitespace or punctuation) enclosed by quotation marks.",
-                                        "<img src=\"0QLlyvzKJFecih7xPD72ld8KWc08YEcZTzkBwZXnwLiC9KIJo5RcWoh6yEo-xEN9zT97X46BcI011ECB2wl1RQSJg6B36oRuRcp9cDn1LJoTeacSi-4.png\">",
-                                        "",
-                                        "92B6C52F-0F7C-4F16-9A4F-921061D881E8"
-                                    ],
-                                    "guid": "URG!nmUuU",
-                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": [
-                                        "codecademy",
-                                        "python"
-                                    ]
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "What is a string?",
-                                        "'this is a string'",
-                                        "A sequence of characters enclosed by quotation marks",
-                                        "",
-                                        "a31fd9f8-a473-469e-bd56-262f0d263183"
-                                    ],
-                                    "guid": "P*B;b)ou{k",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": [
-                                        "codecademy",
-                                        "python"
-                                    ]
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "How to concatenate strings?",
-                                        "using the + operator",
-                                        "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\">",
-                                        "",
-                                        "9751817f-4937-4d45-9f2b-c9dc36a2d009"
-                                    ],
-                                    "guid": "J47SJG4XM#",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "How to declare a multi-line string?",
-                                        "'''<br>like<br>this<br>'''",
-                                        "<img src=\"hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png\">",
-                                        "",
-                                        "6d2fe013-af94-466c-b532-7b1ca09b755f"
-                                    ],
-                                    "guid": "c32[j7h^Cp",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "<img src=\"paste-331c25474d8a9d679564d62b06953596f86e4c9c.jpg\">",
-                                        "<img src=\"paste-a344c24bf8a17b0925b927d9bf27ced50a9ec2b1.jpg\">",
-                                        "",
-                                        "",
-                                        "3726a3ee-69cc-4b6a-864a-6ab3f7754255"
-                                    ],
-                                    "guid": "iX?ZrhvK2D",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "<img src=\"paste-d50d1844c26295d78a753b9c6c199f590a8a272e.jpg\">",
-                                        "<img src=\"paste-ac8bf830b18795882ab3640bdca489afb46e4850.jpg\">",
-                                        "",
-                                        "",
-                                        "72953836-c78a-459b-a293-50b46873e491"
-                                    ],
-                                    "guid": "A$SZ.NB+D)",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "<img src=\"paste-cbb46354ad4f4176cff8fff55c2872a59d803bba.jpg\">",
-                                        "<img src=\"paste-caefc5d2105d44cb7624b977444653e283acdaf4.jpg\">",
-                                        "",
-                                        "",
-                                        "40eb6fe0-52ad-4047-aa68-c015edd307ca"
-                                    ],
-                                    "guid": "h31rQQzD8$",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
