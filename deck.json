@@ -1521,7 +1521,7 @@
                                                     "fields": [
                                                         "# using a list method, change `mylist` to be [1,2,3,4]&nbsp;<br><br>mylist = [1, 2, 4]",
                                                         "mylist.insert(2, 3)",
-                                                        "So now the number 3 is in the 2nd index of the list.<br><br>Before we inserted into the array, the number 4 was in the 2nd index of the list instead.",
+                                                        "So now the number 3 is in the 2nd index of the list.<br><br>Before we inserted into the list, the number 4 was in the 2nd index of the list instead.",
                                                         "",
                                                         "151ce7b5-7f01-4f6f-b18d-af96165f7bcb"
                                                     ],
@@ -3228,7 +3228,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "In Python, a {{c1::for}}&nbsp;loop can be used to perform an action a specific number of times in a row.",
+                                        "TRASH<br><br>In Python, a {{c1::for}}&nbsp;loop can be used to perform an action a specific number of times in a row.",
                                         "",
                                         "",
                                         "8c99ad21-ed01-4e12-a2c4-ff430dc2710c"
@@ -3240,7 +3240,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "A Python {{c1::for}}&nbsp;loop can be used to iterate over a list of items and perform a set of actions on each item.",
+                                        "A Python {{c1::for}}&nbsp;loop can be used to iterate over a list of items and perform a set of actions on each item or to perform an action a specific number of times in a row.<br><br>{{c1::for}} num in [1, 2, 3]:<br>&nbsp; &nbsp; print(num)<br><br># Prints:<br># 1<br>#&nbsp;2<br>#&nbsp;3",
                                         "",
                                         "",
                                         "e8713819-b176-4b22-8771-4ec888e34a1d"
