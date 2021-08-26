@@ -1237,6 +1237,19 @@
                     "children": [
                         {
                             "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "ea1f70b0-0618-11ec-9b0c-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "dictionaries",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
                             "children": [
                                 {
                                     "__type__": "Deck",
