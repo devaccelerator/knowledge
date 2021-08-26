@@ -1237,7 +1237,617 @@
                     "children": [
                         {
                             "__type__": "Deck",
-                            "children": [],
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b4bdc6-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629301724971,
+                                    "name": "accessing",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>data = {'a':1, 'b':2, 'c':3}\n<br>print(data['a'])</span>",
+                                                "1",
+                                                "Creating a dictionary and reading a value",
+                                                "",
+                                                "DDE0235C-180C-4EBE-A362-0F0CF3B6CE50"
+                                            ],
+                                            "guid": "x-wIEaML%$",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below?\n<br>my_dictionary = {\"A\": 1}\n<br>print(my_dictionary[\"B\"])",
+                                                "error",
+                                                "KeyError: 'B' <br>Attempting to access a value with a key that does not exist will cause a KeyError. <br>You cannot access key value pairs that do not exist in dictionaries. Don't confuse this with assigning a new key value pair to a dictionary. Assigning new key value pairs to a dictionary is allowed, but not accessing one that doesn't exist.",
+                                                "",
+                                                "8AA6A869-9479-4DF7-A766-8DA6A4318D39"
+                                            ],
+                                            "guid": "bLl:O]&bk;",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# Print the number 2 from the dictionary below\n<br>my_dictionary = {\"A\": 1, \"B\": 2}\n<br>print({{c1::my_dictionary[\"B\"]}}) # prints: 2",
+                                                "Values in a Python dictionary can be accessed by placing the key within square brackets next to the dictionary.",
+                                                "",
+                                                "8A355FAD-9FE4-4A29-AB37-BB78E4AA0363"
+                                            ],
+                                            "guid": "H>,D+?K.`Z",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b4e2d8-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "ytkVJpbHDFXKSHE_BosG7MTUISrl0-D5Vdcuc04V0g0I-awXHksfGFrn0TMJ2xGfFIp6yx0AwUo2SYicuhRdDE3fXH3KYYVXmMIkR9g9yUIjYhB3lRd.png"
+                                    ],
+                                    "mid": 1629300492637,
+                                    "name": "general",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "A python {{c1::dictionary}} is an unordered collection of items. It contains data as a set of key: value pairs.",
+                                                "<img src=\"ytkVJpbHDFXKSHE_BosG7MTUISrl0-D5Vdcuc04V0g0I-awXHksfGFrn0TMJ2xGfFIp6yx0AwUo2SYicuhRdDE3fXH3KYYVXmMIkR9g9yUIjYhB3lRd.png\">",
+                                                "",
+                                                "4FB0994D-81E2-4FFA-9218-99F49F2CFBAE"
+                                            ],
+                                            "guid": "Fx:#l++=~I",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b500ec-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "in keyword",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Define a function named <b>has_key</b> that takes in two arguments, <b>key</b>&nbsp;and <b>dictionary</b>. This function should return a boolean indicating whether or not the <b>dictionary</b> contains&nbsp;<b>key </b>as a key. If <b>dictionary</b> contains <b>key</b> as a key, the function should return <b>True</b>, else <b>False</b>.",
+                                                "<b>Example 1:<br>input: </b>dictionary = {1: 2}, key = 1<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>dictionary = {1: 2}, key = 2<b><br>output: </b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>dictionary = {1: 2}, key = \"a\"<b><br>output: </b>False",
+                                                "def has_key(dictionary, key):",
+                                                "print(has_key({1: 2}, 1))<br># should print: True<br>print(has_key({1: 2}, 2))<br># should print: False<br>print(has_key({1: 2}, \"a\"))<br># should print: False",
+                                                "",
+                                                "",
+                                                "def has_key(dictionary, key): <br>&nbsp; &nbsp; return key in dictionary",
+                                                "<span style=\"color: rgb(35, 39, 53);\"># some code snippets to help you understand:\n<br>dictionary = {\"a\": 1}\n<br>print(\"a\" in dictionary) # prints: True\n<br>print(\"b\" in dictionary) # prints: False\n<br>print(1 in dictionary) # prints: False\n<br># The last print statement returns False because the `X in dictionary` syntax only checks if `X` is a key of `dictionary`, not a value.</span>",
+                                                "",
+                                                "D5C5AC75-C9CB-45B4-98B0-F172EDC48376"
+                                            ],
+                                            "guid": "Rh/nHaccj^",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>x = {\"a\": 1}\n<br>print(\"a\" in x)</span>",
+                                                "True",
+                                                "",
+                                                "",
+                                                "988916EC-65A7-4613-A7B7-5904150D4A40"
+                                            ],
+                                            "guid": "hO3<-mLWyq",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(\"b\" in x)",
+                                                "False",
+                                                "",
+                                                "",
+                                                "4AA7A76F-666D-45F4-8730-E7FCB6991E16"
+                                            ],
+                                            "guid": "q9K+(c#dx?",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b52572-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "5-q-ee4xoCIhupJdt1c4jmcdjUxIsKIzlS0Q-717x7YBiAyZ0t77FudHKlDPHQu7zscDRPpn5dx0_yOe_tmpLdJ8cjDSLwDFbzmd9wwcMsIwlDmvuaT.png",
+                                        "SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png",
+                                        "YsuraYoPzf6_nNSOySvKXoNLDqOxPHTQcBcEUcHzQkHOUv533r-DUO64L09RXkEZZWGnaK0n6V-DBTGruE11meTFR7BKhsOkG8PVDBlFtqSE4SlETjV.png",
+                                        "Z31BbV_Bp86hSjjlq09ywWux8RTAa08JFgiQKtRB9Q-yf-MrpoAjb4rKIY-SL4YbFuFLO_NfdeRw-DClLM7lB1lkTx0ervPMzYhsBVfa1nbzebfL7aa.png",
+                                        "rQwj1Ypk86Mk3Q0ThHmAe8QJu41mpCf3fswrqfp2cuEIvXugUEOSy7lnmgyP3wvYb207Zl95Vy9gUtLztQPCGa6R4V5KnXcVWivXX9OBuHFOa0mZAMh.png"
+                                    ],
+                                    "name": "keys",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png\">",
+                                                "<img src=\"YsuraYoPzf6_nNSOySvKXoNLDqOxPHTQcBcEUcHzQkHOUv533r-DUO64L09RXkEZZWGnaK0n6V-DBTGruE11meTFR7BKhsOkG8PVDBlFtqSE4SlETjV.png\">",
+                                                "",
+                                                "",
+                                                "9F90EA15-D5D4-4D78-A7AC-1C2C177C738A"
+                                            ],
+                                            "guid": "HWV*/f;%Xk",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"rQwj1Ypk86Mk3Q0ThHmAe8QJu41mpCf3fswrqfp2cuEIvXugUEOSy7lnmgyP3wvYb207Zl95Vy9gUtLztQPCGa6R4V5KnXcVWivXX9OBuHFOa0mZAMh.png\">",
+                                                "<img src=\"5-q-ee4xoCIhupJdt1c4jmcdjUxIsKIzlS0Q-717x7YBiAyZ0t77FudHKlDPHQu7zscDRPpn5dx0_yOe_tmpLdJ8cjDSLwDFbzmd9wwcMsIwlDmvuaT.png\">",
+                                                "",
+                                                "",
+                                                "9F1CCC5C-D4AC-4837-9153-3F9BECF39AA0"
+                                            ],
+                                            "guid": "vY,pv>Ag1x",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "What can be used as a key (in regards to {key:value} pairs) in python dictionaries?",
+                                                "only immutable data types",
+                                                "such as strings, numbers, and tuples. anything that is mutable such as dictionaries or lists cannot be used.<br><br><img src=\"Z31BbV_Bp86hSjjlq09ywWux8RTAa08JFgiQKtRB9Q-yf-MrpoAjb4rKIY-SL4YbFuFLO_NfdeRw-DClLM7lB1lkTx0ervPMzYhsBVfa1nbzebfL7aa.png\">",
+                                                "",
+                                                "64163E94-CE53-4243-B100-92FF16C3B3BD"
+                                            ],
+                                            "guid": "cK2PWalwNo",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b565d2-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [
+                                                "am2XOED39Wdv5RVnr9QFIahXyF7yNxHFxWgtTXyy53nw23dtppT1djuL3l8Dhd5oLId5JbK-b8mcV7bFv5_r-JADmiVijpxCcA5ceV_anH2sZx_A4Kf.png"
+                                            ],
+                                            "mid": 1629301724971,
+                                            "name": "get",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>x = {\"a\": 1}\n<br>print(x.get(\"a\", 999))</span>",
+                                                        "999",
+                                                        "The value associated wth \"a\" is 1.",
+                                                        "",
+                                                        "88E2F1CF-FA56-432E-8068-2FE0C270401B"
+                                                    ],
+                                                    "guid": "G?kDUnQ#[h",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# What is the output of the code below?\n<br>x = {\"a\": 1}\n<br>print(x.get(\"b\", 999))",
+                                                        "999",
+                                                        "There is no key \"b\" in this dictionary, so the default provided to the .get() function, 999, will be printed.",
+                                                        "",
+                                                        "88B1F6C9-5860-476F-B1BA-E088013F6AD3"
+                                                    ],
+                                                    "guid": "rQtC&p:H}0",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "Python provides a {{c1::.get()}} method to access a dictionary value if it exists. This method takes the key as the first argument and an optional default value as the second argument, and it returns the value for the specified key if key is in the dictionary. If the second argument is not specified and key is not found then None is returned.",
+                                                        "<img src=\"am2XOED39Wdv5RVnr9QFIahXyF7yNxHFxWgtTXyy53nw23dtppT1djuL3l8Dhd5oLId5JbK-b8mcV7bFv5_r-JADmiVijpxCcA5ceV_anH2sZx_A4Kf.png\">",
+                                                        "",
+                                                        "E50354BC-F05D-43F1-8BCF-55812DC10CA9"
+                                                    ],
+                                                    "guid": "P%^/OExuah",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b58ac6-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "mid": 1629301724971,
+                                            "name": "items",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# print a list of all the key value pairs in the dictionary below\n<br>my_dictionary = {\"A\": 1, \"B\": 2, \"C\": 3}\n<br>print(list({{c1::my_dictionary.items()}})) # prints: [(\"A\", 1), (\"B\", 2), (\"C\", 3)]",
+                                                        "<div>The .items() dictionary method returns a view object that displays a list of the key-value pairs as a tuple. <br><br></div><div> we use the list() function to turn the view object into a list, but we don't need to turn it into a list if we wanted to loop through it.&nbsp;</div>",
+                                                        "",
+                                                        "909CB9D6-B8B0-4A2F-8D27-C644EAEB0B09"
+                                                    ],
+                                                    "guid": "iqd890a7#o",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b5a86c-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "keys",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# print a list of all the keys in the dictionary below\n<br>my_dictionary = {\"A\": 1, \"B\": 2, \"C\": 3}\n<br>print(list({{c1::my_dictionary.keys()}})) # prints: [\"A\", \"B\", \"C\"]",
+                                                        "The .keys() dictionary method returns view object that displays a list of the keys (the first object in the key-value pair)<br><br>we use the list() function to turn the view object into a list, but we don't need to turn it into a list if we wanted to loop through it.",
+                                                        "",
+                                                        "370F8787-B2FF-4A45-8A6D-6B6A979376A9"
+                                                    ],
+                                                    "guid": "i}}jkbIiU#",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b5c5f4-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [
+                                                "dEKJJqBf6GZBO1yxuznSELWdXgwMJ1awq9TRdzEhOlJ7EdUNKUgNfPpfnDHwlFzlBaXZJdLyA6j4zflwMPBGeBIg0J8rK-SCBl0H_6bwGiYIs-ZlBJT.png"
+                                            ],
+                                            "mid": 1629300492637,
+                                            "name": "pop",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "Python dictionaries can remove key-value pairs with the {{c1::.pop()}} method",
+                                                        "<img src=\"dEKJJqBf6GZBO1yxuznSELWdXgwMJ1awq9TRdzEhOlJ7EdUNKUgNfPpfnDHwlFzlBaXZJdLyA6j4zflwMPBGeBIg0J8rK-SCBl0H_6bwGiYIs-ZlBJT.png\">",
+                                                        "",
+                                                        "4C220304-CDA9-4E1A-9E42-8C50EB1722D2"
+                                                    ],
+                                                    "guid": "h6%d=Wnc?W",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# What is the output of the code below?\n<br>dictionary = {\"a\": 1}\n<br>dictionary.pop(\"a\")\n<br>print(dictionary)",
+                                                        "{}",
+                                                        "<div>We remove the key \"a\" and its associated value with the .pop() method. <br><br></div><div> more details on how the .pop() method works:&nbsp;<a href=\"https://www.javatpoint.com/python-dictionary-pop-method#:~:text=%E2%86%92%20%E2%86%90%20prev-,Python%20Dictionary%20pop()%20Method,it%20throws%20an%20error%20KeyError.\">https://www.javatpoint.com/python-dictionary-pop-method#:~:text=→ ← prev-,Python Dictionary pop() Method,it throws an error KeyError.</a></div>",
+                                                        "",
+                                                        "08E3EC5C-845E-4D8E-BA62-640FD3FFD69F"
+                                                    ],
+                                                    "guid": "ox]r[#F?=h",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# mutate the dictionary below to equal an empty dictionary: {} <br>dictionary = {\"example\": 999} <br>print(dictionary) # prints: {\"example\": 999} <br>{{c1::dictionary.pop(\"example\")}} <br>print(dictionary) # should print: {}",
+                                                        "<div>We use the .pop method to remove the \"example\" key. </div><div><br>&nbsp;the `del dictionary[\"example\"]` syntax would work too&nbsp;</div>",
+                                                        "",
+                                                        "8AE11563-CDD1-4DB7-9F76-CA31065A51C1"
+                                                    ],
+                                                    "guid": "b3AF@r7:Hf",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b5ea3e-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [
+                                                "rANeCdifpaw7IENpXVMHAXaNWmYnaz2Gno076SN7RSsjoKlN3wM_qLTy0FylhHuDdkE6f8M2pvFjWMk-ja5u3wRJE6HegCEtDqNWva8XWqAAnOCpCuY.png"
+                                            ],
+                                            "name": "update",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "The {{c1::.update()}} dictionary method allows you to combine two dictionaries into one.",
+                                                        "<img src=\"rANeCdifpaw7IENpXVMHAXaNWmYnaz2Gno076SN7RSsjoKlN3wM_qLTy0FylhHuDdkE6f8M2pvFjWMk-ja5u3wRJE6HegCEtDqNWva8XWqAAnOCpCuY.png\">",
+                                                        "",
+                                                        "7A5B76CC-1390-4705-8A70-5D84C71776D4"
+                                                    ],
+                                                    "guid": "nOX?pNC%?.",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "e1b6079e-061e-11ec-9185-3e22fb2860fe",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "mid": 1629300492637,
+                                            "name": "values",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# print a list of all the values in the dictionary below <br>my_dictionary = {\"A\": 1, \"B\": 2, \"C\": 3} <br>print(list({{c1::my_dictionary.values()}})) # prints: [1, 2, 3]",
+                                                        "The .values() dictionary method returns a view object that displays a list of the values (the first object in the key-value pair)<br><br>we use the list() function to turn the view object into a list, but we don't need to turn it into a list if we wanted to loop through it.",
+                                                        "",
+                                                        "92F634C5-8FAF-415E-B27A-89BA3D505710"
+                                                    ],
+                                                    "guid": "Jd@@Ep6oi,",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# what is the output of the code below? <br>x = {\"a\": 1, \"b\": 2, \"c\": 3} <br>for y in x.values(): <br>&nbsp; &nbsp; print(y)",
+                                                        "1<br>2<br>3",
+                                                        "",
+                                                        "",
+                                                        "CD64C4FB-B636-4C76-AC11-E0B543515D85"
+                                                    ],
+                                                    "guid": "JMI;BG5y9i",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "crowdanki_uuid": "e1b549c6-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "methods",
+                                    "notes": []
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b6297c-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629300492637,
+                                    "name": "mutating",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<span style=\"color: rgb(35, 39, 53);\"># Mutate the dictionary below to equal: {\"A\": 1, \"B\": 2, \"C\": 3}\n<br>my_dictionary = {\"A\": 1, \"B\": 2}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2}\n<br>{{c1::my_dictionary[\"C\"] = 3}}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2, \"C\": 3}</span>",
+                                                "my_dictionary[\"C\"] = 3 creates a new key \"C\", which has a corresponding value of 3.",
+                                                "",
+                                                "23967BD7-40A1-419F-8A00-37272D28509D"
+                                            ],
+                                            "guid": "P_x`)m91rU",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# Mutate the dictionary below to equal: {\"A\": 1, \"B\": 999}\n<br>my_dictionary = {\"A\": 1, \"B\": 2}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2}\n<br>{{c1::my_dictionary[\"B\"] = 999}}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 999}",
+                                                "<div>Note that just reassigning my_dictionary to equal {\"A\": 1, \"B\": 999} does not mutate the original dictionary, it simply creates a new one, and the question asked to mutate it. <br><br></div><div> Values can be written by placing key within square brackets next to the dictionary and using the assignment operator (=). If the key already exists, the old value will be overwritten&nbsp;</div>",
+                                                "",
+                                                "9DB3EF19-C995-4C3E-ADAE-14A4294E89E1"
+                                            ],
+                                            "guid": "Q~RVi;vIt&",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below? <br>data = {'a':1} <br>data['a'] = 4 <br>print(data)",
+                                                "{'a': 4}",
+                                                "data['a'] = 4  updates the key a  to value 4&nbsp;",
+                                                "",
+                                                "446870C6-6E43-4421-8487-A0BB602CBE4F"
+                                            ],
+                                            "guid": "Alz20|3%Y@",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below? <br>data = {} <br>data['a'] = 1 <br>print(data)",
+                                                "{'a': 1}",
+                                                "the 'a' key is created.",
+                                                "",
+                                                "BB984562-DD00-409F-A393-F368298E846D"
+                                            ],
+                                            "guid": "x=t1lCUkU0",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below? <br>data = {'a':1} <br>data[0] = 2 <br>print(data)",
+                                                "{'a': 1, 0: 2}",
+                                                "Integers can serve as dictionary keywords. If no keyword exists, a new one is created.",
+                                                "",
+                                                "06246DC8-0129-4A33-A3C3-265688382A1B"
+                                            ],
+                                            "guid": "DDYRd85ibB",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b65262-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "6Byz3jzAX0i-bYwIJdAEFhP_Ksth6r-AoWByYKuU74IzC5lZhnqMHyC9pMCvTQMltPifD9KL7oQCHu3V9-ufXge-5MDhgYFXcA9SifwHOIbuulWWg8p.png",
+                                        "FHlQRnEJRNa7Kg5nTrOQ-Vb8jsNDwDCwJMdZDLhcChUmaEAHnJvcLEJRjEyBuHFBaQ3vqtST4XXFbOqu3Jv7wp49ulepVWt_blSRR2527IUMCan2UG0.png",
+                                        "kl_iL4LLT7sB-mDX0Fc0YOL3beXO9BGlCUO7puI3_xqgp3kQ6xqZph8i_PjaRwajdUtUHiJLZw8wLW23EYgMycUYuD9wt7kHYlRL12twbx2ZFjPdXtZ.png",
+                                        "njSF03Rl2iVaVRjoTTiNzCW9MuAXj1om-Qin9rfd74cctwKctQaTtU6c5Zg0d-7DEbCwTfwAIzwd-MZWChGM-AuHOG3TY0tDkxyVSyBZ-GEA3t69jWJ.png",
+                                        "rmRHadpFmHdqn0RdorcnnXGKE1PdWKZS8-Yy40fFoWlVqH8Gz4aloTNRCneZDdY3zbd-ZKZwUVunV0H8Nfq1_tLeiSrBcImPliWHTfBwmhKljlIMrf_.png"
+                                    ],
+                                    "name": "syntax",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"rmRHadpFmHdqn0RdorcnnXGKE1PdWKZS8-Yy40fFoWlVqH8Gz4aloTNRCneZDdY3zbd-ZKZwUVunV0H8Nfq1_tLeiSrBcImPliWHTfBwmhKljlIMrf_.png\">",
+                                                "<img src=\"kl_iL4LLT7sB-mDX0Fc0YOL3beXO9BGlCUO7puI3_xqgp3kQ6xqZph8i_PjaRwajdUtUHiJLZw8wLW23EYgMycUYuD9wt7kHYlRL12twbx2ZFjPdXtZ.png\">",
+                                                "",
+                                                "",
+                                                "2C631936-86C3-4BC5-ADD1-D6C2108CFF16"
+                                            ],
+                                            "guid": "Ox2.I5n7nY",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "What is the syntax to declare a python dictionary?",
+                                                "example = {\"key1\": \"value1\", \"key2\": \"value2\"}",
+                                                "<img src=\"FHlQRnEJRNa7Kg5nTrOQ-Vb8jsNDwDCwJMdZDLhcChUmaEAHnJvcLEJRjEyBuHFBaQ3vqtST4XXFbOqu3Jv7wp49ulepVWt_blSRR2527IUMCan2UG0.png\">",
+                                                "",
+                                                "79295F9E-9F8B-43DD-BA43-86F892757522"
+                                            ],
+                                            "guid": "EiHGXK@K7q",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"njSF03Rl2iVaVRjoTTiNzCW9MuAXj1om-Qin9rfd74cctwKctQaTtU6c5Zg0d-7DEbCwTfwAIzwd-MZWChGM-AuHOG3TY0tDkxyVSyBZ-GEA3t69jWJ.png\">",
+                                                "<img src=\"6Byz3jzAX0i-bYwIJdAEFhP_Ksth6r-AoWByYKuU74IzC5lZhnqMHyC9pMCvTQMltPifD9KL7oQCHu3V9-ufXge-5MDhgYFXcA9SifwHOIbuulWWg8p.png\">",
+                                                "",
+                                                "",
+                                                "416E8DEF-C29D-45C2-8C22-09A454462370"
+                                            ],
+                                            "guid": "ckr>^%>gzH",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "e1b675c6-061e-11ec-9185-3e22fb2860fe",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png"
+                                    ],
+                                    "name": "values",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "What can be used as a value (in regards to {key:value} pairs) in python dictionaries?",
+                                                "anything",
+                                                "Python allows the values in a dictionary to be any type – string, integer, a list, another dictionary, boolean, etc.<br><br>Notice how the values of the dictionary below range range from numbers to strings, to booleans, to lists, to other dictionaries, it can be anything!<br><br><img src=\"gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png\">",
+                                                "",
+                                                ""
+                                            ],
+                                            "guid": "zvZQuKXwMj",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
                             "crowdanki_uuid": "ea1f70b0-0618-11ec-9b0c-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
