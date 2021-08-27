@@ -1083,7 +1083,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\"># What does the definition of the class `Example` need to be so that the print statement prints: 100 # ?&nbsp;</span><br style=\"color: rgb(35, 39, 53);\"><br style=\"color: rgb(35, 39, 53);\"><span style=\"color: rgb(35, 39, 53);\">class Example:&nbsp;</span><br style=\"color: rgb(35, 39, 53);\"><span style=\"color: rgb(35, 39, 53);\">&nbsp; &nbsp; {{c1::a = 100}}&nbsp;</span><br style=\"color: rgb(35, 39, 53);\"><br style=\"color: rgb(35, 39, 53);\"><span style=\"color: rgb(35, 39, 53);\">x = Example()&nbsp;</span><br style=\"color: rgb(35, 39, 53);\"><span style=\"color: rgb(35, 39, 53);\">print(x.a) # Should print 100</span>",
+                                        "# What does the definition of the class `Example` need to be so that the print statement prints: 100 <br># ? <br><br>class Example:<br>{{c1::&nbsp; &nbsp; a = 100}}<br><br>x = Example() <br>print(x.a) # Should print 100",
                                         "<img src=\"Q1_lRd-YJz37xQ7RV57VDS7mCvG8H4d0mUrKUVITLLsEbcUt3XsH6EWUeE_fv7y04gBJGM5EaiAjt9fCK91jKK6Zwdtc7tsb163xe2msM5-Aq79fFx4.png\">",
                                         "",
                                         "EF781AA3-71BE-46B5-A689-E35969DA2681"
@@ -1095,7 +1095,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\"># What should the print statement below be so that the class variable `quote` of the instance `x` is printed?\n<br><br>class Example:\n<br>&nbsp; &nbsp; quote = \"You can have it all, just not all at once\"\n<br><br>x = Example()\n<br>print({{c1::x.quote}}) # Should print: You can have it all, just not all at once</span>",
+                                        "# What should the print statement below be so that the class variable `quote` of the instance `x` is printed? <br><br>class Example: <br>&nbsp;&nbsp;&nbsp; quote = \"You can have it all, just not all at once\" <br><br>x = Example() <br>print({{c1::x.quote}}) # Should print: You can have it all, just not all at once",
                                         "<div>We use dot notation to access the class variable <b>quote</b>&nbsp;of&nbsp;<b>x</b>&nbsp;<br><br></div><div><b> x</b> is an instance of the <b>Example</b> class&nbsp;</div>",
                                         "",
                                         "BED481AC-1221-4BD0-9590-FBA950FB5397"
@@ -1118,7 +1118,7 @@
                             "media_files": [
                                 "LOnoH55ug4T1xBjI2NEa4M10VTI6Al9diIM_TeXZv4iRYcnshDPca3BesViWDbbxu5GYlRN4aMfZfXYpk6nUoUjBartW0CeAe9sB5i6Mixsw_1ago_k.png"
                             ],
-                            "mid": 1629300492637,
+                            "mid": 1629415250870,
                             "name": "general",
                             "notes": [
                                 {
@@ -1150,7 +1150,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "# Define a class below so that the print statements print what the comments say it should print <br><br>{{c1::class X: <br>&nbsp; &nbsp; def __init__(self, a, b): <br>&nbsp; &nbsp; &nbsp; &nbsp; self.a = a <br>&nbsp; &nbsp; &nbsp; &nbsp; self.b = b}} <br><br>x = X(1, 2) <br>print(x.a) # should print: 1 <br>print(x.b) # should print: 2",
-                                        "<span style=\"color: rgb(35, 39, 53);\"># This question tests your memorization of the syntax involved in creating a class.\n<br># `a` and `b` are instance variables.\n<br><br>&nbsp;# Note that the class definition could also look something like this:\n<br>class X:\n<br>&nbsp; &nbsp; def __init__(self, this_could_be_anything, blah_blah):\n<br>&nbsp; &nbsp; &nbsp; &nbsp; self.a = this_could_be_anything\n<br>&nbsp; &nbsp; &nbsp; &nbsp; self.b = blah_blah\n<br><br># So the name of the parameters of the __init__ function doesn't really matter\n<br># But it's good practice to keep the names consistent.<br><br></span><img src=\"LOnoH55ug4T1xBjI2NEa4M10VTI6Al9diIM_TeXZv4iRYcnshDPca3BesViWDbbxu5GYlRN4aMfZfXYpk6nUoUjBartW0CeAe9sB5i6Mixsw_1ago_k.png\"><span style=\"color: rgb(35, 39, 53);\"><br></span>",
+                                        "# This question tests your memorization of the syntax involved in creating a class.<br># `a` and `b` are instance variables.<br><br> # Note that the class definition could also look something like this:<br>class X:<br>&nbsp;&nbsp;&nbsp; def __init__(self, this_could_be_anything, blah_blah):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.a = this_could_be_anything<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.b = blah_blah<br><br># So the name of the parameters of the __init__ function doesn't really matter<br># But it's good practice to keep the names consistent.<br><span style=\"color: rgb(35, 39, 53);\"><br></span><img src=\"LOnoH55ug4T1xBjI2NEa4M10VTI6Al9diIM_TeXZv4iRYcnshDPca3BesViWDbbxu5GYlRN4aMfZfXYpk6nUoUjBartW0CeAe9sB5i6Mixsw_1ago_k.png\"><span style=\"color: rgb(35, 39, 53);\"><br></span>",
                                         "",
                                         "A0DC18BE-A2D6-4950-A7CC-5DEB12E40F26"
                                     ],
@@ -1190,7 +1190,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\"># Create an instance of the `Car` class below which should be assigned to the `ferrari` variable:\n<br>class Car:\n<br>&nbsp; &nbsp; \"This is an empty class\"\n<br>&nbsp; &nbsp; pass\n<br><br>ferrari =&nbsp;</span>{{c1::Car()}}",
+                                        "# Create an instance of the `Car` class below which should be assigned to the `ferrari` variable: <br>class Car: <br>&nbsp;&nbsp;&nbsp; \"This is an empty class\" <br>&nbsp;&nbsp;&nbsp; pass <br><br>ferrari = {{c1::Car()}}",
                                         "<b>Care()</b> creates a new instance of <b>Car</b>, and that instance is saved to the <b>ferarri</b>&nbsp;variable.<br><br><img src=\"t0EsosG9lW6Gu_rXAX2ppmeOpqZ-wpoTdYy2M35k69uDAORC4j42RWsoOa82aN08lkIhnub-N2Wd_MM4_wQjQ-3p9zjMQfa6X108ZpUEE8eWk4NOcGx.png\">",
                                         "",
                                         "5C899462-2329-4C0B-A328-0AE5D6C54731"
@@ -5797,7 +5797,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\na{\n\tcolor: #82ccdd;\n  text-decoration: underline;\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
             "flds": [
                 {
                     "font": "Arial",
@@ -5892,7 +5892,9 @@
                         0,
                         1,
                         2,
-                        3
+                        3,
+                        4,
+                        5
                     ]
                 ]
             ],
@@ -5900,7 +5902,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL}}):\n{{Tests}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{URL Instructions}}\n</div>\n\n{{#Optional}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n\n{{#Answer}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Answer}}\n\t</div>\n{{/Answer}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{Personal}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -5908,7 +5910,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Test your code here: <br>\n{{Tests}}\n{{/Tests}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
