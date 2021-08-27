@@ -1021,6 +1021,35 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "45305c44-06dc-11ec-80f9-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "3dUcsFGQmaQFy7R0yDD2aTKnpj7FDQhmVlsCinGA76xvdBCqN8Ugxqu_bhiAScbt3CcRMdp803PLCLQ4UsJU3PSOiFE8WSm4wr2JdJ_6nCOsWj02k7k.png"
+                            ],
+                            "mid": 1629301724971,
+                            "name": "type",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python {{c1::type()}} function returns the data type of the argument passed to it.",
+                                        "<img src=\"3dUcsFGQmaQFy7R0yDD2aTKnpj7FDQhmVlsCinGA76xvdBCqN8Ugxqu_bhiAScbt3CcRMdp803PLCLQ4UsJU3PSOiFE8WSm4wr2JdJ_6nCOsWj02k7k.png\">",
+                                        "",
+                                        "7FEED614-1981-4BBF-ADB0-3AF9B8277AB3"
+                                    ],
+                                    "guid": "nwD&Wvw9!R",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "46be7fbc-ffe0-11eb-ac0f-3e22fb2860fe",
@@ -1031,6 +1060,48 @@
                     "extendRev": 0,
                     "media_files": [],
                     "name": "built-in functions",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "45308da4-06dc-11ec-80f9-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "ZAZeeeD8r7TVQwcWNiBS8FCflJyZ7o-5l2JXucccGjFzoOecppgroGB0dm3G21Lk2IjEcZn6U47o-Gzy4jTUwwYnDDEYOJzjmt8s1k0AudcRumhuwGY.png"
+                            ],
+                            "name": "magic methods",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "In Python, the {{c1::__init__()}} magic method is used to initalize a newly created object.",
+                                        "<img src=\"ZAZeeeD8r7TVQwcWNiBS8FCflJyZ7o-5l2JXucccGjFzoOecppgroGB0dm3G21Lk2IjEcZn6U47o-Gzy4jTUwwYnDDEYOJzjmt8s1k0AudcRumhuwGY.png\">",
+                                        "",
+                                        "214C0198-C449-48BC-8947-D1B92450C1F0"
+                                    ],
+                                    "guid": "s)ke4$)#Ry",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "453076e8-06dc-11ec-80f9-3e22fb2860fe",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "classes",
                     "notes": []
                 },
                 {
