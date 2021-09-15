@@ -3777,7 +3777,7 @@
                                     "fields": [
                                         "<img src=\"4wJ0ogl_i5B3QBPqYSZYBLa3Gz61TnTPGYsz7zwb662YC8WpMnA8vhHM4vPIM0LcjDfooSwntKNwS17t26DTUJO-x1qeyjOmcifNWFXiEgT0lerVUqr.png\">",
                                         "<img src=\"paste-3e79de966b815c30dd6d0c4ac4225f4a6cf1c5a5.jpg\">",
-                                        "",
+                                        "# Example<br>def update(new_value = 10)<br>&nbsp; &nbsp; print(new_value)<br><br>print(update()) # prints 10<br>print(update(20)) # prints 20<br><br># So when we call the <b>update </b>function with an input of <b>20</b>, when the function definition executes, (which is `<b>print(new_value)</b>`) <b>new_value</b> is assigned the value of <b>20</b>.<br><br># If we call <b>update </b>without passing in any value, <b>new_value</b>&nbsp;defaults to <b>10</b>&nbsp;because we defined that argument to be <b>new_value = 10</b>, which basically means, \"If no value is provided for <b>new_value</b>, <b>new_value</b> will equal <b>10</b>, otherwise <b>new_value</b> will equal whatever the provided input is\"&nbsp;<br><br># If you still don't understand, watch this video:&nbsp;<a href=\"https://www.youtube.com/watch?v=DASOXeFFkCg\">https://www.youtube.com/watch?v=DASOXeFFkCg</a>",
                                         "",
                                         "e2cd43a8-88f9-43ae-9afe-016fa8d71a8f"
                                     ],
@@ -5140,14 +5140,13 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "What datatype is `True` or `False`?",
-                                        "boolean",
+                                        "The {{c1::Boolean}} data type is a data type that has only one of two possible values: <b>True </b>or <b>False</b>",
                                         "<img src=\"paste-a2318102197fe84922949801efc722c27b5517a3.jpg\">",
                                         "",
                                         "d672534d-a6e4-43e3-ad9d-d83fc0a148d9"
                                     ],
                                     "guid": "Bl7+GqM;nI",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
@@ -5339,7 +5338,7 @@
                         "paste-72e29472e08172ab0c9f750da67e82bf05df6b05.jpg",
                         "paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg"
                     ],
-                    "mid": 1629300492637,
+                    "mid": 1629301724971,
                     "name": "scope",
                     "notes": [
                         {
@@ -5386,7 +5385,7 @@
                             "fields": [
                                 "<img src=\"0Iv3_iEOugauPXL6hNGV-0qbfedUkNi0luwImnu_SMVqze_bqok7gO3J-Ht4nDr6u-954YY7mH6YADGtZ5TljVuywTGgVRHNnTj3q3VXqplgn7rYCBb.png\">",
                                 "<img src=\"paste-72e29472e08172ab0c9f750da67e82bf05df6b05.jpg\">",
-                                "<img src=\"paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg\">",
+                                "<img src=\"paste-c2a238adc67fa2ceabf3fd01d3f35878ee9e8bff.jpg\"><br># Example: <br><br>counter = 0 <br><br>def update(): <br>&nbsp; &nbsp; new_counter = counter + 1 <br>&nbsp; &nbsp; return new_counter <br><br>print(counter) # prints 0 <br>print(new_counter) # throws error: NameError: name 'new_counter' is not defined <br><br># This is because new_counter is defined inside the update function. Variables defined inside a function cannot be accessed outside the function. This is because of something called 'scope'. Scope is a concept that refers to where values and functions can be accessed. <br><br># In Python, values and functions can be globally scoped, or scoped inside a function. Since counter is scoped outside of the update function, it is globally scoped, but new_counter is scoped inside the update function. <br><br># So new_counter will throw an error if we try to access it outside of the update function since it was defined inside update, so it is only scoped within the update function. It is not defined outside the update function. <br><br># Watch this video if you still don't understand: <a href=\"https://www.youtube.com/watch?v=wueXfiVkw1I\">https://www.youtube.com/watch?v=wueXfiVkw1I</a> <br><br># Then watch this video if you still don't understand: <a href=\"https://www.youtube.com/watch?v=QVdf0LgmICw\">https://www.youtube.com/watch?v=QVdf0LgmICw</a> <br><br># If you still don't understand, please contact me or submit feedback on this card.",
                                 "",
                                 "4700c728-3fdd-4e4a-917c-a3c8fb4c4de2"
                             ],
