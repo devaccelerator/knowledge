@@ -2955,7 +2955,7 @@
                                             "fields": [
                                                 "<img src=\"5yfsMb7Qy9Qgkd6ZtE4s1EC8PYeLxypoVk4wTyv7eg_8xBmHx_8VCjyc2pZHIHWW0C7TvKE6ah4rbo_9P1Dw6bMeQKRNGCH8Rn6pcgchiNPHAP1nrah.png\">",
                                                 "<img src=\"EI14ItNWQpy1HAN-p6pEZhD45V-ahUMFGeF8OqEOxYPdQ0KTRvEOUwcM_7h9XwxTNP3wvU6l0cCNopp_AvtRr0ZxC_uWvMjsAw2NNa0iKMa-6hB0wSo.png\">",
-                                                "",
+                                                "Remember that indices start at zero, not one.<br><br>So a string of length 10 has indices 0 - 9.<br><br>So the last character of a string is string[len(string) - 1]<br><br>And the second to last character of a string is string[len(string) - 2]<br><br>string[len(string)] would result in an index that is out of bounds.<br><br># Example:<br>string = “abc”<br>a_idx = len(string) - 3 # equals 0<br>b_idx = len(string) - 2 # equals 1<br>c_idx = len(string) - 1 # equals 2<br>out_of_bounds = len(string) # equals 3<br><br>print(string[a_idx]) # prints “a”<br>print(string[b_idx]) # prints “b”<br>print(string[c_idx]) # prints “c”<br>print(string[out_of_bounds]) # IndexError: list index out of range<br><br># The length of “abc” is 3, but the last index of “abc” is 2",
                                                 "",
                                                 "9E10759E-951C-439A-A10C-19E424E98A85"
                                             ],
@@ -3358,7 +3358,9 @@
                                         "5CGuwT-qggDrhFx8d_N5h5JjhVvRW_tRnz_sqI5I20JSUxvdkZDpE9F0XAvMPiZRykDeRRtL-vzOl75IbHAoVXuLh0EvHmPGnBTd1IKh8kS_C5kE4WB.png",
                                         "AH0X_c-jimuyrIGGz-WS07HN1HoHirxr0Uqky86uRmHoE8E-rwstehHzwGU2ypZ-X-x4cq-EKSKihcDCNcoCKOzi_UcQKRECKZ82KmSx76elNo9oNYI.png",
                                         "RqSvcIpuxPbKIVlYa_RSXyNor5cJcDLswqbZrryP1qPlzx43m7WTSy_M3jgfI9iJh-OQ2de9llVPkrpNxp3vCDWQCUUBuWHgCz_w79J06LgR4Ak0FQq.png",
-                                        "fO2gECHTCTMdEgNYMkH51f1NFMCrEYd3n1IrEP0svjxvke_RLyWcHFW2OdA0EZ48AcRslQZM8N8E5zuFPdLjRzG1FzDanCF5u1fbYbIJaNuuQSneIsD.png"
+                                        "fO2gECHTCTMdEgNYMkH51f1NFMCrEYd3n1IrEP0svjxvke_RLyWcHFW2OdA0EZ48AcRslQZM8N8E5zuFPdLjRzG1FzDanCF5u1fbYbIJaNuuQSneIsD.png",
+                                        "paste-433828876930196de97cd8f2c13e77ffbf921fac.jpg",
+                                        "paste-470092d1117c4a821add1bd22afbc934b0ae3ef3.jpg"
                                     ],
                                     "mid": 1629301724971,
                                     "name": "misc",
@@ -3461,7 +3463,7 @@
                                             "__type__": "Note",
                                             "fields": [
                                                 "print(\"quotations {{c1::'within' \\\"a\\\"}} string\") # prints: quotations 'within' \"a\" string",
-                                                "since the string above is enclosed by the \" \" quotation marks, we need to escape those same quotation marks within the string with a back slash \\",
+                                                "since the string above is enclosed by the \" \" quotation marks, we need to escape those same quotation marks within the string with a back slash \\ <br><br>if we tried to print the string: `<b>quotations 'within' \"a\" string</b>` with the backslash, it would look like this:<br><img src=\"paste-470092d1117c4a821add1bd22afbc934b0ae3ef3.jpg\"><br><br>and it would print what we expect: `<b>quotations 'within' \"a\" string</b>`<br><br>if we tried to print without the backslashes though, it would look like this:<br><img src=\"paste-433828876930196de97cd8f2c13e77ffbf921fac.jpg\"><br><br>So it creates two string, <b>\"quotations 'within' \"</b> and <b>\" string\"</b>, and it tries to reference a variable named <b>a</b>&nbsp;which does not exist. This is why we use the backslash before the quotation mark in order to make sure that the quotation marks used around \"a\" are used as characters to be used within the string, and not to mark the end or start of a string.",
                                                 "",
                                                 "BF2EE874-E3D6-423B-B6B2-787B4CF53CF4"
                                             ],
