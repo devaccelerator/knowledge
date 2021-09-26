@@ -4397,6 +4397,7 @@
                                     "extendNew": 0,
                                     "extendRev": 0,
                                     "media_files": [],
+                                    "mid": 1629300492637,
                                     "name": "output",
                                     "notes": [
                                         {
@@ -4475,6 +4476,32 @@
                                             "guid": "N7>So}e$<E",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "print(5 // 2)",
+                                                "2",
+                                                "// is the floor divison operator, so it divides <b>5</b> by <b>2</b> which is <b>2.5</b>, and then rounds it down to <b>2</b>.",
+                                                "",
+                                                "D5A9D989-E11C-46D6-858E-8E1B54B3D43B"
+                                            ],
+                                            "guid": "x-LLrzdf4O",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "print(5.0 // 2)",
+                                                "2.0",
+                                                "// is the floor divison operator, so it divides&nbsp;<b>5.0</b>&nbsp;by&nbsp;<b>2</b>&nbsp;which is&nbsp;<b>2.5</b>, and then rounds it down to&nbsp;<b>2.0</b>.",
+                                                "",
+                                                "FD820BC9-6C69-42DA-97AA-28F794A7218B"
+                                            ],
+                                            "guid": "isBE[kXV+f",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
                                         }
                                     ]
                                 },
@@ -4490,6 +4517,7 @@
                                     "media_files": [
                                         "H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png"
                                     ],
+                                    "mid": 1629301724971,
                                     "name": "syntax",
                                     "notes": [
                                         {
@@ -4581,6 +4609,18 @@
                                                 "codecademy",
                                                 "python"
                                             ]
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Python uses&nbsp;{{c1:://}}&nbsp;as the floor division operator",
+                                                "so the // operator is exactly like the / operator except it rounds the number down after performing the division operation.<br><br>e.g. 5 // 2 == 2",
+                                                "",
+                                                "E54739F6-3F6D-4FC3-AA95-BC93718F8FC6"
+                                            ],
+                                            "guid": "Bd^,&e^Z.;",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
                                         }
                                     ]
                                 }
