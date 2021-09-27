@@ -9,6 +9,366 @@
                     "children": [
                         {
                             "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02c9d27a-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-787a28f70b382f714ceafe86ba9ce187f23569ee.jpg",
+                                "paste-dcd6745340a1b5afab1bea930226e9ca17194d4b.jpg"
+                            ],
+                            "name": "constant",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given a graph that that looks like this:&nbsp;</div><img src=\"paste-dcd6745340a1b5afab1bea930226e9ca17194d4b.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing constant time complexity O(1) look like on this graph?</div>",
+                                        "<img src=\"paste-787a28f70b382f714ceafe86ba9ce187f23569ee.jpg\">",
+                                        "So no matter how big the input size becomes, the time it takes to complete the algorithm is constant meaning it doesn't increase at all.",
+                                        "",
+                                        "EEEA60BA-0EA7-4843-B0BE-62FA61AD7B94"
+                                    ],
+                                    "guid": "d<aq`P98>a",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># What is the time complexity of the following function?:<br><br>def print_items(n):<br>&nbsp; &nbsp; for i in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i)</div>",
+                                        "O(n)",
+                                        "Because the amount of operations the algorithm has to perform grows at the same rate as the input size increases.",
+                                        "",
+                                        "26B64310-58EA-4F81-B8B3-176CB96FFDA9"
+                                    ],
+                                    "guid": "FsR!-;Viu^",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# What is the big O of the following code?:<br><br>def print_items(n):<br>&nbsp; &nbsp; print(n)",
+                                        "O(1)",
+                                        "No matter how big the input size gets, we're performing a constant amount of operations in the algorithm. In this case, those constant operations happen to just be a single print statement",
+                                        "",
+                                        "3258E268-C6FF-49C1-8381-CFDF39ECF30C"
+                                    ],
+                                    "guid": "ob0byHM-zE",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02c9fc50-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-535dd2351df1db9bd96ddbd78c555196dd02b444.jpg",
+                                "paste-7eb54cec0fc81b08cd61ad855d4928e7b70caf3b.jpg"
+                            ],
+                            "name": "exponential",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given a graph that that looks like this:&nbsp;</div>\n<div><img src=\"paste-7eb54cec0fc81b08cd61ad855d4928e7b70caf3b.jpg\"><br></div>\n<div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing quadratic time complexity O(n^2) look like on this graph?</div>",
+                                        "<img src=\"paste-535dd2351df1db9bd96ddbd78c555196dd02b444.jpg\">",
+                                        "So as the input size grows, the time it takes to complete the algorithm continues to grow much faster than the incremental increase of the input size.",
+                                        "",
+                                        "22033E86-B9B8-465F-BF3C-9FACFE97AA4D"
+                                    ],
+                                    "guid": "wOaR]]E>#N",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# what is the time complexity of the following code?:<br><br>def print_items(n):<br>&nbsp; &nbsp; for i in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; for j in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for k in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(i, j, k)",
+                                        "O(n^3)",
+                                        "Because if <b>n</b>&nbsp;is 10, the numbers 000 - 999 are printed. 10^3 == 1000<br><br>Whenever we have 3 nested for loops where each loop iterates through the full size of the input, it's O(n^3), like-wise if we have 5 nested for loops doing the same thing, it would be O(n^5)",
+                                        "",
+                                        "CEFE1F2E-1F1E-479E-BE67-4BD96E9E5B43"
+                                    ],
+                                    "guid": "n)Sg[uw_t/",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02ca2072-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-1c6f7ad702ccfa925462962f20b4ac9549a268b6.jpg",
+                                "paste-79862c6590cefdaa0fc351d9d4f6cffc63175972.jpg"
+                            ],
+                            "name": "linear",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given a graph that that looks like this:<br><div><div><img src=\"paste-79862c6590cefdaa0fc351d9d4f6cffc63175972.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing linear time complexity O(n) look like on this graph?</div></div></div></div>",
+                                        "<img src=\"paste-1c6f7ad702ccfa925462962f20b4ac9549a268b6.jpg\">",
+                                        "So as the input size grows, the time complexity of the algorithm continues to grow at a constant rate.",
+                                        "",
+                                        "8213C92C-C82A-4849-91A3-78AB2B6B05B7"
+                                    ],
+                                    "guid": "p6N59-{qu`",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02ca3ff8-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-6740dcb59ba1513b2f37f868ee93f012b48ee4b1.jpg",
+                                "paste-b6dcb370fcdb704f08b5cf8a84938d0ddf52fd1c.jpg"
+                            ],
+                            "name": "logarithmic",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given a graph that that looks like this:&nbsp;<br><img src=\"paste-6740dcb59ba1513b2f37f868ee93f012b48ee4b1.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing logarithmic time complexity O(log(n)) look like on this graph?</div></div>",
+                                        "<img src=\"paste-b6dcb370fcdb704f08b5cf8a84938d0ddf52fd1c.jpg\">",
+                                        "So as the input size grows, the time it takes to complete the algorithm continues to grow much slower than the incremental increase of the input size.<br><br>Usually a logarithmic algorithm uses the divide and conquer strategy where only one extra constant operation is added to the algorithm for each time the input size doubles.",
+                                        "",
+                                        "1EBBD2F2-0467-476B-84E1-62F1E1A54C93"
+                                    ],
+                                    "guid": "fiS]B`ea4P",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># What is the big O of the following code?:<br><br></div>\n<div>def print_halves(n):</div>\n<div>&nbsp; &nbsp; while n &gt; 1:</div>\n<div>&nbsp; &nbsp; &nbsp; &nbsp; print(n)</div>\n<div>&nbsp; &nbsp; &nbsp; &nbsp; n = n / 2</div>",
+                                        "<div>O(log(n))</div>",
+                                        "<div>The time complexity of the above function is logarithmic because the amount of operations that are executed in the function above only increase by roughly 1 for each time the size of <b>n</b> doubles.</div>",
+                                        "",
+                                        "1602DBD9-BA8A-4F95-9A70-38994747A64D"
+                                    ],
+                                    "guid": "pl|B}YVHO$",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02ca6334-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "rules",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># What is the time complexity of the following function?:<br><br>def print_items(a, b):<br>&nbsp; &nbsp; for i in range(a):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i)<br><br>&nbsp; &nbsp; for j in range(b):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(j)<br></div>",
+                                        "O(a + b)",
+                                        "<div>it's not O(n) because a and b aren't the same, so we can't combine them</div>",
+                                        "",
+                                        "039AD674-7CD8-452B-B0B2-E751D4289B50"
+                                    ],
+                                    "guid": "f{}R#S^[x3",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># What is the time complexity of the following function?:<br><br>def print_items(a, b):<br>&nbsp; &nbsp; for i in range(a):<br>&nbsp; &nbsp; &nbsp; &nbsp; for j in range(b):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(i, j)<br></div>",
+                                        "<div>O(a * b)</div>",
+                                        "<div>It's not O(n^2) because <b>a</b> and <b>b</b> aren't the same, so we can't combine them into <b>n</b></div>",
+                                        "",
+                                        "CE2D82C4-A6E4-4429-86C6-DA2C9048629D"
+                                    ],
+                                    "guid": "rQ1cWvb3]D",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>simplify the following big O notation: O(100n^2)</div>",
+                                        "<div>O(n^2)</div>",
+                                        "We drop the constants, so we remove 100.",
+                                        "",
+                                        "0213AF44-B159-4D73-8942-E2BC7EA4A508"
+                                    ],
+                                    "guid": "NH#IAtkRA|",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the correct way to write:&nbsp; O(n^2 + n)</div>",
+                                        "O(n^2)",
+                                        "<div>we drop non-dominants.</div>",
+                                        "",
+                                        "40B6F822-5A23-4F53-B9A4-4DA23BDBC31B"
+                                    ],
+                                    "guid": "n^N`,sYbro",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02ca8c2e-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "simplify",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# What is the time complexity of the following function?:<br><br>def print_items(n):<br>&nbsp; &nbsp; for i in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i)<br><br>&nbsp; &nbsp; for j in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(j)",
+                                        "O(n)",
+                                        "<div>You could say it's O(2n), but we drop the constants when describing big O, so it's O(n)</div>",
+                                        "",
+                                        "F108AF37-DC97-498A-BE0D-6783FA45D995"
+                                    ],
+                                    "guid": "r(j:@kw|qO",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# what is the time complexity of the following code?:<br><br>def print_items(n):<br>&nbsp; &nbsp; for i in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; for j in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(i,j)",
+                                        "O(n^2)",
+                                        "O(n*n) is the same as O(n^2)<br><br>For each additional increase in the input size, the inner for loop has to iterate through the entire size of <b>n</b> again.",
+                                        "",
+                                        "F772973E-344F-4B8A-B4C2-5271A19D363F"
+                                    ],
+                                    "guid": "N/UlCQ^;v0",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# what is the time complexity of the following code?:<br><br>def print_items(n):<br>&nbsp; &nbsp; for i in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; for j in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(i,j)<br><br>&nbsp; &nbsp; for k in range(n):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(k)",
+                                        "<div>O(n^2)</div>",
+                                        "<div>you could say it's O(n^2 + n), but we usually only care about the biggest variable, so we get rid of the n and so it's just O(n^2)</div>",
+                                        "",
+                                        "51C28FDE-0C16-4C77-938C-A472DE659077"
+                                    ],
+                                    "guid": "v:0RrSa/!6",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "02cab334-1f48-11ec-b9c6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629300492637,
+                            "name": "terminology",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is big O notation?</div>",
+                                        "<div>The worst case time complexity of an algorithm</div>",
+                                        "A way to describe the speed of an algorithm's worst case scenario",
+                                        "",
+                                        "8B931CA9-CA7D-48AF-A221-E4DD41D4435A"
+                                    ],
+                                    "guid": "H{&@h~YWW[",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is time complexity?</div>",
+                                        "<div>How fast an algorithm runs&nbsp;</div>",
+                                        "",
+                                        "",
+                                        "AD429E04-CACF-4C79-98BB-872CC87FEA37"
+                                    ],
+                                    "guid": "PfW,Ns=}U@",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "02c9b4e8-1f48-11ec-b9c6-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Big O Notation",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "02c997f6-1f48-11ec-b9c6-acde48001122",
+            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Algorithms & Data Structures",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
                             "children": [
                                 {
                                     "__type__": "Deck",
@@ -2131,6 +2491,33 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "02d0b2ac-1f48-11ec-b9c6-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "big O",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div># What is the time complexity of accessing an element from a list like so?:</div>\n<div><br>def fn(my_list):</div>\n<div>&nbsp; &nbsp; first_element = my_list[0] # what is the time complexity of this operation?</div>",
+                                                        "<div>O(1)</div>",
+                                                        "<div>It's constant time complexity because retrieving the element from a list when we know it's exact index takes constant time.</div>",
+                                                        "",
+                                                        "0C53DF8E-A531-4EA0-8577-FDCADA05371D"
+                                                    ],
+                                                    "guid": "x@|d=&{kWC",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "c89ddd22-0074-11ec-9d19-3e22fb2860fe",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
@@ -2318,6 +2705,19 @@
                                                     "guid": "lv*[x`-le~",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is the time complexity of using the .append() method of lists in Python?</div>",
+                                                        "<div>O(1)</div>",
+                                                        "<div>Adding an element to the end of a list takes constant time because no re-indexing occurs.</div>",
+                                                        "",
+                                                        "FF692892-9A78-49AC-AA60-28476C445B2F"
+                                                    ],
+                                                    "guid": "BGs;xlWD[h",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
                                                 }
                                             ]
                                         },
@@ -2415,6 +2815,19 @@
                                                     "guid": "n|mevu^BSq",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is the time complexity of adding an element to the beginning of a list in Python?</div>",
+                                                        "<div>O(n)</div>",
+                                                        "<div>It's O(n) because we have to re-index all the elements after adding the element to the beginning.</div>",
+                                                        "",
+                                                        "8401C0F4-9D43-4F2A-A847-7998E29BF297"
+                                                    ],
+                                                    "guid": "p=KZ{|%`k0",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
                                                 }
                                             ]
                                         },
@@ -2469,6 +2882,32 @@
                                                         "c1f92b60-080e-4dce-ac30-cac6dd41391d"
                                                     ],
                                                     "guid": "DpdLF.N//O",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is the time complexity of popping the <b>last</b> element of a list in Python?</div>",
+                                                        "<div>O(1)</div>",
+                                                        "<div>removing an element from the end of a list takes constant time because no re-indexing occurs.</div>",
+                                                        "",
+                                                        "C8AFFFFF-8CBF-4C3C-8BDA-F9697D16A9BC"
+                                                    ],
+                                                    "guid": "GKw/R9QT6#",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is the time complexity of popping the <b>first</b> element of a list in Python?</div>",
+                                                        "<div>O(n)</div>",
+                                                        "<div>It's O(n) because we have to re-index all the elements after the first element after popping the first element.</div>",
+                                                        "",
+                                                        "8B1CB95D-551B-4AA2-849C-9DE9FB003C87"
+                                                    ],
+                                                    "guid": "s~^6N=Lw!0",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
                                                 }
@@ -5837,6 +6276,82 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Optional",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "ID",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic - Dev Accelerator",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\na{\n\tcolor: #82ccdd;\n  text-decoration: underline;\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
             "flds": [
@@ -6023,82 +6538,6 @@
                 }
             ],
             "type": 1
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \tdisplay: flex;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Optional",
-                    "ord": 2,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Personal",
-                    "ord": 3,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "ID",
-                    "ord": 4,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic - Dev Accelerator",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0
         }
     ],
     "notes": []
