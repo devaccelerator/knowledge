@@ -1878,7 +1878,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>data = {'a':1, 'b':2, 'c':3}\n<br>print(data['a'])</span>",
+                                                "# What is the output of the code below? <br>data = {'a':1, 'b':2, 'c':3} <br>print(data['a'])",
                                                 "1",
                                                 "Creating a dictionary and reading a value",
                                                 "",
@@ -1966,7 +1966,7 @@
                                                 "",
                                                 "",
                                                 "def has_key(dictionary, key): <br>&nbsp; &nbsp; return key in dictionary",
-                                                "<span style=\"color: rgb(35, 39, 53);\"># some code snippets to help you understand:\n<br>dictionary = {\"a\": 1}\n<br>print(\"a\" in dictionary) # prints: True\n<br>print(\"b\" in dictionary) # prints: False\n<br>print(1 in dictionary) # prints: False\n<br># The last print statement returns False because the `X in dictionary` syntax only checks if `X` is a key of `dictionary`, not a value.</span>",
+                                                "# some code snippets to help you understand: <br>dictionary = {\"a\": 1} <br>print(\"a\" in dictionary) # prints: True <br>print(\"b\" in dictionary) # prints: False <br>print(1 in dictionary) # prints: False <br># The last print statement returns False because the `X in dictionary` syntax only checks if `X` is a key of `dictionary`, not a value.",
                                                 "",
                                                 "D5C5AC75-C9CB-45B4-98B0-F172EDC48376"
                                             ],
@@ -1977,7 +1977,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>x = {\"a\": 1}\n<br>print(\"a\" in x)</span>",
+                                                "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(\"a\" in x)",
                                                 "True",
                                                 "",
                                                 "",
@@ -2082,7 +2082,7 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "<span style=\"color: rgb(35, 39, 53);\"># What is the output of the code below?\n<br>x = {\"a\": 1}\n<br>print(x.get(\"a\", 999))</span>",
+                                                        "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(x.get(\"a\", 999))",
                                                         "999",
                                                         "The value associated wth \"a\" is 1.",
                                                         "",
@@ -2321,7 +2321,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "<span style=\"color: rgb(35, 39, 53);\"># Mutate the dictionary below to equal: {\"A\": 1, \"B\": 2, \"C\": 3}\n<br>my_dictionary = {\"A\": 1, \"B\": 2}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2}\n<br>{{c1::my_dictionary[\"C\"] = 3}}\n<br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2, \"C\": 3}</span>",
+                                                "# Mutate the dictionary below to equal: {\"A\": 1, \"B\": 2, \"C\": 3} <br>my_dictionary = {\"A\": 1, \"B\": 2} <br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2} <br>{{c1::my_dictionary[\"C\"] = 3}} <br>print(my_dictionary) # prints: {\"A\": 1, \"B\": 2, \"C\": 3}",
                                                 "my_dictionary[\"C\"] = 3 creates a new key \"C\", which has a corresponding value of 3.",
                                                 "",
                                                 "23967BD7-40A1-419F-8A00-37272D28509D"
@@ -6449,8 +6449,7 @@
                         1,
                         2,
                         3,
-                        4,
-                        5
+                        4
                     ]
                 ]
             ],
@@ -6466,7 +6465,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n{{#URL}}\nTest your code here:<br>\n{{#URL Instructions}}\n({{URL Instructions}}):\n{{/URL Instructions}}\n{{URL}}\n{{/URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
