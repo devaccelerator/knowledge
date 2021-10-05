@@ -2216,7 +2216,7 @@
                                                     "__type__": "Note",
                                                     "fields": [
                                                         "# mutate the dictionary below to equal an empty dictionary: {} <br>dictionary = {\"example\": 999} <br>print(dictionary) # prints: {\"example\": 999} <br>{{c1::dictionary.pop(\"example\")}} <br>print(dictionary) # should print: {}",
-                                                        "<div>We use the .pop method to remove the \"example\" key. </div><div><br>&nbsp;the `del dictionary[\"example\"]` syntax would work too&nbsp;</div>",
+                                                        "<div># We use the .pop method to remove the \"example\" key. </div><div><br># The `<b>del dictionary[\"example\"]</b>` syntax would work too&nbsp;<br><br># We&nbsp; cannot just do <b>dictionary.pop()</b><br># Here's why:<br><br>dictionary = {\"example\": 999}&nbsp;<br>print(dictionary) # prints: {\"example\": 999}&nbsp;<br>dictionary.pop(\"example\") # throws error: TypeError: pop expected at least 1 argument, got 0</div>",
                                                         "",
                                                         "8AE11563-CDD1-4DB7-9F76-CA31065A51C1"
                                                     ],
