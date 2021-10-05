@@ -2216,7 +2216,7 @@
                                                     "__type__": "Note",
                                                     "fields": [
                                                         "# mutate the dictionary below to equal an empty dictionary: {} <br>dictionary = {\"example\": 999} <br>print(dictionary) # prints: {\"example\": 999} <br>{{c1::dictionary.pop(\"example\")}} <br>print(dictionary) # should print: {}",
-                                                        "<div># We use the .pop method to remove the \"example\" key. </div><div><br>#The `<b>del dictionary[\"example\"]</b>` syntax would work too&nbsp;<br><br>We cannot just do <b>dictionary.pop()</b><br>Here's why:</div>",
+                                                        "<div># We use the .pop method to remove the \"example\" key. </div><div><br>#The `<b>del dictionary[\"example\"]</b>` syntax would work too&nbsp;<br><br># We cannot just do <b>dictionary.pop()</b><br># Here's why:<br><br>dictionary = {\"example\": 999}&nbsp;<br>print(dictionary) # prints: {\"example\": 999}&nbsp;<br>dictionary.pop() # throws error: TypeError: pop expected at least 1 argument, got 0<br><br># So the <b>.pop()</b>&nbsp;method of dictionaries requires atleast 1 parameter. This is different from lists because list will by default pop the last element if no parameter is passed in. It's important to realize that dictionaries are unordered collections of key value pairs, so there is no \"last\" element to pop because the order doesn't matter in dictionaries</div>",
                                                         "",
                                                         "8AE11563-CDD1-4DB7-9F76-CA31065A51C1"
                                                     ],
