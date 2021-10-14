@@ -1263,7 +1263,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What inputs does range() take?",
-                                        "range(start, stop, step)<br><br>`start` and `stop` are optional, so here are the possible inputs:<br>range(stop)<br>range(start, stop)<br>range(start, stop, step)",
+                                        "range(start, stop, step)<br><br>`start` and `step` are optional, so here are the possible inputs:<br>range(stop)<br>range(start, stop)<br>range(start, stop, step)",
                                         "<img src=\"paste-6d2a721acbf338ba38f842428b082bf3fd7f9023.jpg\"><br><a href=\"https://www.w3schools.com/python/ref_func_range.asp\">https://www.w3schools.com/python/ref_func_range.asp</a>",
                                         "",
                                         "53af4c24-89de-425a-a53b-e6c6bf288481"
@@ -2670,9 +2670,9 @@
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "Syntax to add values to the end of a list in Python? (You should mutate the original list)",
+                                                        "Syntax to add a value to the end of a list in Python? (You should mutate the original list)",
                                                         "my_list.append(\"like this\")",
-                                                        "<img src=\"JZ7uRjA7vGoire5Qs1sIn9NGqQsMy6m_Y1ip5r0IKgHSUUeIBoI_9mrmGlWnr2J1_kWSHPS8ebNjspn4Ew9TLtH5gBdtqF4ynM2DDG8Ks1gX9pYJrca.png\">",
+                                                        "The .append() can only add one value at a time.<br><img src=\"JZ7uRjA7vGoire5Qs1sIn9NGqQsMy6m_Y1ip5r0IKgHSUUeIBoI_9mrmGlWnr2J1_kWSHPS8ebNjspn4Ew9TLtH5gBdtqF4ynM2DDG8Ks1gX9pYJrca.png\">",
                                                         "",
                                                         "32b96979-a538-46da-a0d5-2321d331bd6f"
                                                     ],
