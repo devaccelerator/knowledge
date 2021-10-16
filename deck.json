@@ -1954,6 +1954,7 @@
                                     "extendNew": 0,
                                     "extendRev": 0,
                                     "media_files": [],
+                                    "mid": 1629300492637,
                                     "name": "in keyword",
                                     "notes": [
                                         {
@@ -1997,6 +1998,19 @@
                                                 "4AA7A76F-666D-45F4-8730-E7FCB6991E16"
                                             ],
                                             "guid": "q9K+(c#dx?",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What is the output of the code below?&nbsp;<br>x = {\"a\": 1}&nbsp;<br>print(1 in x)",
+                                                "False",
+                                                "The `in` keyword checks to see if the item to the left is a <b>key</b>&nbsp;within the dictionary on the right. It doesn't check to see if the item is a value in the dictionary.<br><br>So in this example, 1 is not a key in the dictionary, so it returns false. 1 is a value of the key \"a\", but 1 itself is not the key.",
+                                                "",
+                                                "845572D6-88B2-4789-9332-09014DC67BFD"
+                                            ],
+                                            "guid": "ot?8CtrXUr",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
                                         }
