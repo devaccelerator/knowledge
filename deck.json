@@ -1075,6 +1075,110 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "726985b8-417f-11ec-be98-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629300492637,
+                            "name": "abs",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "In Python, the built-in {{c1::abs()}} function returns the absolute value of the specified number.",
+                                        "print(abs(-1)) # prints: 1<br>print(abs(1)) # prints: 1",
+                                        "",
+                                        "EA9D69C7-385F-4597-AA76-B19E0B0FDC26"
+                                    ],
+                                    "guid": "z_ai]i~tf(",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "lst = [1, -2, 3, -4, -5]<br>for num in lst:<br>&nbsp; &nbsp; print({{c1::abs(num)}})<br># should print:<br># 1<br># 2<br># 3<br># 4<br># 5",
+                                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481</a>",
+                                        "",
+                                        "E7167B38-DC61-450A-8567-8B8F3FBAC6DC"
+                                    ],
+                                    "guid": "o7|G9Z<c@8",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(abs(-12))<br>print(abs(12))",
+                                        "12<br>12",
+                                        "abs() returns the absolute value of a number",
+                                        "",
+                                        "57ADD086-F6BF-4E41-A7B7-B08C6398DDBE"
+                                    ],
+                                    "guid": "u?Pkk;aS`7",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "7269b024-417f-11ec-be98-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629301724971,
+                            "name": "enumerate",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Using a built-in python function (<b>not range()</b>) what should the definition of the function below look like in order to print the expected values?<br><br>def fn(lst):<br>{{c1::&nbsp; &nbsp; for i, num in enumerate(lst):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i, num)}}<br><br>lst = [\"a\",\"b\",\"c\"]<br><br>fn(lst) # should print:&nbsp;<br># 0 a<br># 1 b<br># 2 c<br><br>",
+                                        "The enumerate function provides the most simple way to do this.",
+                                        "",
+                                        "4A478494-1BEE-446B-81B7-D24C6DA806D5"
+                                    ],
+                                    "guid": "JdjDl8SOv2",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "z = [\"a\", \"b\", \"c\"]<br>for x, y in enumerate(z):<br>&nbsp; &nbsp; print(x, y)",
+                                        "0 a<br>1 b<br>2 c",
+                                        "print(list(enumerate([\"a\",\"b\",\"c\"]))) # prints [(0,\"a\"),(1,\"b\"),(2,\"c\")]<br><br><a href=\"https://www.youtube.com/watch?v=-MZiQaNI0QA&amp;t=89s\">https://www.youtube.com/watch?v=-MZiQaNI0QA&amp;t=89s</a>",
+                                        "",
+                                        "0FAFAF76-3CDD-4A50-848A-B70EB3022A88"
+                                    ],
+                                    "guid": "GBh8~KWoG}",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The built-in {{c1::enumerate()}} function allows&nbsp;us to iterate through a sequence&nbsp;but it keeps track of both the index and the element. It takes in an iterable as an argument, such as a list, string, tuple, or dictionary.",
+                                        "<a href=\"https://towardsdatascience.com/looping-in-python-5289a99a116e\">https://towardsdatascience.com/looping-in-python-5289a99a116e</a>",
+                                        "",
+                                        "864EB724-129C-44DB-BF24-A3DBE731E372"
+                                    ],
+                                    "guid": "zMatXC?Rp$",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "f0883642-0089-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -4829,6 +4933,87 @@
                                 {
                                     "__type__": "Deck",
                                     "children": [],
+                                    "crowdanki_uuid": "7274ff2e-417f-11ec-be98-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629300492637,
+                                    "name": "math.floor()",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "import math<br>print(math.floor(5.95))",
+                                                "5",
+                                                "math.floor()&nbsp;rounds a number down",
+                                                "",
+                                                "EB87898E-14D6-47D7-90B0-8BF65A2D88E5"
+                                            ],
+                                            "guid": "yw%d|`r?+!",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "The&nbsp;{{c1::math.floor()}}&nbsp;method rounds a number DOWN to the nearest integer, if necessary, and returns the result",
+                                                "<a href=\"https://www.w3schools.com/python/ref_math_floor.asp\">https://www.w3schools.com/python/ref_math_floor.asp</a>",
+                                                "",
+                                                "2A1E912E-0A7F-414B-9578-EAAD857D3E7E"
+                                            ],
+                                            "guid": "k=^)XkJgQo",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "import math<br>print(math.floor(-5.05))",
+                                                "-6",
+                                                "math.floor() rounds a number down. -6 is less than -5 so -5.05 rounds down to -6",
+                                                "",
+                                                "80B087C2-3C38-44EB-BAFB-BCFA5CF6B3F5"
+                                            ],
+                                            "guid": "QeBN0-Ej8[",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "crowdanki_uuid": "7274e82c-417f-11ec-be98-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "math",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "7274d148-417f-11ec-be98-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "modules",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
                                     "crowdanki_uuid": "3efa41da-0139-11ec-9560-3e22fb2860fe",
                                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                     "desc": "",
@@ -5618,6 +5803,34 @@
                 {
                     "__type__": "Deck",
                     "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "72773e06-417f-11ec-be98-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629300492637,
+                            "name": "None",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What data type in python represents \"nothing\"?",
+                                        "None",
+                                        "In Python, 'None' is the object which represents nothing. When we want a value to hold nothing, we assign it with value 'None'.<br><br>So in Python, `None` is a reserved keyword that represents nothing, just like `True` and `False` are reserved keywords that represent booleans",
+                                        "",
+                                        "CA4BE1A4-3517-4CD0-BB8F-B75E0F3CD0FA"
+                                    ],
+                                    "guid": "AbG<r`iRqx",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
                         {
                             "__type__": "Deck",
                             "children": [],
