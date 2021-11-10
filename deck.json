@@ -1179,6 +1179,46 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "44326412-41e3-11ec-89c2-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "float",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to assign a variable to equal infinity in Python?",
+                                        "x = float('inf')",
+                                        "`float('inf')` represents infinity in python",
+                                        "",
+                                        "33A53CBB-C54D-48C9-B749-1B9A09558236"
+                                    ],
+                                    "guid": "EIc?g[<_5M",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to assign a variable to equal negative infinity in Python?",
+                                        "x = float('-inf')",
+                                        "`float('-inf')` represents negative infinity in Python",
+                                        "",
+                                        "AA52FDBC-EB5C-41E9-BD09-33A6D0786685"
+                                    ],
+                                    "guid": "Fp&U6$tW$z",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "f0883642-0089-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -2885,6 +2925,45 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "4437f8be-41e3-11ec-89c2-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "mid": 1629301724971,
+                                            "name": "extend",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "The&nbsp;{{c1::extend()}} list method adds all the elements of an iterable (list, tuple, string etc.) to the end of the list.",
+                                                        "<a href=\"https://www.programiz.com/python-programming/methods/list/extend\">https://www.programiz.com/python-programming/methods/list/extend</a>",
+                                                        "",
+                                                        "80B3DD39-4AB3-4975-8515-618E9039CB52"
+                                                    ],
+                                                    "guid": "cWqZq<Gt2)",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "lst1 = [1,2,3]<br>lst2 = [4,5,6]<br>{{c1::lst1.extend(lst2)}}<br>print(lst1) # should print: [1, 2, 3, 4, 5, 6]",
+                                                        "<a href=\"https://www.programiz.com/python-programming/methods/list/extend\">https://www.programiz.com/python-programming/methods/list/extend</a>",
+                                                        "",
+                                                        "71DD73B3-00C7-4CE1-9DE7-E3A01D07B5A1"
+                                                    ],
+                                                    "guid": "k_DxAp/v/Y",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "c89e9726-0074-11ec-9d19-3e22fb2860fe",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
@@ -3076,6 +3155,33 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "44387258-41e3-11ec-89c2-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "mid": 1629301724971,
+                                            "name": "reversed",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# What code should be added below so the print statement prints what the comment says it should print?<br><br>nums = [1, 2, 3]<br><br>{{c1::nums.reverse()}}<br><br>print(nums) # prints: [3, 2, 1]",
+                                                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764</a>",
+                                                        "",
+                                                        "5BD6E7EB-BE84-4E1A-8D98-66C84EDA0E92"
+                                                    ],
+                                                    "guid": "iCot%XJX{/",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "c89ef23e-0074-11ec-9d19-3e22fb2860fe",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
@@ -3255,9 +3361,25 @@
                                     "dyn": 0,
                                     "extendNew": 0,
                                     "extendRev": 0,
-                                    "media_files": [],
+                                    "media_files": [
+                                        "paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg"
+                                    ],
                                     "name": "output",
-                                    "notes": []
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "lst = [[]]*3<br>lst[0].append(1)<br>print(lst)",
+                                                "[[1], [1], [1]]",
+                                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a><br><br>Just remember that if you initialize a list with sublists like that, then your creating a list with multiple references to the same sublist. You can kind of visualize it like this:<br><img src=\"paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg\">",
+                                                "",
+                                                "B9B2AF9E-AECE-4A5A-A42E-84281F735595"
+                                            ],
+                                            "guid": "bcR~eP|yk.",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
                                 },
                                 {
                                     "__type__": "Deck",
@@ -3272,6 +3394,7 @@
                                             "extendNew": 0,
                                             "extendRev": 0,
                                             "media_files": [],
+                                            "mid": 1629300492637,
                                             "name": "output",
                                             "notes": [
                                                 {
@@ -3338,6 +3461,19 @@
                                                     "guid": "B!^zlgFrDK",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "lst1 = [1, 2, 3]<br>lst2 = lst1[:]<br><br>lst2.append(4)<br><br>print(lst1)<br>print(lst2)",
+                                                        "[1, 2, 3]<br>[1, 2, 3, 4]",
+                                                        "`lst2` equals a copy of `lst1` because we used slice notation to make a copy of it: `lst1[:]`",
+                                                        "",
+                                                        "FFC061F1-C41B-4EA9-93EC-2004EE4707E2"
+                                                    ],
+                                                    "guid": "J_Vl8qFFmz",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
                                                 }
                                             ]
                                         },
@@ -3357,6 +3493,7 @@
                                                 "fsVZfABmoRuTyYTi3RG9bqxtVz9w8WtBqHLd1X_CUkMOI4dwA1o2miY9LlMmQvYPxz9iJJ_Ac7STdzs8CYtx4xSkhsVL1CQm3z5A_lRzJouuLGIxQJp.png",
                                                 "s2c55s0SI06UtiqAiDXmQYHAsY3-9_B5nu-WfxTjgLsUBHrJzB0Sb1orNgjm1Om_ugIA8sBFqoF0oS6iBmNP2C8Of1RR0N_WPJxaYK0dvIrQIPAGpcl.png"
                                             ],
+                                            "mid": 1629301724971,
                                             "name": "syntax",
                                             "notes": [
                                                 {
@@ -3423,6 +3560,18 @@
                                                     "guid": "B:2VlVExyf",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# make the variable `lst2` equal a <b>COPY</b>&nbsp;of `lst1`:<br><br>lst1 = [1, 2, 3]<br>lst2 = {{c1::lst1[:]}}",
+                                                        "We use slice notation to take a slice of the entire list which is basically a copy of the list.<br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384</a>",
+                                                        "",
+                                                        "CDDBDBEB-3987-4B0C-9C12-9DF581E10F76"
+                                                    ],
+                                                    "guid": "q>B!-3-q?:",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
                                                 }
                                             ]
                                         }
@@ -3474,6 +3623,19 @@
                                             "guid": "keT)P<!1[/",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What's a more concise way to write the following code?:<br>lst = [0 for _ in range(10)]",
+                                                "lst = [0]*10",
+                                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a>",
+                                                "",
+                                                "552A7591-2B57-4D15-ABA9-59404A065A96"
+                                            ],
+                                            "guid": "ORfAi/M%R$",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
                                         }
                                     ]
                                 }
@@ -3491,6 +3653,34 @@
                         {
                             "__type__": "Deck",
                             "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "4439845e-41e3-11ec-89c2-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629300492637,
+                                    "name": "f-strings",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "name = \"Alex\"<br><br># Change the code below to print the exact same string but without using the `+` operator:<br>print(\"Hi, my name is \" + name)",
+                                                "print(<b>f</b>\"Hi, my name is&nbsp;<b>{name}</b>\")",
+                                                "the `f` before the first quotation makes it so we can insert variables into the string using curly bracket notation: `{}`",
+                                                "",
+                                                "2693AAF0-A574-48CB-9496-4D8834683BAC"
+                                            ],
+                                            "guid": "C*%MP8!c^6",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
                                 {
                                     "__type__": "Deck",
                                     "children": [],
@@ -4933,6 +5123,46 @@
                                 {
                                     "__type__": "Deck",
                                     "children": [],
+                                    "crowdanki_uuid": "443d205a-41e3-11ec-89c2-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629300492637,
+                                    "name": "math.ceil()",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "The&nbsp;{{c1::math.ceil()}}&nbsp;method rounds a number UP to the nearest integer, if necessary, and returns the result",
+                                                "<a href=\"https://www.w3schools.com/python/ref_math_ceil.asp\">https://www.w3schools.com/python/ref_math_ceil.asp</a>",
+                                                "",
+                                                "D5EF6104-72DD-4E75-ADBD-7072CA422AA0"
+                                            ],
+                                            "guid": "i`;*=GWiL:",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "import math<br>print(math.ceil(1.1))",
+                                                "2",
+                                                "The&nbsp;math.ceil()&nbsp;method rounds a number UP to the nearest integer, if necessary, and returns the result.",
+                                                "",
+                                                "797CDAFD-6D5F-4C4D-98D8-2E885CFE3D8B"
+                                            ],
+                                            "guid": "F=]2XFr+r3",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
                                     "crowdanki_uuid": "7274ff2e-417f-11ec-be98-acde48001122",
                                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                     "desc": "",
@@ -5961,6 +6191,47 @@
                     "media_files": [],
                     "name": "primitive datatypes",
                     "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "443f9218-41e3-11ec-89c2-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "mid": 1629300492637,
+                    "name": "referencing & mutability",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "lst1 = [1,2,3]<br>lst2 = lst1<br>lst1.append(4)<br><br>print(lst1)<br>print(lst2)",
+                                "[1, 2, 3, 4]<br>[1, 2, 3, 4]",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159\">https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159</a><br><br>`lst1` and `lst2` point to the exact same list in memory.",
+                                "",
+                                "99889A58-05B7-411B-80C5-87656378E40A"
+                            ],
+                            "guid": "tNF7AfuDj%",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "a = 1<br>b = a<br><br>a += 1<br><br>print(a)<br>print(b)",
+                                "2<br>1",
+                                "integers are immutable, so when the code `a += 1` executes, the number `1` is not actually mutated into `2`. `a` is just reassigned to the value of `2`, and `b` remains pointing to the `1` integer.&nbsp;",
+                                "",
+                                "EF9B32FE-26A6-475D-B53A-8578475A7AAA"
+                            ],
+                            "guid": "qzVTSP4qv,",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
                 },
                 {
                     "__type__": "Deck",
