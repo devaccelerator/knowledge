@@ -1281,6 +1281,18 @@
                                     "guid": "dnuRHTjru_",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# How to print the count of key-value-pairs in our dictionary?<br><br>dictionary = {1: \"a\", 2: \"b\", 3: \"c\"}<br><br>print({{c1::len(dictionary)}}) # prints: 3",
+                                        "We can simply use the len() function to tell us the \"length\" of the dictionary which is the count of key-value-pairs in the dictionary",
+                                        "",
+                                        "885FB414-AC00-48A3-B890-01D0E058B1C9"
+                                    ],
+                                    "guid": "i[Y&T}Yivq",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
                                 }
                             ]
                         },
@@ -2062,6 +2074,32 @@
                                 {
                                     "__type__": "Deck",
                                     "children": [],
+                                    "crowdanki_uuid": "da29e6ac-42a6-11ec-84a7-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "del keyword",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# What code should be added below so that the \"a\" key is removed from our dictionary? (Without using the .pop() method)<br><br>dictionary = {\"a\": 100}<br><br>{{c1::del dictionary[\"a\"]}}&nbsp;<br><br>print(dictionary) # prints: {}",
+                                                "We use the `del` keyword to delete the \"a\" key-value-pair from the dictionary",
+                                                "",
+                                                "1231BA7D-57AC-4428-870F-8C72530BDDDC"
+                                            ],
+                                            "guid": "HR9#8d6Kp%",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
                                     "crowdanki_uuid": "e1b4e2d8-061e-11ec-9185-3e22fb2860fe",
                                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                     "desc": "",
@@ -2407,6 +2445,18 @@
                                                         "7A5B76CC-1390-4705-8A70-5D84C71776D4"
                                                     ],
                                                     "guid": "nOX?pNC%?.",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# Use a dictionary method to add the key-value-pairs of `a` into `b`<br><br>a = {\"a\": 1, \"b\": 2}<br>b = {\"c\": 3, \"d\": 4}<br><br>{{c1::b.update(a)}}<br><br>print(b) # prints: {\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}",
+                                                        "<a href=\"https://www.programiz.com/python-programming/methods/dictionary/update\">https://www.programiz.com/python-programming/methods/dictionary/update</a><br><br>It could also print `{'c': 3, 'd': 4, 'a': 1, 'b': 2}` (just different orderings of key-value-pairs), because remember, key-value-pairs in dictionaries are unordered, so the order does not matter.",
+                                                        "",
+                                                        "CC960420-AF42-4094-88B2-97FC3E777965"
+                                                    ],
+                                                    "guid": "s;~^XD;;^S",
                                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
                                                 }
@@ -3191,6 +3241,7 @@
                                             "media_files": [
                                                 "fbjxql5ICKSaPgg3gGizuOF5vqBeB-6MdAu6_l175VXT5k3_E6sCnFQMoSztJWejLF7SsSllSubXd7ZA7IZrxZjuVdBmdfWXtpDHZOppIpA8RuYuGjI.png"
                                             ],
+                                            "mid": 1629300492637,
                                             "name": "sort",
                                             "notes": [
                                                 {
@@ -3254,6 +3305,19 @@
                                                         "f7d77467-7709-4c64-9545-82b9fcf01dba"
                                                     ],
                                                     "guid": "F]vLE81-I5",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "lst = [['abc', 2, 1], ['abb', 2, 2],&nbsp;['abc',2,0]]<br>lst.sort()<br>print(lst)",
+                                                        "[['abb', 2, 2], ['abc', 2, 0], ['abc', 2, 1]]",
+                                                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527</a><br>When sorting a list that contains other, lists or tuples, python will prioritize the first element of the sublist first to sort, but if those are the same, then it will try and compare the second element and so on.",
+                                                        "",
+                                                        "4D1C33F4-D25B-461B-8DC4-62510EECC7F0"
+                                                    ],
+                                                    "guid": "KdFeG0ulkG",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
                                                 }
@@ -4568,6 +4632,34 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "da32a058-42a6-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629301724971,
+                            "name": "lambda",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Change the function definition below to be only one line.<br><br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b",
+                                        "return_sum = lambda a, b: a + b",
+                                        "return_sum = lambda a, b: a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br># -----------------------------------------------<br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529</a>",
+                                        "",
+                                        "7406FBE5-E526-46C9-8DAA-C9E6F7FA5ED3"
+                                    ],
+                                    "guid": "b-cucS,g9>",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "9c412ab8-0114-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -4577,7 +4669,7 @@
                             "media_files": [
                                 "DZSWV7jua0VfNMAYsuw7b0zw4fT09k5nu_KJXN0Y2Te_beQKk0lUccwka1_FR18rP5sif_bsDQE4Mu3hKAUfshcyFANNnv42hB3wNMrbwz_Mu6bwt4v.png"
                             ],
-                            "mid": 1629300492637,
+                            "mid": 1629301724971,
                             "name": "parameters",
                             "notes": [
                                 {
@@ -4616,6 +4708,18 @@
                                     ],
                                     "guid": "hG0jbJ(KDS",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "def fn(a=\"Deep\", b=\"Work\"):<br>&nbsp; &nbsp; print(a, b)<br><br>fn() # prints: Deep Work<br><br>fn({{c1::b=\"Focus\"}}) # prints: Deep Focus",
+                                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528</a><br><br>`fn(\"Deep\", \"Focus\")` would be repetitive because `a` already has a default value of \"Deep\", so we can instead write `fn(b=\"Focus\")`",
+                                        "",
+                                        "956C2435-751B-4BEA-83CC-A90DB4E1E692"
+                                    ],
+                                    "guid": "u9&izK!(2M",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -4984,6 +5088,30 @@
                                     "guid": "f_a0Ox(o7-",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Using list comprehension, make `lstb` equal a list that contains the numbers from `lsta` mapped out to be double the size<br><br>lsta = [1, 2, 3]<br><br>lstb = {{c1::[num * 2 for num in lsta]}}<br><br>print(lsta) # prints: [1, 2, 3]<br>print(lstb) # prints: [2, 4, 6]",
+                                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                                        "",
+                                        "CEFBF1C8-487C-4F47-9B98-D8BD1DEAC72C"
+                                    ],
+                                    "guid": "CkXS6lWNz^",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Using list comprehension, make `lstb` equal a list that is a filtered version of `lsta` where `lstb` only contains the numbers from `lsta` that are greater than 10.<br><br>lsta = [12, 3, 2, 10, 30, 17, 12, 6]<br><br>lstb = {{c1::[num for num in lsta if num &gt; 10]}}<br><br>print(lsta) # prints: [12, 3, 2, 10, 30, 17, 12, 6]<br>print(lstb) # prints: [12, 30, 17, 12]",
+                                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                                        "",
+                                        "E89D6C81-B842-418A-8463-764BB0729ECE"
+                                    ],
+                                    "guid": "KcA^iL(J8@",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
                                 }
                             ]
                         },
@@ -5117,6 +5245,98 @@
                 {
                     "__type__": "Deck",
                     "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "da34c73e-42a6-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629301724971,
+                            "name": "basics",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "da35082a-42a6-11ec-84a7-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "deafultdict",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "The Python&nbsp;{{c1::defaultdict}}&nbsp;type behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key, then&nbsp;defaultdict&nbsp;will automatically create the key and generate a default value for it.",
+                                                "<a href=\"https://realpython.com/python-defaultdict/\">https://realpython.com/python-defaultdict/</a>",
+                                                "",
+                                                "CDE00255-874E-4C19-8210-761C99B36987"
+                                            ],
+                                            "guid": "ga80>S@!83",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "example = defaultdict(int)<br><br># The code above throws the following error:<br># NameError: name 'defaultdict' is not defined<br># How to fix it?",
+                                                "<b>from collections import defaultdict</b><br><br>example = defaultdict(int)",
+                                                "The default dict is part of the collections module, so it must be imported from collections",
+                                                "",
+                                                "7F889742-2549-40A9-B530-89003E73EB74"
+                                            ],
+                                            "guid": "Mh@34*^tP(",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "How does Python's defaultdict type work?",
+                                                "It's like a regular dictionary except we can define what we want the default value of a key to be when we try to access a key that hasn't been declared yet.",
+                                                "",
+                                                "",
+                                                "102B6B01-C90D-4D2B-B954-FD71F7D3A143"
+                                            ],
+                                            "guid": "Ky@EVpZ!x/",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# Assign the variable `a` to equal a defaultdict in which its values default to 0 (zero).<br><br>from collections import defaultdict<br>a = {{c1::defaultdict(int)}}",
+                                                "# This would also work:<br>a = defaultdict(lambda: 0)",
+                                                "",
+                                                "49F6A5A1-BAB2-4CA5-93C1-C53D3DAD8D8A"
+                                            ],
+                                            "guid": "J|;JU[yaQ#",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "crowdanki_uuid": "da34e7a0-42a6-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "collections",
+                            "notes": []
+                        },
                         {
                             "__type__": "Deck",
                             "children": [
@@ -6235,7 +6455,34 @@
                 },
                 {
                     "__type__": "Deck",
-                    "children": [],
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "da390164-42a6-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "nonlocal",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::nonlocal}} keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function.",
+                                        "<a href=\"https://www.w3schools.com/python/ref_keyword_nonlocal.asp\">https://www.w3schools.com/python/ref_keyword_nonlocal.asp</a>",
+                                        "",
+                                        "C397CAD3-33AA-4D3B-A4F7-61B547B02290"
+                                    ],
+                                    "guid": "P(oshuDMT1",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
                     "crowdanki_uuid": "46c0b2aa-ffe0-11eb-ac0f-3e22fb2860fe",
                     "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
                     "desc": "",
