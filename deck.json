@@ -3759,6 +3759,7 @@
                                         "EI14ItNWQpy1HAN-p6pEZhD45V-ahUMFGeF8OqEOxYPdQ0KTRvEOUwcM_7h9XwxTNP3wvU6l0cCNopp_AvtRr0ZxC_uWvMjsAw2NNa0iKMa-6hB0wSo.png",
                                         "M5iqJ75_SMJgKdGGwZLK2cLuQhMWrnxUERrSyEdutBA6kLFn1_EK6-CgfNrZr5L5dJI2K-Fr6DsrxDw34yK_4hne5K7JewthfaHYXJKfCcGr0x2Ovhy.png"
                                     ],
+                                    "mid": 1629301724971,
                                     "name": "indexing & slicing",
                                     "notes": [
                                         {
@@ -3785,6 +3786,18 @@
                                             ],
                                             "guid": "uIjhCeQU44",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[::-1]}}) # prints: cba",
+                                                "<a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
+                                                "",
+                                                "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
+                                            ],
+                                            "guid": "BW@[VykxIl",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
                                         }
                                     ]
@@ -6466,6 +6479,7 @@
                             "extendNew": 0,
                             "extendRev": 0,
                             "media_files": [],
+                            "mid": 1629300492637,
                             "name": "nonlocal",
                             "notes": [
                                 {
@@ -6478,6 +6492,32 @@
                                     ],
                                     "guid": "P(oshuDMT1",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "def outer():<br>&nbsp; &nbsp; x = 3<br>&nbsp; &nbsp; def inner():<br>&nbsp; &nbsp; &nbsp; &nbsp; x = 9<br>&nbsp; &nbsp; inner()<br>&nbsp; &nbsp; print(x)<br><br>outer()<br><br># what is the output?",
+                                        "3",
+                                        "`x = 9` declares a new variable `x` inside the function `inner` which is a seperate variable from `x` that was declared outside of the `inner` function.",
+                                        "",
+                                        "922C6157-8F31-4626-BF04-E2AD27B7099D"
+                                    ],
+                                    "guid": "dv3v%m!mhN",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "def outer():<br>&nbsp; &nbsp; x = 3<br>&nbsp; &nbsp;&nbsp;def inner():<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;nonlocal x<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;x = 9<br>&nbsp; &nbsp;&nbsp;inner()<br>&nbsp; &nbsp;&nbsp;print(x)<br><br>outer()<br><br># what is the output?",
+                                        "9",
+                                        "`nonlocal x` tells Python that `x` is not to be used as a local variable, so `x = 9` inside the `inner` function reassigns `x` of the parent function to 9.",
+                                        "",
+                                        "3ACC5473-D28D-4603-92BF-0DCC06BA3955"
+                                    ],
+                                    "guid": "A*ZFY~&D8L",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
