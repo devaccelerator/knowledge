@@ -1325,6 +1325,33 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "cde24810-436b-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629300492637,
+                            "name": "max",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Print the largest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::max(nums)}}) # prints: 9",
+                                        "<a href=\"https://www.programiz.com/python-programming/methods/built-in/max\">https://www.programiz.com/python-programming/methods/built-in/max</a>",
+                                        "",
+                                        "1F945C0D-7461-4E84-9DDB-6D2E51302D45"
+                                    ],
+                                    "guid": "qh]*J5Ie)?",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "f0888a34-0089-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -1484,6 +1511,33 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "cde2c1c8-436b-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629301724971,
+                            "name": "reversed",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The built-in {{c1::reversed()}} function returns the reversed iterator of the given sequence.",
+                                        "It does <b>NOT</b>&nbsp;mutate the iterable it was called on. Example:<br><br>string = \"abc\"<br><br>print(list(reversed(string))) # prints ['c','b','a']<br><br>print(string) # prints: abc<br><br><br><br>lst = [1, 2, 3]<br><br>print(list(reversed(lst))) # prints [3, 2, 1]<br><br>print(lst) # prints: [1, 2, 3]",
+                                        "",
+                                        "9808B018-3591-4E07-9EF0-2334A618FF93"
+                                    ],
+                                    "guid": "A:7)If_bei",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "f088d2a0-0089-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -1535,6 +1589,32 @@
                                         "codecademy",
                                         "python"
                                     ]
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "cde327b2-436b-11ec-84a7-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "sum",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Print the value of all the numbers in `nums` added together.<br><br>nums = [1, 2, 3]<br><br>print({{c1::sum(nums)}}) # prints: 6",
+                                        "<a href=\"https://www.programiz.com/python-programming/methods/built-in/sum\">https://www.programiz.com/python-programming/methods/built-in/sum</a>",
+                                        "",
+                                        "C97A22EC-C671-4A0C-B9FE-EFBCCAFE32AE"
+                                    ],
+                                    "guid": "QgCdYi0sbK",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
                                 }
                             ]
                         },
@@ -3213,12 +3293,12 @@
                                             "extendRev": 0,
                                             "media_files": [],
                                             "mid": 1629301724971,
-                                            "name": "reversed",
+                                            "name": "reverse",
                                             "notes": [
                                                 {
                                                     "__type__": "Note",
                                                     "fields": [
-                                                        "# What code should be added below so the print statement prints what the comment says it should print?<br><br>nums = [1, 2, 3]<br><br>{{c1::nums.reverse()}}<br><br>print(nums) # prints: [3, 2, 1]",
+                                                        "# What code should be added below so the print statement prints what the comment says it should print? (using a list method)<br><br>nums = [1, 2, 3]<br><br>{{c1::nums.reverse()}}<br><br>print(nums) # prints: [3, 2, 1]",
                                                         "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764</a>",
                                                         "",
                                                         "5BD6E7EB-BE84-4E1A-8D98-66C84EDA0E92"
@@ -3241,7 +3321,7 @@
                                             "media_files": [
                                                 "fbjxql5ICKSaPgg3gGizuOF5vqBeB-6MdAu6_l175VXT5k3_E6sCnFQMoSztJWejLF7SsSllSubXd7ZA7IZrxZjuVdBmdfWXtpDHZOppIpA8RuYuGjI.png"
                                             ],
-                                            "mid": 1629300492637,
+                                            "mid": 1629301724971,
                                             "name": "sort",
                                             "notes": [
                                                 {
@@ -3319,6 +3399,18 @@
                                                     ],
                                                     "guid": "KdFeG0ulkG",
                                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "# Sort the list `example` in ascending order by the last element for each sublist<br><br>example = [[3,2,4],[2,6,3],[8,4,2],[6,3,8]]<br><br>{{c1::example.sort(key=lambda x: x[-1])}}<br><br>print(example) # prints: [[8, 4, 2], [2, 6, 3], [3, 2, 4], [6, 3, 8]]",
+                                                        "<br>(Look for references to the `key` paramater):&nbsp;<a href=\"https://www.w3schools.com/python/ref_list_sort.asp\">https://www.w3schools.com/python/ref_list_sort.asp</a>",
+                                                        "",
+                                                        "AE79CB23-1388-4179-BD9C-07A20FC91648"
+                                                    ],
+                                                    "guid": "F;HyKv2lFA",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                                     "tags": []
                                                 }
                                             ]
@@ -5278,6 +5370,58 @@
                                 {
                                     "__type__": "Deck",
                                     "children": [],
+                                    "crowdanki_uuid": "cdede9ea-436b-11ec-84a7-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "mid": 1629301724971,
+                                    "name": "Counter",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>A {{c1::Counter}} is a dict subclass for counting hashable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values. Values are allowed to be any integer value including zero or negative counts.</div>",
+                                                "",
+                                                "",
+                                                "16BB4F1A-B26D-4AE8-94B9-B5225E500E3E"
+                                            ],
+                                            "guid": "x|,b1~_sfP",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div># make `var` equal a key value pair object in which each letter is the key and the number of times that letter appears in the string is the value</div> <div><br></div> <div>string = 'aaabbc'</div> <div><br></div> <div>var = # ?<br><br></div> <div>print(var['a']) # prints: 3<br></div>",
+                                                "<div>from collections import Counter</div><div><br></div><div>string = 'aaabbc'</div><div><br></div><div>var = <b>Counter(string)<br><br></b></div><div>print(var['a']) # prints: 3</div>",
+                                                "<a href=\"https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893\">https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893</a>",
+                                                "",
+                                                "E1975E68-45B5-4A3A-B111-986B773F58A3"
+                                            ],
+                                            "guid": "GmSX4,CFtC",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "The Counter type in Python is part of the {{c1::collections}} module.",
+                                                "# So this means that in order to use the `Counter` type, we must import it from collections if the collections module is not already imported into the local environment:<br><br>from collections import Counter",
+                                                "",
+                                                "99027084-ED75-4AD1-BBDA-240C8CEB2297"
+                                            ],
+                                            "guid": "Juu=gD`e1p",
+                                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
                                     "crowdanki_uuid": "da35082a-42a6-11ec-84a7-acde48001122",
                                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                     "desc": "",
@@ -6306,6 +6450,7 @@
                             "media_files": [
                                 "paste-a2318102197fe84922949801efc722c27b5517a3.jpg"
                             ],
+                            "mid": 1629300492637,
                             "name": "booleans",
                             "notes": [
                                 {
@@ -6330,6 +6475,45 @@
                                         "d3fd866b-6959-4448-83e8-e075d3bbb528"
                                     ],
                                     "guid": "Qk{K6}OXTq",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What are truthy and falsy values in Python?",
+                                        "Truthy and falsy values are&nbsp;values that evaluate to True or False in a boolean context.",
+                                        "<a href=\"https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/#:~:text=Truthy%20values%20are%20values%20that,type%2C%20None%20%2C%20and%20False%20.\">https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/#:~:text=Truthy values are values that,type, None , and False .</a>",
+                                        "",
+                                        "5D5981D9-C5B5-4C7C-ABD6-669EF4249A91"
+                                    ],
+                                    "guid": "D$,O``*C,%",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What types of values are truthy in Python and what types of values are falsy?",
+                                        "falsy values include:<br>None<br>0 (zero)<br>empty sequences (lists, tuples, strings etc.)<br><br>and everything else is mostly truthy",
+                                        "More specifically:<br><br>Falsy Values include:<div><b>Sequences and Collections:</b></div>Empty lists: []<br>Empty tuples: ()<br>Empty dictionaries: {}<br>Empty sets: set()<br>Empty strings: \"\"<br>Empty ranges: range(0)<div><b>Numbers</b></div>Zero of any numeric type.<br>Integer:&nbsp;0<br>Float:&nbsp;0.0<br>Complex:&nbsp;0j<div><b>Constants</b></div>None<br>False<br>",
+                                        "",
+                                        "F90B992C-C42B-4D1C-8F13-E73E39011E3B"
+                                    ],
+                                    "guid": "w_T~raqhVl",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# What is the output of the code below?<br><br>zero = 0<br>one = 1<br>empty_list = []<br>nonempty_list = [\"example\"]<br><br>if zero:<br>&nbsp; &nbsp; print(\"a\")<br><br>if one:<br>&nbsp; &nbsp; print(\"b\")<br><br>if empty_list:<br>&nbsp; &nbsp; print(\"c\")<br><br>if nonempty_list:<br>&nbsp; &nbsp; print(\"d\")",
+                                        "b<br>d",
+                                        "`zero` and `empty_list` are falsy values, while `one` and `nonempty_list` are truthy values",
+                                        "",
+                                        "B84B548B-F8AC-4616-A90C-75D836BCED06"
+                                    ],
+                                    "guid": "KIm%}!2q:V",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
