@@ -2774,7 +2774,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "What can be used as a value (in regards to {key:value} pairs) in python dictionaries?",
+                                                "What can be used as a value&nbsp;(in regards to {key:value} pairs) in python dictionaries?",
                                                 "anything",
                                                 "Python allows the values in a dictionary to be any type – string, integer, a list, another dictionary, boolean, etc.<br><br>Notice how the values of the dictionary below range range from numbers to strings, to booleans, to lists, to other dictionaries, it can be anything!<br><br><img src=\"gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png\">",
                                                 "",
