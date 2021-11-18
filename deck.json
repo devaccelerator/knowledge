@@ -1352,6 +1352,33 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "a6ff1164-488f-11ec-9c85-3e22fb2860fe",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629301724971,
+                            "name": "min",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Print the smallest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::min(nums)}}) # prints: 3",
+                                        "<a href=\"https://www.programiz.com/python-programming/methods/built-in/min\">https://www.programiz.com/python-programming/methods/built-in/min</a>",
+                                        "",
+                                        "D09ED909-D076-4935-A791-EF4BE1CCF88E"
+                                    ],
+                                    "guid": "of2id~7L`4",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "f0888a34-0089-11ec-9d19-3e22fb2860fe",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -2751,7 +2778,7 @@
                                                 "anything",
                                                 "Python allows the values in a dictionary to be any type – string, integer, a list, another dictionary, boolean, etc.<br><br>Notice how the values of the dictionary below range range from numbers to strings, to booleans, to lists, to other dictionaries, it can be anything!<br><br><img src=\"gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png\">",
                                                 "",
-                                                ""
+                                                "9C9A7FEA-2A37-4531-B030-1A7558D5E656"
                                             ],
                                             "guid": "zvZQuKXwMj",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
