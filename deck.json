@@ -6853,6 +6853,45 @@
                             "guid": "qzVTSP4qv,",
                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># what is the output of the code below?:</div> <div>a = 1</div> <div>b = a</div> <div>a = 2</div> <div>print(b)</div>",
+                                "1",
+                                "If you don't understand, view the classes &amp; pointers section from this Udemy course:<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview\">https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview</a>",
+                                "",
+                                "2CC3CCB4-76DC-4A55-8C0D-106D18FAA72D"
+                            ],
+                            "guid": "FuR0Pce@Q-",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># what is the output of the code below?:</div>\n<div>a = { 'x': 10 }</div>\n<div>b = a</div>\n<div>b['x'] += 1</div>\n<div>print(a['x'])</div>\n<div>print(b['x'])</div>",
+                                "<div>11</div>\n<div>11</div>",
+                                "If you don't understand, view the classes &amp; pointers section from this Udemy course:<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview\">https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview</a>",
+                                "",
+                                "93D4E6B0-F2C8-4B0E-A16D-457ED42B5E80"
+                            ],
+                            "guid": "r=%qqO?e]]",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># what is the output of the code below?:</div>\n<div>a = { 'x': 10 }</div>\n<div>b = { 'x': 99 }</div>\n<div>c = b</div>\n<div>c = a</div>\n<div>a['x'] += 1</div>\n<div>print(a['x'])</div>\n<div>print(b['x'])</div>\n<div>print(c['x'])</div>",
+                                "<div>11</div>\n<div>99</div>\n<div>11</div>",
+                                "write/type stuff down to keep track of the variables easier<br><br>If you don't understand, view the classes &amp; pointers section from this Udemy course:<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview\">https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26896108#overview</a>",
+                                "",
+                                "FC8570A6-EF4C-4B77-B414-71D39ED1429C"
+                            ],
+                            "guid": "o]Twt2zwL|",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
                         }
                     ]
                 },
@@ -7482,7 +7521,7 @@
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": true
                 },
                 {
                     "font": "Arial",
