@@ -2124,6 +2124,95 @@
                     "children": [
                         {
                             "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "892f61e4-4d3e-11ec-ad4f-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "deques",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What Python data structure is like a list, but is capable of adding and removing elements from the beginning of itself with constant time complexity?</div>",
+                                        "deque",
+                                        "",
+                                        "",
+                                        "C1446824-DA32-4385-ACB7-DB67690D6D3D"
+                                    ],
+                                    "guid": "zD.Uz0g>?%",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to declare an empty deque in python?</div>",
+                                        "<div>example = deque()</div>",
+                                        "<div>from collections import deque</div>",
+                                        "",
+                                        "0124733A-452E-4C24-A539-1229634630BD"
+                                    ],
+                                    "guid": "e}lE$l#ZTe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># given the deque below, remove the number 1 from it<br></div> <div>from collections import deque<br><br></div> <div>my_deque = deque([1, 2, 3])<br></div> <div>{{c1::my_deque.popleft()}}<br></div> <div>print(my_deque) # prints: deque([2, 3])</div>",
+                                        "",
+                                        "",
+                                        "85F0567C-FC36-44C9-830E-92019949C22B"
+                                    ],
+                                    "guid": "qYmv&a#h=t",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># given the deque below, add the number 0 to the beginning of it.</div> <div>from collections import deque<br><br></div> <div>my_deque = deque([1, 2, 3])</div> <div>{{c1::my_deque.appendleft(0)}}</div> <div>print(my_deque) # prints: deque([0, 1, 2, 3])</div>",
+                                        "",
+                                        "",
+                                        "77FFC2CA-D515-4C6D-ABA3-D4693FAF8515"
+                                    ],
+                                    "guid": "ew5@|wC6jl",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># given the deque below, add the number 4 to the end of it.</div> <div>from collections import deque<br><br></div> <div>my_deque = deque([1, 2, 3])</div> <div>{{c1::my_deque.append(4)}}<br></div> <div>print(my_deque) # prints: deque([1, 2, 3, 4])</div>",
+                                        "<div>we use the .append() method just like a regular list</div>",
+                                        "",
+                                        "5EB4D887-B49B-4242-B8E8-4A22DC7BDF0B"
+                                    ],
+                                    "guid": "e>iU%2KCXO",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the time complexity of adding and removing elements from the <b>beginning</b> of the Python deque data structure?</div>",
+                                        "<div>constant O(1)</div>",
+                                        "",
+                                        "",
+                                        "E62DEE47-2979-4B52-A4CB-360A6C45AEE4"
+                                    ],
+                                    "guid": "o_Ne?H,t%",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
                             "children": [
                                 {
                                     "__type__": "Deck",
@@ -3832,6 +3921,96 @@
                             "media_files": [],
                             "name": "lists",
                             "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "8934feba-4d3e-11ec-ad4f-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "sets",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>what built-in Python data structure is similar to a dictionary except it only contains keys, no values?</div>",
+                                        "<div>set</div>",
+                                        "",
+                                        "",
+                                        "D47243CE-8C9D-4F4C-B3BC-A3BC14AF6D83"
+                                    ],
+                                    "guid": "wG#j;0yX|C",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to declare an empty set in python?</div>",
+                                        "<div>example = <b>set()</b></div>",
+                                        "",
+                                        "",
+                                        "3C95F1EF-3B4A-4275-B93C-D558FA9EE023"
+                                    ],
+                                    "guid": "CoQ,$+M~@~",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# How to turn the list below into a set?<br>_list = [1, 2, 2, 3]",
+                                        "my_set = set(_list)",
+                                        "print(my_set) # prints: {1, 2, 3}<br><br>So the list isn't actually \"turned\" into a set, but we create a new set using that list.",
+                                        "",
+                                        "9EABA0B7-5A17-4FA3-B426-F01AEEAEC6E6"
+                                    ],
+                                    "guid": "KcDN:or#^#",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the time complexity of adding and removing elements from a set?</div>",
+                                        "<div>constant O(1)</div>",
+                                        "<div>Like a dictionary</div>",
+                                        "",
+                                        "824AC926-F6DD-420E-886A-39F6A6680D11"
+                                    ],
+                                    "guid": "tZIs0`0]B1",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div><div># given the set below, insert the number `4` into it.<br><br></div>my_set = set()</div>\n<div>{{c1::my_set.add(4)}}</div>\n<div>print(my_set) # prints: {4}</div>",
+                                        "",
+                                        "",
+                                        "ADB316CC-35C6-404A-B0A3-24C9353CCA21"
+                                    ],
+                                    "guid": "yqNB6YyAm~",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># given the set below, delete the number 2 from it.</div>\n<div>my_set = set([1, 2, 3])</div>\n<div>{{c1::my_set.remove(2)}}</div>\n<div>print(my_set) # prints: {1, 2}</div>",
+                                        "",
+                                        "",
+                                        "46B79F51-A591-419C-B7D9-91D31930D70D"
+                                    ],
+                                    "guid": "x,g`_d[D,-",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
