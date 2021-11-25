@@ -4089,7 +4089,7 @@
                                         {
                                             "__type__": "Note",
                                             "fields": [
-                                                "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[::-1]}}) # prints: cba",
+                                                "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba",
                                                 "<a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
                                                 "",
                                                 "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
