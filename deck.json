@@ -691,6 +691,102 @@
                     "media_files": [],
                     "name": "Linked Lists",
                     "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "b33da94c-51f2-11ec-a3a2-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Queues",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>How can we use a queue in Python?:</div>",
+                                "<div>We can use the built-in deque data structure with the .pop() and .appendleft() method</div>",
+                                "<pre># CODE:\nfrom collections import deque\n\nqueue = <b>deque()</b>\nprint(\"building queue:\")\nfor i in range(1, 11):\n    print(\"enqueueing: \", i)\n    queue.<b>appendleft</b>(i)\n    \nprint(list(queue))\nprint()\nprint(\"dequeueing queue:\")\n\nfor i in range(1, 11):\n    print(queue.<b>pop</b>())\nprint(list(queue))\n\n\n\n# OUTPUT:\nbuilding queue:\nenqueueing:  1\nenqueueing:  2\nenqueueing:  3\nenqueueing:  4\nenqueueing:  5\nenqueueing:  6\nenqueueing:  7\nenqueueing:  8\nenqueueing:  9\nenqueueing:  10\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n\ndequeueing queue:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n[]\n\n\n# or we can use .popleft() and .append() method.</pre>",
+                                "",
+                                "4ACBD738-F232-4CE4-B8BB-D90C2965A38C"
+                            ],
+                            "guid": "E8MH=W,9.h",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the big O of enqueueing and dequeueing onto a queue data structure?</div>",
+                                "<div>O(1)</div>",
+                                "",
+                                "",
+                                "BD058FA5-EAE6-458C-B9F6-694EEA429270"
+                            ],
+                            "guid": "ED?Jo.XK~7",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "b33dde44-51f2-11ec-a3a2-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "queue.png",
+                        "stack.png"
+                    ],
+                    "name": "Stacks",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the difference between a stack and a queue?</div>",
+                                "<div>A stack is LIFO (last in first out)&nbsp;</div>\n<div>Whereas a queue is FIFO (first in first out)</div>",
+                                "<div>So basically stacks and queues are data structures that can be used to insert data into it, and remove data from it.&nbsp;</div>\n<div><br></div>\n<div>The last data that was inserted into a <b>stack</b> is the first data that will be removed from the stack<br><img src=\"stack.png\"><br><br><div>The first data that was inserted into a <b>queue</b> is the first data that is will be removed from the queue<br><img src=\"queue.png\"><br></div></div>",
+                                "",
+                                "225DB9D5-51FE-4145-ABED-089960012950"
+                            ],
+                            "guid": "BE:MovGt$V",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>How can we use a stack in Python?</div>",
+                                "<div>We can use the built-in list data structure with the .pop() and .append() method</div>",
+                                "<pre># CODE:\nstack = <b>[]</b>\nprint(\"building stack:\")\nfor i in range(1, 11):\n    print(\"pushing: \", i)\n    stack.<b>append</b>(i)\n\nprint(stack)\nprint()\nprint(\"popping stack:\")\n\nfor i in range(1, 11):\n    print(stack.<b>pop</b>())\nprint(stack)\n\n\n\n# OUTPUT:\nbuilding stack:\npushing:  1\npushing:  2\npushing:  3\npushing:  4\npushing:  5\npushing:  6\npushing:  7\npushing:  8\npushing:  9\npushing:  10\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\npopping stack:\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n[]\n</pre>",
+                                "",
+                                "0F7BD371-8B70-41D0-B880-8D889232B88E"
+                            ],
+                            "guid": "k89(mI>Fcx",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the big O of popping and pushing onto a stack data structure?</div>",
+                                "<div>O(1)</div>",
+                                "",
+                                "",
+                                "27F99B92-002C-4A74-8543-D752343CA4E9"
+                            ],
+                            "guid": "D0rsWLAJG|",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
                 }
             ],
             "crowdanki_uuid": "02c997f6-1f48-11ec-b9c6-acde48001122",
@@ -7863,7 +7959,7 @@
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
