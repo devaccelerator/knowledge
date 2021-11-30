@@ -4588,6 +4588,84 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "efc4a76a-51fe-11ec-a3a2-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "isalnum",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>The {{c1::.isalnum()}}&nbsp;string method returns True if all the characters are either letters (a-z) or numbers (0-9).</div>",
+                                                        "<div>In other words, it returns true if all the characters are alphanumeric.</div>",
+                                                        "",
+                                                        "D08D3D9A-35F7-460F-9AB9-26239DD9932D"
+                                                    ],
+                                                    "guid": "LJLTL[P6`}",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "efc4cd08-51fe-11ec-a3a2-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "isalpha",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>The {{c1::.isalpha()}}&nbsp;string method returns True if all the characters are letters (a-z).</div>",
+                                                        "",
+                                                        "",
+                                                        "759EFD06-D08B-45BD-874B-99A701D03BB6"
+                                                    ],
+                                                    "guid": "B(e:>9J3fg",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "efc4f7a6-51fe-11ec-a3a2-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "isdigit",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>The {{c1::.isdigit()}} string&nbsp;method returns True if all the characters are numbers, otherwise False.</div>",
+                                                        "",
+                                                        "",
+                                                        "F85B55F3-68E9-482F-ACBD-DF0E9B085738"
+                                                    ],
+                                                    "guid": "mf@-?iK52H",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "fdef1e78-0547-11ec-9c94-acde48001122",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
@@ -5266,6 +5344,32 @@
                                 "ce3d18ac-8b56-4833-b280-7b46d67b0a5e"
                             ],
                             "guid": "z|+!m_SvDt",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># Fix the following conditional statement:</div>\n<div>if _list[0] == 1 and len(_list) &gt; 0:</div>\n<div>&nbsp; &nbsp; ...</div>",
+                                "<div>if len(_list) &gt; 0 and _list[0] == 1:</div><div>&nbsp; &nbsp;&nbsp;...</div>",
+                                "<div>So just swap the ordering of the boolean expressions.<br><br>The `len(_list) &gt; 0` boolean expression should come first in the conditional statement because conditional statements are evaluated from left to right. So it doesn't make sense to check if `len(_list) &gt; 0` after `_list[0] == 1` because if the length of the list is not greater than zero, then `_list[0] == 1` would throw an error.</div><div><br></div><div>If we check to make sure that the length of list is greater than 1 first though, then the second boolean condition `_list[0] == 1` will only evaluate if the length of the list is infact greater than 0, thus preventing the error.</div>",
+                                "",
+                                "5B272F21-2845-4BE2-80B5-7FC8608F88F5"
+                            ],
+                            "guid": "Cepm84WpTq",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<pre># What does the code below print?\ndef a(x=None, y=None):\n    print(\"a\")\ndef b(x=None, y=None):\n    print(\"b\")\ndef c(x=None, y=None):\n    print(\"c\")\ndef d(x=None, y=None):\n    print(\"d\")\ndef e(x=None, y=None):\n    print(\"e\")\n\nb(c(a(),d()),e())\n</pre>",
+                                "<pre>a\nd\nc\ne\nb\n</pre>",
+                                "<pre>The inner most function calls execute first from left to right:\n\nHere is the execution visualized step by step after each function finishes executing in order:\n\n1.)\nb(c(a(),d()),e())\nprinted so far:\n\n2.)\nb(c(None,d()),e())\nprinted so far:\na\n\n3.)\nb(c(None,None),e())\nprinted so far:\na\nd\n\n4.)\nb(None,e())\nprinted so far:\na\nd\nc\n\n5.)\nb(None,None)\nprinted so far:\na\nd\nc\ne\n\n5.)\nNone\nprinted so far:\na\nd\nc\ne\nb\n\n</pre>",
+                                "",
+                                "1B348DE5-638B-4066-B25F-E8C891C69A70"
+                            ],
+                            "guid": "cGf4[5E^Pw",
                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
@@ -6259,6 +6363,32 @@
                 {
                     "__type__": "Deck",
                     "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "efcad4be-51fe-11ec-a3a2-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "* (unpack)",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div># What code goes below so the print statement prints what the comment says it should print?</div>\n<br>\n<div>one_two_three = [1, 2, 3]</div>\n<div>four_five_six = [4, 5, 6]</div>\n<div><br></div>\n<div>one_two_three_four_five_six = {{c1::[*one_two_three, *four_five_six]}}</div>\n<div><br></div>\n<div>print(one_two_three_four_five_six) # prints: [1, 2, 3, 4, 5, 6]</div>",
+                                        "we use the *-operator to unpack the lists.",
+                                        "",
+                                        "9AFE1BC7-03B5-4042-9A21-5F7EA64BE6C4"
+                                    ],
+                                    "guid": "jC`YxBNA}4",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
                         {
                             "__type__": "Deck",
                             "children": [
