@@ -352,6 +352,115 @@
                 },
                 {
                     "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "d56d87c2-52c8-11ec-bdd0-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "hash-function.png",
+                        "hashtable-1.PNG",
+                        "paste-2419f144dd8df235f8463182261fc63fcbde6e9f.jpg"
+                    ],
+                    "name": "Hash Tables",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What are hash functions used for in hash tables?</div>",
+                                "<div>Converts a key into an index that can be used to look up/insert a value in O(1) time.</div>",
+                                "<div>A hash table uses a hash function&nbsp;to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.<br><div><img src=\"paste-2419f144dd8df235f8463182261fc63fcbde6e9f.jpg\"><br></div></div>",
+                                "",
+                                "EFB4B97C-C2E1-492A-80E8-A0AEF0B75E1A"
+                            ],
+                            "guid": "kS(qwu*TtW",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the time complexity of adding a key value pair to a hash table?</div>",
+                                "<div>O(1)</div>",
+                                "",
+                                "",
+                                "46802D48-B161-4FBB-87D4-1ADFB2473A28"
+                            ],
+                            "guid": "M`WSlRS!@V",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the time complexity of removing a key value pair to a hash table?</div>",
+                                "<div>O(1)</div>",
+                                "",
+                                "",
+                                "F68C40FA-8254-452F-80BE-F25565367683"
+                            ],
+                            "guid": "ww/S``(M[B",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is the time complexity of getting a value from a hash table using a key?</div>",
+                                "O(1)",
+                                "",
+                                "",
+                                "FD7168EB-9603-49E7-B434-CD72E3275176"
+                            ],
+                            "guid": "xc5gi6=Aqt",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>Why is adding or removing key value pairs from a hash table a constant (O(1)) operation?</div>",
+                                "<div>Because when we add/remove a key value pair, we pass the key through a hash function which is a O(1) operation, and then we use the resulting hash value as an index to access an array at the index where we want to add/remove the value which is also an O(1) operation.</div>",
+                                "This is assuming that the hash function is deterministic and efficiently distributes keys into unique hash values meaning that hash collisions are rare.",
+                                "",
+                                "28E07B1B-D36A-47D7-B842-5677D96D4996"
+                            ],
+                            "guid": "jed]sk(@T*",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a hash table collision?",
+                                "A collision&nbsp;occurs when two keys are hashed to the same index in a hash table.",
+                                "<img src=\"hash-function.png\">",
+                                "",
+                                "280251F6-50BB-402C-A6FC-D2B4585D6A11"
+                            ],
+                            "guid": "t?wZN|H7^m",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "How is separate chaining usually implemented when dealing with hash table collisions?",
+                                "By making each cell of hash table point to a linked list of records that have the same hash function value.",
+                                "<br>Example:<br><img src=\"hashtable-1.PNG\"><br>As you can see in the example above, \"John\" and \"Phil\" are both hashed into `4` which causes a collision. So then separate chaining is used by having the node \"John\" point to the node \"Phil\", so that way both \"John\" and \"Phil\" can be accessed from the 4th index of the array.",
+                                "",
+                                "DAF0D5E2-0809-4079-B43A-194A40EE96EA"
+                            ],
+                            "guid": "v$mi~;<lH|",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
                     "children": [
                         {
                             "__type__": "Deck",
@@ -787,6 +896,237 @@
                             "tags": []
                         }
                     ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "d5701474-52c8-11ec-bdd0-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [
+                                                "paste-4ed381c0f8b18fba8de4c950cdc7711b58eabfa4.jpg"
+                                            ],
+                                            "name": "terminology",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is a binary search tree?</div>",
+                                                        "<div>A binary search tree (BST) is a binary tree with the following properties:</div>\n<div>1. The left subtree of a node contains only nodes with values lesser than the node's value</div>\n<div>2. The right subtree of a node contains only nodes with values greater than the node's value</div>\n<div>3. The left and right subtree must also be a BST.</div>",
+                                                        "<div>Example:<br><img src=\"paste-4ed381c0f8b18fba8de4c950cdc7711b58eabfa4.jpg\"><br><br>Note that often it is acceptable to have binary search trees that have duplicate values. If duplicate values are allowed, then either the left subtree will be allowed to contain values equal to the current node value, or the right subtree will.</div>",
+                                                        "",
+                                                        "343B5BC4-1E02-492D-87BD-B36DFAADF3DB"
+                                                    ],
+                                                    "guid": "nwv4:]3GE$",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>What is the time complexity of inserting a node into a binary search tree?</div>",
+                                                        "<div>O(log(n))</div>",
+                                                        "<div>Technically the worst case scenario is O(n) if our binary tree is structured like a linked list, but that is very unlikely to happen so with binary search trees we say the time complexity is O(log(n)).</div>",
+                                                        "",
+                                                        "4BF20295-D6DA-4E71-8FA4-AD373F590ECE"
+                                                    ],
+                                                    "guid": "mLXsoR[IV5",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "crowdanki_uuid": "d56fe8b4-52c8-11ec-bdd0-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "BST",
+                                    "notes": []
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "d57049c6-52c8-11ec-bdd0-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [],
+                                    "name": "instantiation",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "# Create a class to represent a node that would be used in a binary tree:<br><br>class Node:<br>&nbsp; &nbsp; # CODE GOES HERE",
+                                                "<pre>class Node:\n<b>    def __init__(self, value):\n        self.value = value\n        self.left = None\n        self.right = None</b>\n</pre>",
+                                                "The main thing to remember is that a node that is used in a binary tree should have 3 attributes:<br>1. It's value<br>2. A pointer to the left child<br>3. A pointer to the right child",
+                                                "",
+                                                "D8A07B75-45E0-4F03-9C01-27B5324D2DCD"
+                                            ],
+                                            "guid": "pCy4KPK9=M",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "d570796e-52c8-11ec-bdd0-acde48001122",
+                                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "1200px-Binary_tree.svg.png"
+                                    ],
+                                    "name": "terminology",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>What is a binary tree?</div>",
+                                                "<div>A tree data structure in which each node has at most two children, which are referred to as the left child and the right child.</div>",
+                                                "<img src=\"1200px-Binary_tree.svg.png\">",
+                                                "",
+                                                "E23D2E83-9766-4917-90EC-500AE3BA92A3"
+                                            ],
+                                            "guid": "tw:@FD`bU`",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "What is a <b>full</b> binary tree?",
+                                                "<div>A binary tree where every node has either 0 or 2 nodes. (not 1)</div>",
+                                                "<pre>examples:\n\n\n               18\n           /       \\  \n         15         30  \n        /  \\        /  \\\n      40    50    100   40\n      \n      \n      \n\n             18\n           /    \\   \n         15     20    \n        /  \\       \n      40    50   \n    /   \\\n   30   50\n   \n   \n\n               18\n            /     \\  \n          40       30  \n                   /  \\\n                 100   40\n\n</pre>",
+                                                "",
+                                                "35C15B41-D6F1-4A13-823D-3A3D1D1847A5"
+                                            ],
+                                            "guid": "s:o/(xbvo~",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>What is a <b>perfect</b> binary tree?</div>",
+                                                "<div>A binary tree where all nodes have 2 children and all leaf nodes are at the same level.</div>",
+                                                "<pre>examples:\n\n\n               18\n           /       \\  \n         15         30  \n        /  \\        /  \\\n      40    50    100   40\n\n\n\n\n               18\n           /       \\  \n         15         30  \n\n</pre>",
+                                                "",
+                                                "4B8CC40F-9484-41B0-AAAE-A798AE4F105F"
+                                            ],
+                                            "guid": "yiN:U{Uc3d",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>What is a <b>complete</b> binary tree?</div>",
+                                                "<div>A binary tree where all the levels are completely filled except possibly the last level and the last level has all keys as left as possible</div>",
+                                                "<pre>examples:\n\n\n               18\n           /       \\  \n         15         30  \n        /  \\        /  \\\n      40    50    100   40\n\n\n\n               18\n           /       \\  \n         15         30  \n        /  \\        /  \\\n      40    50    100   40\n     /  \\   /\n    8   7  9 \n</pre>",
+                                                "",
+                                                "E49D3AB6-BAD9-4FD8-B2DC-CFC6D8051873"
+                                            ],
+                                            "guid": "u]3G4tf7i8",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "crowdanki_uuid": "d56fba6a-52c8-11ec-bdd0-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "Binary Trees",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "d570b30c-52c8-11ec-bdd0-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "terminology",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>In a tree, a node is called a {{c1::\"leaf\" node}} if it has no children.</div>",
+                                        "",
+                                        "",
+                                        "8297B896-74A1-4A58-B244-B8BBBE355FC8"
+                                    ],
+                                    "guid": "svyA!y_)%)",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How many parents can a node have in a tree?</div>",
+                                        "only 1",
+                                        "",
+                                        "",
+                                        "F7A6D1E3-F2B9-425D-9ADF-70D51391DF4B"
+                                    ],
+                                    "guid": "l(u7LDuD;g",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the highest node in a tree data structure that has no parent called?</div>",
+                                        "<div>The root</div>",
+                                        "",
+                                        "",
+                                        "3BC2DF7B-0AFC-407B-B371-CC1DF2209BCE"
+                                    ],
+                                    "guid": "rvD2*G]&A/",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "d56f8cac-52c8-11ec-bdd0-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Trees",
+                    "notes": []
                 }
             ],
             "crowdanki_uuid": "02c997f6-1f48-11ec-b9c6-acde48001122",
@@ -2756,6 +3096,19 @@
                                             ],
                                             "guid": "Fx:#l++=~I",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>How to use a hash table in Python?</div>",
+                                                "<div>Use dictionaries. Dictionaries are built-in hash tables.</div>",
+                                                "",
+                                                "",
+                                                "E90EBBAE-B072-4E80-AF78-DFC2DBA6560F"
+                                            ],
+                                            "guid": "O]pqbg_{m8",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
                                         }
                                     ]
