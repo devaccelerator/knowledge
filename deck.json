@@ -362,16 +362,29 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-01fa402630825f5ed2243539d4940e683c812680.jpg",
+                                "paste-3eb58f1f4cf557cd16783964968465af9995c2d0.jpg",
+                                "paste-530f2418e8c34f85e48984a136ef20e45fb08316.jpg",
+                                "paste-5f0b663f7251d69137d248e4de00c163e6647f4f.jpg",
+                                "paste-86ae413e651b7ef5dbc5e400ca6474587b110f8b.jpg",
+                                "paste-889d82fb8a5124de0d55182c2f964deddb07e11d.jpg",
+                                "paste-89dfd5c8e10063308a42d6eef0714d47c8387c9e.jpg",
+                                "paste-909ff3991a07c589d827aa352adcd8db143a0ca9.jpg",
+                                "paste-e8fbdf868e7c5141b42152e3911974fbf3293115.jpg",
+                                "paste-edbb4a49aa3a5228b67983a3603b53719a2c24ba.jpg",
+                                "paste-f911dca8707b7b4952a2a5a25952b1cdb065b444.jpg",
+                                "paste-fa730f7012f9cf1e50fed5cfaac4099511a16042.jpg"
+                            ],
                             "name": "class methods",
                             "notes": [
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "Add a method called `add_vertex` to the `Graph` class which add a vertex to the graph which stores it's vertices as an adjacency list.<br><br>Also, what is the big O time complexity of the .add_vertex() method you coded?",
-                                        "<pre>#####################\n##### EXAMPLE 1 #####\n#####################\nprint(my_graph.adjacency_list) # prints: {}\n\nmy_graph.add_vertex(10)\nprint(my_graph.adjacency_list) # prints: {10: []}\n\nmy_graph.add_vertex(\"b\")\nprint(my_graph.adjacency_list) # prints: {10: [], \"b\":[]}\n\nmy_graph.add_vertex(\"b\")\nprint(my_graph.adjacency_list) # prints: {10: [], \"b\":[]}\n\n\n\n#####################\n##### EXAMPLE 2 #####\n#####################\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3]}\n\nmy_graph.add_vertex(\"A\")\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3]}\n</pre>",
+                                        "<pre>#####################\n##### EXAMPLE 1 #####\n#####################\n# my_graph = empty graph \n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-89dfd5c8e10063308a42d6eef0714d47c8387c9e.jpg\">\n</div>\nprint(my_graph.adjacency_list) # prints: {}\n\n\n\n\nmy_graph.add_vertex(10)\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-5f0b663f7251d69137d248e4de00c163e6647f4f.jpg\"></div>\nprint(my_graph.adjacency_list) # prints: {\"10\": []}\n\n\n\n\nmy_graph.add_vertex(\"b\")\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-86ae413e651b7ef5dbc5e400ca6474587b110f8b.jpg\"></div>\nprint(my_graph.adjacency_list) # prints: {\"10\": [], \"b\":[]}\n\n\n\n\nmy_graph.add_vertex(\"b\")\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-86ae413e651b7ef5dbc5e400ca6474587b110f8b.jpg\"></div>\nprint(my_graph.adjacency_list) # prints: {\"10\": [], \"b\":[]}\n\n\n\n\n#####################\n##### EXAMPLE 2 #####\n#####################\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3], \"1\": [], \"2\": [], \"3\": []}\n\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-3eb58f1f4cf557cd16783964968465af9995c2d0.jpg\" style=\"font-family: Arial;\"></div>\nmy_graph.add_vertex(\"A\")\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3], \"1\": [], \"2\": [], \"3\": []}<br>\n\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph  == </span><img src=\"paste-3eb58f1f4cf557cd16783964968465af9995c2d0.jpg\" style=\"font-family: Arial;\"></div>\n</pre>",
                                         "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def add_vertex(self, value):\n        pass # YOUR CODE GOES HERE\n</pre>",
-                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nclass TestAddVertexMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def execute_add_vertex_test(self, graph, insert_value):\n        actual_adjacency_list_before_insert = graph.adjacency_list.copy()\n        expected_adjacency_list_after_insert = actual_adjacency_list_before_insert.copy()\n        if not (insert_value in actual_adjacency_list_before_insert):\n            expected_adjacency_list_after_insert[insert_value] = []\n        graph.add_vertex(insert_value)\n        actual_adjacency_list_after_insert = graph.adjacency_list.copy()\n        self.assertEqual(expected_adjacency_list_after_insert, actual_adjacency_list_after_insert)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n\n    def test_add_vertex_into_non_empty_graph(self):\n        adjacency_list = {1: [], \"b\": [1, 2], 2: []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n\n    def test_add_vertex_already_in_graph(self):\n        adjacency_list = {\"insert_value1\": [], \"b\": [1, 2], \"insert_value3\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n        self.execute_add_vertex_test(graph, \"insert_value3\")\n\n    def test_addding_vertexes_already_in_graph_doesnt_replace_values(self):\n        adjacency_list = {\"insert_value0\": [1, 2, 3]}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nimport copy\nclass TestAddVertexMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def execute_add_vertex_test(self, graph, insert_value):\n        actual_adjacency_list_before_insert = copy.deepcopy(graph.adjacency_list)\n        expected_adjacency_list_after_insert = copy.deepcopy(actual_adjacency_list_before_insert)\n        if not (insert_value in actual_adjacency_list_before_insert):\n            expected_adjacency_list_after_insert[insert_value] = []\n        graph.add_vertex(insert_value)\n        actual_adjacency_list_after_insert = copy.deepcopy(graph.adjacency_list)\n        self.assertEqual(expected_adjacency_list_after_insert, actual_adjacency_list_after_insert)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n\n    def test_add_vertex_into_non_empty_graph(self):\n        adjacency_list = {1: [], \"b\": [1, 2], 2: []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n\n    def test_add_vertex_already_in_graph(self):\n        adjacency_list = {\"insert_value1\": [], \"b\": [1, 2], \"insert_value3\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n        self.execute_add_vertex_test(graph, \"insert_value3\")\n\n    def test_addding_vertexes_already_in_graph_doesnt_replace_values(self):\n        adjacency_list = {\"insert_value0\": [1, 2, 3]}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
                                         "",
                                         "",
                                         "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    # O(1)\n    def add_vertex(self, value):\n        if not (value in self.adjacency_list):\n            self.adjacency_list[value] = []\n</pre>",
@@ -381,6 +394,132 @@
                                     ],
                                     "guid": "zH/RL`2@r]",
                                     "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Add a method called `add_edge` to the `Graph` class which should add an edge between 2 vertices in the graph by modifying the adjacency list.<br><br>Also, what is the big O time complexity of the .add_edge() method you coded?",
+                                        "<pre>#####################\n##### EXAMPLE 1 #####\n#####################\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-edbb4a49aa3a5228b67983a3603b53719a2c24ba.jpg\"></div>\nprint(my_graph.adjacency_list) # prints: {\"10\": [], \"b\": []}\n\n\n\nmy_graph.add_edge(\"10\", \"b\")\n<div style=\"display: flex; align-items: center;\">\n<span># my_graph == </span><img src=\"paste-f911dca8707b7b4952a2a5a25952b1cdb065b444.jpg\">\n</div>\nprint(my_graph.adjacency_list) # prints: {\"10\": [\"b\"], \"b\": [\"10\"]}\n\n\n\n<pre>my_graph.add_edge(\"b\", \"y\")\n<div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-f911dca8707b7b4952a2a5a25952b1cdb065b444.jpg\"></div>\nprint(my_graph.adjacency_list) # prints: {\"10\": [\"b\"], \"b\": [\"10\"]}\n# the example above does nothing because the vertex \"b\" \n# don't exist in the graph, so no edge can be added</pre>\n</pre>",
+                                        "class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def add_edge(self, v1, v2):\n        pass # YOUR CODE GOES HERE",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nimport copy\nclass TestAddEdgeMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def execute_add_edge_test(self, graph, v1, v2):\n        actual_adjacency_list_before_add_edge = copy.deepcopy(graph.adjacency_list)\n        expected_adjacency_list_after_add_edge = copy.deepcopy(actual_adjacency_list_before_add_edge)\n        if v1 in actual_adjacency_list_before_add_edge and v2 in actual_adjacency_list_before_add_edge:\n            expected_adjacency_list_after_add_edge[v1].append(v2)\n            expected_adjacency_list_after_add_edge[v2].append(v1)\n        graph.add_edge(v1, v2)\n        actual_adjacency_list_after_add_edge = copy.deepcopy(graph.adjacency_list)\n        self.assertEqual(expected_adjacency_list_after_add_edge, actual_adjacency_list_after_add_edge)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_edge_test(graph, 1, 2)\n        self.execute_add_edge_test(graph, None, None)\n\n    def test_add_edge_into_non_empty_graph(self):\n        adjacency_list = {1: [], \"b\": [], 2: []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_edge_test(graph, 1, \"b\")\n        self.execute_add_edge_test(graph, 2, \"b\")\n\n    def test_add_edge_to_nonexistant_vertex_graph(self):\n        adjacency_list = {\"a\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_edge_test(graph, \"a\", \"b\")\n        self.execute_add_edge_test(graph, \"b\", \"a\")\n\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n        \n<b>    # O(1)</b>\n    def add_edge(self, v1, v2):\n<b>        if (v1 in self.adjacency_list) and (v2 in self.adjacency_list):\n            self.adjacency_list[v1].append(v2)\n            self.adjacency_list[v2].append(v1)</b>\n</pre>",
+                                        "",
+                                        "",
+                                        "18719A75-22FB-4177-93A5-B06D0CFC1E32"
+                                    ],
+                                    "guid": "ofxf#I%s~I",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Add a method called `remove_edge` to the `Graph` class which should remove an edge between 2 vertices in the graph by modifying the adjacency list.<br><br>Also, what is the big O time complexity of the .remove_edge() method you coded?",
+                                        "<pre><div style=\"display: flex; align-items: center;\"><span># my_graph = </span><img src=\"paste-f911dca8707b7b4952a2a5a25952b1cdb065b444.jpg\"></div>print(my_graph.adjacency_list) # prints: {\"10\": [\"b\"], \"b\": [\"10\"]}\n\n\n<pre>my_graph.remove_edge(\"10\", \"b\")\n<div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-909ff3991a07c589d827aa352adcd8db143a0ca9.jpg\"></div>print(my_graph.adjacency_list) # prints: {\"10\": [], \"b\": []}\n\n\n<pre>my_graph.remove_edge(\"10\", \"b\")\n<div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-909ff3991a07c589d827aa352adcd8db143a0ca9.jpg\"></div>print(my_graph.adjacency_list) # prints: {\"10\": [], \"b\": []}\n\n\n\n<pre>my_graph.remove_edge(\"x\", \"y\")\n<div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-909ff3991a07c589d827aa352adcd8db143a0ca9.jpg\"></div>print(my_graph.adjacency_list) # prints: {\"10\": [], \"b\": []}</pre></pre></pre></pre>",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def remove_edge(self, v1, v2):\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nimport copy\nclass TestRemoveEdgeMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def execute_remove_edge_test(self, graph, v1, v2):\n        actual_adjacency_list_before_remove_edge = copy.deepcopy(graph.adjacency_list)\n        expected_adjacency_list_after_remove_edge = copy.deepcopy(actual_adjacency_list_before_remove_edge)\n        if v1 in actual_adjacency_list_before_remove_edge and v2 in actual_adjacency_list_before_remove_edge:\n            expected_adjacency_list_after_remove_edge[v1] = [v for v in expected_adjacency_list_after_remove_edge[v1] if v != v2]\n            expected_adjacency_list_after_remove_edge[v2] = [v for v in expected_adjacency_list_after_remove_edge[v2] if v != v1]\n        graph.remove_edge(v1, v2)\n        actual_adjacency_list_after_remove_edge = copy.deepcopy(graph.adjacency_list)\n        self.assertEqual(expected_adjacency_list_after_remove_edge, actual_adjacency_list_after_remove_edge)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_edge_test(graph, 1, 2)\n        self.execute_remove_edge_test(graph, None, None)\n\n    def test_remove_edge_into_non_empty_graph(self):\n        adjacency_list = {1: [\"b\"], \"b\": [1]}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_edge_test(graph, 1, \"b\")\n        self.execute_remove_edge_test(graph, 2, \"b\")\n        self.execute_remove_edge_test(graph, \"b\", 2)\n\n    def test_remove_edge_to_nonexistant_vertex_graph(self):\n        adjacency_list = {\"a\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_edge_test(graph, \"a\", \"b\")\n        self.execute_remove_edge_test(graph, \"b\", \"a\")\n\n    def test_remove_edge_between_nonconnected_vertices(self):\n        adjacency_list = {\"a\": [], \"b\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_edge_test(graph, \"a\", \"b\")\n        self.execute_remove_edge_test(graph, \"b\", \"a\")\n\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    # O(n) where n = the number of edges\n    def remove_edge(self, v1, v2):\n<b>        if v1 in self.adjacency_list and v2 in self.adjacency_list:\n            if v2 in self.adjacency_list[v1]:\n                self.adjacency_list[v1].remove(v2)\n            if v1 in self.adjacency_list[v2]:\n                self.adjacency_list[v2].remove(v1)</b>\n</pre>",
+                                        "# The .remove() method only removes the first instance of the value in the list, but if we wanted to remove all instances, we filter the edges using list comprehension like this:\n\n<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def remove_edge(self, v1, v2):\n        <b>if v1 in self.adjacency_list and v2 in self.adjacency_list:\n            self.adjacency_list[v1] = [v for v in self.adjacency_list[v1] if v != v2]\n            self.adjacency_list[v2] = [v for v in self.adjacency_list[v2] if v != v1]</b>\n</pre>",
+                                        "",
+                                        "D781E0BC-6BEF-4B67-AE5C-F7E2A6F44577"
+                                    ],
+                                    "guid": "RcL~c=Go0.",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Add a method called `remove_vertex` to the `Graph` class which should remove a vertex from the graph by modifying the adjacency list.",
+                                        "<pre><div style=\"display: flex; align-items: center;\"><span># my_graph = </span><img src=\"paste-889d82fb8a5124de0d55182c2f964deddb07e11d.jpg\"></div>print(my_graph.adjacency_list) # prints: {1: [4], 2: [], 3: [4], 4: [1, 3]}<pre>\n\n<pre>my_graph.remove_vertex(2)\n<div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-530f2418e8c34f85e48984a136ef20e45fb08316.jpg\"></div>print(my_graph.adjacency_list) # prints: {1: [4], 3: [4], 4: [1, 3]}<br>\n\n\n\n<pre>my_graph.remove_vertex(4)<br><div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-fa730f7012f9cf1e50fed5cfaac4099511a16042.jpg\" style=\"font-family: Arial;\"></div>print(my_graph.adjacency_list) # prints: {1: [], 3: []}\n\n\n<pre>\n\nmy_graph.remove_vertex(4)</pre><pre><div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-fa730f7012f9cf1e50fed5cfaac4099511a16042.jpg\"></div>print(my_graph.adjacency_list) # prints: {1: [], 3: []}\n\n\n\n\n</pre><pre><pre>my_graph.remove_vertex(1)</pre><pre><div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-e8fbdf868e7c5141b42152e3911974fbf3293115.jpg\"></div>print(my_graph.adjacency_list) # prints: {3: []}\n\n\n\n\n\n<pre><pre>my_graph.remove_vertex(3)</pre><pre><div style=\"display: flex; align-items: center;\"># my_graph == <img src=\"paste-01fa402630825f5ed2243539d4940e683c812680.jpg\"></div>print(my_graph.adjacency_list) # prints: {}</pre></pre></pre></pre>\n</pre></pre></pre></pre>",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def remove_vertex(self, v):\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\n\nimport copy\nimport unittest\nclass TestRemoveVertexMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def remove_vertex_from_adj_list(self, adj_list, vertex_to_remove):\n        adj_list = copy.deepcopy(adj_list)\n        if vertex_to_remove in adj_list:\n            for neighbor in adj_list[vertex_to_remove]:\n                adj_list[neighbor] = [\n                    v for v in adj_list[neighbor] if v != vertex_to_remove]\n            del adj_list[vertex_to_remove]\n        return adj_list\n\n    def execute_remove_vertex_test(self, graph, vertex):\n        actual_adjacency_list_before_remove_vertex = copy.deepcopy(\n            graph.adjacency_list)\n        expected_adjacency_list_after_remove_vertex = self.remove_vertex_from_adj_list(\n            actual_adjacency_list_before_remove_vertex, vertex)\n\n        graph.remove_vertex(vertex)\n\n        actual_adjacency_list_after_remove_vertex = copy.deepcopy(\n            graph.adjacency_list)\n\n        self.assertEqual(expected_adjacency_list_after_remove_vertex,\n                         actual_adjacency_list_after_remove_vertex)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_vertex_test(graph, 1)\n        self.execute_remove_vertex_test(graph, None)\n\n    def test_remove_vertex_from_non_empty_graph(self):\n        adjacency_list = {1: [\"b\"], \"b\": [1]}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_vertex_test(graph, 1)\n\n    def test_remove_nonexistant_vertex(self):\n        adjacency_list = {\"a\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_remove_vertex_test(graph, \"b\")\n\n\nif __name__ == '__main__':\n    unittest.main()\n\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n  \n    def remove_vertex(self, vertex):\n<b>        if vertex in self.adjacency_list:\n            for other_vertex in self.adjacency_list[vertex]:\n                self.adjacency_list[other_vertex].remove(vertex)\n            del self.adjacency_list[vertex]</b>\n\n</pre>",
+                                        "The time complexity of removing a vertex is O(V + E) where V = the total number of vertices, and E = the total number of edges.\n<br><br>Here is another way we can solve the problem using filtering with list comprehension instead of using the .remove() method. The .remove() method only removes the first instance of the value, but filtering using list comprehension removes all instances. Also the remove method will throw an error if it tries to remove an element that doesn't exist in the list, but filering with list comprehension will not throw this error.<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    \n    def remove_vertex(self, vertex):\n        if vertex in self.adjacency_list:\n            for other_vertex in self.adjacency_list[vertex]:\n                <b>self.adjacency_list[other_vertex] = [v for v in self.adjacency_list[other_vertex] if v != vertex]</b>\n            del self.adjacency_list[vertex]\n\n</pre>\n",
+                                        "",
+                                        "0033740E-C451-4F25-BB37-61E31EA04526"
+                                    ],
+                                    "guid": "JByh:OSqR^",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "b60ed9fe-5385-11ec-8ee2-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-07e5ebf4efbb7aa338a5c6acda5b5900f574d4a1.jpg",
+                                "paste-0df9ccdf4ee0b47865753302074fd85f371013d5.jpg",
+                                "paste-2418affae886f741224715f16a2efa1531a85f05.jpg",
+                                "paste-74b0def3d26584a3a7d6e2d6450fb2fa53919ace.jpg",
+                                "paste-8c7d9675d58665f18f0d64039175d099bfa6aaab.jpg"
+                            ],
+                            "name": "terminology",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is a vertex in a graph?",
+                                        "The node",
+                                        "vertices refer to the nodes within the graph.<br>So in the graph below, there are 3 vertices: 3, 5, and 6<br><img src=\"paste-0df9ccdf4ee0b47865753302074fd85f371013d5.jpg\">",
+                                        "",
+                                        "17B239BD-85F3-4B07-B512-ADCF117644FF"
+                                    ],
+                                    "guid": "y?Ce@@=JiV",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>what is an \"edge\" in a graph?</div>",
+                                        "<div>connection between nodes</div>",
+                                        "In the graph below, there are a total of 4 edges.<br>2 between G and I, 1 between G and H, and 1 between H and I<br><img src=\"paste-8c7d9675d58665f18f0d64039175d099bfa6aaab.jpg\">",
+                                        "",
+                                        "2364BABF-6C95-4BAF-A8F9-CC63E6FF5A8F"
+                                    ],
+                                    "guid": "m$oZk9DD-_",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the difference between weighted and unweighted graphs?",
+                                        "weighted graphs have values associated with edges, unweighted graphs don't.",
+                                        "unweighted graph:<br><img src=\"paste-07e5ebf4efbb7aa338a5c6acda5b5900f574d4a1.jpg\"><br><br>weighted graph:<br><img src=\"paste-74b0def3d26584a3a7d6e2d6450fb2fa53919ace.jpg\">",
+                                        "",
+                                        "74D79584-ADE7-4727-BC20-EBB14BFD2B9C"
+                                    ],
+                                    "guid": "g.MUjaGFst",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Represent the following graph using an adjacency list:<br><div><img src=\"paste-2418affae886f741224715f16a2efa1531a85f05.jpg\"><br></div></div>",
+                                        "{<br>&nbsp; &nbsp; 1: [2, 3],<br>&nbsp; &nbsp; 2: [3],<br>&nbsp; &nbsp; 3: [2]<br>}",
+                                        "",
+                                        "",
+                                        "8B03D343-1434-4DB4-BC4B-2556CC769DDC"
+                                    ],
+                                    "guid": "M,#jg8f%[t",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
