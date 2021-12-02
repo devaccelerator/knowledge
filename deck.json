@@ -352,6 +352,52 @@
                 },
                 {
                     "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "4afce638-5371-11ec-8ee2-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "class methods",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Add a method called `add_vertex` to the `Graph` class which add a vertex to the graph which stores it's vertices as an adjacency list.<br><br>Also, what is the big O time complexity of the .add_vertex() method you coded?",
+                                        "<pre>#####################\n##### EXAMPLE 1 #####\n#####################\nprint(my_graph.adjacency_list) # prints: {}\n\nmy_graph.add_vertex(10)\nprint(my_graph.adjacency_list) # prints: {10: []}\n\nmy_graph.add_vertex(\"b\")\nprint(my_graph.adjacency_list) # prints: {10: [], \"b\":[]}\n\nmy_graph.add_vertex(\"b\")\nprint(my_graph.adjacency_list) # prints: {10: [], \"b\":[]}\n\n\n\n#####################\n##### EXAMPLE 2 #####\n#####################\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3]}\n\nmy_graph.add_vertex(\"A\")\nprint(my_graph.adjacency_list) # prints: {\"A\": [1, 2, 3]}\n</pre>",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    def add_vertex(self, value):\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nclass TestAddVertexMethodOfGraph(unittest.TestCase):\n    def create_graph(self, adjacency_list):\n        graph = Graph()\n        graph.adjacency_list = adjacency_list\n        return graph\n\n    def execute_add_vertex_test(self, graph, insert_value):\n        actual_adjacency_list_before_insert = graph.adjacency_list.copy()\n        expected_adjacency_list_after_insert = actual_adjacency_list_before_insert.copy()\n        if not (insert_value in actual_adjacency_list_before_insert):\n            expected_adjacency_list_after_insert[insert_value] = []\n        graph.add_vertex(insert_value)\n        actual_adjacency_list_after_insert = graph.adjacency_list.copy()\n        self.assertEqual(expected_adjacency_list_after_insert, actual_adjacency_list_after_insert)\n\n    def test_empty_graph(self):\n        adjacency_list = {}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n\n    def test_add_vertex_into_non_empty_graph(self):\n        adjacency_list = {1: [], \"b\": [1, 2], 2: []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n\n    def test_add_vertex_already_in_graph(self):\n        adjacency_list = {\"insert_value1\": [], \"b\": [1, 2], \"insert_value3\": []}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n        self.execute_add_vertex_test(graph, \"insert_value1\")\n        self.execute_add_vertex_test(graph, \"insert_value2\")\n        self.execute_add_vertex_test(graph, \"insert_value3\")\n\n    def test_addding_vertexes_already_in_graph_doesnt_replace_values(self):\n        adjacency_list = {\"insert_value0\": [1, 2, 3]}\n        graph = self.create_graph(adjacency_list)\n        self.execute_add_vertex_test(graph, \"insert_value0\")\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class Graph:\n    def __init__(self):\n        self.adjacency_list = {}\n\n    # O(1)\n    def add_vertex(self, value):\n        if not (value in self.adjacency_list):\n            self.adjacency_list[value] = []\n</pre>",
+                                        "",
+                                        "",
+                                        "03A57C5C-F111-4CB2-A4FB-2821594C9316"
+                                    ],
+                                    "guid": "zH/RL`2@r]",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        }
+                    ],
+                    "crowdanki_uuid": "4afcb898-5371-11ec-8ee2-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Graph",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
                     "children": [],
                     "crowdanki_uuid": "d56d87c2-52c8-11ec-bdd0-acde48001122",
                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
