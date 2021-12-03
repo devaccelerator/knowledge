@@ -1029,6 +1029,118 @@
                 {
                     "__type__": "Deck",
                     "children": [],
+                    "crowdanki_uuid": "320f5f92-544e-11ec-8f6e-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [
+                        "abcstackV2.gif"
+                    ],
+                    "name": "Recursion",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "What is a recursive function?",
+                                "A function that calls itself",
+                                "# Example of a recursive function:<br><br>\n\n<pre>def factorial(n):\n    if n == 1:\n        return 1\n    return n * <span style=\"color: red;\"><b>factorial(n - 1)\n</b></span>\n</pre>\n# The bolded red part of the code above is where the function calls itself.",
+                                "",
+                                "BCC5797D-55E0-4936-88E4-B9155B37F2DF"
+                            ],
+                            "guid": "K;a+J{<akl",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is a base case? (recursion)</div>",
+                                "<div>The condition that allows the algorithm to stop recursing</div>",
+                                "<div>The&nbsp;base case&nbsp;of&nbsp;recursion&nbsp;is the part of a&nbsp;recursive function&nbsp;that checks if the input is small/simple enough that a simple answer can be returned directly, instead of dividing the input up into one or more subproblems.</div><br># Example of a base case:<br><br>\n\n<pre>def factorial(n):\n<b>    <span style=\"color: red;\">if n == 1:\n        return 1</span></b>\n    return n * factorial(n - 1)<b>\n</b>\n</pre>\n# The bolded red part of the code above is the base case.",
+                                "",
+                                "F11E71C2-B103-4E82-B960-A97E05169FE4"
+                            ],
+                            "guid": "vtsvpQ3+w2",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>What is a function call stack?</div>",
+                                "<div>It is a stack data structure that keeps track of the order that functions should have their code executed.</div>",
+                                "<div><a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Call_Stack\">https://developer.mozilla.org/en-US/docs/Glossary/Call_Stack</a></div>",
+                                "",
+                                "B8C0CE32-398F-4CC4-A127-A1BB514E7853"
+                            ],
+                            "guid": "l1nxj_{7vP",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>When is a function pushed onto the function call stack?</div>",
+                                "<div>when the function is called</div>",
+                                "# Example:<br><br>\n<pre>def example():\n    # do something\n    return\n\n<span style=\"color: red;\"><b>example()</b></span>\n</pre>\n# When the bolded red code is executed, `example` is pushed onto the call stack",
+                                "",
+                                "2C8EDBB6-5B04-4938-9E9B-548CE6C46BBF"
+                            ],
+                            "guid": "u-~kOZdw4r",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>When is a function popped from the function call stack?</div>",
+                                "<div>When the function is finished executing</div>",
+                                "# Example:<br><br>\n<pre>def example():\n    # do something\n    <span style=\"color: red;\"><b>return</b></span>\n\nexample()\n</pre>\n# When the bolded red code is executed, `example` is popped off from the call stack",
+                                "",
+                                "B0EBE585-E7F1-4E7B-9060-6BF477436582"
+                            ],
+                            "guid": "udvV{LyX-_",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># what is the output of the code below?</div>\n<pre>def a():\n    b()\n    print(\"a\")\n\ndef b():\n    print(\"b\")\n    c()\n\ndef c():\n    print(\"c\")\n\n\na()\n</pre>\n# And how did the call stack look throughout the execution of the code above?<br>",
+                                "<div># output:</div>\n<div>b</div>\n<div>c</div>\n<div>a<br><br><div># This is how the callstack looked throughout the execution of the code:&nbsp;</div>\n<div>1. `<b>a</b>` was <b>PUSHED</b> onto the call stack,&nbsp;</div>\n<div>2. then `<b>b</b>` was <b>PUSHED</b>,&nbsp;</div>\n<div>3. then `<b>c</b>` was <b>PUSHED</b>,</div>\n<div>4. then `<b>c</b>` was <b>POPPED</b> from the call stack,&nbsp;</div>\n<div>5. then `<b>b</b>` was <b>POPPED</b>,&nbsp;</div>\n<div>6. and finally `<b>a</b>` was <b>POPPED</b>.</div></div>",
+                                "Here is what the call stack visualized looks like. On the middle right side of the GIF below where it says \"Frames\", right below that is where the call stack is located. The \"Global frame\" refers to the entire file, and when `a`, `b`, and `c` get pushed onto the call stack, it is referring to that function.<br><img src=\"abcstackV2.gif\"><br><br>You can visualize the code yourself here:<br><a href=\"https://pythontutor.com/visualize.html#code=def%20a%28%29%3A%0A%20%20%20%20b%28%29%0A%20%20%20%20print%28%22a%22%29%0A%0Adef%20b%28%29%3A%0A%20%20%20%20print%28%22b%22%29%0A%20%20%20%20c%28%29%0A%0Adef%20c%28%29%3A%0A%20%20%20%20print%28%22c%22%29%0A%0Aa%28%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=3&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false\">https://pythontutor.com/visualize.html#code=def a():\n    b()\n    print(\"a\")\n\ndef b():\n    print(\"b\")\n    c()\n\ndef c():\n    print(\"c\")\n\na()&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=3&amp;rawInputLstJSON=[]&amp;textReferences=false</a>",
+                                "",
+                                "DCB6E6A8-6343-4930-8331-B358AC059167"
+                            ],
+                            "guid": "DWV#t;W?Pb",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>Write a function that returns the factorial of a number.</div><div><br>EXAMPLE4! = 4 * 3 * 2 * 1 = 24, so calling factorial(4) should return 24.<br><br>You must use <b>recursion. </b>You must <b>not use any loops</b>.<br><br>The code below is not allowed because it is not recursive and uses a loop:<br></div>\n<pre>def factorial(n):\n    answer = 1\n    while n != 1:\n        answer *= n\n        n -= 1\n    return answer\n</pre>",
+                                "<div><div><div>factorial(4) should return 24 because: 1 * 2 * 3 * 4 = 24</div><div></div></div></div><div><div><div>factorial(6) should return 720 because: 1 * 2 * 3 * 4 * 5 * 6 = 720</div><div></div></div></div><div><div><div>factorial(1) should return 1</div></div></div>",
+                                "def factorial(n):<br>&nbsp; &nbsp; pass # YOUR CODE GOES HERE",
+                                "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nclass TestFactorial(unittest.TestCase):\n    def test_one(self):\n        self.assertEqual(factorial(1), 1)\n\n    def test_two(self):\n        self.assertEqual(factorial(2), 2)\n\n    def test_three(self):\n        self.assertEqual(factorial(3), 6)\n\n    def test_four(self):\n        self.assertEqual(factorial(4), 24)\n\n    def test_five(self):\n        self.assertEqual(factorial(5), 120)\n\n    def test_6(self):\n        self.assertEqual(factorial(6), 720)\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                "",
+                                "",
+                                "<pre>def factorial(n):\n<b>    if n == 1:\n        return 1\n    return n * factorial(n - 1)</b>\n</pre>",
+                                "",
+                                "",
+                                "7BC4C9BE-27AC-4825-8A90-006EF23E01BC"
+                            ],
+                            "guid": "EJOF@,y328",
+                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
                     "crowdanki_uuid": "b33dde44-51f2-11ec-a3a2-acde48001122",
                     "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                     "desc": "",
