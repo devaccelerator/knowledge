@@ -1537,13 +1537,116 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "a80e071e-56fd-11ec-88e6-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-35d73b785f040c82676d9b1763e894f958ec7fc5.jpg",
+                                "paste-386380c7a4177fa383c738b9559b7bf2b63d40dd.jpg",
+                                "paste-8ceee80e4b22cb0de4970ca0bafd48d2c9c56da1.jpg",
+                                "paste-b40c1089fa01f62bd25d9d541d71d40beac8e490.jpg",
+                                "paste-bec589e7f4bf4826f0de39f79aeb5474615e093e.jpg",
+                                "paste-f722236bcbf85a0d299dc2360b98327eb8fc1606.jpg",
+                                "paste-fb13076c862cc9ab736f2a482f90d8258d29697e.jpg",
+                                "paste-fd29d3f2f1243fcd5d86c2d5fa3cfefec333b53f.jpg"
+                            ],
+                            "name": "algorithms",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-b40c1089fa01f62bd25d9d541d71d40beac8e490.jpg\">",
+                                        "<img src=\"paste-fb13076c862cc9ab736f2a482f90d8258d29697e.jpg\">",
+                                        "<pre>def tree_by_levels(node):\n    pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<a href=\"https://www.codewars.com/kata/52bef5e3588c56132c0003bc/train/python\">Click here to test your code on codewars</a>",
+                                        "",
+                                        "",
+                                        "<pre>from collections import deque\ndef tree_by_levels(node):\n    if not node:\n        return []\n    answer = []\n    queue = deque([node])\n    while queue:\n        current = queue.pop()\n        answer.append(current.value)\n        if current.left:\n            queue.appendleft(current.left)\n        if current.right:\n            queue.appendleft(current.right)\n    return answer\n</pre>",
+                                        "This problem tests your knowledge of being able to do a breadth first traversal on a tree.<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27690618#overview\">Udemy Course - Data Structures &amp; Algorithms - Python - Breadth First Search</a><br><br>We use the deque data structure instead of a list so that way we can appendleft or popleft in constant time. If we tried to remove or add an element to the beginning of the list using a regular list data structure, it would be an inefficient O(n) operation, but with a deque it's O(1)",
+                                        "",
+                                        "588CDDD4-60B9-4B79-904C-1E90514FF059"
+                                    ],
+                                    "guid": "vi7hO<mtKl",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given the&nbsp;<code>root</code>&nbsp;of a binary tree, return&nbsp;<em>the preorder traversal of its nodes' values</em>.</div>",
+                                        "<img src=\"paste-f722236bcbf85a0d299dc2360b98327eb8fc1606.jpg\"><br><img src=\"paste-8ceee80e4b22cb0de4970ca0bafd48d2c9c56da1.jpg\">",
+                                        "<pre># Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\n\nclass Solution:\n    def preorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal/\">Click here to test your code on Leetcode</a>",
+                                        "",
+                                        "",
+                                        "<pre>class Solution:\n    def preorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:\n<b>        answer = []\n        self._preorderTraversal(root, answer)\n        return answer\n    \n    def _preorderTraversal(self, node, answer):\n        if node == None:\n            return\n        \n        answer.append(node.val)\n        self._preorderTraversal(node.left, answer)\n        self._preorderTraversal(node.right, answer)</b>\n</pre>",
+                                        "This problem tests to see if you know how to do a preorder depth first search traversal on a tree<br>\n<a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27690630#overview\">Udemy Course - Data Structures &amp; Algorithms - Python - Depth First Search</a>",
+                                        "",
+                                        "6A1F21EA-DC7A-40A2-A436-E32297BBF271"
+                                    ],
+                                    "guid": "pMI4s;o>J7",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given the&nbsp;<code>root</code>&nbsp;of a&nbsp;binary tree, return&nbsp;<em>the postorder traversal of its nodes' values</em>.</div>",
+                                        "<img src=\"paste-386380c7a4177fa383c738b9559b7bf2b63d40dd.jpg\"><br><img src=\"paste-fd29d3f2f1243fcd5d86c2d5fa3cfefec333b53f.jpg\">",
+                                        "<pre># Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\n\nclass Solution:<br>&nbsp;&nbsp;&nbsp; def postorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:<br>        pass # YOUR CODE GOES HERE</pre>",
+                                        "<a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\">Click here to test your code on Leetcode</a>",
+                                        "",
+                                        "",
+                                        "<pre>class Solution:\n    def postorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:\n<b>        answer = []\n        self._postorderTraversal(root, answer)\n        return answer\n    \n    def _postorderTraversal(self, node, answer):\n        if node == None:\n            return\n        self._postorderTraversal(node.left, answer)\n        self._postorderTraversal(node.right, answer)\n        answer.append(node.val)</b>\n</pre>",
+                                        "This problem tests to see if you know how to do a postorder depth first search traversal on a tree<br>\n<a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27690642#overview\">Udemy Course - Data Structures &amp; Algorithms - Python - DFS PostOrder</a>",
+                                        "",
+                                        "89CDB85D-4C33-40F5-AC64-302C43492539"
+                                    ],
+                                    "guid": "k72/S)Og{[",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Given the&nbsp;<code>root</code>&nbsp;of a binary tree, return&nbsp;<em>the inorder traversal of its nodes' values</em>.</div>",
+                                        "<img src=\"paste-bec589e7f4bf4826f0de39f79aeb5474615e093e.jpg\"><br><br><img src=\"paste-35d73b785f040c82676d9b1763e894f958ec7fc5.jpg\">",
+                                        "<pre># Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\n\nclass Solution:\n    def inorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                        "<a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\">Click here to test your code on Leetcode</a>",
+                                        "",
+                                        "",
+                                        "<pre>class Solution:\n    def inorderTraversal(self, root: Optional[TreeNode]) -&gt; List[int]:\n<b>        answer = []\n        self._inorderTraversal(root, answer)\n        return answer\n    \n    def _inorderTraversal(self, node, answer):\n        if node == None:\n            return\n        self._inorderTraversal(node.left, answer)\n        answer.append(node.val)\n        self._inorderTraversal(node.right, answer)</b>\n</pre>",
+                                        "This problem tests to see if you know how to do an inorder depth first search traversal on a tree.<br>\n<a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27690652#overview\">Udemy Course - Data Structures &amp; Algorithms - Python - DFS InOrder</a>",
+                                        "",
+                                        "3901D73A-6A3B-4A8D-9D4D-599D130A8650"
+                                    ],
+                                    "guid": "rJs5_UBpY)",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "d570b30c-52c8-11ec-bdd0-acde48001122",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-080d60dd328fe25229636d9c408bcb61e6c26cc0.jpg",
+                                "paste-5512f4ffdd5306fdee50b1fdbcd9ef0dbc26eccc.jpg",
+                                "paste-6f4f5653b281bc3c7a84f96279fe71e4a28f56aa.jpg",
+                                "paste-9ee42df8fcfc5476ad6a98021ea3bf44808d0efb.jpg",
+                                "paste-c47f9e30f523e41afaefc0b423620584a5f0d990.jpg",
+                                "paste-e3005a2b16371284a11234751745cb430735120b.jpg",
+                                "paste-e6464b07221e148f32c3ae9f67cb663222ca4184.jpg"
+                            ],
                             "name": "terminology",
                             "notes": [
                                 {
@@ -1581,6 +1684,58 @@
                                         "3BC2DF7B-0AFC-407B-B371-CC1DF2209BCE"
                                     ],
                                     "guid": "rvD2*G]&A/",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>In what order will the tree be traversed if it is traversed depth-first post-order?<br><div><img src=\"paste-e6464b07221e148f32c3ae9f67cb663222ca4184.jpg\"><br></div></div>",
+                                        "<div>D E B F G C A</div>",
+                                        "<img src=\"paste-080d60dd328fe25229636d9c408bcb61e6c26cc0.jpg\"><br><img src=\"paste-c47f9e30f523e41afaefc0b423620584a5f0d990.jpg\">",
+                                        "",
+                                        "5CECBCB5-C829-4D6E-843C-225CD843D91F"
+                                    ],
+                                    "guid": "es0u7t[,f$",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>In what order will the tree be traversed if it is traversed depth-first pre-order?<br><div><img src=\"paste-e6464b07221e148f32c3ae9f67cb663222ca4184.jpg\"><br></div></div>",
+                                        "<div>A B D E C F G</div>",
+                                        "<img src=\"paste-6f4f5653b281bc3c7a84f96279fe71e4a28f56aa.jpg\"><br><img src=\"paste-5512f4ffdd5306fdee50b1fdbcd9ef0dbc26eccc.jpg\">",
+                                        "",
+                                        "149C8042-B022-435E-9FA2-71C15423BA7F"
+                                    ],
+                                    "guid": "AQI,Iy:hys",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>In what order will the tree be traversed if it is traversed depth-first in-order?<br><div><img src=\"paste-e6464b07221e148f32c3ae9f67cb663222ca4184.jpg\"><br></div></div>",
+                                        "<div>D B E A F C G</div>",
+                                        "<img src=\"paste-e3005a2b16371284a11234751745cb430735120b.jpg\"><br><img src=\"paste-9ee42df8fcfc5476ad6a98021ea3bf44808d0efb.jpg\">",
+                                        "",
+                                        "831008FE-51AD-49DC-B150-4A66CDF93524"
+                                    ],
+                                    "guid": "y5p83k#beT",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div><div>In what order will the tree be traversed if it is breadth-first traversed?</div><div><img src=\"paste-e6464b07221e148f32c3ae9f67cb663222ca4184.jpg\"><br></div></div>",
+                                        "<div>A B C D E F G</div>",
+                                        "We just traverse the tree level by level from left to right.",
+                                        "",
+                                        "765CB784-5C9D-4FFA-B3FB-50D07E77F8C5"
+                                    ],
+                                    "guid": "pVZg[RjV){",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
@@ -8971,7 +9126,7 @@
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -8979,7 +9134,7 @@
                     "ord": 1,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -9019,7 +9174,7 @@
                     "ord": 6,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -9027,7 +9182,7 @@
                     "ord": 7,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": true
                 },
                 {
                     "font": "Arial",
