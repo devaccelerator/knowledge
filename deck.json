@@ -5507,9 +5507,9 @@
                                                 "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba",
                                                 "<a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
                                                 "",
-                                                "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
+                                                "F5CBB46D-FA21-47E1-9780-BA9BA6416736"
                                             ],
-                                            "guid": "BW@[VykxIl",
+                                            "guid": "fGa!3B)*{D",
                                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
                                         }
@@ -8945,6 +8945,18 @@
                     ],
                     "guid": "d(Dm~V5VS&",
                     "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b>THIS CARD IS TRASH</b><br><br># The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba",
+                        "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba<br><br><a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
+                        "",
+                        "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
+                    ],
+                    "guid": "BW@[VykxIl",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                     "tags": []
                 }
             ]
