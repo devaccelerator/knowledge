@@ -1378,6 +1378,65 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "6fefaf26-5cf3-11ec-b7d5-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [
+                                                "paste-17b9e7fe81a65c8bb437d5e559160b087941a6e4.jpg",
+                                                "paste-269e069966f87f612f6d9434497a71f3bf083216.jpg",
+                                                "paste-3440f87cee8e5228a907b81475dd1e1468374135.jpg",
+                                                "paste-3e66b72cddf4ae5b38bafcc51daf341724e87e64.jpg",
+                                                "paste-79d6b52d799ed4fcadddc979f858105c58d62c5e.jpg",
+                                                "paste-cb188b914357ffb560de591d90d376cde2415a13.jpg",
+                                                "paste-ced21cbcc9e926d5fcee06967119505f4ff32042.jpg",
+                                                "paste-ef28918de6ad14924881b875a0cd4c28c93dcfb4.jpg"
+                                            ],
+                                            "name": "methods",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<b>Insert into a Binary Search Tree</b><br><img src=\"paste-17b9e7fe81a65c8bb437d5e559160b087941a6e4.jpg\"><br><img src=\"paste-3e66b72cddf4ae5b38bafcc51daf341724e87e64.jpg\">",
+                                                        "<img src=\"paste-3440f87cee8e5228a907b81475dd1e1468374135.jpg\"><br><img src=\"paste-269e069966f87f612f6d9434497a71f3bf083216.jpg\">",
+                                                        "# Definition for a binary tree node.<br># class TreeNode:<br>#&nbsp;&nbsp;&nbsp;&nbsp; def __init__(self, val=0, left=None, right=None):<br>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.val = val<br>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.left = left<br>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.right = right<br>class Solution:<br>&nbsp;&nbsp;&nbsp; def insertIntoBST(self, root: Optional[TreeNode], val: int) -&gt; Optional[TreeNode]:<br>&nbsp; &nbsp; &nbsp; &nbsp; pass # YOUR CODE GOES HERE",
+                                                        "<a href=\"https://leetcode.com/problems/insert-into-a-binary-search-tree/\">https://leetcode.com/problems/insert-into-a-binary-search-tree/</a>",
+                                                        "",
+                                                        "",
+                                                        "<pre>class Solution:\n    def insertIntoBST(self, root: Optional[TreeNode], val: int) -&gt; Optional[TreeNode]:\n<b>        node_to_insert = TreeNode(val)\n        current = root\n        \n        if not current:\n            return node_to_insert\n        \n        while True:\n            if node_to_insert.val &lt; current.val:\n                if current.left:\n                    current = current.left\n                else:\n                    current.left = node_to_insert\n                    break    \n            else:\n                if current.right:\n                    current = current.right\n                else:\n                    current.right = node_to_insert\n                    break\n        return root</b>\n</pre>",
+                                                        "Udemy lesson on inserting into a Binary Search Tree:<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27111056#overview\">https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27111056#overview</a>",
+                                                        "",
+                                                        "76AF2239-6605-4998-AE11-B6F6F0B7FDF0"
+                                                    ],
+                                                    "guid": "I~W;cv9+y_",
+                                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<b>Search in a Binary Search Tree<br></b><img src=\"paste-cb188b914357ffb560de591d90d376cde2415a13.jpg\"><br><img src=\"paste-ced21cbcc9e926d5fcee06967119505f4ff32042.jpg\">",
+                                                        "<img src=\"paste-79d6b52d799ed4fcadddc979f858105c58d62c5e.jpg\"><br><img src=\"paste-ef28918de6ad14924881b875a0cd4c28c93dcfb4.jpg\">",
+                                                        "<pre># Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def searchBST(self, root: Optional[TreeNode], val: int) -&gt; Optional[TreeNode]:\n        pass # YOUR CODE GOES HERE\n</pre>",
+                                                        "<a href=\"https://leetcode.com/problems/search-in-a-binary-search-tree/\">https://leetcode.com/problems/search-in-a-binary-search-tree/</a>",
+                                                        "",
+                                                        "",
+                                                        "<pre>class Solution:\n    def searchBST(self, root: TreeNode, val: int) -&gt; TreeNode:\n<b>        node = root\n        while node:\n            if node.val == val:\n                return node\n            elif node.val &lt; val:\n                node = node.right\n            else:\n                node = node.left\n        return None</b>\n</pre>",
+                                                        "Udemy lesson on searching for a value in a Binary Search Tree:<br><a href=\"https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27111066#overview\">https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/27111066#overview</a>",
+                                                        "",
+                                                        "8D85B024-4303-44ED-B520-191FFB7449B9"
+                                                    ],
+                                                    "guid": "P1YJpYHKVB",
+                                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "d5701474-52c8-11ec-bdd0-acde48001122",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
