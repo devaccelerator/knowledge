@@ -2588,6 +2588,45 @@
                         {
                             "__type__": "Deck",
                             "children": [],
+                            "crowdanki_uuid": "01f56e9e-6b16-11ec-acd3-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "chr",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The&nbsp;{{c1::chr()}} function returns the character that represents the specified unicode.</div>",
+                                        "",
+                                        "",
+                                        "5461C30B-CED1-44F2-AA25-AD9232849CB4"
+                                    ],
+                                    "guid": "E~1e2n&iGN",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>print(chr(97))</div>",
+                                        "# it prints a single character, no need to remember which character though",
+                                        "print(chr(97)) # prints: a",
+                                        "",
+                                        "137E4F26-1316-4472-931A-29F95E168F64"
+                                    ],
+                                    "guid": "xe7xJ0&yUA",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
                             "crowdanki_uuid": "7269b024-417f-11ec-be98-acde48001122",
                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                             "desc": "",
@@ -2833,6 +2872,45 @@
                                     ],
                                     "guid": "of2id~7L`4",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "01f67050-6b16-11ec-acd3-acde48001122",
+                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "ord",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::ord()}} function returns the number representing the unicode code of a specified character.</div>",
+                                        "<div>You can view what characters map to what integers here: <a href=\"https://www.asciitable.com/\">https://www.asciitable.com/</a></div><div>Here is further explanation on how and why characters map to integers:</div>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zB85kTs-sEw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                                        "",
+                                        "02781DE7-CBE0-40A0-8DD8-71C44DC6D138"
+                                    ],
+                                    "guid": "FL^MgU$V[f",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>print(ord(\"a\"))</div>",
+                                        "# it prints an integer, no need to remember which number though",
+                                        "print(ord(\"a\")) # prints: 97",
+                                        "",
+                                        "4A9BA18C-6339-457E-BCBA-BC6013ED24D8"
+                                    ],
+                                    "guid": "EomLgqWVjm",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -5580,6 +5658,84 @@
                                         {
                                             "__type__": "Deck",
                                             "children": [],
+                                            "crowdanki_uuid": "01fe4320-6b16-11ec-acd3-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "capitalize",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>print(\"deep work is ESSENTIAL\".capitalize())</div>",
+                                                        "<div>Deep work is essential</div>",
+                                                        "",
+                                                        "",
+                                                        "DB11CAB5-B743-4E91-B9D1-069FC9415743"
+                                                    ],
+                                                    "guid": "wVMB@Uf,:,",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>The string method {{c1::capitalize()}} returns a copy of the original string and converts the first character of the string to a capital (uppercase) letter while making all other characters in the string lowercase letters.</div>",
+                                                        "print(\"example example example\".capitalize())<br># prints: Example example example<br><br>print(\"EXAMPLE EXAMPLE EXAMPLE\".capitalize())<br># prints: Example example example<br><br>print(\"example EXAMPLE example\".capitalize())<br># prints: Example example example",
+                                                        "",
+                                                        "D596A260-39F2-414F-95DF-F34FEAAB3533"
+                                                    ],
+                                                    "guid": "LJZZ{*IE1)",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
+                                            "crowdanki_uuid": "01fe66ac-6b16-11ec-acd3-acde48001122",
+                                            "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                                            "desc": "",
+                                            "dyn": 0,
+                                            "extendNew": 0,
+                                            "extendRev": 0,
+                                            "media_files": [],
+                                            "name": "count",
+                                            "notes": [
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>The string method {{c1::count()}} returns the number of occurrences of a substring in the given string.</div>",
+                                                        "print(\"example\".count(\"e\")) # prints: 2<br>print(\"example\".count(\"a\")) # prints: 1",
+                                                        "",
+                                                        "7372E632-AE17-4FD7-B68D-3FAC09B778AD"
+                                                    ],
+                                                    "guid": "Ns)SgrO1<w",
+                                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                },
+                                                {
+                                                    "__type__": "Note",
+                                                    "fields": [
+                                                        "<div>print(\"abc bac abc\".count(\"abc\"))</div>",
+                                                        "<div>2</div>",
+                                                        "",
+                                                        "",
+                                                        "8DBFCE80-A340-45E7-9236-3CD4CD9D624C"
+                                                    ],
+                                                    "guid": "rp|8Q_xYk7",
+                                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                                    "tags": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "__type__": "Deck",
+                                            "children": [],
                                             "crowdanki_uuid": "fdef024e-0547-11ec-9c94-acde48001122",
                                             "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
                                             "desc": "",
@@ -7557,6 +7713,19 @@
                                             "guid": "isBE[kXV+f",
                                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                             "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<div>print(\"a\" * 3)</div>",
+                                                "aaa",
+                                                "",
+                                                "",
+                                                "02B25C0B-1837-4329-B78C-E01C4CAD4BDC"
+                                            ],
+                                            "guid": "gIj4nV{jv.",
+                                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                            "tags": []
                                         }
                                     ]
                                 },
@@ -8877,6 +9046,44 @@
                                 "ed18faaf-1305-4a26-8bac-d35a598a2754"
                             ],
                             "guid": "Qibz)irB|c",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "02070d8e-6b16-11ec-acd3-acde48001122",
+                    "deck_config_uuid": "6ca6a540-ffbf-11eb-b612-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "unpacking",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# what code prints all the numbers in `nums` below using <b>only one</b> loop?<br><div><br>nums = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]<br><br></div>\n<div>for {{c1::x, y, z in nums:<div>&nbsp; &nbsp; print(x, y, z)</div>}}<div><br></div># prints<br>1 2 3<br>4 5 6<br>7 8 9</div>",
+                                "",
+                                "",
+                                "3ED4290F-E466-43A6-A25D-06951B09B142"
+                            ],
+                            "guid": "CnFj(SyNEZ",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># Create the variables `a`, `b`, and `c` which should equal 1, 2, and 3 respectively. You should assign all 3 variables on a single line of code.<br><br><div>nums = [1, 2, 3]</div>\n<div>{{c1::a, b, c = nums}}</div>\n<div>print(a) # prints: 1</div>\n<div>print(b) # prints: 2</div>\n<div>print(c) # prints: 3</div></div>",
+                                "",
+                                "",
+                                "69F406CD-03C4-4841-A866-89ED7BE09C3A"
+                            ],
+                            "guid": "gF,yVo5Rh`",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
