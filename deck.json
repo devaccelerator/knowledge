@@ -2554,90 +2554,116 @@
                             "__type__": "Note",
                             "fields": [
                                 "In html, describe elements, content, opening tags and closing tags.",
-                                "<img src=\"76FF6AE2-A310-4453-875A-A201AFEFF339.jpg\"><div><br></div>"
+                                "<img src=\"76FF6AE2-A310-4453-875A-A201AFEFF339.jpg\"><div><br></div>",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "lpBP6[,pmS",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "In html describe attributes, attribute names and attribute values. What are they separated by?",
-                                "<img src=\"98B17010-5388-49E2-B15B-606E59C251B9.jpg\">"
+                                "<img src=\"98B17010-5388-49E2-B15B-606E59C251B9.jpg\">",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "Of=L`M#w:W",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "Techniques used to make html code readable",
-                                "White space and indentations for nested elements"
+                                "White space and indentations for nested elements",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "z9@18R$+*`",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "How to add comments in html&nbsp;",
-                                "<img src=\"CDD3C73C-A454-41BA-BA28-705ACB91958D.jpg\">"
+                                "<img src=\"CDD3C73C-A454-41BA-BA28-705ACB91958D.jpg\">",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "GYA?J=|p%S",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "What is the purpose of semantic HTML?",
-                                "<img src=\"E4266968-0AD7-4200-9A7B-0B54BBDA1E18.jpg\">"
+                                "<img src=\"E4266968-0AD7-4200-9A7B-0B54BBDA1E18.jpg\">",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "Kp/B,4wphD",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "What 4 semantic html tags <b>within the body tag</b> make the basic structure of a webpage?",
-                                "<img src=\"7BE25743-64E5-4DBE-B3F2-0C6E02E797EF.jpg\">"
+                                "<img src=\"7BE25743-64E5-4DBE-B3F2-0C6E02E797EF.jpg\">",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "F]@T=_/BR8",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "how to code CSS in-line as an attribute in a html file?",
-                                "add attribute style to text such as this:<div><img src=\"3D32C01E-1A5C-4C02-BFCF-3BDD08546DA9.jpg\"><br></div>"
+                                "add attribute style to text such as this:<div><img src=\"3D32C01E-1A5C-4C02-BFCF-3BDD08546DA9.jpg\"><br></div>",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "M=V=:T3txR",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "How to add multiple classes to an Html elements class attribute?",
-                                "<img src=\"F5CA1DD5-639D-4DCC-A62C-507FD9AA93F2.jpg\">"
+                                "<img src=\"F5CA1DD5-639D-4DCC-A62C-507FD9AA93F2.jpg\">",
+                                "",
+                                "",
+                                ""
                             ],
                             "guid": "t=|*v_{b?w",
-                            "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         },
                         {
                             "__type__": "Note",
                             "fields": [
                                 "Most browsers set the font size of &lt;html&gt; to {{c1::16 pixels,}}",
+                                "",
+                                "",
                                 ""
                             ],
                             "guid": "M/})4hUx,@",
-                            "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
                     ]
@@ -2667,61 +2693,79 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "What's the anchor element in html",
-                                        "&lt;a&gt; &lt;/a&gt;"
+                                        "What tag represents the anchor element in html?",
+                                        "&lt;a&gt; &lt;/a&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "fdZ0C3!MRc",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "How to hyperlink text in htm",
-                                        "<img src=\"79926861-B88D-47F0-814D-A6B7242B71FE.jpg\">"
+                                        "How to hyperlink text in html?",
+                                        "<img src=\"79926861-B88D-47F0-814D-A6B7242B71FE.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "epi`/%IC0n",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "What html code to add to a hyperlink so that the link opens in a new window?",
-                                        "<div>Add the attribute to the anchor element target=\"_blank\"</div><img src=\"B846EB52-FD7B-4E34-A8EA-98820844184B.jpg\">"
+                                        "<div>Add the attribute to the anchor element target=\"_blank\"</div><img src=\"B846EB52-FD7B-4E34-A8EA-98820844184B.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "Q^yzH~0J/T",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "How to hyperlink text to local files?",
-                                        "<img src=\"B3F9C918-0031-4CF0-9A69-814707C74F8B.jpg\">"
+                                        "<img src=\"B3F9C918-0031-4CF0-9A69-814707C74F8B.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "f*M],|$jW.",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "How to hyperlink images?",
-                                        "Just use the anchor element.<div><img src=\"596D98D3-C3BE-4FBC-A43D-AC1106584E71.jpg\"><br></div>"
+                                        "Just use the anchor element.<div><img src=\"596D98D3-C3BE-4FBC-A43D-AC1106584E71.jpg\"><br></div>",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "NT5Z3pN=NJ",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "How to make links on a page then when clicked, it stays on the same page but scrolls down to a specific part of the page for you?",
-                                        "<img src=\"AF9344F8-99F8-4E55-82BD-62C2EDC9670C.jpg\"><div><img src=\"BCB5CF82-6EB8-4BCB-A066-CDA04E223CB0.jpg\"><br></div>"
+                                        "<img src=\"AF9344F8-99F8-4E55-82BD-62C2EDC9670C.jpg\"><div><img src=\"BCB5CF82-6EB8-4BCB-A066-CDA04E223CB0.jpg\"><br></div>",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "C#xAAB0Mv7",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2755,10 +2799,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "HTML code to separate lines of text as if you pressed enter.",
-                                        "&lt;br/&gt;"
+                                        "&lt;br/&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "y2mS{@/.0`",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2779,10 +2826,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "How to render a button in html",
-                                        "use the &lt;button&gt; tag"
+                                        "use the &lt;button&gt; tag",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "BP2e=wJP9*",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2803,10 +2853,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Most popular element in html to group elements together?",
-                                        "&lt;div&gt;"
+                                        "&lt;div&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "M_dcPdS33A",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2840,10 +2893,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Whats the first html tag to use for creating forms?",
-                                        "&lt;form&gt;"
+                                        "&lt;form&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "nh|i!}AUZ~",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2866,10 +2922,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Tags for headings in html",
-                                        "<img src=\"F0373688-A3BA-4EFE-99D3-1600FBDE3B23.jpg\">"
+                                        "<img src=\"F0373688-A3BA-4EFE-99D3-1600FBDE3B23.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "pVTRyf3S.`",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2892,10 +2951,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Html tag that contains the page's metadata",
-                                        "<img src=\"FB9E572C-56F8-40FB-8A16-AC4E0E569962.jpg\">"
+                                        "<img src=\"FB9E572C-56F8-40FB-8A16-AC4E0E569962.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "c-!NFa9gO]",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2932,20 +2994,26 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What html tag contains all content to be seen on a website?",
-                                        "<img src=\"010CA054-F40C-4AE7-916E-6589D6B23173.jpg\">"
+                                        "<img src=\"010CA054-F40C-4AE7-916E-6589D6B23173.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "THUoUHhGt",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "Tag which all html code is within",
-                                        "<img src=\"15E4DF51-F434-492D-963F-605BC0490E1E.jpg\">"
+                                        "<img src=\"15E4DF51-F434-492D-963F-605BC0490E1E.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "K(?J`)^Vz3",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -2968,20 +3036,26 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "HTML syntax to include images",
-                                        "<img src=\"508D6DCD-389F-4108-8CB2-A236BCE2B542.jpg\">"
+                                        "<img src=\"508D6DCD-389F-4108-8CB2-A236BCE2B542.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "?szF%u4ZZ",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "HTML:<div>What attribute should you add to &lt;img&gt; to have text that describes the image?</div>",
-                                        "alt=\"description\""
+                                        "alt=\"description\"",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "tA!h~|6f]}",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3011,100 +3085,129 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "HTML tag used to create a field where users can enter in information like this:<div><img src=\"A77FBFCD-3A10-4AC4-B2CE-1A1DCD7C4CE7.jpg\"><br></div>",
-                                        "&lt;input&gt;"
+                                        "&lt;input&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "dPx_:0e2De",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "What are the type, name, and value attributes used for in &lt;input&gt; tags?",
-                                        "type=\"whatever type of data the user should input such as \"text\"\"<div><br></div><div>name=\"what to categorize that data as when we submit the first such as \"username\"\"</div><div><br></div><div>value=\"pre-filled data such as \"search\"\"</div>"
+                                        "type=\"whatever type of data the user should input such as \"text\"\"<div><br></div><div>name=\"what to categorize that data as when we submit the first such as \"username\"\"</div><div><br></div><div>value=\"pre-filled data such as \"search\"\"</div>",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "G_QPi;LO7q",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "What attribute to assign to &lt;input&gt; tag so the data is censored like this?<div><img src=\"40C8876D-10AE-4A9C-A19C-A50137432F33.jpg\"><br></div>",
-                                        "type=\"password\""
+                                        "type=\"password\"",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "xcPqd#s#./",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "How to make input like this checkbox?<div><img src=\"E928004A-6A28-4E1D-B54C-BCF3CE66874E.jpg\"><br></div>",
-                                        "type=\"checkbox\""
+                                        "type=\"checkbox\"",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "tx|yW.{vNc",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "Does &lt;input&gt; require a closing tag &lt;/input&gt;?",
-                                        "No. Input tags are self closing"
+                                        "No. Input tags are self closing",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "kcTK`/yw3,",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "<div>How to create that submit button in html?</div><img src=\"5B796A48-B3DE-49FE-9521-E27FD1EACAED.jpg\">",
-                                        "<img src=\"13E3D36C-DF9F-4AF3-B8F3-00359456E0C5.jpg\">"
+                                        "<img src=\"13E3D36C-DF9F-4AF3-B8F3-00359456E0C5.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "x~3S4w}l?s",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "What attribute to add to an input tag to make it mandatory to fill it out before pressing submit?<div><img src=\"7D20F969-FE87-4CE1-92A0-3E0CC81A295D.jpg\"><br></div>",
-                                        "<div>The required attribute</div>&lt;input required&gt;"
+                                        "<div>The required attribute</div>&lt;input required&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "mPk77q/nCo",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "<div>what attribute to make it so the phrase \"Enter your name\" appears like so?:<br></div><div><img src=\"paste-cf04ac5219136a42e70361ab1c112b72180d3e71.jpg\"></div>",
-                                        "&lt;input placeholder=\"Enter your name\"&gt;"
+                                        "&lt;input placeholder=\"Enter your name\"&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "GsIr.>l!A-",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "<div>How to make&nbsp; this &lt;input type=\"checkbox\"&gt; so that when the page loads, the checkbox is automatically checked by default?</div><img src=\"paste-3d91fe1008ff1f0fbd11e50a6418efd455acd3d5.jpg\">",
-                                        "&lt;input type=\"checkbox\" <b>checked</b>&gt;"
+                                        "&lt;input type=\"checkbox\" <b>checked</b>&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "p}sME`Xge9",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "&lt;input&gt;&nbsp;elements with <b>attribute &amp; value</b> of {{c1::type=\"file\"}}&nbsp;let the user choose one or more files from their device storage. Once chosen, the files can be uploaded to a server using&nbsp;form submission, or manipulated using JavaScript code and&nbsp;the File API.",
+                                        "",
+                                        "",
                                         ""
                                     ],
                                     "guid": "j)/!qKvbg1",
-                                    "note_model_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3153,10 +3256,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "How to make a numbered list in html",
-                                        "<img src=\"373AD0F0-CDB7-482B-9D13-83996819BC55.jpg\">"
+                                        "<img src=\"373AD0F0-CDB7-482B-9D13-83996819BC55.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "bs?VxkZ~J#",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3177,10 +3283,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Tag for paragraphs&nbsp;",
-                                        "&lt;p&gt;&lt;/p&gt;"
+                                        "&lt;p&gt;&lt;/p&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "m;82[f_.Lj",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3203,10 +3312,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Difference between span and div tag?",
-                                        "<img src=\"3333F42A-FAF6-427A-B29B-75479419729C.jpg\">"
+                                        "<img src=\"3333F42A-FAF6-427A-B29B-75479419729C.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "Q&6@Z3/Xs8",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3227,10 +3339,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "What tag can you write CSS code in your html document?",
-                                        "&lt;style&gt;"
+                                        "&lt;style&gt;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "lc]^aMa}uP",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3254,20 +3369,26 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "How to code this input field in html? (to be that size)<div><img src=\"9228C54D-5397-45B5-B62B-4799E8A650FF.jpg\"><br></div>",
-                                        "<div>&lt;textarea&gt; with rows and cols attributes, but default text if you want inbetween the textarea tags too.</div><img src=\"EFA2EA8C-CED5-4C07-A2FF-AADA2FC299F9.jpg\">"
+                                        "<div>&lt;textarea&gt; with rows and cols attributes, but default text if you want inbetween the textarea tags too.</div><img src=\"EFA2EA8C-CED5-4C07-A2FF-AADA2FC299F9.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "x--7~]9uem",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
                                         "&lt;textarea/&gt; attribute to make it so the text area is selected when it renders?<div><br></div><div>&lt;textarea <b>???</b> /&gt;<br></div>",
-                                        "&lt;textarea <b>autofocus</b>/&gt;&nbsp;"
+                                        "&lt;textarea <b>autofocus</b>/&gt;&nbsp;",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "jW+4lvn(YE",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3290,10 +3411,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "Tag that is used within the head tag to contain text that the browser would display in the tabs title.",
-                                        "<img src=\"661E4BDA-4D1B-4185-A7F7-4C36084C892F.jpg\">"
+                                        "<img src=\"661E4BDA-4D1B-4185-A7F7-4C36084C892F.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "h/VJ75(}o?",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -3316,10 +3440,13 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "How to make a list of bulletpoints in html",
-                                        "<img src=\"CB722726-26B1-4F67-B509-6CDCA8682928.jpg\">"
+                                        "<img src=\"CB722726-26B1-4F67-B509-6CDCA8682928.jpg\">",
+                                        "",
+                                        "",
+                                        ""
                                     ],
                                     "guid": "i%SB2Yy]!q",
-                                    "note_model_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -10465,116 +10592,6 @@
                 }
             ],
             "type": 1
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "7c14599c-ecf4-11eb-bfba-3e22fb2860fe",
-            "css": "img{\n\tmax-width: 600px;\n}\n\n.card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\usepackage[utf8]{inputenc}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic-d23e8-7e8d5",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{Back}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "7c143944-ecf4-11eb-bfba-3e22fb2860fe",
-            "css": "img{\n\tmax-width: 600px;\n}\n\n.card {\n font-family: arial;\n font-size: 20px;\n color: black;\n background-color: white;\n}\n.cloze { font-weight: bold; color: blue;}\n.nightMode .cloze {\n color: lightblue;\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Text",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Extra",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\usepackage[utf8]{inputenc}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Cloze-5eb08",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{cloze:Text}}\n<br><br><br>\n***<br>\n<a style=\"color: #666\">OPTIONAL REVIEW (no need to memorize):</a>\n<br><br>\n{{Extra}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Cloze",
-                    "ord": 0,
-                    "qfmt": "{{cloze:Text}}"
-                }
-            ],
-            "type": 1,
-            "vers": []
         }
     ],
     "notes": []
